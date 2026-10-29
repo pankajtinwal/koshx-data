@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T16:20:44.702923Z",
+  "updated_at": "2026-10-29T16:54:10.953416Z",
   "total_stocks": 216,
   "models": {
     "ema": {
@@ -2821,7 +2821,7 @@
           "y": -5.42,
           "ema_20": 3478.21,
           "ema_50": 3682.79,
-          "ema_200": 4155.65,
+          "ema_200": 4155.64,
           "is_bull": false,
           "quadrant": 3,
           "is_pullback_buy": false
@@ -8488,9 +8488,9 @@
           "name": "Vinati Organics Ltd",
           "sector": "Chemicals & Materials",
           "price": 1038.6,
-          "x": 53.3,
+          "x": 53.2,
           "y": -3.3,
-          "half_life_days": 53.3,
+          "half_life_days": 53.2,
           "spread_zscore": -3.3,
           "ar1_b": 0.9871,
           "is_high_elasticity": false
@@ -9272,7 +9272,7 @@
           "y": -1.01,
           "half_life_days": 42.6,
           "spread_zscore": -1.01,
-          "ar1_b": 0.9838,
+          "ar1_b": 0.9839,
           "is_high_elasticity": false
         },
         {
@@ -9816,6 +9816,18 @@
           "is_high_elasticity": false
         },
         {
+          "ticker": "BPCL",
+          "name": "Bharat Petroleum Corporation Ltd",
+          "sector": "Oil, Gas & Energy",
+          "price": 289.2,
+          "x": 2.9,
+          "y": -0.2,
+          "half_life_days": 2.9,
+          "spread_zscore": -0.2,
+          "ar1_b": 0.7856,
+          "is_high_elasticity": false
+        },
+        {
           "ticker": "ALKEM",
           "name": "Alkem Laboratories Ltd",
           "sector": "Pharmaceuticals & Healthcare",
@@ -9825,18 +9837,6 @@
           "half_life_days": 6.0,
           "spread_zscore": -0.19,
           "ar1_b": 0.8908,
-          "is_high_elasticity": false
-        },
-        {
-          "ticker": "BPCL",
-          "name": "Bharat Petroleum Corporation Ltd",
-          "sector": "Oil, Gas & Energy",
-          "price": 289.2,
-          "x": 2.9,
-          "y": -0.19,
-          "half_life_days": 2.9,
-          "spread_zscore": -0.19,
-          "ar1_b": 0.7856,
           "is_high_elasticity": false
         },
         {
@@ -10532,7 +10532,7 @@
           "y": 1.32,
           "half_life_days": 8.1,
           "spread_zscore": 1.32,
-          "ar1_b": 0.9184,
+          "ar1_b": 0.9183,
           "is_high_elasticity": false
         },
         {
@@ -10804,9 +10804,9 @@
           "name": "Corona Remedies Ltd",
           "sector": "Pharmaceuticals & Healthcare",
           "price": 2217.4,
-          "x": 59.6,
+          "x": 59.5,
           "y": 1.93,
-          "half_life_days": 59.6,
+          "half_life_days": 59.5,
           "spread_zscore": 1.93,
           "ar1_b": 0.9884,
           "is_high_elasticity": false
