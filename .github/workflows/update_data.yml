@@ -1,0 +1,75 @@
+name: Update Indian Stock Indices & Institutional FII/DII Data Feed
+
+on:
+  schedule:
+    # 1. Market Pre-open / Open: 9:12 AM IST (03:42 UTC), Mon-Fri
+    - cron: '42 3 * * 1-5'
+    # 2. Market Hours: Every 15 minutes during active trading from 9:37 AM to 3:22 PM IST (04:07 to 09:52 UTC), Mon-Fri
+    - cron: '7,22,37,52 4-9 * * 1-5'
+    # 3. Market Close immediate reconciliation: 3:37 PM IST (10:07 UTC), Mon-Fri
+    - cron: '7 10 * * 1-5'
+    # 4. Post-market settlement & Bhavcopy sync: 4:12 PM IST (10:42 UTC), Mon-Fri
+    - cron: '42 10 * * 1-5'
+    # 5. Evening FII & DII Cash & Derivatives Release Windows:
+    # 7:15 PM IST (13:45 UTC), Mon-Fri - Initial FII/DII Cash Market Settlement
+    - cron: '45 13 * * 1-5'
+    # 8:00 PM IST (14:30 UTC), Mon-Fri - NSE Participant OI & F&O Release
+    - cron: '30 14 * * 1-5'
+    # 8:30 PM IST (15:00 UTC), Mon-Fri - Derivatives Reconciliation
+    - cron: '0 15 * * 1-5'
+    # 9:00 PM IST (15:30 UTC), Mon-Fri - Final EOD Sync
+    - cron: '30 15 * * 1-5'
+  workflow_dispatch:
+  repository_dispatch:
+    types: [update-indices]
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Restore Price History Delta Cache
+        uses: actions/cache@v4
+        with:
+          path: data/history.json
+          key: stock-history-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            stock-history-${{ runner.os }}-
+
+      - name: Execute Ingestion, Indices, FII/DII & Stock Pages Pipeline
+        run: |
+          python build_indices.py || python build_indices.py --skip-ingest
+
+      - name: Commit & Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f public/data/ data/
+          if git diff --staged --quiet; then
+            echo "No data changes detected. Skipping commit."
+          else
+            git commit -m "chore(data): automated index & fii/dii update"
+            TARGET_BRANCH="${{ github.ref_name }}"
+            if [ -z "$TARGET_BRANCH" ]; then TARGET_BRANCH="main"; fi
+            git pull --rebase --autostash origin "$TARGET_BRANCH"
+            git push origin "HEAD:$TARGET_BRANCH"
+          fi
