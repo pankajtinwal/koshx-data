@@ -344,7 +344,11 @@ def build_fii_dii_dataset():
     found_today = False
     for i, p in enumerate(nifty_prices):
         d_str = p["date"]
-        is_today = (d_str == today_iso_date) or (i == series_length - 1 and (today_iso_date >= d_str or not found_today))
+        # Skip dates beyond the latest verified FII/DII settlement date
+        if today_iso_date and d_str > today_iso_date:
+            continue
+
+        is_today = (d_str == today_iso_date)
         
         if is_today:
             fii_n = fii_today_net
@@ -357,7 +361,7 @@ def build_fii_dii_dataset():
             dii_n = float(existing_daily[d_str].get("dii_net", 0.0))
             fii_long_ratio = float(existing_daily[d_str].get("fii_long_ratio", 50.0))
         else:
-            # Calibrated baseline daily variance for historical days
+            # Calibrated baseline daily variance for historical days only
             fii_n = round(rng.gauss(-450, 1800), 2)
             dii_n = round(rng.gauss(1200, 1400), 2)
             norm_price = (p["close"] - 16000) / 10000.0

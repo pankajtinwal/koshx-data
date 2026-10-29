@@ -11,14 +11,10 @@ on:
     # 4. Post-market settlement & Bhavcopy sync: 4:12 PM IST (10:42 UTC), Mon-Fri
     - cron: '42 10 * * 1-5'
     # 5. Evening FII & DII Cash & Derivatives Release Windows:
-    # 7:15 PM IST (13:45 UTC), Mon-Fri - Initial FII/DII Cash Market Settlement
-    - cron: '45 13 * * 1-5'
-    # 8:00 PM IST (14:30 UTC), Mon-Fri - NSE Participant OI & F&O Release
-    - cron: '30 14 * * 1-5'
-    # 8:30 PM IST (15:00 UTC), Mon-Fri - Derivatives Reconciliation
-    - cron: '0 15 * * 1-5'
-    # 9:00 PM IST (15:30 UTC), Mon-Fri - Final EOD Sync
-    - cron: '30 15 * * 1-5'
+    # Runs continuously every 15 minutes from 4:42 PM IST to 10:27 PM IST (11:12 to 16:57 UTC), Mon-Fri
+    # Guarantees catching cash market data (released 5:30-6:30 PM IST) and F&O Participant OI (released 7:30-8:45 PM IST)
+    # Continuous cadence guarantees no missed sessions even under GitHub Actions queue congestion
+    - cron: '12,27,42,57 11-16 * * 1-5'
   workflow_dispatch:
   repository_dispatch:
     types: [update-indices]
@@ -55,9 +51,17 @@ jobs:
           restore-keys: |
             stock-history-${{ runner.os }}-
 
-      - name: Execute Ingestion, Indices, FII/DII & Stock Pages Pipeline
+      - name: Execute Institutional FII & DII Extraction
+        run: |
+          python scripts/build_fii_dii_data.py
+
+      - name: Execute Ingestion, Indices & Wrap Generation
         run: |
           python build_indices.py || python build_indices.py --skip-ingest
+
+      - name: Build MTF Stock Candlestick Pages & Directory
+        run: |
+          python scripts/build_stock_pages_data.py
 
       - name: Commit & Push Changes
         run: |

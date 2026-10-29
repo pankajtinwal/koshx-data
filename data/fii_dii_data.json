@@ -1,38 +1,38 @@
 {
-  "updated_at": "2026-10-29T12:18:14.731825Z",
-  "market_date": "28-Oct-2026",
+  "updated_at": "2026-10-29T15:55:29.104779Z",
+  "market_date": "29-Oct-2026",
   "today": {
-    "date": "28-Oct-2026",
+    "date": "29-Oct-2026",
     "fii": {
-      "buy": 16834.53,
-      "sell": 15962.7,
-      "net": 871.83
+      "buy": 13400.29,
+      "sell": 14343.89,
+      "net": -943.6
     },
     "dii": {
-      "buy": 17240.9,
-      "sell": 16597.55,
-      "net": 643.35
+      "buy": 18458.64,
+      "sell": 16534.23,
+      "net": 1924.41
     },
-    "combined_net_cr": 1515.18,
-    "absorption_ratio_pct": 200.0,
-    "active_regime": "Double Inflow (Maximum Liquidity)",
-    "regime_description": "Both foreign and domestic institutions are net buyers. Strongest historical trend continuation win rate (72.4%).",
-    "fii_index_futures_long_pct": 11.7,
-    "fii_index_futures_short_pct": 88.3,
+    "combined_net_cr": 980.81,
+    "absorption_ratio_pct": 203.94,
+    "active_regime": "Domestic Absorption (The Tug of War)",
+    "regime_description": "FIIs are liquidating while domestic mutual funds absorb supply through systematic SIP inflows (Absorption: 203.94%).",
+    "fii_index_futures_long_pct": 11.5,
+    "fii_index_futures_short_pct": 88.5,
     "fii_fno_sentiment": "Extreme Short Skew (Historical 11th Percentile - Short Squeeze Risk)",
-    "client_retail_long_pct": 81.9,
-    "pro_desk_long_pct": 42.4,
-    "dii_fno_long_pct": 88.1,
-    "z_score_fii": 0.86,
+    "client_retail_long_pct": 80.9,
+    "pro_desk_long_pct": 54.5,
+    "dii_fno_long_pct": 87.9,
+    "z_score_fii": 0.11,
     "flow_classification": "ELEVATED FLOW"
   },
   "summary_stats_3y": {
-    "total_fii_net_cr": -356938.86,
-    "total_dii_net_cr": 895186.11,
-    "cumulative_absorption_ratio": 250.8,
+    "total_fii_net_cr": -357173.1,
+    "total_dii_net_cr": 896152.59,
+    "cumulative_absorption_ratio": 250.9,
     "nifty_3y_return_pct": 20.4,
-    "avg_daily_fii_flow": -482.3,
-    "avg_daily_dii_flow": 1209.7
+    "avg_daily_fii_flow": -482.7,
+    "avg_daily_dii_flow": 1211.0
   },
   "daily_history_3y": [
     {
@@ -11867,13 +11867,13 @@
       "nifty_close": 22936.75,
       "nifty_change": 237.9,
       "nifty_change_pct": 1.05,
-      "fii_net": -709.36,
-      "dii_net": 957.93,
-      "combined_net": 248.57,
-      "cum_fii": -541138.86,
-      "cum_dii": 1280586.11,
-      "fii_long_ratio": 64.3,
-      "absorption_ratio": 135.0
+      "fii_net": -943.6,
+      "dii_net": 1924.41,
+      "combined_net": 980.81,
+      "cum_fii": -541373.1,
+      "cum_dii": 1281552.59,
+      "fii_long_ratio": 11.5,
+      "absorption_ratio": 203.9
     }
   ],
   "regimes_matrix": [
@@ -11887,7 +11887,7 @@
       "win_rate_pct": 72.4,
       "badge_color": "emerald",
       "description": "Broad-based institutional liquidity expansion. Large-cap momentum trend continuation is strongest.",
-      "is_active": true
+      "is_active": false
     },
     {
       "id": "domestic_absorption",
@@ -11899,7 +11899,7 @@
       "win_rate_pct": 52.8,
       "badge_color": "cyan",
       "description": "The quintessential modern Indian market regime. Domestic mutual fund SIPs absorb foreign exits.",
-      "is_active": false
+      "is_active": true
     },
     {
       "id": "foreign_push",
@@ -12284,8 +12284,8 @@
         "nifty_ret": -6.05
       },
       "Oct": {
-        "fii": 3401,
-        "dii": 24382,
+        "fii": 3166,
+        "dii": 25348,
         "nifty_ret": 1.74
       }
     }
