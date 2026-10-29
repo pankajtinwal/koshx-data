@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T12:18:05.537567Z",
+  "updated_at": "2026-10-29T16:20:44.702923Z",
   "total_stocks": 216,
   "models": {
     "ema": {
@@ -2803,11 +2803,11 @@
           "name": "ICICI Prudential Life Insurance Company Ltd",
           "sector": "Financial Services",
           "price": 412.0,
-          "x": -10.67,
+          "x": -10.57,
           "y": -6.23,
           "ema_20": 439.39,
-          "ema_50": 461.23,
-          "ema_200": 517.1,
+          "ema_50": 460.69,
+          "ema_200": 469.36,
           "is_bull": false,
           "quadrant": 3,
           "is_pullback_buy": false
@@ -2821,7 +2821,7 @@
           "y": -5.42,
           "ema_20": 3478.21,
           "ema_50": 3682.79,
-          "ema_200": 4155.64,
+          "ema_200": 4155.65,
           "is_bull": false,
           "quadrant": 3,
           "is_pullback_buy": false
@@ -8443,7 +8443,7 @@
       "x_label": "Mean Reversion Half-Life (Days - Log Scale)",
       "y_label": "Spread Dislocation (Z-Score vs Master Index)",
       "stats": {
-        "high_elasticity_count": 3,
+        "high_elasticity_count": 2,
         "median_half_life": 16.8
       },
       "points": [
@@ -8452,9 +8452,9 @@
           "name": "Swiggy Ltd",
           "sector": "Consumer Goods & Retail",
           "price": 185.25,
-          "x": 186.7,
+          "x": 186.1,
           "y": -3.73,
-          "half_life_days": 186.7,
+          "half_life_days": 186.1,
           "spread_zscore": -3.73,
           "ar1_b": 0.9963,
           "is_high_elasticity": false
@@ -8480,7 +8480,7 @@
           "y": -3.31,
           "half_life_days": 15.3,
           "spread_zscore": -3.31,
-          "ar1_b": 0.9556,
+          "ar1_b": 0.9557,
           "is_high_elasticity": false
         },
         {
@@ -8488,10 +8488,10 @@
           "name": "Vinati Organics Ltd",
           "sector": "Chemicals & Materials",
           "price": 1038.6,
-          "x": 53.2,
-          "y": -3.31,
-          "half_life_days": 53.2,
-          "spread_zscore": -3.31,
+          "x": 53.3,
+          "y": -3.3,
+          "half_life_days": 53.3,
+          "spread_zscore": -3.3,
           "ar1_b": 0.9871,
           "is_high_elasticity": false
         },
@@ -8504,7 +8504,7 @@
           "y": -3.21,
           "half_life_days": 6.7,
           "spread_zscore": -3.21,
-          "ar1_b": 0.9015,
+          "ar1_b": 0.9013,
           "is_high_elasticity": true
         },
         {
@@ -8524,9 +8524,9 @@
           "name": "KEI Industries Ltd",
           "sector": "Capital Goods & Engineering",
           "price": 3830.8,
-          "x": 93.1,
+          "x": 92.8,
           "y": -2.72,
-          "half_life_days": 93.1,
+          "half_life_days": 92.8,
           "spread_zscore": -2.72,
           "ar1_b": 0.9926,
           "is_high_elasticity": false
@@ -8536,23 +8536,23 @@
           "name": "ICICI Prudential Life Insurance Company Ltd",
           "sector": "Financial Services",
           "price": 412.0,
-          "x": 7.6,
-          "y": -2.55,
-          "half_life_days": 7.6,
-          "spread_zscore": -2.55,
-          "ar1_b": 0.9132,
-          "is_high_elasticity": true
+          "x": 12.7,
+          "y": -2.66,
+          "half_life_days": 12.7,
+          "spread_zscore": -2.66,
+          "ar1_b": 0.9471,
+          "is_high_elasticity": false
         },
         {
           "ticker": "MFSL",
           "name": "Max Financial Services Ltd",
           "sector": "Financial Services",
           "price": 1212.0,
-          "x": 74.7,
+          "x": 73.8,
           "y": -2.46,
-          "half_life_days": 74.7,
+          "half_life_days": 73.8,
           "spread_zscore": -2.46,
-          "ar1_b": 0.9908,
+          "ar1_b": 0.9907,
           "is_high_elasticity": false
         },
         {
@@ -8560,9 +8560,9 @@
           "name": "Bayer CropScience Ltd",
           "sector": "Chemicals & Materials",
           "price": 3289.8,
-          "x": 189.1,
+          "x": 185.8,
           "y": -2.3,
-          "half_life_days": 189.1,
+          "half_life_days": 185.8,
           "spread_zscore": -2.3,
           "ar1_b": 0.9963,
           "is_high_elasticity": false
@@ -8572,11 +8572,11 @@
           "name": "Rainbow Childrens Medicare Ltd",
           "sector": "Pharmaceuticals & Healthcare",
           "price": 1196.8,
-          "x": 20.2,
+          "x": 20.3,
           "y": -2.29,
-          "half_life_days": 20.2,
+          "half_life_days": 20.3,
           "spread_zscore": -2.29,
-          "ar1_b": 0.9663,
+          "ar1_b": 0.9664,
           "is_high_elasticity": false
         },
         {
@@ -8584,11 +8584,11 @@
           "name": "Bharat Dynamics Ltd",
           "sector": "Defense & Aerospace",
           "price": 1011.0,
-          "x": 35.2,
+          "x": 35.1,
           "y": -2.26,
-          "half_life_days": 35.2,
+          "half_life_days": 35.1,
           "spread_zscore": -2.26,
-          "ar1_b": 0.9805,
+          "ar1_b": 0.9804,
           "is_high_elasticity": false
         },
         {
@@ -8600,7 +8600,7 @@
           "y": -2.25,
           "half_life_days": 19.8,
           "spread_zscore": -2.25,
-          "ar1_b": 0.9656,
+          "ar1_b": 0.9657,
           "is_high_elasticity": false
         },
         {
@@ -8608,11 +8608,11 @@
           "name": "Avenue Supermarts Ltd (DMart)",
           "sector": "Consumer Goods & Retail",
           "price": 3175.0,
-          "x": 33.6,
+          "x": 33.5,
           "y": -2.24,
-          "half_life_days": 33.6,
+          "half_life_days": 33.5,
           "spread_zscore": -2.24,
-          "ar1_b": 0.9796,
+          "ar1_b": 0.9795,
           "is_high_elasticity": false
         },
         {
@@ -8632,9 +8632,9 @@
           "name": "Vishal Mega Mart Ltd",
           "sector": "Consumer Goods & Retail",
           "price": 86.6,
-          "x": 105.1,
+          "x": 104.6,
           "y": -2.22,
-          "half_life_days": 105.1,
+          "half_life_days": 104.6,
           "spread_zscore": -2.22,
           "ar1_b": 0.9934,
           "is_high_elasticity": false
@@ -8656,9 +8656,9 @@
           "name": "NMDC Ltd",
           "sector": "Metals & Mining",
           "price": 67.54,
-          "x": 36.6,
+          "x": 36.4,
           "y": -2.15,
-          "half_life_days": 36.6,
+          "half_life_days": 36.4,
           "spread_zscore": -2.15,
           "ar1_b": 0.9812,
           "is_high_elasticity": false
@@ -8692,11 +8692,11 @@
           "name": "HeidelbergCement India Ltd",
           "sector": "Infrastructure & Construction",
           "price": 123.94,
-          "x": 42.4,
+          "x": 42.3,
           "y": -2.02,
-          "half_life_days": 42.4,
+          "half_life_days": 42.3,
           "spread_zscore": -2.02,
-          "ar1_b": 0.9838,
+          "ar1_b": 0.9837,
           "is_high_elasticity": false
         },
         {
@@ -8716,9 +8716,9 @@
           "name": "Colgate-Palmolive (India) Ltd",
           "sector": "Consumer Goods & Retail",
           "price": 1629.8,
-          "x": 29.8,
+          "x": 29.7,
           "y": -1.91,
-          "half_life_days": 29.8,
+          "half_life_days": 29.7,
           "spread_zscore": -1.91,
           "ar1_b": 0.977,
           "is_high_elasticity": false
@@ -8728,9 +8728,9 @@
           "name": "Havells India Ltd",
           "sector": "Capital Goods & Engineering",
           "price": 1020.0,
-          "x": 19.9,
+          "x": 19.8,
           "y": -1.91,
-          "half_life_days": 19.9,
+          "half_life_days": 19.8,
           "spread_zscore": -1.91,
           "ar1_b": 0.9657,
           "is_high_elasticity": false
@@ -8744,7 +8744,7 @@
           "y": -1.84,
           "half_life_days": 3.0,
           "spread_zscore": -1.84,
-          "ar1_b": 0.7962,
+          "ar1_b": 0.7964,
           "is_high_elasticity": false
         },
         {
@@ -8788,9 +8788,9 @@
           "name": "Fortis Healthcare Ltd",
           "sector": "Pharmaceuticals & Healthcare",
           "price": 754.9,
-          "x": 43.3,
+          "x": 43.2,
           "y": -1.71,
-          "half_life_days": 43.3,
+          "half_life_days": 43.2,
           "spread_zscore": -1.71,
           "ar1_b": 0.9841,
           "is_high_elasticity": false
@@ -8824,11 +8824,11 @@
           "name": "Bharat Forge Ltd",
           "sector": "Auto & Ancillaries",
           "price": 1766.3,
-          "x": 13.8,
+          "x": 13.9,
           "y": -1.65,
-          "half_life_days": 13.8,
+          "half_life_days": 13.9,
           "spread_zscore": -1.65,
-          "ar1_b": 0.9511,
+          "ar1_b": 0.9512,
           "is_high_elasticity": false
         },
         {
@@ -8852,7 +8852,7 @@
           "y": -1.63,
           "half_life_days": 10.9,
           "spread_zscore": -1.63,
-          "ar1_b": 0.9385,
+          "ar1_b": 0.9384,
           "is_high_elasticity": false
         },
         {
@@ -8860,11 +8860,11 @@
           "name": "Indian Renewable Energy Development Agency Ltd",
           "sector": "Financial Services",
           "price": 101.2,
-          "x": 29.6,
+          "x": 29.5,
           "y": -1.61,
-          "half_life_days": 29.6,
+          "half_life_days": 29.5,
           "spread_zscore": -1.61,
-          "ar1_b": 0.9769,
+          "ar1_b": 0.9768,
           "is_high_elasticity": false
         },
         {
@@ -8876,7 +8876,7 @@
           "y": -1.6,
           "half_life_days": 6.7,
           "spread_zscore": -1.6,
-          "ar1_b": 0.901,
+          "ar1_b": 0.9011,
           "is_high_elasticity": false
         },
         {
@@ -8884,9 +8884,9 @@
           "name": "Pfizer Ltd",
           "sector": "Pharmaceuticals & Healthcare",
           "price": 3759.8,
-          "x": 36.8,
+          "x": 36.7,
           "y": -1.6,
-          "half_life_days": 36.8,
+          "half_life_days": 36.7,
           "spread_zscore": -1.6,
           "ar1_b": 0.9813,
           "is_high_elasticity": false
@@ -8920,11 +8920,11 @@
           "name": "Crompton Greaves Consumer Electricals Ltd",
           "sector": "Capital Goods & Engineering",
           "price": 200.0,
-          "x": 40.7,
+          "x": 40.5,
           "y": -1.55,
-          "half_life_days": 40.7,
+          "half_life_days": 40.5,
           "spread_zscore": -1.55,
-          "ar1_b": 0.9831,
+          "ar1_b": 0.983,
           "is_high_elasticity": false
         },
         {
@@ -8936,7 +8936,7 @@
           "y": -1.55,
           "half_life_days": 12.2,
           "spread_zscore": -1.55,
-          "ar1_b": 0.945,
+          "ar1_b": 0.9449,
           "is_high_elasticity": false
         },
         {
@@ -8944,9 +8944,9 @@
           "name": "Tata Motors Passenger Vehicles Ltd",
           "sector": "Auto & Ancillaries",
           "price": 266.0,
-          "x": 163.6,
+          "x": 163.5,
           "y": -1.53,
-          "half_life_days": 163.6,
+          "half_life_days": 163.5,
           "spread_zscore": -1.53,
           "ar1_b": 0.9958,
           "is_high_elasticity": false
@@ -8956,11 +8956,11 @@
           "name": "Ambuja Cements Ltd",
           "sector": "Infrastructure & Construction",
           "price": 354.7,
-          "x": 26.3,
+          "x": 26.2,
           "y": -1.5,
-          "half_life_days": 26.3,
+          "half_life_days": 26.2,
           "spread_zscore": -1.5,
-          "ar1_b": 0.974,
+          "ar1_b": 0.9739,
           "is_high_elasticity": false
         },
         {
@@ -8992,11 +8992,11 @@
           "name": "Premier Energies Ltd",
           "sector": "Renewable Energy & Utilities",
           "price": 865.1,
-          "x": 20.9,
+          "x": 21.0,
           "y": -1.49,
-          "half_life_days": 20.9,
+          "half_life_days": 21.0,
           "spread_zscore": -1.49,
-          "ar1_b": 0.9674,
+          "ar1_b": 0.9675,
           "is_high_elasticity": false
         },
         {
@@ -9008,7 +9008,7 @@
           "y": -1.49,
           "half_life_days": 13.3,
           "spread_zscore": -1.49,
-          "ar1_b": 0.9493,
+          "ar1_b": 0.9492,
           "is_high_elasticity": false
         },
         {
@@ -9052,9 +9052,9 @@
           "name": "Rail Vikas Nigam Ltd",
           "sector": "Infrastructure & Construction",
           "price": 186.0,
-          "x": 17.1,
+          "x": 17.0,
           "y": -1.38,
-          "half_life_days": 17.1,
+          "half_life_days": 17.0,
           "spread_zscore": -1.38,
           "ar1_b": 0.9602,
           "is_high_elasticity": false
@@ -9064,11 +9064,11 @@
           "name": "ACC Ltd",
           "sector": "Infrastructure & Construction",
           "price": 1153.5,
-          "x": 32.9,
+          "x": 32.8,
           "y": -1.38,
-          "half_life_days": 32.9,
+          "half_life_days": 32.8,
           "spread_zscore": -1.38,
-          "ar1_b": 0.9792,
+          "ar1_b": 0.9791,
           "is_high_elasticity": false
         },
         {
@@ -9076,9 +9076,9 @@
           "name": "Indian Energy Exchange Ltd",
           "sector": "Financial Services",
           "price": 105.35,
-          "x": 23.6,
+          "x": 23.5,
           "y": -1.37,
-          "half_life_days": 23.6,
+          "half_life_days": 23.5,
           "spread_zscore": -1.37,
           "ar1_b": 0.971,
           "is_high_elasticity": false
@@ -9092,7 +9092,7 @@
           "y": -1.32,
           "half_life_days": 7.5,
           "spread_zscore": -1.32,
-          "ar1_b": 0.9121,
+          "ar1_b": 0.9119,
           "is_high_elasticity": false
         },
         {
@@ -9100,9 +9100,9 @@
           "name": "Voltas Ltd",
           "sector": "Capital Goods & Engineering",
           "price": 1041.0,
-          "x": 33.5,
+          "x": 33.4,
           "y": -1.3,
-          "half_life_days": 33.5,
+          "half_life_days": 33.4,
           "spread_zscore": -1.3,
           "ar1_b": 0.9795,
           "is_high_elasticity": false
@@ -9116,7 +9116,7 @@
           "y": -1.29,
           "half_life_days": 7.6,
           "spread_zscore": -1.29,
-          "ar1_b": 0.9126,
+          "ar1_b": 0.9127,
           "is_high_elasticity": false
         },
         {
@@ -9128,7 +9128,7 @@
           "y": -1.29,
           "half_life_days": 16.7,
           "spread_zscore": -1.29,
-          "ar1_b": 0.9593,
+          "ar1_b": 0.9592,
           "is_high_elasticity": false
         },
         {
@@ -9136,11 +9136,11 @@
           "name": "IndiaMART InterMESH Ltd",
           "sector": "IT & Tech Services",
           "price": 1544.2,
-          "x": 50.9,
+          "x": 50.7,
           "y": -1.29,
-          "half_life_days": 50.9,
+          "half_life_days": 50.7,
           "spread_zscore": -1.29,
-          "ar1_b": 0.9865,
+          "ar1_b": 0.9864,
           "is_high_elasticity": false
         },
         {
@@ -9149,9 +9149,9 @@
           "sector": "Capital Goods & Engineering",
           "price": 3366.0,
           "x": 9.5,
-          "y": -1.23,
+          "y": -1.24,
           "half_life_days": 9.5,
-          "spread_zscore": -1.23,
+          "spread_zscore": -1.24,
           "ar1_b": 0.9293,
           "is_high_elasticity": false
         },
@@ -9160,9 +9160,9 @@
           "name": "Power Finance Corporation Ltd",
           "sector": "Financial Services",
           "price": 320.6,
-          "x": 36.8,
+          "x": 36.7,
           "y": -1.22,
-          "half_life_days": 36.8,
+          "half_life_days": 36.7,
           "spread_zscore": -1.22,
           "ar1_b": 0.9813,
           "is_high_elasticity": false
@@ -9176,7 +9176,7 @@
           "y": -1.21,
           "half_life_days": 8.5,
           "spread_zscore": -1.21,
-          "ar1_b": 0.9213,
+          "ar1_b": 0.9214,
           "is_high_elasticity": false
         },
         {
@@ -9196,11 +9196,11 @@
           "name": "Procter & Gamble Hygiene and Health Care Ltd",
           "sector": "Consumer Goods & Retail",
           "price": 6923.5,
-          "x": 56.4,
+          "x": 56.2,
           "y": -1.15,
-          "half_life_days": 56.4,
+          "half_life_days": 56.2,
           "spread_zscore": -1.15,
-          "ar1_b": 0.9878,
+          "ar1_b": 0.9877,
           "is_high_elasticity": false
         },
         {
@@ -9212,7 +9212,7 @@
           "y": -1.12,
           "half_life_days": 17.8,
           "spread_zscore": -1.12,
-          "ar1_b": 0.9618,
+          "ar1_b": 0.9619,
           "is_high_elasticity": false
         },
         {
@@ -9224,7 +9224,7 @@
           "y": -1.07,
           "half_life_days": 32.1,
           "spread_zscore": -1.07,
-          "ar1_b": 0.9787,
+          "ar1_b": 0.9786,
           "is_high_elasticity": false
         },
         {
@@ -9236,7 +9236,7 @@
           "y": -1.05,
           "half_life_days": 15.6,
           "spread_zscore": -1.05,
-          "ar1_b": 0.9565,
+          "ar1_b": 0.9564,
           "is_high_elasticity": false
         },
         {
@@ -9244,11 +9244,11 @@
           "name": "REC Ltd",
           "sector": "Financial Services",
           "price": 296.15,
-          "x": 20.7,
+          "x": 20.6,
           "y": -1.05,
-          "half_life_days": 20.7,
+          "half_life_days": 20.6,
           "spread_zscore": -1.05,
-          "ar1_b": 0.967,
+          "ar1_b": 0.9669,
           "is_high_elasticity": false
         },
         {
@@ -9260,7 +9260,7 @@
           "y": -1.01,
           "half_life_days": 12.6,
           "spread_zscore": -1.01,
-          "ar1_b": 0.9467,
+          "ar1_b": 0.9466,
           "is_high_elasticity": false
         },
         {
@@ -9276,27 +9276,27 @@
           "is_high_elasticity": false
         },
         {
-          "ticker": "IRCTC",
-          "name": "Indian Railway Catering and Tourism Corporation Ltd",
-          "sector": "Logistics & Services",
-          "price": 444.05,
-          "x": 17.0,
-          "y": -0.99,
-          "half_life_days": 17.0,
-          "spread_zscore": -0.99,
-          "ar1_b": 0.96,
-          "is_high_elasticity": false
-        },
-        {
           "ticker": "INDUSINDBK",
           "name": "IndusInd Bank Ltd",
           "sector": "Financial Services",
           "price": 868.0,
           "x": 10.7,
-          "y": -0.98,
+          "y": -0.99,
           "half_life_days": 10.7,
-          "spread_zscore": -0.98,
+          "spread_zscore": -0.99,
           "ar1_b": 0.9373,
+          "is_high_elasticity": false
+        },
+        {
+          "ticker": "IRCTC",
+          "name": "Indian Railway Catering and Tourism Corporation Ltd",
+          "sector": "Logistics & Services",
+          "price": 444.05,
+          "x": 16.9,
+          "y": -0.99,
+          "half_life_days": 16.9,
+          "spread_zscore": -0.99,
+          "ar1_b": 0.9599,
           "is_high_elasticity": false
         },
         {
@@ -9332,7 +9332,7 @@
           "y": -0.94,
           "half_life_days": 8.8,
           "spread_zscore": -0.94,
-          "ar1_b": 0.9247,
+          "ar1_b": 0.9246,
           "is_high_elasticity": false
         },
         {
@@ -9344,7 +9344,7 @@
           "y": -0.93,
           "half_life_days": 9.8,
           "spread_zscore": -0.93,
-          "ar1_b": 0.9315,
+          "ar1_b": 0.9314,
           "is_high_elasticity": false
         },
         {
@@ -9356,7 +9356,7 @@
           "y": -0.92,
           "half_life_days": 15.8,
           "spread_zscore": -0.92,
-          "ar1_b": 0.957,
+          "ar1_b": 0.9571,
           "is_high_elasticity": false
         },
         {
@@ -9364,11 +9364,11 @@
           "name": "Indian Railway Finance Corporation Ltd",
           "sector": "Financial Services",
           "price": 75.71,
-          "x": 33.3,
+          "x": 33.1,
           "y": -0.92,
-          "half_life_days": 33.3,
+          "half_life_days": 33.1,
           "spread_zscore": -0.92,
-          "ar1_b": 0.9794,
+          "ar1_b": 0.9793,
           "is_high_elasticity": false
         },
         {
@@ -9392,7 +9392,7 @@
           "y": -0.86,
           "half_life_days": 17.7,
           "spread_zscore": -0.86,
-          "ar1_b": 0.9616,
+          "ar1_b": 0.9615,
           "is_high_elasticity": false
         },
         {
@@ -9416,7 +9416,7 @@
           "y": -0.82,
           "half_life_days": 15.5,
           "spread_zscore": -0.82,
-          "ar1_b": 0.9564,
+          "ar1_b": 0.9563,
           "is_high_elasticity": false
         },
         {
@@ -9440,7 +9440,7 @@
           "y": -0.79,
           "half_life_days": 4.4,
           "spread_zscore": -0.79,
-          "ar1_b": 0.8548,
+          "ar1_b": 0.8547,
           "is_high_elasticity": false
         },
         {
@@ -9452,7 +9452,7 @@
           "y": -0.79,
           "half_life_days": 4.4,
           "spread_zscore": -0.79,
-          "ar1_b": 0.8552,
+          "ar1_b": 0.8554,
           "is_high_elasticity": false
         },
         {
@@ -9464,7 +9464,7 @@
           "y": -0.74,
           "half_life_days": 15.8,
           "spread_zscore": -0.74,
-          "ar1_b": 0.9572,
+          "ar1_b": 0.9571,
           "is_high_elasticity": false
         },
         {
@@ -9476,7 +9476,7 @@
           "y": -0.72,
           "half_life_days": 11.0,
           "spread_zscore": -0.72,
-          "ar1_b": 0.939,
+          "ar1_b": 0.9389,
           "is_high_elasticity": false
         },
         {
@@ -9484,11 +9484,11 @@
           "name": "V-Guard Industries Ltd",
           "sector": "Capital Goods & Engineering",
           "price": 284.85,
-          "x": 8.1,
+          "x": 8.0,
           "y": -0.7,
-          "half_life_days": 8.1,
+          "half_life_days": 8.0,
           "spread_zscore": -0.7,
-          "ar1_b": 0.9175,
+          "ar1_b": 0.9174,
           "is_high_elasticity": false
         },
         {
@@ -9500,19 +9500,7 @@
           "y": -0.68,
           "half_life_days": 24.1,
           "spread_zscore": -0.68,
-          "ar1_b": 0.9717,
-          "is_high_elasticity": false
-        },
-        {
-          "ticker": "NTPC",
-          "name": "NTPC Ltd",
-          "sector": "Renewable Energy & Utilities",
-          "price": 310.5,
-          "x": 16.8,
-          "y": -0.65,
-          "half_life_days": 16.8,
-          "spread_zscore": -0.65,
-          "ar1_b": 0.9595,
+          "ar1_b": 0.9716,
           "is_high_elasticity": false
         },
         {
@@ -9521,10 +9509,22 @@
           "sector": "Financial Services",
           "price": 683.3,
           "x": 18.3,
-          "y": -0.64,
+          "y": -0.65,
           "half_life_days": 18.3,
-          "spread_zscore": -0.64,
+          "spread_zscore": -0.65,
           "ar1_b": 0.9629,
+          "is_high_elasticity": false
+        },
+        {
+          "ticker": "NTPC",
+          "name": "NTPC Ltd",
+          "sector": "Renewable Energy & Utilities",
+          "price": 310.5,
+          "x": 16.7,
+          "y": -0.65,
+          "half_life_days": 16.7,
+          "spread_zscore": -0.65,
+          "ar1_b": 0.9594,
           "is_high_elasticity": false
         },
         {
@@ -9536,7 +9536,7 @@
           "y": -0.63,
           "half_life_days": 10.1,
           "spread_zscore": -0.63,
-          "ar1_b": 0.9336,
+          "ar1_b": 0.9335,
           "is_high_elasticity": false
         },
         {
@@ -9548,7 +9548,7 @@
           "y": -0.62,
           "half_life_days": 8.1,
           "spread_zscore": -0.62,
-          "ar1_b": 0.918,
+          "ar1_b": 0.9179,
           "is_high_elasticity": false
         },
         {
@@ -9572,7 +9572,7 @@
           "y": -0.61,
           "half_life_days": 10.4,
           "spread_zscore": -0.61,
-          "ar1_b": 0.9356,
+          "ar1_b": 0.9355,
           "is_high_elasticity": false
         },
         {
@@ -9620,7 +9620,7 @@
           "y": -0.5,
           "half_life_days": 10.1,
           "spread_zscore": -0.5,
-          "ar1_b": 0.9338,
+          "ar1_b": 0.9339,
           "is_high_elasticity": false
         },
         {
@@ -9632,7 +9632,7 @@
           "y": -0.48,
           "half_life_days": 4.7,
           "spread_zscore": -0.48,
-          "ar1_b": 0.864,
+          "ar1_b": 0.8641,
           "is_high_elasticity": false
         },
         {
@@ -9640,9 +9640,9 @@
           "name": "IDFC First Bank Ltd",
           "sector": "Financial Services",
           "price": 73.38,
-          "x": 16.8,
+          "x": 16.9,
           "y": -0.48,
-          "half_life_days": 16.8,
+          "half_life_days": 16.9,
           "spread_zscore": -0.48,
           "ar1_b": 0.9597,
           "is_high_elasticity": false
@@ -9652,11 +9652,11 @@
           "name": "Oracle Financial Services Software Ltd",
           "sector": "IT & Tech Services",
           "price": 9939.0,
-          "x": 8.8,
+          "x": 8.9,
           "y": -0.47,
-          "half_life_days": 8.8,
+          "half_life_days": 8.9,
           "spread_zscore": -0.47,
-          "ar1_b": 0.9246,
+          "ar1_b": 0.9247,
           "is_high_elasticity": false
         },
         {
@@ -9668,7 +9668,7 @@
           "y": -0.43,
           "half_life_days": 13.0,
           "spread_zscore": -0.43,
-          "ar1_b": 0.9481,
+          "ar1_b": 0.948,
           "is_high_elasticity": false
         },
         {
@@ -9680,7 +9680,7 @@
           "y": -0.42,
           "half_life_days": 11.0,
           "spread_zscore": -0.42,
-          "ar1_b": 0.939,
+          "ar1_b": 0.9389,
           "is_high_elasticity": false
         },
         {
@@ -9728,7 +9728,7 @@
           "y": -0.36,
           "half_life_days": 13.5,
           "spread_zscore": -0.36,
-          "ar1_b": 0.95,
+          "ar1_b": 0.9501,
           "is_high_elasticity": false
         },
         {
@@ -9752,7 +9752,7 @@
           "y": -0.28,
           "half_life_days": 5.2,
           "spread_zscore": -0.28,
-          "ar1_b": 0.8745,
+          "ar1_b": 0.8746,
           "is_high_elasticity": false
         },
         {
@@ -9764,7 +9764,7 @@
           "y": -0.25,
           "half_life_days": 3.9,
           "spread_zscore": -0.25,
-          "ar1_b": 0.8363,
+          "ar1_b": 0.8367,
           "is_high_elasticity": false
         },
         {
@@ -9800,7 +9800,7 @@
           "y": -0.22,
           "half_life_days": 14.4,
           "spread_zscore": -0.22,
-          "ar1_b": 0.9529,
+          "ar1_b": 0.9528,
           "is_high_elasticity": false
         },
         {
@@ -9808,11 +9808,11 @@
           "name": "Uno Minda Ltd",
           "sector": "Auto & Ancillaries",
           "price": 1087.4,
-          "x": 9.7,
+          "x": 9.6,
           "y": -0.21,
-          "half_life_days": 9.7,
+          "half_life_days": 9.6,
           "spread_zscore": -0.21,
-          "ar1_b": 0.9308,
+          "ar1_b": 0.9307,
           "is_high_elasticity": false
         },
         {
@@ -9836,7 +9836,7 @@
           "y": -0.19,
           "half_life_days": 2.9,
           "spread_zscore": -0.19,
-          "ar1_b": 0.7863,
+          "ar1_b": 0.7856,
           "is_high_elasticity": false
         },
         {
@@ -9848,7 +9848,7 @@
           "y": -0.19,
           "half_life_days": 13.1,
           "spread_zscore": -0.19,
-          "ar1_b": 0.9486,
+          "ar1_b": 0.9485,
           "is_high_elasticity": false
         },
         {
@@ -9884,7 +9884,7 @@
           "y": -0.12,
           "half_life_days": 17.2,
           "spread_zscore": -0.12,
-          "ar1_b": 0.9605,
+          "ar1_b": 0.9606,
           "is_high_elasticity": false
         },
         {
@@ -9893,9 +9893,9 @@
           "sector": "Financial Services",
           "price": 10160.0,
           "x": 10.5,
-          "y": -0.1,
+          "y": -0.11,
           "half_life_days": 10.5,
-          "spread_zscore": -0.1,
+          "spread_zscore": -0.11,
           "ar1_b": 0.936,
           "is_high_elasticity": false
         },
@@ -9928,11 +9928,11 @@
           "name": "Power Grid Corporation of India Ltd",
           "sector": "Renewable Energy & Utilities",
           "price": 260.0,
-          "x": 14.5,
+          "x": 14.4,
           "y": -0.02,
-          "half_life_days": 14.5,
+          "half_life_days": 14.4,
           "spread_zscore": -0.02,
-          "ar1_b": 0.9532,
+          "ar1_b": 0.9531,
           "is_high_elasticity": false
         },
         {
@@ -9944,7 +9944,7 @@
           "y": -0.0,
           "half_life_days": 17.7,
           "spread_zscore": -0.0,
-          "ar1_b": 0.9617,
+          "ar1_b": 0.9616,
           "is_high_elasticity": false
         },
         {
@@ -9976,11 +9976,11 @@
           "name": "JSW Energy Ltd",
           "sector": "Renewable Energy & Utilities",
           "price": 510.0,
-          "x": 14.3,
+          "x": 14.4,
           "y": 0.01,
-          "half_life_days": 14.3,
+          "half_life_days": 14.4,
           "spread_zscore": 0.01,
-          "ar1_b": 0.9528,
+          "ar1_b": 0.9529,
           "is_high_elasticity": false
         },
         {
@@ -9992,7 +9992,7 @@
           "y": 0.06,
           "half_life_days": 6.4,
           "spread_zscore": 0.06,
-          "ar1_b": 0.8972,
+          "ar1_b": 0.8971,
           "is_high_elasticity": false
         },
         {
@@ -10028,7 +10028,7 @@
           "y": 0.11,
           "half_life_days": 4.7,
           "spread_zscore": 0.11,
-          "ar1_b": 0.8622,
+          "ar1_b": 0.862,
           "is_high_elasticity": false
         },
         {
@@ -10064,7 +10064,7 @@
           "y": 0.12,
           "half_life_days": 5.6,
           "spread_zscore": 0.12,
-          "ar1_b": 0.8828,
+          "ar1_b": 0.8827,
           "is_high_elasticity": false
         },
         {
@@ -10084,9 +10084,9 @@
           "name": "RBL Bank Ltd",
           "sector": "Financial Services",
           "price": 360.9,
-          "x": 16.8,
+          "x": 16.9,
           "y": 0.16,
-          "half_life_days": 16.8,
+          "half_life_days": 16.9,
           "spread_zscore": 0.16,
           "ar1_b": 0.9597,
           "is_high_elasticity": false
@@ -10120,11 +10120,11 @@
           "name": "Macrotech Developers Ltd (Lodha)",
           "sector": "Real Estate & Realty",
           "price": 1045.8,
-          "x": 23.8,
+          "x": 23.9,
           "y": 0.22,
-          "half_life_days": 23.8,
+          "half_life_days": 23.9,
           "spread_zscore": 0.22,
-          "ar1_b": 0.9713,
+          "ar1_b": 0.9714,
           "is_high_elasticity": false
         },
         {
@@ -10132,11 +10132,11 @@
           "name": "Titan Company Ltd",
           "sector": "Consumer Goods & Retail",
           "price": 4434.0,
-          "x": 26.7,
+          "x": 26.8,
           "y": 0.28,
-          "half_life_days": 26.7,
+          "half_life_days": 26.8,
           "spread_zscore": 0.28,
-          "ar1_b": 0.9744,
+          "ar1_b": 0.9745,
           "is_high_elasticity": false
         },
         {
@@ -10157,9 +10157,9 @@
           "sector": "Financial Services",
           "price": 1225.0,
           "x": 16.3,
-          "y": 0.38,
+          "y": 0.37,
           "half_life_days": 16.3,
-          "spread_zscore": 0.38,
+          "spread_zscore": 0.37,
           "ar1_b": 0.9583,
           "is_high_elasticity": false
         },
@@ -10180,11 +10180,11 @@
           "name": "Bank of Baroda",
           "sector": "Financial Services",
           "price": 241.31,
-          "x": 23.3,
+          "x": 23.2,
           "y": 0.4,
-          "half_life_days": 23.3,
+          "half_life_days": 23.2,
           "spread_zscore": 0.4,
-          "ar1_b": 0.9707,
+          "ar1_b": 0.9706,
           "is_high_elasticity": false
         },
         {
@@ -10220,7 +10220,7 @@
           "y": 0.52,
           "half_life_days": 8.3,
           "spread_zscore": 0.52,
-          "ar1_b": 0.9201,
+          "ar1_b": 0.92,
           "is_high_elasticity": false
         },
         {
@@ -10256,7 +10256,7 @@
           "y": 0.66,
           "half_life_days": 11.9,
           "spread_zscore": 0.66,
-          "ar1_b": 0.9435,
+          "ar1_b": 0.9436,
           "is_high_elasticity": false
         },
         {
@@ -10265,10 +10265,10 @@
           "sector": "Oil, Gas & Energy",
           "price": 454.5,
           "x": 11.8,
-          "y": 0.68,
+          "y": 0.67,
           "half_life_days": 11.8,
-          "spread_zscore": 0.68,
-          "ar1_b": 0.9431,
+          "spread_zscore": 0.67,
+          "ar1_b": 0.943,
           "is_high_elasticity": false
         },
         {
@@ -10280,7 +10280,7 @@
           "y": 0.68,
           "half_life_days": 5.3,
           "spread_zscore": 0.68,
-          "ar1_b": 0.877,
+          "ar1_b": 0.8768,
           "is_high_elasticity": false
         },
         {
@@ -10304,7 +10304,7 @@
           "y": 0.72,
           "half_life_days": 4.8,
           "spread_zscore": 0.72,
-          "ar1_b": 0.8649,
+          "ar1_b": 0.8644,
           "is_high_elasticity": false
         },
         {
@@ -10324,9 +10324,9 @@
           "name": "Radico Khaitan Ltd",
           "sector": "Consumer Goods & Retail",
           "price": 4235.0,
-          "x": 31.5,
+          "x": 31.6,
           "y": 0.78,
-          "half_life_days": 31.5,
+          "half_life_days": 31.6,
           "spread_zscore": 0.78,
           "ar1_b": 0.9783,
           "is_high_elasticity": false
@@ -10340,7 +10340,7 @@
           "y": 0.8,
           "half_life_days": 6.4,
           "spread_zscore": 0.8,
-          "ar1_b": 0.8978,
+          "ar1_b": 0.8975,
           "is_high_elasticity": false
         },
         {
@@ -10364,7 +10364,7 @@
           "y": 0.83,
           "half_life_days": 7.7,
           "spread_zscore": 0.83,
-          "ar1_b": 0.9139,
+          "ar1_b": 0.9138,
           "is_high_elasticity": false
         },
         {
@@ -10376,7 +10376,7 @@
           "y": 0.83,
           "half_life_days": 3.4,
           "spread_zscore": 0.83,
-          "ar1_b": 0.816,
+          "ar1_b": 0.8157,
           "is_high_elasticity": false
         },
         {
@@ -10412,7 +10412,7 @@
           "y": 0.87,
           "half_life_days": 32.4,
           "spread_zscore": 0.87,
-          "ar1_b": 0.9789,
+          "ar1_b": 0.9788,
           "is_high_elasticity": false
         },
         {
@@ -10457,10 +10457,10 @@
           "sector": "Pharmaceuticals & Healthcare",
           "price": 1358.0,
           "x": 4.1,
-          "y": 1.05,
+          "y": 1.04,
           "half_life_days": 4.1,
-          "spread_zscore": 1.05,
-          "ar1_b": 0.846,
+          "spread_zscore": 1.04,
+          "ar1_b": 0.8459,
           "is_high_elasticity": false
         },
         {
@@ -10468,9 +10468,9 @@
           "name": "PNB Housing Finance Ltd",
           "sector": "Financial Services",
           "price": 1110.0,
-          "x": 26.7,
+          "x": 26.6,
           "y": 1.11,
-          "half_life_days": 26.7,
+          "half_life_days": 26.6,
           "spread_zscore": 1.11,
           "ar1_b": 0.9743,
           "is_high_elasticity": false
@@ -10484,7 +10484,7 @@
           "y": 1.12,
           "half_life_days": 10.2,
           "spread_zscore": 1.12,
-          "ar1_b": 0.9343,
+          "ar1_b": 0.9344,
           "is_high_elasticity": false
         },
         {
@@ -10492,9 +10492,9 @@
           "name": "Motilal Oswal Financial Services Ltd",
           "sector": "Financial Services",
           "price": 986.1,
-          "x": 27.3,
+          "x": 27.4,
           "y": 1.12,
-          "half_life_days": 27.3,
+          "half_life_days": 27.4,
           "spread_zscore": 1.12,
           "ar1_b": 0.975,
           "is_high_elasticity": false
@@ -10504,9 +10504,9 @@
           "name": "Castrol India Ltd",
           "sector": "Chemicals & Materials",
           "price": 187.62,
-          "x": 65.0,
+          "x": 65.3,
           "y": 1.14,
-          "half_life_days": 65.0,
+          "half_life_days": 65.3,
           "spread_zscore": 1.14,
           "ar1_b": 0.9894,
           "is_high_elasticity": false
@@ -10529,9 +10529,9 @@
           "sector": "Pharmaceuticals & Healthcare",
           "price": 3189.5,
           "x": 8.1,
-          "y": 1.33,
+          "y": 1.32,
           "half_life_days": 8.1,
-          "spread_zscore": 1.33,
+          "spread_zscore": 1.32,
           "ar1_b": 0.9184,
           "is_high_elasticity": false
         },
@@ -10540,11 +10540,11 @@
           "name": "Samvardhana Motherson International Ltd",
           "sector": "Auto & Ancillaries",
           "price": 160.0,
-          "x": 15.4,
+          "x": 15.5,
           "y": 1.38,
-          "half_life_days": 15.4,
+          "half_life_days": 15.5,
           "spread_zscore": 1.38,
-          "ar1_b": 0.9561,
+          "ar1_b": 0.9562,
           "is_high_elasticity": false
         },
         {
@@ -10556,7 +10556,7 @@
           "y": 1.45,
           "half_life_days": 2.8,
           "spread_zscore": 1.45,
-          "ar1_b": 0.7798,
+          "ar1_b": 0.7802,
           "is_high_elasticity": false
         },
         {
@@ -10576,9 +10576,9 @@
           "name": "Aurobindo Pharma Ltd",
           "sector": "Pharmaceuticals & Healthcare",
           "price": 1659.9,
-          "x": 27.0,
+          "x": 27.1,
           "y": 1.56,
-          "half_life_days": 27.0,
+          "half_life_days": 27.1,
           "spread_zscore": 1.56,
           "ar1_b": 0.9747,
           "is_high_elasticity": false
@@ -10600,11 +10600,11 @@
           "name": "Bosch Ltd",
           "sector": "Auto & Ancillaries",
           "price": 47565.0,
-          "x": 70.7,
+          "x": 71.0,
           "y": 1.58,
-          "half_life_days": 70.7,
+          "half_life_days": 71.0,
           "spread_zscore": 1.58,
-          "ar1_b": 0.9902,
+          "ar1_b": 0.9903,
           "is_high_elasticity": false
         },
         {
@@ -10624,11 +10624,11 @@
           "name": "Mankind Pharma Ltd",
           "sector": "Pharmaceuticals & Healthcare",
           "price": 2469.3,
-          "x": 7.4,
+          "x": 7.5,
           "y": 1.59,
-          "half_life_days": 7.4,
+          "half_life_days": 7.5,
           "spread_zscore": 1.59,
-          "ar1_b": 0.9111,
+          "ar1_b": 0.9112,
           "is_high_elasticity": false
         },
         {
@@ -10640,7 +10640,7 @@
           "y": 1.6,
           "half_life_days": 7.2,
           "spread_zscore": 1.6,
-          "ar1_b": 0.9077,
+          "ar1_b": 0.9078,
           "is_high_elasticity": false
         },
         {
@@ -10648,11 +10648,11 @@
           "name": "Coforge Ltd",
           "sector": "IT & Tech Services",
           "price": 1962.0,
-          "x": 38.9,
+          "x": 39.0,
           "y": 1.63,
-          "half_life_days": 38.9,
+          "half_life_days": 39.0,
           "spread_zscore": 1.63,
-          "ar1_b": 0.9823,
+          "ar1_b": 0.9824,
           "is_high_elasticity": false
         },
         {
@@ -10660,11 +10660,11 @@
           "name": "ICICI Bank Ltd",
           "sector": "Financial Services",
           "price": 1386.6,
-          "x": 18.3,
+          "x": 18.4,
           "y": 1.64,
-          "half_life_days": 18.3,
+          "half_life_days": 18.4,
           "spread_zscore": 1.64,
-          "ar1_b": 0.9629,
+          "ar1_b": 0.963,
           "is_high_elasticity": false
         },
         {
@@ -10688,7 +10688,7 @@
           "y": 1.66,
           "half_life_days": 16.4,
           "spread_zscore": 1.66,
-          "ar1_b": 0.9586,
+          "ar1_b": 0.9587,
           "is_high_elasticity": false
         },
         {
@@ -10696,9 +10696,9 @@
           "name": "TVS Motor Company Ltd",
           "sector": "Auto & Ancillaries",
           "price": 4280.0,
-          "x": 134.6,
+          "x": 135.3,
           "y": 1.66,
-          "half_life_days": 134.6,
+          "half_life_days": 135.3,
           "spread_zscore": 1.66,
           "ar1_b": 0.9949,
           "is_high_elasticity": false
@@ -10708,9 +10708,9 @@
           "name": "Eternal Ltd",
           "sector": "Consumer Goods & Retail",
           "price": 337.85,
-          "x": 97.4,
+          "x": 97.9,
           "y": 1.67,
-          "half_life_days": 97.4,
+          "half_life_days": 97.9,
           "spread_zscore": 1.67,
           "ar1_b": 0.9929,
           "is_high_elasticity": false
@@ -10732,9 +10732,9 @@
           "name": "Wipro Ltd",
           "sector": "IT & Tech Services",
           "price": 190.1,
-          "x": 33.5,
+          "x": 33.4,
           "y": 1.71,
-          "half_life_days": 33.5,
+          "half_life_days": 33.4,
           "spread_zscore": 1.71,
           "ar1_b": 0.9795,
           "is_high_elasticity": false
@@ -10760,7 +10760,7 @@
           "y": 1.74,
           "half_life_days": 20.1,
           "spread_zscore": 1.74,
-          "ar1_b": 0.9661,
+          "ar1_b": 0.9662,
           "is_high_elasticity": false
         },
         {
@@ -10768,11 +10768,11 @@
           "name": "Hindustan Aeronautics Ltd",
           "sector": "Defense & Aerospace",
           "price": 4869.9,
-          "x": 48.4,
+          "x": 48.2,
           "y": 1.8,
-          "half_life_days": 48.4,
+          "half_life_days": 48.2,
           "spread_zscore": 1.8,
-          "ar1_b": 0.9858,
+          "ar1_b": 0.9857,
           "is_high_elasticity": false
         },
         {
@@ -10784,7 +10784,7 @@
           "y": 1.85,
           "half_life_days": 250.0,
           "spread_zscore": 1.85,
-          "ar1_b": 0.9974,
+          "ar1_b": 0.9975,
           "is_high_elasticity": false
         },
         {
@@ -10792,11 +10792,11 @@
           "name": "FSN E-Commerce Ventures Ltd (Nykaa)",
           "sector": "Consumer Goods & Retail",
           "price": 352.9,
-          "x": 69.3,
+          "x": 69.6,
           "y": 1.87,
-          "half_life_days": 69.3,
+          "half_life_days": 69.6,
           "spread_zscore": 1.87,
-          "ar1_b": 0.99,
+          "ar1_b": 0.9901,
           "is_high_elasticity": false
         },
         {
@@ -10804,9 +10804,9 @@
           "name": "Corona Remedies Ltd",
           "sector": "Pharmaceuticals & Healthcare",
           "price": 2217.4,
-          "x": 59.3,
+          "x": 59.6,
           "y": 1.93,
-          "half_life_days": 59.3,
+          "half_life_days": 59.6,
           "spread_zscore": 1.93,
           "ar1_b": 0.9884,
           "is_high_elasticity": false
@@ -10817,10 +10817,10 @@
           "sector": "IT & Tech Services",
           "price": 5880.0,
           "x": 20.9,
-          "y": 1.97,
+          "y": 1.98,
           "half_life_days": 20.9,
-          "spread_zscore": 1.97,
-          "ar1_b": 0.9673,
+          "spread_zscore": 1.98,
+          "ar1_b": 0.9674,
           "is_high_elasticity": false
         },
         {
@@ -10828,11 +10828,11 @@
           "name": "Blue Star Ltd",
           "sector": "Capital Goods & Engineering",
           "price": 1673.0,
-          "x": 16.2,
+          "x": 16.1,
           "y": 2.01,
-          "half_life_days": 16.2,
+          "half_life_days": 16.1,
           "spread_zscore": 2.01,
-          "ar1_b": 0.9581,
+          "ar1_b": 0.958,
           "is_high_elasticity": false
         },
         {
@@ -10840,9 +10840,9 @@
           "name": "Dr. Reddys Laboratories Ltd",
           "sector": "Pharmaceuticals & Healthcare",
           "price": 1345.0,
-          "x": 67.5,
+          "x": 67.4,
           "y": 2.03,
-          "half_life_days": 67.5,
+          "half_life_days": 67.4,
           "spread_zscore": 2.03,
           "ar1_b": 0.9898,
           "is_high_elasticity": false
@@ -10868,7 +10868,7 @@
           "y": 2.08,
           "half_life_days": 7.2,
           "spread_zscore": 2.08,
-          "ar1_b": 0.908,
+          "ar1_b": 0.9079,
           "is_high_elasticity": false
         },
         {
@@ -10888,9 +10888,9 @@
           "name": "HCL Technologies Ltd",
           "sector": "IT & Tech Services",
           "price": 1403.9,
-          "x": 61.9,
+          "x": 62.2,
           "y": 2.23,
-          "half_life_days": 61.9,
+          "half_life_days": 62.2,
           "spread_zscore": 2.23,
           "ar1_b": 0.9889,
           "is_high_elasticity": false
@@ -10900,11 +10900,11 @@
           "name": "DLF Ltd",
           "sector": "Real Estate & Realty",
           "price": 694.35,
-          "x": 38.0,
+          "x": 38.2,
           "y": 2.23,
-          "half_life_days": 38.0,
+          "half_life_days": 38.2,
           "spread_zscore": 2.23,
-          "ar1_b": 0.9819,
+          "ar1_b": 0.982,
           "is_high_elasticity": false
         },
         {
@@ -10913,10 +10913,10 @@
           "sector": "Renewable Energy & Utilities",
           "price": 77.2,
           "x": 5.4,
-          "y": 2.27,
+          "y": 2.26,
           "half_life_days": 5.4,
-          "spread_zscore": 2.27,
-          "ar1_b": 0.8791,
+          "spread_zscore": 2.26,
+          "ar1_b": 0.8792,
           "is_high_elasticity": false
         },
         {
@@ -10928,7 +10928,7 @@
           "y": 2.32,
           "half_life_days": 10.8,
           "spread_zscore": 2.32,
-          "ar1_b": 0.9378,
+          "ar1_b": 0.9379,
           "is_high_elasticity": false
         },
         {
@@ -10952,7 +10952,7 @@
           "y": 2.39,
           "half_life_days": 29.6,
           "spread_zscore": 2.39,
-          "ar1_b": 0.9769,
+          "ar1_b": 0.9768,
           "is_high_elasticity": false
         },
         {
@@ -10964,7 +10964,7 @@
           "y": 2.43,
           "half_life_days": 9.2,
           "spread_zscore": 2.43,
-          "ar1_b": 0.9274,
+          "ar1_b": 0.9273,
           "is_high_elasticity": false
         },
         {
@@ -10984,11 +10984,11 @@
           "name": "Tech Mahindra Ltd",
           "sector": "IT & Tech Services",
           "price": 1769.6,
-          "x": 37.5,
+          "x": 37.7,
           "y": 2.48,
-          "half_life_days": 37.5,
+          "half_life_days": 37.7,
           "spread_zscore": 2.48,
-          "ar1_b": 0.9817,
+          "ar1_b": 0.9818,
           "is_high_elasticity": false
         },
         {
@@ -11000,7 +11000,7 @@
           "y": 2.57,
           "half_life_days": 16.1,
           "spread_zscore": 2.57,
-          "ar1_b": 0.9579,
+          "ar1_b": 0.958,
           "is_high_elasticity": false
         },
         {
@@ -11012,7 +11012,7 @@
           "y": 2.63,
           "half_life_days": 250.0,
           "spread_zscore": 2.63,
-          "ar1_b": 1.0107,
+          "ar1_b": 1.0108,
           "is_high_elasticity": false
         },
         {
@@ -11024,7 +11024,7 @@
           "y": 3.01,
           "half_life_days": 250.0,
           "spread_zscore": 3.01,
-          "ar1_b": 1.0102,
+          "ar1_b": 1.0104,
           "is_high_elasticity": false
         },
         {
@@ -11036,7 +11036,7 @@
           "y": 3.4,
           "half_life_days": 16.9,
           "spread_zscore": 3.4,
-          "ar1_b": 0.9598,
+          "ar1_b": 0.9599,
           "is_high_elasticity": false
         }
       ]
@@ -12672,19 +12672,6 @@
           "y": -7.53,
           "hurst_exponent": 0.578,
           "dist_50_sma": -7.53,
-          "regime": "trending",
-          "is_anti_fade": false,
-          "is_persist_breakout": false
-        },
-        {
-          "ticker": "ICICIPRULI",
-          "name": "ICICI Prudential Life Insurance Company Ltd",
-          "sector": "Financial Services",
-          "price": 412.0,
-          "x": 0.577,
-          "y": -12.07,
-          "hurst_exponent": 0.577,
-          "dist_50_sma": -12.07,
           "regime": "trending",
           "is_anti_fade": false,
           "is_persist_breakout": false

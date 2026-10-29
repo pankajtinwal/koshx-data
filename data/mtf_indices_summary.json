@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T12:18:05.169339Z",
+  "updated_at": "2026-10-29T16:20:44.428521Z",
   "total_stocks": 216,
   "total_indices": 14,
   "indices": [
@@ -8,24 +8,24 @@
       "name": "MTF Core 216 Index",
       "type": "master",
       "file": "data/mtf_master_index.json",
-      "current_value": 1567.88,
-      "prev_close": 1551.28,
-      "change_pts": 16.6,
+      "current_value": 1571.66,
+      "prev_close": 1555.02,
+      "change_pts": 16.64,
       "change_pct": 1.07,
-      "day_open": 1552.77,
-      "day_high": 1581.2,
-      "day_low": 1536.64,
-      "high_52w": 1744.58,
-      "low_52w": 1434.07,
-      "all_time_return_pct": 56.79,
+      "day_open": 1556.52,
+      "day_high": 1585.01,
+      "day_low": 1540.35,
+      "high_52w": 1748.79,
+      "low_52w": 1436.61,
+      "all_time_return_pct": 57.17,
       "returns": {
         "1d": 1.07,
         "1w": 1.14,
         "1m": -2.07,
         "3m": -7.35,
-        "6m": -3.33,
-        "1y": -6.33,
-        "3y": 56.79
+        "6m": -3.3,
+        "1y": -6.26,
+        "3y": 57.17
       },
       "constituents_count": 216,
       "constituents": [
@@ -2346,9 +2346,9 @@
             "1w": -4.52,
             "1m": -10.18,
             "3m": -19.48,
-            "6m": -21.15,
-            "1y": -31.15,
-            "3y": -20.34
+            "6m": -17.13,
+            "1y": -17.13,
+            "3y": -17.13
           }
         },
         {
@@ -5314,24 +5314,24 @@
       "name": "Financial Services",
       "type": "sector",
       "file": "data/mtf_sector_financial_services.json",
-      "current_value": 1586.21,
-      "prev_close": 1564.91,
-      "change_pts": 21.3,
+      "current_value": 1603.06,
+      "prev_close": 1581.54,
+      "change_pts": 21.52,
       "change_pct": 1.36,
-      "day_open": 1568.35,
-      "day_high": 1599.57,
-      "day_low": 1554.55,
-      "high_52w": 1812.01,
-      "low_52w": 1483.5,
-      "all_time_return_pct": 58.62,
+      "day_open": 1585.01,
+      "day_high": 1616.56,
+      "day_low": 1571.07,
+      "high_52w": 1831.26,
+      "low_52w": 1495.23,
+      "all_time_return_pct": 60.31,
       "returns": {
         "1d": 1.36,
         "1w": -0.49,
         "1m": -2.56,
         "3m": -8.88,
-        "6m": -5.47,
-        "1y": -7.35,
-        "3y": 58.62
+        "6m": -5.36,
+        "1y": -7.01,
+        "3y": 60.31
       },
       "constituents_count": 53,
       "constituents": [
@@ -5996,9 +5996,9 @@
             "1w": -4.52,
             "1m": -10.18,
             "3m": -19.48,
-            "6m": -21.15,
-            "1y": -31.15,
-            "3y": -20.34
+            "6m": -17.13,
+            "1y": -17.13,
+            "3y": -17.13
           }
         },
         {
@@ -7784,7 +7784,7 @@
       "change_pct": 3.06,
       "day_open": 1560.57,
       "day_high": 1616.47,
-      "day_low": 1554.85,
+      "day_low": 1554.86,
       "high_52w": 1850.34,
       "low_52w": 1204.9,
       "all_time_return_pct": 60.92,
@@ -7918,10 +7918,10 @@
       "prev_close": 1570.67,
       "change_pts": 43.78,
       "change_pct": 2.79,
-      "day_open": 1573.63,
+      "day_open": 1573.64,
       "day_high": 1629.85,
       "day_low": 1564.36,
-      "high_52w": 2007.59,
+      "high_52w": 2007.6,
       "low_52w": 1503.75,
       "all_time_return_pct": 61.45,
       "returns": {
