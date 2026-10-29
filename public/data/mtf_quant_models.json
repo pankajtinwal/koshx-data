@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T16:54:10.953416Z",
+  "updated_at": "2026-10-29T17:06:15.720867Z",
   "total_stocks": 216,
   "models": {
     "ema": {
@@ -8488,9 +8488,9 @@
           "name": "Vinati Organics Ltd",
           "sector": "Chemicals & Materials",
           "price": 1038.6,
-          "x": 53.2,
+          "x": 53.3,
           "y": -3.3,
-          "half_life_days": 53.2,
+          "half_life_days": 53.3,
           "spread_zscore": -3.3,
           "ar1_b": 0.9871,
           "is_high_elasticity": false
@@ -10460,7 +10460,7 @@
           "y": 1.04,
           "half_life_days": 4.1,
           "spread_zscore": 1.04,
-          "ar1_b": 0.8459,
+          "ar1_b": 0.846,
           "is_high_elasticity": false
         },
         {
@@ -10532,7 +10532,7 @@
           "y": 1.32,
           "half_life_days": 8.1,
           "spread_zscore": 1.32,
-          "ar1_b": 0.9183,
+          "ar1_b": 0.9184,
           "is_high_elasticity": false
         },
         {
