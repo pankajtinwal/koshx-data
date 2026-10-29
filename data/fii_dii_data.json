@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T09:02:15.400041Z",
+  "updated_at": "2026-10-29T12:18:14.731825Z",
   "market_date": "28-Oct-2026",
   "today": {
     "date": "28-Oct-2026",
@@ -11862,11 +11862,11 @@
     {
       "date": "2026-10-29",
       "nifty_open": 22690.65,
-      "nifty_high": 22952.45,
+      "nifty_high": 22961.95,
       "nifty_low": 22656.75,
-      "nifty_close": 22941.75,
-      "nifty_change": 242.9,
-      "nifty_change_pct": 1.07,
+      "nifty_close": 22936.75,
+      "nifty_change": 237.9,
+      "nifty_change_pct": 1.05,
       "fii_net": -709.36,
       "dii_net": 957.93,
       "combined_net": 248.57,
@@ -12286,7 +12286,7 @@
       "Oct": {
         "fii": 3401,
         "dii": 24382,
-        "nifty_ret": 1.77
+        "nifty_ret": 1.74
       }
     }
   }
