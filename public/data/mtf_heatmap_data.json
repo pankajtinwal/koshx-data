@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T05:59:03.493048Z",
+  "updated_at": "2026-10-30T06:31:11.717668Z",
   "timeframes": [
     "1D",
     "1W",
@@ -18,13 +18,13 @@
       "index_id": "mtf_sector_financial_services",
       "constituents_count": 53,
       "returns": {
-        "1d": -1.26,
-        "1w": 0.56,
-        "1m": -3.99,
-        "3m": -11.04,
-        "6m": -7.07,
-        "1y": -8.54,
-        "3y": 42.12
+        "1d": -0.97,
+        "1w": 0.86,
+        "1m": -3.71,
+        "3m": -10.78,
+        "6m": -6.8,
+        "1y": -8.28,
+        "3y": 42.57
       },
       "stocks": [
         {
@@ -32,17 +32,17 @@
           "name": "Axis Bank Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 1223.9,
-          "change_pct": -0.09,
+          "latest_close": 1227.0,
+          "change_pct": 0.16,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -0.09,
-            "1w": 0.53,
-            "1m": -0.17,
-            "3m": -0.46,
-            "6m": -3.43,
-            "1y": -1.11,
-            "3y": 24.95
+            "1d": 0.16,
+            "1w": 0.78,
+            "1m": 0.08,
+            "3m": -0.2,
+            "6m": -3.18,
+            "1y": -0.86,
+            "3y": 25.27
           }
         },
         {
@@ -50,17 +50,17 @@
           "name": "Bajaj Finserv Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 1668.0,
-          "change_pct": 0.0,
+          "latest_close": 1675.1,
+          "change_pct": 0.43,
           "weight_pct": 1.89,
           "returns": {
-            "1d": 0.0,
-            "1w": 0.79,
-            "1m": -3.64,
-            "3m": -17.8,
-            "6m": -4.45,
-            "1y": -21.05,
-            "3y": 6.48
+            "1d": 0.43,
+            "1w": 1.21,
+            "1m": -3.23,
+            "3m": -17.45,
+            "6m": -4.04,
+            "1y": -20.72,
+            "3y": 6.94
           }
         },
         {
@@ -68,17 +68,17 @@
           "name": "The Federal Bank Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 345.2,
-          "change_pct": -0.73,
+          "latest_close": 345.15,
+          "change_pct": -0.75,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -0.73,
-            "1w": 1.26,
-            "1m": 8.76,
-            "3m": -3.48,
-            "6m": 20.71,
-            "1y": 47.52,
-            "3y": 149.22
+            "1d": -0.75,
+            "1w": 1.25,
+            "1m": 8.74,
+            "3m": -3.49,
+            "6m": 20.69,
+            "1y": 47.49,
+            "3y": 149.19
           }
         },
         {
@@ -86,17 +86,17 @@
           "name": "HDFC Bank Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 688.85,
-          "change_pct": 0.81,
+          "latest_close": 695.4,
+          "change_pct": 1.77,
           "weight_pct": 1.89,
           "returns": {
-            "1d": 0.81,
-            "1w": -0.57,
-            "1m": -2.8,
-            "3m": -7.93,
-            "6m": -9.26,
-            "1y": -29.85,
-            "3y": -2.55
+            "1d": 1.77,
+            "1w": 0.38,
+            "1m": -1.88,
+            "3m": -7.05,
+            "6m": -8.4,
+            "1y": -29.18,
+            "3y": -1.63
           }
         },
         {
@@ -104,17 +104,17 @@
           "name": "HDFC Life Insurance Company Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 515.25,
-          "change_pct": -0.34,
+          "latest_close": 519.2,
+          "change_pct": 0.43,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -0.34,
-            "1w": -1.62,
-            "1m": -1.14,
-            "3m": -6.06,
-            "6m": -11.9,
-            "1y": -30.74,
-            "3y": -15.86
+            "1d": 0.43,
+            "1w": -0.87,
+            "1m": -0.38,
+            "3m": -5.34,
+            "6m": -11.22,
+            "1y": -30.21,
+            "3y": -15.21
           }
         },
         {
@@ -122,17 +122,17 @@
           "name": "ICICI Bank Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 1399.4,
-          "change_pct": 0.92,
+          "latest_close": 1404.4,
+          "change_pct": 1.28,
           "weight_pct": 1.89,
           "returns": {
-            "1d": 0.92,
-            "1w": 0.37,
-            "1m": 5.88,
-            "3m": -1.69,
-            "6m": 11.7,
-            "1y": 3.58,
-            "3y": 56.7
+            "1d": 1.28,
+            "1w": 0.73,
+            "1m": 6.26,
+            "3m": -1.33,
+            "6m": 12.1,
+            "1y": 3.95,
+            "3y": 57.26
           }
         },
         {
@@ -140,17 +140,17 @@
           "name": "ICICI Lombard General Insurance Company Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 1557.5,
-          "change_pct": -0.98,
+          "latest_close": 1558.7,
+          "change_pct": -0.9,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -0.98,
-            "1w": -2.17,
-            "1m": -1.62,
-            "3m": -3.66,
-            "6m": -10.95,
-            "1y": -22.04,
-            "3y": 15.84
+            "1d": -0.9,
+            "1w": -2.09,
+            "1m": -1.55,
+            "3m": -3.59,
+            "6m": -10.88,
+            "1y": -21.98,
+            "3y": 15.93
           }
         },
         {
@@ -158,17 +158,17 @@
           "name": "Kotak Mahindra Bank Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 458.9,
-          "change_pct": -0.02,
+          "latest_close": 461.1,
+          "change_pct": 0.46,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -0.02,
-            "1w": 6.6,
-            "1m": 10.05,
-            "3m": 17.58,
-            "6m": 19.93,
-            "1y": 7.55,
-            "3y": 32.44
+            "1d": 0.46,
+            "1w": 7.11,
+            "1m": 10.58,
+            "3m": 18.14,
+            "6m": 20.5,
+            "1y": 8.06,
+            "3y": 33.07
           }
         },
         {
@@ -176,17 +176,17 @@
           "name": "SBI Cards and Payment Services Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 532.5,
-          "change_pct": -1.39,
+          "latest_close": 535.95,
+          "change_pct": -0.75,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -1.39,
-            "1w": -2.39,
-            "1m": -7.88,
-            "3m": -19.34,
-            "6m": -17.3,
-            "1y": -39.67,
-            "3y": -27.91
+            "1d": -0.75,
+            "1w": -1.76,
+            "1m": -7.28,
+            "3m": -18.81,
+            "6m": -16.77,
+            "1y": -39.28,
+            "3y": -27.44
           }
         },
         {
@@ -194,17 +194,17 @@
           "name": "SBI Life Insurance Company Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 1656.0,
-          "change_pct": 0.24,
+          "latest_close": 1660.6,
+          "change_pct": 0.52,
           "weight_pct": 1.89,
           "returns": {
-            "1d": 0.24,
-            "1w": 0.98,
-            "1m": -2.38,
-            "3m": -12.01,
-            "6m": -8.96,
-            "1y": -15.75,
-            "3y": 21.68
+            "1d": 0.52,
+            "1w": 1.26,
+            "1m": -2.11,
+            "3m": -11.76,
+            "6m": -8.71,
+            "1y": -15.52,
+            "3y": 22.02
           }
         },
         {
@@ -212,17 +212,17 @@
           "name": "State Bank of India",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 965.1,
-          "change_pct": -0.7,
+          "latest_close": 968.25,
+          "change_pct": -0.38,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -0.7,
-            "1w": 0.68,
-            "1m": 0.58,
-            "3m": -6.06,
-            "6m": -8.04,
-            "1y": 5.15,
-            "3y": 80.18
+            "1d": -0.38,
+            "1w": 1.01,
+            "1m": 0.91,
+            "3m": -5.76,
+            "6m": -7.74,
+            "1y": 5.5,
+            "3y": 80.77
           }
         },
         {
@@ -230,17 +230,17 @@
           "name": "Life Insurance Corporation of India",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 387.1,
-          "change_pct": -2.25,
+          "latest_close": 387.65,
+          "change_pct": -2.11,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -2.25,
-            "1w": 1.47,
-            "1m": -2.05,
-            "3m": -8.85,
-            "6m": -0.7,
-            "1y": -12.03,
-            "3y": 34.55
+            "1d": -2.11,
+            "1w": 1.61,
+            "1m": -1.91,
+            "3m": -8.72,
+            "6m": -0.55,
+            "1y": -11.91,
+            "3y": 34.74
           }
         },
         {
@@ -248,17 +248,17 @@
           "name": "Max Financial Services Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 1178.2,
-          "change_pct": -2.79,
+          "latest_close": 1179.6,
+          "change_pct": -2.67,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -2.79,
-            "1w": -2.73,
-            "1m": -14.21,
-            "3m": -21.4,
-            "6m": -25.7,
-            "1y": -24.29,
-            "3y": 28.89
+            "1d": -2.67,
+            "1w": -2.62,
+            "1m": -14.11,
+            "3m": -21.31,
+            "6m": -25.61,
+            "1y": -24.2,
+            "3y": 29.04
           }
         },
         {
@@ -266,17 +266,17 @@
           "name": "LIC Housing Finance Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 502.7,
-          "change_pct": -2.2,
+          "latest_close": 502.75,
+          "change_pct": -2.19,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -2.2,
-            "1w": 2.59,
-            "1m": -5.19,
-            "3m": -1.97,
+            "1d": -2.19,
+            "1w": 2.6,
+            "1m": -5.18,
+            "3m": -1.96,
             "6m": -7.55,
-            "1y": -10.11,
-            "3y": 15.16
+            "1y": -10.1,
+            "3y": 15.17
           }
         },
         {
@@ -284,17 +284,17 @@
           "name": "Bajaj Finance Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 938.35,
-          "change_pct": -0.06,
+          "latest_close": 940.6,
+          "change_pct": 0.18,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -0.06,
-            "1w": 1.01,
-            "1m": -2.19,
-            "3m": -17.78,
-            "6m": 0.76,
-            "1y": -10.28,
-            "3y": 27.42
+            "1d": 0.18,
+            "1w": 1.25,
+            "1m": -1.96,
+            "3m": -17.58,
+            "6m": 1.0,
+            "1y": -10.07,
+            "3y": 27.73
           }
         },
         {
@@ -320,17 +320,17 @@
           "name": "IDFC First Bank Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 72.04,
-          "change_pct": -1.83,
+          "latest_close": 72.39,
+          "change_pct": -1.35,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -1.83,
-            "1w": -0.36,
-            "1m": -11.54,
-            "3m": -14.67,
-            "6m": 3.74,
-            "1y": -8.46,
-            "3y": -12.35
+            "1d": -1.35,
+            "1w": 0.12,
+            "1m": -11.11,
+            "3m": -14.26,
+            "6m": 4.25,
+            "1y": -8.02,
+            "3y": -11.92
           }
         },
         {
@@ -338,17 +338,17 @@
           "name": "Bank of Baroda",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 240.79,
-          "change_pct": -0.22,
+          "latest_close": 241.9,
+          "change_pct": 0.24,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -0.22,
-            "1w": 4.28,
-            "1m": 4.44,
-            "3m": -0.75,
-            "6m": -5.65,
-            "1y": -8.86,
-            "3y": 34.72
+            "1d": 0.24,
+            "1w": 4.76,
+            "1m": 4.92,
+            "3m": -0.29,
+            "6m": -5.22,
+            "1y": -8.44,
+            "3y": 35.34
           }
         },
         {
@@ -356,17 +356,17 @@
           "name": "Punjab National Bank",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 123.42,
-          "change_pct": -0.39,
+          "latest_close": 123.88,
+          "change_pct": -0.02,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -0.39,
-            "1w": 2.53,
-            "1m": 9.16,
-            "3m": 9.5,
-            "6m": 16.14,
-            "1y": 5.76,
-            "3y": 81.15
+            "1d": -0.02,
+            "1w": 2.92,
+            "1m": 9.57,
+            "3m": 9.91,
+            "6m": 16.57,
+            "1y": 6.15,
+            "3y": 81.83
           }
         },
         {
@@ -374,17 +374,17 @@
           "name": "Canara Bank",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 118.64,
-          "change_pct": -0.96,
+          "latest_close": 119.02,
+          "change_pct": -0.64,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -0.96,
-            "1w": 2.13,
-            "1m": -0.67,
-            "3m": -5.07,
-            "6m": -8.98,
-            "1y": -7.78,
-            "3y": 69.63
+            "1d": -0.64,
+            "1w": 2.46,
+            "1m": -0.35,
+            "3m": -4.77,
+            "6m": -8.69,
+            "1y": -7.49,
+            "3y": 70.17
           }
         },
         {
@@ -392,17 +392,17 @@
           "name": "Jio Financial Services Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 206.5,
-          "change_pct": -0.24,
+          "latest_close": 206.46,
+          "change_pct": -0.26,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -0.24,
-            "1w": 0.72,
-            "1m": -4.79,
-            "3m": -19.29,
-            "6m": -15.99,
-            "1y": -33.19,
-            "3y": -5.34
+            "1d": -0.26,
+            "1w": 0.7,
+            "1m": -4.8,
+            "3m": -19.31,
+            "6m": -16.0,
+            "1y": -33.2,
+            "3y": -5.36
           }
         },
         {
@@ -410,17 +410,17 @@
           "name": "REC Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 288.2,
-          "change_pct": -1.52,
+          "latest_close": 288.45,
+          "change_pct": -1.44,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -1.52,
-            "1w": -0.78,
-            "1m": -2.46,
-            "3m": -21.45,
-            "6m": -16.37,
-            "1y": -19.95,
-            "3y": 15.64
+            "1d": -1.44,
+            "1w": -0.7,
+            "1m": -2.38,
+            "3m": -21.38,
+            "6m": -16.29,
+            "1y": -19.88,
+            "3y": 15.74
           }
         },
         {
@@ -428,17 +428,17 @@
           "name": "Power Finance Corporation Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 316.6,
-          "change_pct": -1.25,
+          "latest_close": 317.45,
+          "change_pct": -0.98,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -1.25,
-            "1w": 0.19,
-            "1m": -2.73,
-            "3m": -24.58,
-            "6m": -27.96,
-            "1y": -18.0,
-            "3y": 45.95
+            "1d": -0.98,
+            "1w": 0.46,
+            "1m": -2.47,
+            "3m": -24.38,
+            "6m": -27.77,
+            "1y": -17.78,
+            "3y": 46.34
           }
         },
         {
@@ -446,17 +446,17 @@
           "name": "HDFC Asset Management Company Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 2289.9,
-          "change_pct": -1.16,
+          "latest_close": 2305.7,
+          "change_pct": -0.47,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -1.16,
-            "1w": 1.77,
-            "1m": 0.4,
-            "3m": -12.46,
-            "6m": -13.74,
-            "1y": -12.76,
-            "3y": 77.48
+            "1d": -0.47,
+            "1w": 2.48,
+            "1m": 1.1,
+            "3m": -11.85,
+            "6m": -13.14,
+            "1y": -12.16,
+            "3y": 78.71
           }
         },
         {
@@ -464,17 +464,17 @@
           "name": "Aditya Birla Capital Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 357.2,
-          "change_pct": -0.32,
+          "latest_close": 359.3,
+          "change_pct": 0.27,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -0.32,
-            "1w": 2.87,
-            "1m": -6.15,
-            "3m": -11.65,
-            "6m": 3.39,
-            "1y": 9.3,
-            "3y": 107.13
+            "1d": 0.27,
+            "1w": 3.47,
+            "1m": -5.6,
+            "3m": -11.13,
+            "6m": 3.99,
+            "1y": 9.94,
+            "3y": 108.35
           }
         },
         {
@@ -482,17 +482,17 @@
           "name": "AU Small Finance Bank Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 867.6,
-          "change_pct": -1.49,
+          "latest_close": 869.3,
+          "change_pct": -1.29,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -1.49,
-            "1w": -7.0,
-            "1m": -14.12,
-            "3m": -17.16,
-            "6m": -14.52,
-            "1y": -1.12,
-            "3y": 30.16
+            "1d": -1.29,
+            "1w": -6.82,
+            "1m": -13.96,
+            "3m": -17.0,
+            "6m": -14.35,
+            "1y": -0.93,
+            "3y": 30.41
           }
         },
         {
@@ -500,17 +500,17 @@
           "name": "IndusInd Bank Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 850.35,
-          "change_pct": -2.03,
+          "latest_close": 851.15,
+          "change_pct": -1.94,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -2.03,
-            "1w": 1.84,
-            "1m": -5.66,
-            "3m": -16.01,
-            "6m": -7.02,
-            "1y": 6.34,
-            "3y": -40.25
+            "1d": -1.94,
+            "1w": 1.93,
+            "1m": -5.57,
+            "3m": -15.93,
+            "6m": -6.93,
+            "1y": 6.44,
+            "3y": -40.19
           }
         },
         {
@@ -518,17 +518,17 @@
           "name": "Cholamandalam Investment and Finance Company Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 1615.1,
-          "change_pct": 0.68,
+          "latest_close": 1614.6,
+          "change_pct": 0.65,
           "weight_pct": 1.89,
           "returns": {
-            "1d": 0.68,
-            "1w": 10.34,
-            "1m": -0.3,
-            "3m": -12.69,
-            "6m": 3.38,
-            "1y": -5.54,
-            "3y": 42.6
+            "1d": 0.65,
+            "1w": 10.3,
+            "1m": -0.33,
+            "3m": -12.72,
+            "6m": 3.35,
+            "1y": -5.57,
+            "3y": 42.56
           }
         },
         {
@@ -536,17 +536,17 @@
           "name": "Computer Age Management Services Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 659.95,
-          "change_pct": -5.31,
+          "latest_close": 661.65,
+          "change_pct": -5.06,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -5.31,
-            "1w": 1.53,
-            "1m": -1.65,
-            "3m": -16.84,
-            "6m": -9.9,
-            "1y": -15.18,
-            "3y": 54.28
+            "1d": -5.06,
+            "1w": 1.79,
+            "1m": -1.39,
+            "3m": -16.63,
+            "6m": -9.67,
+            "1y": -14.96,
+            "3y": 54.67
           }
         },
         {
@@ -554,17 +554,17 @@
           "name": "Indian Bank",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 868.4,
-          "change_pct": 0.5,
+          "latest_close": 874.15,
+          "change_pct": 1.16,
           "weight_pct": 1.89,
           "returns": {
-            "1d": 0.5,
-            "1w": 3.73,
-            "1m": 7.76,
-            "3m": 3.81,
-            "6m": 4.11,
-            "1y": 3.75,
-            "3y": 121.44
+            "1d": 1.16,
+            "1w": 4.42,
+            "1m": 8.47,
+            "3m": 4.5,
+            "6m": 4.8,
+            "1y": 4.44,
+            "3y": 122.91
           }
         },
         {
@@ -572,17 +572,17 @@
           "name": "Indian Railway Finance Corporation Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 73.98,
-          "change_pct": -2.29,
+          "latest_close": 74.09,
+          "change_pct": -2.14,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -2.29,
-            "1w": -0.63,
-            "1m": -5.28,
-            "3m": -15.76,
-            "6m": -27.93,
-            "1y": -38.77,
-            "3y": 8.24
+            "1d": -2.14,
+            "1w": -0.48,
+            "1m": -5.13,
+            "3m": -15.63,
+            "6m": -27.82,
+            "1y": -38.68,
+            "3y": 8.4
           }
         },
         {
@@ -590,17 +590,17 @@
           "name": "Yes Bank Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 15.15,
-          "change_pct": -1.81,
+          "latest_close": 15.25,
+          "change_pct": -1.17,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -1.81,
-            "1w": -4.11,
-            "1m": -27.68,
-            "3m": -33.47,
-            "6m": -23.98,
-            "1y": -31.85,
-            "3y": -5.02
+            "1d": -1.17,
+            "1w": -3.48,
+            "1m": -27.21,
+            "3m": -33.03,
+            "6m": -23.48,
+            "1y": -31.4,
+            "3y": -4.39
           }
         },
         {
@@ -608,17 +608,17 @@
           "name": "L&T Finance Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 246.2,
-          "change_pct": -1.93,
+          "latest_close": 245.8,
+          "change_pct": -2.09,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -1.93,
-            "1w": 3.66,
-            "1m": -7.09,
-            "3m": -20.9,
-            "6m": -11.08,
-            "1y": -7.15,
-            "3y": 92.66
+            "1d": -2.09,
+            "1w": 3.49,
+            "1m": -7.25,
+            "3m": -21.03,
+            "6m": -11.23,
+            "1y": -7.3,
+            "3y": 92.35
           }
         },
         {
@@ -626,17 +626,17 @@
           "name": "Central Depository Services (India) Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 1262.7,
-          "change_pct": -1.51,
+          "latest_close": 1268.4,
+          "change_pct": -1.06,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -1.51,
-            "1w": 6.24,
-            "1m": -0.1,
-            "3m": -5.27,
-            "6m": 0.17,
-            "1y": -21.09,
-            "3y": 78.07
+            "1d": -1.06,
+            "1w": 6.72,
+            "1m": 0.35,
+            "3m": -4.85,
+            "6m": 0.63,
+            "1y": -20.73,
+            "3y": 78.87
           }
         },
         {
@@ -644,17 +644,17 @@
           "name": "Union Bank of India",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 186.63,
-          "change_pct": 0.07,
+          "latest_close": 187.25,
+          "change_pct": 0.4,
           "weight_pct": 1.89,
           "returns": {
-            "1d": 0.07,
-            "1w": 4.32,
-            "1m": 9.14,
-            "3m": 8.99,
-            "6m": 15.79,
-            "1y": 35.0,
-            "3y": 100.7
+            "1d": 0.4,
+            "1w": 4.67,
+            "1m": 9.5,
+            "3m": 9.35,
+            "6m": 16.17,
+            "1y": 35.45,
+            "3y": 101.37
           }
         },
         {
@@ -662,17 +662,17 @@
           "name": "PNB Housing Finance Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 1081.0,
-          "change_pct": -2.61,
+          "latest_close": 1079.3,
+          "change_pct": -2.77,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -2.61,
-            "1w": -0.74,
-            "1m": -3.48,
-            "3m": 2.65,
-            "6m": 4.19,
-            "1y": 16.57,
-            "3y": 48.7
+            "1d": -2.77,
+            "1w": -0.9,
+            "1m": -3.63,
+            "3m": 2.49,
+            "6m": 4.02,
+            "1y": 16.39,
+            "3y": 48.46
           }
         },
         {
@@ -680,17 +680,17 @@
           "name": "Bajaj Holdings & Investment Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 10249.0,
-          "change_pct": 0.88,
+          "latest_close": 10223.0,
+          "change_pct": 0.62,
           "weight_pct": 1.89,
           "returns": {
-            "1d": 0.88,
-            "1w": -8.29,
-            "1m": -5.0,
-            "3m": -9.12,
-            "6m": 1.65,
-            "1y": -16.15,
-            "3y": 53.02
+            "1d": 0.62,
+            "1w": -8.52,
+            "1m": -5.24,
+            "3m": -9.35,
+            "6m": 1.39,
+            "1y": -16.36,
+            "3y": 52.63
           }
         },
         {
@@ -698,17 +698,17 @@
           "name": "360 ONE WAM Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 996.4,
-          "change_pct": -2.57,
+          "latest_close": 1002.8,
+          "change_pct": -1.95,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -2.57,
-            "1w": -0.07,
-            "1m": -2.56,
-            "3m": -11.6,
-            "6m": -3.0,
-            "1y": -9.84,
-            "3y": 98.62
+            "1d": -1.95,
+            "1w": 0.57,
+            "1m": -1.94,
+            "3m": -11.03,
+            "6m": -2.38,
+            "1y": -9.26,
+            "3y": 99.9
           }
         },
         {
@@ -716,17 +716,17 @@
           "name": "RBL Bank Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 354.0,
-          "change_pct": -1.91,
+          "latest_close": 355.05,
+          "change_pct": -1.62,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -1.91,
-            "1w": 2.42,
-            "1m": -12.24,
-            "3m": -5.48,
-            "6m": 5.46,
-            "1y": 9.22,
-            "3y": 62.64
+            "1d": -1.62,
+            "1w": 2.72,
+            "1m": -11.97,
+            "3m": -5.2,
+            "6m": 5.77,
+            "1y": 9.55,
+            "3y": 63.12
           }
         },
         {
@@ -734,17 +734,17 @@
           "name": "Shriram Finance Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 825.9,
-          "change_pct": -1.81,
+          "latest_close": 830.2,
+          "change_pct": -1.3,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -1.81,
-            "1w": -3.77,
-            "1m": -15.29,
-            "3m": -20.47,
-            "6m": -10.69,
-            "1y": 14.08,
-            "3y": 132.13
+            "1d": -1.3,
+            "1w": -3.27,
+            "1m": -14.85,
+            "3m": -20.06,
+            "6m": -10.23,
+            "1y": 14.68,
+            "3y": 133.34
           }
         },
         {
@@ -752,17 +752,17 @@
           "name": "Bank of India",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 134.91,
-          "change_pct": -0.58,
+          "latest_close": 134.54,
+          "change_pct": -0.85,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -0.58,
-            "1w": 2.98,
-            "1m": 3.59,
-            "3m": -2.2,
-            "6m": -0.4,
-            "1y": 0.34,
-            "3y": 54.06
+            "1d": -0.85,
+            "1w": 2.7,
+            "1m": 3.3,
+            "3m": -2.47,
+            "6m": -0.67,
+            "1y": 0.07,
+            "3y": 53.64
           }
         },
         {
@@ -770,17 +770,17 @@
           "name": "Indian Renewable Energy Development Agency Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 100.03,
-          "change_pct": -1.16,
+          "latest_close": 100.0,
+          "change_pct": -1.19,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -1.16,
-            "1w": -0.24,
-            "1m": -10.43,
-            "3m": -15.8,
-            "6m": -25.47,
-            "1y": -34.16,
-            "3y": 68.71
+            "1d": -1.19,
+            "1w": -0.27,
+            "1m": -10.46,
+            "3m": -15.82,
+            "6m": -25.49,
+            "1y": -34.18,
+            "3y": 68.66
           }
         },
         {
@@ -788,17 +788,17 @@
           "name": "PB Fintech Ltd (Policybazaar)",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 1011.7,
-          "change_pct": -0.64,
+          "latest_close": 1012.5,
+          "change_pct": -0.56,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -0.64,
-            "1w": -0.33,
-            "1m": -4.91,
-            "3m": -36.83,
-            "6m": -39.28,
-            "1y": -45.15,
-            "3y": 44.38
+            "1d": -0.56,
+            "1w": -0.25,
+            "1m": -4.83,
+            "3m": -36.78,
+            "6m": -39.23,
+            "1y": -45.11,
+            "3y": 44.5
           }
         },
         {
@@ -806,17 +806,17 @@
           "name": "Muthoot Finance Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 2432.1,
-          "change_pct": -2.6,
+          "latest_close": 2443.5,
+          "change_pct": -2.15,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -2.6,
-            "1w": 2.49,
-            "1m": -11.14,
-            "3m": -22.04,
-            "6m": -28.97,
-            "1y": -23.15,
-            "3y": 93.95
+            "1d": -2.15,
+            "1w": 2.97,
+            "1m": -10.73,
+            "3m": -21.67,
+            "6m": -28.64,
+            "1y": -22.79,
+            "3y": 94.86
           }
         },
         {
@@ -824,17 +824,17 @@
           "name": "Indian Energy Exchange Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 101.95,
-          "change_pct": -3.23,
+          "latest_close": 101.91,
+          "change_pct": -3.27,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -3.23,
-            "1w": 0.74,
-            "1m": -4.72,
-            "3m": -22.91,
-            "6m": -17.28,
-            "1y": -26.99,
-            "3y": -13.94
+            "1d": -3.27,
+            "1w": 0.7,
+            "1m": -4.76,
+            "3m": -22.94,
+            "6m": -17.31,
+            "1y": -27.02,
+            "3y": -13.97
           }
         },
         {
@@ -842,17 +842,17 @@
           "name": "Nippon Life India Asset Management Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 895.9,
-          "change_pct": -3.03,
+          "latest_close": 911.0,
+          "change_pct": -1.4,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -3.03,
-            "1w": -1.91,
-            "1m": -15.42,
-            "3m": -22.08,
-            "6m": -9.41,
-            "1y": 6.03,
-            "3y": 149.27
+            "1d": -1.4,
+            "1w": -0.25,
+            "1m": -13.99,
+            "3m": -20.76,
+            "6m": -7.88,
+            "1y": 7.81,
+            "3y": 153.47
           }
         },
         {
@@ -860,17 +860,17 @@
           "name": "KFin Technologies Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 840.0,
-          "change_pct": -2.3,
+          "latest_close": 846.7,
+          "change_pct": -1.52,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -2.3,
-            "1w": 5.13,
-            "1m": 0.0,
-            "3m": -10.44,
-            "6m": -4.95,
-            "1y": -23.44,
-            "3y": 90.78
+            "1d": -1.52,
+            "1w": 5.97,
+            "1m": 0.8,
+            "3m": -9.72,
+            "6m": -4.19,
+            "1y": -22.83,
+            "3y": 92.31
           }
         },
         {
@@ -878,17 +878,17 @@
           "name": "ICRA Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 4298.2,
-          "change_pct": -3.14,
+          "latest_close": 4320.0,
+          "change_pct": -2.65,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -3.14,
-            "1w": -3.9,
-            "1m": 1.56,
-            "3m": -12.34,
-            "6m": -19.07,
-            "1y": -32.66,
-            "3y": -17.53
+            "1d": -2.65,
+            "1w": -3.41,
+            "1m": 2.08,
+            "3m": -11.9,
+            "6m": -18.66,
+            "1y": -32.32,
+            "3y": -17.11
           }
         },
         {
@@ -896,17 +896,17 @@
           "name": "Star Health and Allied Insurance Company Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 528.85,
-          "change_pct": -0.67,
+          "latest_close": 529.6,
+          "change_pct": -0.53,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -0.67,
-            "1w": -0.28,
-            "1m": -1.08,
-            "3m": -12.0,
-            "6m": 0.61,
-            "1y": 9.94,
-            "3y": -8.82
+            "1d": -0.53,
+            "1w": -0.14,
+            "1m": -0.94,
+            "3m": -11.88,
+            "6m": 0.75,
+            "1y": 10.09,
+            "3y": -8.69
           }
         },
         {
@@ -914,17 +914,17 @@
           "name": "Canara HSBC Life Insurance Company Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 122.73,
-          "change_pct": -1.45,
+          "latest_close": 123.35,
+          "change_pct": -0.96,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -1.45,
-            "1w": -1.62,
-            "1m": -17.36,
-            "3m": -15.97,
-            "6m": -12.91,
-            "1y": 4.16,
-            "3y": 10.45
+            "1d": -0.96,
+            "1w": -1.12,
+            "1m": -16.94,
+            "3m": -15.55,
+            "6m": -12.47,
+            "1y": 4.68,
+            "3y": 11.01
           }
         },
         {
@@ -932,17 +932,17 @@
           "name": "Motilal Oswal Financial Services Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 943.95,
-          "change_pct": -4.27,
+          "latest_close": 945.8,
+          "change_pct": -4.09,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -4.27,
-            "1w": 1.96,
-            "1m": -5.04,
-            "3m": 10.8,
-            "6m": 17.96,
-            "1y": -7.19,
-            "3y": -6.87
+            "1d": -4.09,
+            "1w": 2.16,
+            "1m": -4.85,
+            "3m": 11.02,
+            "6m": 18.19,
+            "1y": -7.01,
+            "3y": -6.69
           }
         },
         {
@@ -950,17 +950,17 @@
           "name": "ICICI Prudential Asset Management Company Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 2714.8,
-          "change_pct": -0.99,
+          "latest_close": 2702.0,
+          "change_pct": -1.46,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -0.99,
-            "1w": 2.38,
-            "1m": -12.5,
-            "3m": -11.92,
-            "6m": -16.26,
-            "1y": 7.11,
-            "3y": 7.11
+            "1d": -1.46,
+            "1w": 1.89,
+            "1m": -12.92,
+            "3m": -12.34,
+            "6m": -16.66,
+            "1y": 6.6,
+            "3y": 6.6
           }
         },
         {
@@ -968,17 +968,17 @@
           "name": "Piramal Finance Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 1824.2,
-          "change_pct": -2.18,
+          "latest_close": 1822.4,
+          "change_pct": -2.27,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -2.18,
-            "1w": -2.68,
-            "1m": -10.75,
-            "3m": -11.25,
-            "6m": -8.21,
-            "1y": 38.67,
-            "3y": 38.67
+            "1d": -2.27,
+            "1w": -2.77,
+            "1m": -10.84,
+            "3m": -11.34,
+            "6m": -8.3,
+            "1y": 38.53,
+            "3y": 38.53
           }
         }
       ]
@@ -989,13 +989,13 @@
       "index_id": "mtf_sector_consumer_goods_retail",
       "constituents_count": 26,
       "returns": {
-        "1d": -0.5,
-        "1w": 2.36,
-        "1m": -2.78,
-        "3m": -11.07,
-        "6m": -7.8,
-        "1y": -15.29,
-        "3y": 24.4
+        "1d": -0.55,
+        "1w": 2.3,
+        "1m": -2.83,
+        "3m": -11.12,
+        "6m": -7.83,
+        "1y": -15.34,
+        "3y": 24.36
       },
       "stocks": [
         {
@@ -1003,17 +1003,17 @@
           "name": "Asian Paints Ltd",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 2302.3,
-          "change_pct": 0.01,
+          "latest_close": 2309.2,
+          "change_pct": 0.31,
           "weight_pct": 3.85,
           "returns": {
-            "1d": 0.01,
-            "1w": -0.2,
-            "1m": -4.17,
-            "3m": -16.2,
-            "6m": -5.0,
-            "1y": -7.83,
-            "3y": -20.61
+            "1d": 0.31,
+            "1w": 0.1,
+            "1m": -3.89,
+            "3m": -15.95,
+            "6m": -4.72,
+            "1y": -7.55,
+            "3y": -20.37
           }
         },
         {
@@ -1021,17 +1021,17 @@
           "name": "Britannia Industries Ltd",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 4581.9,
-          "change_pct": -1.57,
+          "latest_close": 4596.9,
+          "change_pct": -1.25,
           "weight_pct": 3.85,
           "returns": {
-            "1d": -1.57,
-            "1w": 0.97,
-            "1m": -5.14,
-            "3m": -15.41,
-            "6m": -18.65,
-            "1y": -20.5,
-            "3y": 8.0
+            "1d": -1.25,
+            "1w": 1.3,
+            "1m": -4.83,
+            "3m": -15.13,
+            "6m": -18.38,
+            "1y": -20.24,
+            "3y": 8.35
           }
         },
         {
@@ -1039,17 +1039,17 @@
           "name": "Colgate-Palmolive (India) Ltd",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 1590.0,
-          "change_pct": -2.44,
+          "latest_close": 1584.8,
+          "change_pct": -2.76,
           "weight_pct": 3.85,
           "returns": {
-            "1d": -2.44,
-            "1w": -0.93,
-            "1m": -9.83,
-            "3m": -23.41,
-            "6m": -23.25,
-            "1y": -27.9,
-            "3y": -19.73
+            "1d": -2.76,
+            "1w": -1.26,
+            "1m": -10.12,
+            "3m": -23.66,
+            "6m": -23.51,
+            "1y": -28.13,
+            "3y": -19.99
           }
         },
         {
@@ -1057,17 +1057,17 @@
           "name": "Dabur India Ltd",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 366.55,
-          "change_pct": -0.93,
+          "latest_close": 366.95,
+          "change_pct": -0.82,
           "weight_pct": 3.85,
           "returns": {
-            "1d": -0.93,
-            "1w": 0.98,
-            "1m": -3.56,
-            "3m": -13.03,
-            "6m": -15.9,
-            "1y": -25.58,
-            "3y": -27.67
+            "1d": -0.82,
+            "1w": 1.09,
+            "1m": -3.46,
+            "3m": -12.93,
+            "6m": -15.81,
+            "1y": -25.5,
+            "3y": -27.59
           }
         },
         {
@@ -1075,17 +1075,17 @@
           "name": "Godrej Consumer Products Ltd",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 808.1,
-          "change_pct": -3.45,
+          "latest_close": 809.05,
+          "change_pct": -3.34,
           "weight_pct": 3.85,
           "returns": {
-            "1d": -3.45,
-            "1w": -5.63,
-            "1m": -4.93,
-            "3m": -24.09,
-            "6m": -23.47,
-            "1y": -26.0,
-            "3y": -14.23
+            "1d": -3.34,
+            "1w": -5.52,
+            "1m": -4.82,
+            "3m": -24.0,
+            "6m": -23.38,
+            "1y": -25.91,
+            "3y": -14.13
           }
         },
         {
@@ -1093,17 +1093,17 @@
           "name": "Hindustan Unilever Ltd",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 1852.1,
-          "change_pct": -0.33,
+          "latest_close": 1845.6,
+          "change_pct": -0.68,
           "weight_pct": 3.85,
           "returns": {
-            "1d": -0.33,
-            "1w": 2.06,
-            "1m": -1.44,
-            "3m": -11.86,
-            "6m": -16.88,
-            "1y": -23.65,
-            "3y": -21.07
+            "1d": -0.68,
+            "1w": 1.7,
+            "1m": -1.78,
+            "3m": -12.17,
+            "6m": -17.17,
+            "1y": -23.91,
+            "3y": -21.34
           }
         },
         {
@@ -1111,17 +1111,17 @@
           "name": "ITC Ltd",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 263.65,
-          "change_pct": -0.51,
+          "latest_close": 263.95,
+          "change_pct": -0.4,
           "weight_pct": 3.85,
           "returns": {
-            "1d": -0.51,
-            "1w": 2.23,
-            "1m": 0.34,
-            "3m": -6.17,
-            "6m": -13.99,
-            "1y": -33.97,
-            "3y": -28.3
+            "1d": -0.4,
+            "1w": 2.35,
+            "1m": 0.46,
+            "3m": -6.07,
+            "6m": -13.9,
+            "1y": -33.89,
+            "3y": -28.22
           }
         },
         {
@@ -1129,17 +1129,17 @@
           "name": "Marico Ltd",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 801.8,
-          "change_pct": -0.14,
+          "latest_close": 798.25,
+          "change_pct": -0.58,
           "weight_pct": 3.85,
           "returns": {
-            "1d": -0.14,
-            "1w": 4.61,
-            "1m": 2.01,
-            "3m": -7.91,
-            "6m": 3.93,
-            "1y": 11.64,
-            "3y": 55.23
+            "1d": -0.58,
+            "1w": 4.14,
+            "1m": 1.56,
+            "3m": -8.32,
+            "6m": 3.47,
+            "1y": 11.14,
+            "3y": 54.54
           }
         },
         {
@@ -1147,17 +1147,17 @@
           "name": "United Spirits Ltd",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 1330.5,
-          "change_pct": 3.18,
+          "latest_close": 1332.9,
+          "change_pct": 3.37,
           "weight_pct": 3.85,
           "returns": {
-            "1d": 3.18,
-            "1w": 6.27,
-            "1m": -1.74,
-            "3m": -12.23,
-            "6m": 1.14,
-            "1y": -3.43,
-            "3y": 32.65
+            "1d": 3.37,
+            "1w": 6.46,
+            "1m": -1.56,
+            "3m": -12.07,
+            "6m": 1.33,
+            "1y": -3.25,
+            "3y": 32.89
           }
         },
         {
@@ -1165,17 +1165,17 @@
           "name": "Nestle India Ltd",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 1176.4,
-          "change_pct": -1.03,
+          "latest_close": 1174.2,
+          "change_pct": -1.21,
           "weight_pct": 3.85,
           "returns": {
-            "1d": -1.03,
-            "1w": 0.12,
-            "1m": -10.2,
-            "3m": -22.07,
-            "6m": -18.96,
-            "1y": -7.15,
-            "3y": 0.41
+            "1d": -1.21,
+            "1w": -0.07,
+            "1m": -10.37,
+            "3m": -22.22,
+            "6m": -19.11,
+            "1y": -7.32,
+            "3y": 0.22
           }
         },
         {
@@ -1183,17 +1183,17 @@
           "name": "Page Industries Ltd",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 34025.0,
-          "change_pct": -0.37,
+          "latest_close": 34055.0,
+          "change_pct": -0.28,
           "weight_pct": 3.85,
           "returns": {
-            "1d": -0.37,
-            "1w": 0.58,
-            "1m": -6.49,
-            "3m": -15.26,
-            "6m": -6.63,
-            "1y": -15.54,
-            "3y": -5.58
+            "1d": -0.28,
+            "1w": 0.67,
+            "1m": -6.4,
+            "3m": -15.19,
+            "6m": -6.54,
+            "1y": -15.47,
+            "3y": -5.5
           }
         },
         {
@@ -1201,17 +1201,17 @@
           "name": "Tata Consumer Products Ltd",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 1015.0,
-          "change_pct": -0.59,
+          "latest_close": 1015.5,
+          "change_pct": -0.54,
           "weight_pct": 3.85,
           "returns": {
-            "1d": -0.59,
-            "1w": 5.3,
-            "1m": 6.9,
-            "3m": -6.29,
-            "6m": -10.57,
-            "1y": -13.0,
-            "3y": 15.3
+            "1d": -0.54,
+            "1w": 5.35,
+            "1m": 6.95,
+            "3m": -6.24,
+            "6m": -10.53,
+            "1y": -12.96,
+            "3y": 15.36
           }
         },
         {
@@ -1219,17 +1219,17 @@
           "name": "Titan Company Ltd",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 4431.9,
-          "change_pct": -0.05,
+          "latest_close": 4453.0,
+          "change_pct": 0.43,
           "weight_pct": 3.85,
           "returns": {
-            "1d": -0.05,
-            "1w": 3.07,
-            "1m": -3.38,
-            "3m": -9.09,
-            "6m": 1.4,
-            "1y": 18.55,
-            "3y": 40.28
+            "1d": 0.43,
+            "1w": 3.57,
+            "1m": -2.92,
+            "3m": -8.66,
+            "6m": 1.88,
+            "1y": 19.11,
+            "3y": 40.95
           }
         },
         {
@@ -1237,17 +1237,17 @@
           "name": "Avenue Supermarts Ltd (DMart)",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 3181.0,
-          "change_pct": 0.19,
+          "latest_close": 3175.0,
+          "change_pct": 0.0,
           "weight_pct": 3.85,
           "returns": {
-            "1d": 0.19,
-            "1w": 0.74,
-            "1m": -16.32,
-            "3m": -18.87,
-            "6m": -30.64,
-            "1y": -23.55,
-            "3y": -12.45
+            "1d": 0.0,
+            "1w": 0.55,
+            "1m": -16.48,
+            "3m": -19.03,
+            "6m": -30.77,
+            "1y": -23.7,
+            "3y": -12.62
           }
         },
         {
@@ -1255,17 +1255,17 @@
           "name": "The Indian Hotels Company Ltd",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 816.3,
-          "change_pct": 0.78,
+          "latest_close": 820.2,
+          "change_pct": 1.26,
           "weight_pct": 3.85,
           "returns": {
-            "1d": 0.78,
-            "1w": 4.42,
-            "1m": 12.03,
-            "3m": 10.53,
-            "6m": 28.95,
-            "1y": 9.38,
-            "3y": 115.13
+            "1d": 1.26,
+            "1w": 4.92,
+            "1m": 12.56,
+            "3m": 11.06,
+            "6m": 29.57,
+            "1y": 9.9,
+            "3y": 116.16
           }
         },
         {
@@ -1273,17 +1273,17 @@
           "name": "Varun Beverages Ltd",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 411.8,
-          "change_pct": -0.72,
+          "latest_close": 399.3,
+          "change_pct": -3.74,
           "weight_pct": 3.85,
           "returns": {
-            "1d": -0.72,
-            "1w": 4.23,
-            "1m": -4.68,
-            "3m": -6.9,
-            "6m": -19.75,
-            "1y": -14.86,
-            "3y": 14.17
+            "1d": -3.74,
+            "1w": 1.06,
+            "1m": -7.57,
+            "3m": -9.72,
+            "6m": -22.18,
+            "1y": -17.44,
+            "3y": 10.71
           }
         },
         {
@@ -1291,17 +1291,17 @@
           "name": "FSN E-Commerce Ventures Ltd (Nykaa)",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 349.3,
-          "change_pct": -1.02,
+          "latest_close": 349.75,
+          "change_pct": -0.89,
           "weight_pct": 3.85,
           "returns": {
-            "1d": -1.02,
-            "1w": 9.4,
-            "1m": 9.16,
-            "3m": 4.77,
-            "6m": 31.93,
-            "1y": 36.04,
-            "3y": 150.66
+            "1d": -0.89,
+            "1w": 9.54,
+            "1m": 9.3,
+            "3m": 4.9,
+            "6m": 32.1,
+            "1y": 36.21,
+            "3y": 150.99
           }
         },
         {
@@ -1309,17 +1309,17 @@
           "name": "Jubilant FoodWorks Ltd",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 423.75,
-          "change_pct": 0.57,
+          "latest_close": 426.2,
+          "change_pct": 1.15,
           "weight_pct": 3.85,
           "returns": {
-            "1d": 0.57,
-            "1w": 4.89,
-            "1m": -7.21,
-            "3m": -3.31,
-            "6m": -11.21,
-            "1y": -30.7,
-            "3y": -14.85
+            "1d": 1.15,
+            "1w": 5.5,
+            "1m": -6.68,
+            "3m": -2.75,
+            "6m": -10.69,
+            "1y": -30.3,
+            "3y": -14.35
           }
         },
         {
@@ -1327,17 +1327,17 @@
           "name": "Eternal Ltd",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 343.4,
-          "change_pct": 1.64,
+          "latest_close": 343.3,
+          "change_pct": 1.61,
           "weight_pct": 3.85,
           "returns": {
-            "1d": 1.64,
-            "1w": 8.19,
-            "1m": 7.31,
-            "3m": 13.54,
-            "6m": 39.01,
-            "1y": 4.27,
-            "3y": 226.74
+            "1d": 1.61,
+            "1w": 8.16,
+            "1m": 7.28,
+            "3m": 13.51,
+            "6m": 38.97,
+            "1y": 4.24,
+            "3y": 226.64
           }
         },
         {
@@ -1345,17 +1345,17 @@
           "name": "Trent Ltd",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 3031.0,
-          "change_pct": 5.92,
+          "latest_close": 3036.4,
+          "change_pct": 6.1,
           "weight_pct": 3.85,
           "returns": {
-            "1d": 5.92,
-            "1w": 11.13,
-            "1m": 15.62,
-            "3m": 0.84,
-            "6m": 9.86,
-            "1y": -36.02,
-            "3y": 41.02
+            "1d": 6.1,
+            "1w": 11.33,
+            "1m": 15.82,
+            "3m": 1.01,
+            "6m": 10.05,
+            "1y": -35.91,
+            "3y": 41.27
           }
         },
         {
@@ -1363,17 +1363,17 @@
           "name": "Radico Khaitan Ltd",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 4195.1,
-          "change_pct": -0.94,
+          "latest_close": 4196.1,
+          "change_pct": -0.92,
           "weight_pct": 3.85,
           "returns": {
-            "1d": -0.94,
-            "1w": 0.91,
-            "1m": -3.91,
-            "3m": -3.36,
-            "6m": 22.82,
-            "1y": 33.7,
-            "3y": 246.61
+            "1d": -0.92,
+            "1w": 0.93,
+            "1m": -3.89,
+            "3m": -3.33,
+            "6m": 22.85,
+            "1y": 33.73,
+            "3y": 246.69
           }
         },
         {
@@ -1381,17 +1381,17 @@
           "name": "Vishal Mega Mart Ltd",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 84.35,
-          "change_pct": -2.6,
+          "latest_close": 84.54,
+          "change_pct": -2.38,
           "weight_pct": 3.85,
           "returns": {
-            "1d": -2.6,
-            "1w": -3.43,
-            "1m": -16.49,
-            "3m": -21.24,
-            "6m": -31.02,
-            "1y": -42.08,
-            "3y": -24.64
+            "1d": -2.38,
+            "1w": -3.22,
+            "1m": -16.3,
+            "3m": -21.06,
+            "6m": -30.87,
+            "1y": -41.95,
+            "3y": -24.47
           }
         },
         {
@@ -1399,17 +1399,17 @@
           "name": "Swiggy Ltd",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 176.5,
-          "change_pct": -4.72,
+          "latest_close": 176.55,
+          "change_pct": -4.7,
           "weight_pct": 3.85,
           "returns": {
-            "1d": -4.72,
-            "1w": 0.28,
-            "1m": -29.43,
-            "3m": -38.04,
-            "6m": -34.7,
-            "1y": -57.77,
-            "3y": -61.29
+            "1d": -4.7,
+            "1w": 0.31,
+            "1m": -29.41,
+            "3m": -38.02,
+            "6m": -34.68,
+            "1y": -57.76,
+            "3y": -61.28
           }
         },
         {
@@ -1417,17 +1417,17 @@
           "name": "United Breweries Ltd",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 1159.5,
-          "change_pct": -2.7,
+          "latest_close": 1157.0,
+          "change_pct": -2.91,
           "weight_pct": 3.85,
           "returns": {
-            "1d": -2.7,
-            "1w": 1.48,
-            "1m": 0.12,
-            "3m": -17.69,
-            "6m": -19.94,
-            "1y": -34.73,
-            "3y": -26.97
+            "1d": -2.91,
+            "1w": 1.26,
+            "1m": -0.09,
+            "3m": -17.87,
+            "6m": -20.11,
+            "1y": -34.87,
+            "3y": -27.12
           }
         },
         {
@@ -1435,17 +1435,17 @@
           "name": "Procter & Gamble Hygiene and Health Care Ltd",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 6915.0,
-          "change_pct": -0.12,
+          "latest_close": 6920.0,
+          "change_pct": -0.05,
           "weight_pct": 3.85,
           "returns": {
-            "1d": -0.12,
-            "1w": 1.32,
-            "1m": 1.71,
-            "3m": -18.93,
-            "6m": -31.33,
-            "1y": -47.2,
-            "3y": -58.21
+            "1d": -0.05,
+            "1w": 1.39,
+            "1m": 1.79,
+            "3m": -18.87,
+            "6m": -31.28,
+            "1y": -47.16,
+            "3y": -58.18
           }
         },
         {
@@ -1453,17 +1453,17 @@
           "name": "Gillette India Ltd",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 7096.5,
-          "change_pct": -1.08,
+          "latest_close": 7087.5,
+          "change_pct": -1.21,
           "weight_pct": 3.85,
           "returns": {
-            "1d": -1.08,
-            "1w": -1.71,
-            "1m": 1.38,
-            "3m": -6.17,
-            "6m": -10.06,
-            "1y": -19.79,
-            "3y": 23.84
+            "1d": -1.21,
+            "1w": -1.84,
+            "1m": 1.25,
+            "3m": -6.29,
+            "6m": -10.17,
+            "1y": -19.89,
+            "3y": 23.68
           }
         }
       ]
@@ -1474,13 +1474,13 @@
       "index_id": "mtf_sector_pharmaceuticals_healthcare",
       "constituents_count": 25,
       "returns": {
-        "1d": 0.99,
-        "1w": 7.22,
-        "1m": 0.38,
-        "3m": -4.51,
-        "6m": 9.45,
-        "1y": 9.55,
-        "3y": 80.99
+        "1d": 1.16,
+        "1w": 7.4,
+        "1m": 0.55,
+        "3m": -4.35,
+        "6m": 9.65,
+        "1y": 9.74,
+        "3y": 81.32
       },
       "stocks": [
         {
@@ -1488,17 +1488,17 @@
           "name": "Alkem Laboratories Ltd",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 5123.0,
-          "change_pct": 0.87,
+          "latest_close": 5133.5,
+          "change_pct": 1.07,
           "weight_pct": 4.0,
           "returns": {
-            "1d": 0.87,
-            "1w": 3.56,
-            "1m": -0.78,
-            "3m": -10.77,
-            "6m": -4.96,
-            "1y": -6.36,
-            "3y": 41.39
+            "1d": 1.07,
+            "1w": 3.77,
+            "1m": -0.58,
+            "3m": -10.59,
+            "6m": -4.76,
+            "1y": -6.17,
+            "3y": 41.68
           }
         },
         {
@@ -1506,17 +1506,17 @@
           "name": "Apollo Hospitals Enterprise Ltd",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 8299.5,
-          "change_pct": 1.21,
+          "latest_close": 8308.0,
+          "change_pct": 1.32,
           "weight_pct": 4.0,
           "returns": {
-            "1d": 1.21,
-            "1w": 7.37,
-            "1m": 1.64,
-            "3m": -7.23,
-            "6m": 8.81,
-            "1y": 6.81,
-            "3y": 73.51
+            "1d": 1.32,
+            "1w": 7.48,
+            "1m": 1.75,
+            "3m": -7.14,
+            "6m": 8.92,
+            "1y": 6.92,
+            "3y": 73.69
           }
         },
         {
@@ -1524,17 +1524,17 @@
           "name": "Cipla Ltd",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 1370.6,
-          "change_pct": 0.93,
+          "latest_close": 1369.3,
+          "change_pct": 0.83,
           "weight_pct": 4.0,
           "returns": {
-            "1d": 0.93,
-            "1w": 2.44,
-            "1m": 1.83,
-            "3m": -6.96,
-            "6m": 5.64,
-            "1y": -10.17,
-            "3y": 17.51
+            "1d": 0.83,
+            "1w": 2.34,
+            "1m": 1.73,
+            "3m": -7.05,
+            "6m": 5.54,
+            "1y": -10.26,
+            "3y": 17.4
           }
         },
         {
@@ -1542,17 +1542,17 @@
           "name": "Divis Laboratories Ltd",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 9761.0,
-          "change_pct": 1.0,
+          "latest_close": 9832.0,
+          "change_pct": 1.74,
           "weight_pct": 4.0,
           "returns": {
-            "1d": 1.0,
-            "1w": 9.06,
-            "1m": 5.05,
-            "3m": 21.16,
-            "6m": 50.73,
-            "1y": 47.28,
-            "3y": 192.36
+            "1d": 1.74,
+            "1w": 9.85,
+            "1m": 5.82,
+            "3m": 22.05,
+            "6m": 51.83,
+            "1y": 48.35,
+            "3y": 194.49
           }
         },
         {
@@ -1560,17 +1560,17 @@
           "name": "Dr. Reddys Laboratories Ltd",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 1355.3,
-          "change_pct": 0.77,
+          "latest_close": 1357.7,
+          "change_pct": 0.94,
           "weight_pct": 4.0,
           "returns": {
-            "1d": 0.77,
-            "1w": 10.23,
-            "1m": 9.92,
-            "3m": 18.05,
-            "6m": 3.1,
-            "1y": 13.45,
-            "3y": 28.61
+            "1d": 0.94,
+            "1w": 10.43,
+            "1m": 10.11,
+            "3m": 18.26,
+            "6m": 3.28,
+            "1y": 13.65,
+            "3y": 28.84
           }
         },
         {
@@ -1578,17 +1578,17 @@
           "name": "Lupin Ltd",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 2010.0,
-          "change_pct": 1.01,
+          "latest_close": 2020.3,
+          "change_pct": 1.53,
           "weight_pct": 4.0,
           "returns": {
-            "1d": 1.01,
-            "1w": 4.2,
-            "1m": -0.99,
-            "3m": -16.77,
-            "6m": -12.17,
-            "1y": 4.05,
-            "3y": 81.37
+            "1d": 1.53,
+            "1w": 4.74,
+            "1m": -0.49,
+            "3m": -16.34,
+            "6m": -11.72,
+            "1y": 4.58,
+            "3y": 82.3
           }
         },
         {
@@ -1596,17 +1596,17 @@
           "name": "Sun Pharmaceutical Industries Ltd",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 1796.0,
-          "change_pct": 1.99,
+          "latest_close": 1797.9,
+          "change_pct": 2.1,
           "weight_pct": 4.0,
           "returns": {
-            "1d": 1.99,
-            "1w": 2.75,
-            "1m": -1.13,
-            "3m": -9.77,
-            "6m": -0.42,
-            "1y": 6.4,
-            "3y": 69.54
+            "1d": 2.1,
+            "1w": 2.85,
+            "1m": -1.03,
+            "3m": -9.68,
+            "6m": -0.31,
+            "1y": 6.51,
+            "3y": 69.72
           }
         },
         {
@@ -1614,17 +1614,17 @@
           "name": "Torrent Pharmaceuticals Ltd",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 4657.7,
-          "change_pct": 1.7,
+          "latest_close": 4645.5,
+          "change_pct": 1.43,
           "weight_pct": 4.0,
           "returns": {
-            "1d": 1.7,
-            "1w": 2.95,
-            "1m": -2.96,
-            "3m": -9.08,
-            "6m": 11.51,
-            "1y": 30.44,
-            "3y": 149.15
+            "1d": 1.43,
+            "1w": 2.68,
+            "1m": -3.22,
+            "3m": -9.32,
+            "6m": 11.22,
+            "1y": 30.1,
+            "3y": 148.5
           }
         },
         {
@@ -1632,17 +1632,17 @@
           "name": "Zydus Lifesciences Ltd",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 1242.0,
-          "change_pct": 4.86,
+          "latest_close": 1244.7,
+          "change_pct": 5.09,
           "weight_pct": 4.0,
           "returns": {
-            "1d": 4.86,
-            "1w": 9.97,
-            "1m": 6.88,
-            "3m": 10.22,
-            "6m": 39.38,
-            "1y": 26.06,
-            "3y": 119.77
+            "1d": 5.09,
+            "1w": 10.21,
+            "1m": 7.12,
+            "3m": 10.46,
+            "6m": 39.68,
+            "1y": 26.33,
+            "3y": 120.25
           }
         },
         {
@@ -1650,17 +1650,17 @@
           "name": "Aurobindo Pharma Ltd",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 1676.0,
-          "change_pct": 0.97,
+          "latest_close": 1679.3,
+          "change_pct": 1.17,
           "weight_pct": 4.0,
           "returns": {
-            "1d": 0.97,
-            "1w": 6.64,
-            "1m": 0.24,
-            "3m": 6.06,
-            "6m": 20.62,
-            "1y": 52.02,
-            "3y": 98.91
+            "1d": 1.17,
+            "1w": 6.85,
+            "1m": 0.44,
+            "3m": 6.27,
+            "6m": 20.86,
+            "1y": 52.32,
+            "3y": 99.3
           }
         },
         {
@@ -1668,17 +1668,17 @@
           "name": "Glenmark Pharmaceuticals Ltd",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 2318.1,
-          "change_pct": -0.89,
+          "latest_close": 2315.2,
+          "change_pct": -1.02,
           "weight_pct": 4.0,
           "returns": {
-            "1d": -0.89,
-            "1w": 6.99,
-            "1m": -0.71,
-            "3m": 3.87,
-            "6m": -3.57,
-            "1y": 23.24,
-            "3y": 211.53
+            "1d": -1.02,
+            "1w": 6.86,
+            "1m": -0.84,
+            "3m": 3.74,
+            "6m": -3.69,
+            "1y": 23.09,
+            "3y": 211.14
           }
         },
         {
@@ -1686,17 +1686,17 @@
           "name": "Fortis Healthcare Ltd",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 762.6,
-          "change_pct": 1.02,
+          "latest_close": 764.05,
+          "change_pct": 1.21,
           "weight_pct": 4.0,
           "returns": {
-            "1d": 1.02,
-            "1w": 6.97,
-            "1m": -0.96,
-            "3m": -19.3,
-            "6m": -17.29,
-            "1y": -26.92,
-            "3y": 137.15
+            "1d": 1.21,
+            "1w": 7.17,
+            "1m": -0.77,
+            "3m": -19.15,
+            "6m": -17.13,
+            "1y": -26.78,
+            "3y": 137.6
           }
         },
         {
@@ -1704,17 +1704,17 @@
           "name": "Mankind Pharma Ltd",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 2507.9,
-          "change_pct": 1.56,
+          "latest_close": 2516.7,
+          "change_pct": 1.92,
           "weight_pct": 4.0,
           "returns": {
-            "1d": 1.56,
-            "1w": 13.35,
-            "1m": 0.16,
-            "3m": 1.55,
-            "6m": 11.63,
-            "1y": 2.51,
-            "3y": 44.06
+            "1d": 1.92,
+            "1w": 13.74,
+            "1m": 0.52,
+            "3m": 1.91,
+            "6m": 12.02,
+            "1y": 2.87,
+            "3y": 44.57
           }
         },
         {
@@ -1722,17 +1722,17 @@
           "name": "Biocon Ltd",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 350.9,
-          "change_pct": -0.28,
+          "latest_close": 353.6,
+          "change_pct": 0.48,
           "weight_pct": 4.0,
           "returns": {
-            "1d": -0.28,
-            "1w": 8.47,
-            "1m": -5.24,
-            "3m": -17.57,
-            "6m": -2.32,
-            "1y": -6.71,
-            "3y": 60.38
+            "1d": 0.48,
+            "1w": 9.3,
+            "1m": -4.51,
+            "3m": -16.94,
+            "6m": -1.56,
+            "1y": -5.99,
+            "3y": 61.62
           }
         },
         {
@@ -1740,17 +1740,17 @@
           "name": "Laurus Labs Ltd",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 2353.0,
-          "change_pct": 4.86,
+          "latest_close": 2355.7,
+          "change_pct": 4.98,
           "weight_pct": 4.0,
           "returns": {
-            "1d": 4.86,
-            "1w": 19.44,
-            "1m": 18.84,
-            "3m": 29.56,
-            "6m": 113.94,
-            "1y": 142.93,
-            "3y": 554.39
+            "1d": 4.98,
+            "1w": 19.58,
+            "1m": 18.97,
+            "3m": 29.7,
+            "6m": 114.18,
+            "1y": 143.21,
+            "3y": 555.14
           }
         },
         {
@@ -1758,17 +1758,17 @@
           "name": "Max Healthcare Institute Ltd",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 859.55,
-          "change_pct": 0.99,
+          "latest_close": 862.35,
+          "change_pct": 1.32,
           "weight_pct": 4.0,
           "returns": {
-            "1d": 0.99,
-            "1w": 5.47,
-            "1m": -7.56,
-            "3m": -21.75,
-            "6m": -13.29,
-            "1y": -26.93,
-            "3y": 50.51
+            "1d": 1.32,
+            "1w": 5.81,
+            "1m": -7.25,
+            "3m": -21.5,
+            "6m": -13.01,
+            "1y": -26.7,
+            "3y": 51.0
           }
         },
         {
@@ -1776,17 +1776,17 @@
           "name": "Abbott India Ltd",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 26130.0,
-          "change_pct": -0.06,
+          "latest_close": 25975.0,
+          "change_pct": -0.65,
           "weight_pct": 4.0,
           "returns": {
-            "1d": -0.06,
-            "1w": 4.39,
-            "1m": -3.67,
-            "3m": -6.01,
-            "6m": 5.14,
-            "1y": -9.66,
-            "3y": 22.72
+            "1d": -0.65,
+            "1w": 3.78,
+            "1m": -4.24,
+            "3m": -6.56,
+            "6m": 4.51,
+            "1y": -10.19,
+            "3y": 21.99
           }
         },
         {
@@ -1794,15 +1794,15 @@
           "name": "Sanofi India Ltd",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 3242.4,
-          "change_pct": 1.26,
+          "latest_close": 3242.1,
+          "change_pct": 1.25,
           "weight_pct": 4.0,
           "returns": {
-            "1d": 1.26,
-            "1w": 16.94,
-            "1m": 6.06,
-            "3m": -2.28,
-            "6m": -4.84,
+            "1d": 1.25,
+            "1w": 16.93,
+            "1m": 6.05,
+            "3m": -2.29,
+            "6m": -4.85,
             "1y": -30.54,
             "3y": -54.15
           }
@@ -1812,17 +1812,17 @@
           "name": "Manipal Health Enterprises Ltd",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 670.2,
-          "change_pct": 4.92,
+          "latest_close": 665.75,
+          "change_pct": 4.22,
           "weight_pct": 4.0,
           "returns": {
-            "1d": 4.92,
-            "1w": 10.35,
-            "1m": -5.38,
-            "3m": 0.49,
-            "6m": 0.49,
-            "1y": 0.49,
-            "3y": 0.49
+            "1d": 4.22,
+            "1w": 9.62,
+            "1m": -6.01,
+            "3m": -0.18,
+            "6m": -0.18,
+            "1y": -0.18,
+            "3y": -0.18
           }
         },
         {
@@ -1830,17 +1830,17 @@
           "name": "Jupiter Life Line Hospitals Ltd",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 256.85,
-          "change_pct": -1.25,
+          "latest_close": 257.65,
+          "change_pct": -0.94,
           "weight_pct": 4.0,
           "returns": {
-            "1d": -1.25,
-            "1w": 5.27,
-            "1m": 1.28,
-            "3m": -22.52,
-            "6m": 4.84,
-            "1y": -19.43,
-            "3y": 24.58
+            "1d": -0.94,
+            "1w": 5.59,
+            "1m": 1.6,
+            "3m": -22.28,
+            "6m": 5.17,
+            "1y": -19.18,
+            "3y": 24.96
           }
         },
         {
@@ -1848,17 +1848,17 @@
           "name": "Procter & Gamble Health Ltd",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 5462.0,
-          "change_pct": -0.93,
+          "latest_close": 5459.0,
+          "change_pct": -0.99,
           "weight_pct": 4.0,
           "returns": {
-            "1d": -0.93,
-            "1w": 8.91,
-            "1m": -1.82,
-            "3m": -16.65,
-            "6m": 5.52,
-            "1y": -8.19,
-            "3y": 20.45
+            "1d": -0.99,
+            "1w": 8.85,
+            "1m": -1.87,
+            "3m": -16.69,
+            "6m": 5.46,
+            "1y": -8.24,
+            "3y": 20.38
           }
         },
         {
@@ -1866,17 +1866,17 @@
           "name": "Corona Remedies Ltd",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 2197.1,
-          "change_pct": -0.92,
+          "latest_close": 2205.1,
+          "change_pct": -0.55,
           "weight_pct": 4.0,
           "returns": {
-            "1d": -0.92,
-            "1w": 7.12,
-            "1m": 4.95,
-            "3m": 4.68,
-            "6m": 27.95,
-            "1y": 53.58,
-            "3y": 53.58
+            "1d": -0.55,
+            "1w": 7.51,
+            "1m": 5.34,
+            "3m": 5.06,
+            "6m": 28.41,
+            "1y": 54.14,
+            "3y": 54.14
           }
         },
         {
@@ -1884,17 +1884,17 @@
           "name": "Pfizer Ltd",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 3695.1,
-          "change_pct": -1.73,
+          "latest_close": 3690.0,
+          "change_pct": -1.86,
           "weight_pct": 4.0,
           "returns": {
-            "1d": -1.73,
-            "1w": 2.29,
-            "1m": -4.65,
-            "3m": -23.4,
-            "6m": -20.29,
-            "1y": -29.39,
-            "3y": -1.2
+            "1d": -1.86,
+            "1w": 2.15,
+            "1m": -4.78,
+            "3m": -23.51,
+            "6m": -20.4,
+            "1y": -29.49,
+            "3y": -1.34
           }
         },
         {
@@ -1902,17 +1902,17 @@
           "name": "Rainbow Childrens Medicare Ltd",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 1203.6,
-          "change_pct": 0.57,
+          "latest_close": 1221.6,
+          "change_pct": 2.07,
           "weight_pct": 4.0,
           "returns": {
-            "1d": 0.57,
-            "1w": 2.91,
-            "1m": -8.42,
-            "3m": -21.1,
-            "6m": -3.66,
-            "1y": -12.6,
-            "3y": 14.0
+            "1d": 2.07,
+            "1w": 4.45,
+            "1m": -7.05,
+            "3m": -19.92,
+            "6m": -2.22,
+            "1y": -11.3,
+            "3y": 15.71
           }
         },
         {
@@ -1920,17 +1920,17 @@
           "name": "Anthem Biosciences Ltd",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 832.0,
-          "change_pct": 0.22,
+          "latest_close": 833.0,
+          "change_pct": 0.34,
           "weight_pct": 4.0,
           "returns": {
-            "1d": 0.22,
-            "1w": 2.36,
-            "1m": -3.1,
-            "3m": 2.82,
-            "6m": 9.75,
-            "1y": 16.29,
-            "3y": 14.22
+            "1d": 0.34,
+            "1w": 2.49,
+            "1m": -2.98,
+            "3m": 2.94,
+            "6m": 9.88,
+            "1y": 16.43,
+            "3y": 14.35
           }
         }
       ]
@@ -1941,13 +1941,13 @@
       "index_id": "mtf_sector_capital_goods_engineering",
       "constituents_count": 18,
       "returns": {
-        "1d": -2.0,
-        "1w": 1.77,
-        "1m": -5.6,
-        "3m": -7.71,
-        "6m": -3.75,
-        "1y": 0.95,
-        "3y": 70.58
+        "1d": -1.72,
+        "1w": 2.07,
+        "1m": -5.32,
+        "3m": -7.45,
+        "6m": -3.5,
+        "1y": 1.2,
+        "3y": 71.01
       },
       "stocks": [
         {
@@ -1955,17 +1955,17 @@
           "name": "Havells India Ltd",
           "exchange": "NSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 1010.0,
-          "change_pct": -0.98,
+          "latest_close": 1013.7,
+          "change_pct": -0.62,
           "weight_pct": 5.56,
           "returns": {
-            "1d": -0.98,
-            "1w": -2.04,
-            "1m": -0.59,
-            "3m": -19.89,
-            "6m": -18.18,
-            "1y": -32.41,
-            "3y": -17.32
+            "1d": -0.62,
+            "1w": -1.68,
+            "1m": -0.23,
+            "3m": -19.59,
+            "6m": -17.88,
+            "1y": -32.16,
+            "3y": -17.01
           }
         },
         {
@@ -1973,17 +1973,17 @@
           "name": "Larsen & Toubro Ltd",
           "exchange": "NSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 3840.5,
-          "change_pct": 0.09,
+          "latest_close": 3864.4,
+          "change_pct": 0.71,
           "weight_pct": 5.56,
           "returns": {
-            "1d": 0.09,
-            "1w": 5.31,
-            "1m": 2.14,
-            "3m": -2.5,
-            "6m": -3.39,
-            "1y": -2.75,
-            "3y": 34.68
+            "1d": 0.71,
+            "1w": 5.96,
+            "1m": 2.78,
+            "3m": -1.89,
+            "6m": -2.79,
+            "1y": -2.14,
+            "3y": 35.52
           }
         },
         {
@@ -1991,7 +1991,7 @@
           "name": "Crompton Greaves Consumer Electricals Ltd",
           "exchange": "NSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 194.01,
+          "latest_close": 194.0,
           "change_pct": -3.0,
           "weight_pct": 5.56,
           "returns": {
@@ -2000,7 +2000,7 @@
             "1m": -7.03,
             "3m": -25.44,
             "6m": -27.91,
-            "1y": -31.5,
+            "1y": -31.51,
             "3y": -29.26
           }
         },
@@ -2009,17 +2009,17 @@
           "name": "Cummins India Ltd",
           "exchange": "NSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 4387.7,
-          "change_pct": -2.82,
+          "latest_close": 4400.0,
+          "change_pct": -2.55,
           "weight_pct": 5.56,
           "returns": {
-            "1d": -2.82,
-            "1w": 1.0,
-            "1m": -7.82,
-            "3m": -20.5,
-            "6m": -15.99,
-            "1y": 1.37,
-            "3y": 172.6
+            "1d": -2.55,
+            "1w": 1.28,
+            "1m": -7.56,
+            "3m": -20.28,
+            "6m": -15.76,
+            "1y": 1.65,
+            "3y": 173.37
           }
         },
         {
@@ -2027,17 +2027,17 @@
           "name": "ABB India Ltd",
           "exchange": "NSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 6440.0,
-          "change_pct": -1.38,
+          "latest_close": 6444.0,
+          "change_pct": -1.32,
           "weight_pct": 5.56,
           "returns": {
-            "1d": -1.38,
-            "1w": 4.89,
-            "1m": -4.96,
-            "3m": -10.55,
-            "6m": -9.88,
-            "1y": 23.93,
-            "3y": 61.28
+            "1d": -1.32,
+            "1w": 4.95,
+            "1m": -4.9,
+            "3m": -10.5,
+            "6m": -9.82,
+            "1y": 24.01,
+            "3y": 61.38
           }
         },
         {
@@ -2045,17 +2045,17 @@
           "name": "Polycab India Ltd",
           "exchange": "NSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 7790.5,
-          "change_pct": 0.59,
+          "latest_close": 7738.5,
+          "change_pct": -0.08,
           "weight_pct": 5.56,
           "returns": {
-            "1d": 0.59,
-            "1w": 4.71,
-            "1m": -2.93,
-            "3m": -14.45,
-            "6m": -3.49,
-            "1y": -0.22,
-            "3y": 60.65
+            "1d": -0.08,
+            "1w": 4.01,
+            "1m": -3.58,
+            "3m": -15.02,
+            "6m": -4.13,
+            "1y": -0.89,
+            "3y": 59.58
           }
         },
         {
@@ -2063,17 +2063,17 @@
           "name": "Siemens Ltd",
           "exchange": "NSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 3298.5,
-          "change_pct": -2.01,
+          "latest_close": 3300.0,
+          "change_pct": -1.96,
           "weight_pct": 5.56,
           "returns": {
-            "1d": -2.01,
-            "1w": 1.64,
-            "1m": -11.46,
-            "3m": -12.27,
-            "6m": -12.96,
-            "1y": 6.01,
-            "3y": 70.8
+            "1d": -1.96,
+            "1w": 1.69,
+            "1m": -11.42,
+            "3m": -12.23,
+            "6m": -12.92,
+            "1y": 6.06,
+            "3y": 70.88
           }
         },
         {
@@ -2081,17 +2081,17 @@
           "name": "Voltas Ltd",
           "exchange": "NSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 1013.7,
-          "change_pct": -2.62,
+          "latest_close": 1030.5,
+          "change_pct": -1.01,
           "weight_pct": 5.56,
           "returns": {
-            "1d": -2.62,
-            "1w": 6.71,
-            "1m": -5.26,
-            "3m": -23.72,
-            "6m": -28.91,
-            "1y": -28.38,
-            "3y": 22.54
+            "1d": -1.01,
+            "1w": 8.47,
+            "1m": -3.69,
+            "3m": -22.45,
+            "6m": -27.73,
+            "1y": -27.19,
+            "3y": 24.57
           }
         },
         {
@@ -2099,17 +2099,17 @@
           "name": "Blue Star Ltd",
           "exchange": "NSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 1593.3,
-          "change_pct": -4.76,
+          "latest_close": 1623.0,
+          "change_pct": -2.99,
           "weight_pct": 5.56,
           "returns": {
-            "1d": -4.76,
-            "1w": 6.29,
-            "1m": 4.96,
-            "3m": -5.23,
-            "6m": -10.1,
-            "1y": -18.39,
-            "3y": 82.61
+            "1d": -2.99,
+            "1w": 8.27,
+            "1m": 6.92,
+            "3m": -3.46,
+            "6m": -8.42,
+            "1y": -16.86,
+            "3y": 86.02
           }
         },
         {
@@ -2117,17 +2117,17 @@
           "name": "Solar Industries India Ltd",
           "exchange": "NSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 18960.0,
-          "change_pct": -2.42,
+          "latest_close": 18979.0,
+          "change_pct": -2.32,
           "weight_pct": 5.56,
           "returns": {
-            "1d": -2.42,
-            "1w": 3.24,
-            "1m": -3.76,
-            "3m": 3.09,
-            "6m": 22.88,
-            "1y": 36.47,
-            "3y": 245.36
+            "1d": -2.32,
+            "1w": 3.34,
+            "1m": -3.66,
+            "3m": 3.2,
+            "6m": 23.0,
+            "1y": 36.61,
+            "3y": 245.71
           }
         },
         {
@@ -2135,17 +2135,17 @@
           "name": "CG Power and Industrial Solutions Ltd",
           "exchange": "NSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 805.2,
-          "change_pct": -2.96,
+          "latest_close": 805.4,
+          "change_pct": -2.94,
           "weight_pct": 5.56,
           "returns": {
-            "1d": -2.96,
-            "1w": -1.0,
-            "1m": -5.74,
-            "3m": -6.74,
-            "6m": -1.0,
-            "1y": 9.84,
-            "3y": 107.88
+            "1d": -2.94,
+            "1w": -0.98,
+            "1m": -5.71,
+            "3m": -6.72,
+            "6m": -0.98,
+            "1y": 9.87,
+            "3y": 107.93
           }
         },
         {
@@ -2153,17 +2153,17 @@
           "name": "Bharat Heavy Electricals Ltd",
           "exchange": "NSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 393.15,
-          "change_pct": -2.19,
+          "latest_close": 393.5,
+          "change_pct": -2.1,
           "weight_pct": 5.56,
           "returns": {
-            "1d": -2.19,
-            "1w": 1.46,
-            "1m": -5.38,
-            "3m": -3.4,
-            "6m": 11.92,
-            "1y": 50.95,
-            "3y": 227.32
+            "1d": -2.1,
+            "1w": 1.55,
+            "1m": -5.29,
+            "3m": -3.32,
+            "6m": 12.02,
+            "1y": 51.08,
+            "3y": 227.62
           }
         },
         {
@@ -2171,17 +2171,17 @@
           "name": "KEI Industries Ltd",
           "exchange": "NSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 3767.5,
-          "change_pct": -1.65,
+          "latest_close": 3771.5,
+          "change_pct": -1.55,
           "weight_pct": 5.56,
           "returns": {
-            "1d": -1.65,
-            "1w": 1.14,
-            "1m": -15.43,
-            "3m": -24.63,
-            "6m": -22.44,
-            "1y": -8.2,
-            "3y": 57.33
+            "1d": -1.55,
+            "1w": 1.25,
+            "1m": -15.34,
+            "3m": -24.55,
+            "6m": -22.36,
+            "1y": -8.1,
+            "3y": 57.5
           }
         },
         {
@@ -2189,17 +2189,17 @@
           "name": "Dixon Technologies (India) Ltd",
           "exchange": "NSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 11141.0,
-          "change_pct": -3.02,
+          "latest_close": 11107.0,
+          "change_pct": -3.32,
           "weight_pct": 5.56,
           "returns": {
-            "1d": -3.02,
-            "1w": -0.45,
-            "1m": -14.95,
-            "3m": -20.64,
-            "6m": -0.15,
-            "1y": -28.73,
-            "3y": 118.73
+            "1d": -3.32,
+            "1w": -0.75,
+            "1m": -15.21,
+            "3m": -20.88,
+            "6m": -0.46,
+            "1y": -28.95,
+            "3y": 118.06
           }
         },
         {
@@ -2207,17 +2207,17 @@
           "name": "Indo-MIM Ltd",
           "exchange": "NSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 1182.0,
-          "change_pct": 0.32,
+          "latest_close": 1184.2,
+          "change_pct": 0.51,
           "weight_pct": 5.56,
           "returns": {
-            "1d": 0.32,
-            "1w": 7.49,
-            "1m": -4.87,
-            "3m": 52.29,
-            "6m": 59.35,
-            "1y": 59.35,
-            "3y": 59.35
+            "1d": 0.51,
+            "1w": 7.69,
+            "1m": -4.69,
+            "3m": 52.57,
+            "6m": 59.65,
+            "1y": 59.65,
+            "3y": 59.65
           }
         },
         {
@@ -2225,17 +2225,17 @@
           "name": "Lohia Corp Ltd",
           "exchange": "NSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 517.05,
-          "change_pct": -2.83,
+          "latest_close": 519.15,
+          "change_pct": -2.43,
           "weight_pct": 5.56,
           "returns": {
-            "1d": -2.83,
-            "1w": -13.39,
-            "1m": -7.2,
-            "3m": -3.38,
-            "6m": 4.54,
-            "1y": 4.54,
-            "3y": 4.54
+            "1d": -2.43,
+            "1w": -13.04,
+            "1m": -6.82,
+            "3m": -2.99,
+            "6m": 4.96,
+            "1y": 4.96,
+            "3y": 4.96
           }
         },
         {
@@ -2243,17 +2243,17 @@
           "name": "LG Electronics India Ltd",
           "exchange": "NSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 1660.9,
-          "change_pct": -1.23,
+          "latest_close": 1666.4,
+          "change_pct": -0.9,
           "weight_pct": 5.56,
           "returns": {
-            "1d": -1.23,
-            "1w": 3.12,
-            "1m": -3.63,
-            "3m": 11.43,
-            "6m": 4.26,
-            "1y": 0.19,
-            "3y": -1.72
+            "1d": -0.9,
+            "1w": 3.46,
+            "1m": -3.31,
+            "3m": 11.8,
+            "6m": 4.61,
+            "1y": 0.52,
+            "3y": -1.39
           }
         },
         {
@@ -2261,17 +2261,17 @@
           "name": "V-Guard Industries Ltd",
           "exchange": "NSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 275.8,
-          "change_pct": -3.18,
+          "latest_close": 275.85,
+          "change_pct": -3.16,
           "weight_pct": 5.56,
           "returns": {
-            "1d": -3.18,
-            "1w": 2.41,
-            "1m": -6.97,
-            "3m": -12.31,
-            "6m": -16.08,
-            "1y": -24.93,
-            "3y": -6.87
+            "1d": -3.16,
+            "1w": 2.43,
+            "1m": -6.95,
+            "3m": -12.29,
+            "6m": -16.06,
+            "1y": -24.92,
+            "3y": -6.85
           }
         }
       ]
@@ -2282,13 +2282,13 @@
       "index_id": "mtf_sector_auto_ancillaries",
       "constituents_count": 16,
       "returns": {
-        "1d": -0.53,
-        "1w": 3.3,
-        "1m": -3.67,
-        "3m": -8.34,
-        "6m": 3.02,
-        "1y": 4.43,
-        "3y": 72.21
+        "1d": -0.38,
+        "1w": 3.47,
+        "1m": -3.52,
+        "3m": -8.19,
+        "6m": 3.19,
+        "1y": 4.62,
+        "3y": 72.51
       },
       "stocks": [
         {
@@ -2296,17 +2296,17 @@
           "name": "Bajaj Auto Ltd",
           "exchange": "NSE",
           "sector": "Auto & Ancillaries",
-          "latest_close": 10464.0,
-          "change_pct": 0.78,
+          "latest_close": 10510.0,
+          "change_pct": 1.22,
           "weight_pct": 6.25,
           "returns": {
-            "1d": 0.78,
-            "1w": 3.89,
-            "1m": -3.77,
-            "3m": -9.17,
-            "6m": 6.18,
-            "1y": 18.92,
-            "3y": 106.41
+            "1d": 1.22,
+            "1w": 4.35,
+            "1m": -3.35,
+            "3m": -8.77,
+            "6m": 6.64,
+            "1y": 19.44,
+            "3y": 107.32
           }
         },
         {
@@ -2314,17 +2314,17 @@
           "name": "Maruti Suzuki India Ltd",
           "exchange": "NSE",
           "sector": "Auto & Ancillaries",
-          "latest_close": 11410.0,
-          "change_pct": -0.14,
+          "latest_close": 11416.0,
+          "change_pct": -0.09,
           "weight_pct": 6.25,
           "returns": {
-            "1d": -0.14,
-            "1w": 1.6,
-            "1m": -4.65,
-            "3m": -19.03,
-            "6m": -13.44,
-            "1y": -28.89,
-            "3y": 13.15
+            "1d": -0.09,
+            "1w": 1.66,
+            "1m": -4.6,
+            "3m": -18.99,
+            "6m": -13.39,
+            "1y": -28.85,
+            "3y": 13.21
           }
         },
         {
@@ -2332,17 +2332,17 @@
           "name": "Eicher Motors Ltd",
           "exchange": "NSE",
           "sector": "Auto & Ancillaries",
-          "latest_close": 7317.5,
-          "change_pct": 1.1,
+          "latest_close": 7331.5,
+          "change_pct": 1.29,
           "weight_pct": 6.25,
           "returns": {
-            "1d": 1.1,
-            "1w": 3.56,
-            "1m": 2.34,
-            "3m": -6.59,
-            "6m": 4.01,
-            "1y": 7.33,
-            "3y": 129.79
+            "1d": 1.29,
+            "1w": 3.76,
+            "1m": 2.54,
+            "3m": -6.41,
+            "6m": 4.21,
+            "1y": 7.54,
+            "3y": 130.23
           }
         },
         {
@@ -2350,17 +2350,17 @@
           "name": "Hero MotoCorp Ltd",
           "exchange": "NSE",
           "sector": "Auto & Ancillaries",
-          "latest_close": 5137.0,
-          "change_pct": 0.63,
+          "latest_close": 5172.0,
+          "change_pct": 1.31,
           "weight_pct": 6.25,
           "returns": {
-            "1d": 0.63,
-            "1w": 1.78,
-            "1m": -1.98,
-            "3m": -4.62,
-            "6m": 2.23,
-            "1y": -3.64,
-            "3y": 84.32
+            "1d": 1.31,
+            "1w": 2.48,
+            "1m": -1.32,
+            "3m": -3.97,
+            "6m": 2.92,
+            "1y": -2.99,
+            "3y": 85.58
           }
         },
         {
@@ -2368,17 +2368,17 @@
           "name": "TVS Motor Company Ltd",
           "exchange": "NSE",
           "sector": "Auto & Ancillaries",
-          "latest_close": 4245.0,
-          "change_pct": -0.82,
+          "latest_close": 4243.7,
+          "change_pct": -0.85,
           "weight_pct": 6.25,
           "returns": {
-            "1d": -0.82,
-            "1w": 6.65,
-            "1m": 3.39,
-            "3m": -1.58,
-            "6m": 21.53,
-            "1y": 22.0,
-            "3y": 169.95
+            "1d": -0.85,
+            "1w": 6.62,
+            "1m": 3.35,
+            "3m": -1.61,
+            "6m": 21.5,
+            "1y": 21.96,
+            "3y": 169.87
           }
         },
         {
@@ -2386,17 +2386,17 @@
           "name": "Bosch Ltd",
           "exchange": "NSE",
           "sector": "Auto & Ancillaries",
-          "latest_close": 47560.0,
-          "change_pct": -0.01,
+          "latest_close": 47430.0,
+          "change_pct": -0.28,
           "weight_pct": 6.25,
           "returns": {
-            "1d": -0.01,
-            "1w": 7.88,
-            "1m": 0.98,
-            "3m": 16.52,
-            "6m": 33.0,
-            "1y": 28.66,
-            "3y": 152.49
+            "1d": -0.28,
+            "1w": 7.59,
+            "1m": 0.7,
+            "3m": 16.2,
+            "6m": 32.64,
+            "1y": 28.3,
+            "3y": 151.8
           }
         },
         {
@@ -2404,17 +2404,17 @@
           "name": "Mahindra & Mahindra Ltd",
           "exchange": "NSE",
           "sector": "Auto & Ancillaries",
-          "latest_close": 2885.7,
-          "change_pct": -0.15,
+          "latest_close": 2893.0,
+          "change_pct": 0.1,
           "weight_pct": 6.25,
           "returns": {
-            "1d": -0.15,
-            "1w": 0.86,
-            "1m": -2.18,
-            "3m": -15.09,
-            "6m": -5.86,
-            "1y": -16.74,
-            "3y": 103.0
+            "1d": 0.1,
+            "1w": 1.11,
+            "1m": -1.93,
+            "3m": -14.87,
+            "6m": -5.62,
+            "1y": -16.53,
+            "3y": 103.51
           }
         },
         {
@@ -2422,17 +2422,17 @@
           "name": "Tata Motors Passenger Vehicles Ltd",
           "exchange": "NSE",
           "sector": "Auto & Ancillaries",
-          "latest_close": 265.5,
-          "change_pct": -0.19,
+          "latest_close": 265.75,
+          "change_pct": -0.09,
           "weight_pct": 6.25,
           "returns": {
-            "1d": -0.19,
-            "1w": 0.34,
-            "1m": -6.35,
-            "3m": -21.85,
-            "6m": -21.62,
-            "1y": -35.1,
-            "3y": -56.78
+            "1d": -0.09,
+            "1w": 0.43,
+            "1m": -6.26,
+            "3m": -21.78,
+            "6m": -21.55,
+            "1y": -35.03,
+            "3y": -56.74
           }
         },
         {
@@ -2440,17 +2440,17 @@
           "name": "Bharat Forge Ltd",
           "exchange": "NSE",
           "sector": "Auto & Ancillaries",
-          "latest_close": 1718.9,
-          "change_pct": -2.68,
+          "latest_close": 1716.5,
+          "change_pct": -2.82,
           "weight_pct": 6.25,
           "returns": {
-            "1d": -2.68,
-            "1w": 0.45,
-            "1m": -10.75,
-            "3m": -21.86,
-            "6m": -8.37,
-            "1y": 31.04,
-            "3y": 71.56
+            "1d": -2.82,
+            "1w": 0.31,
+            "1m": -10.88,
+            "3m": -21.97,
+            "6m": -8.5,
+            "1y": 30.86,
+            "3y": 71.32
           }
         },
         {
@@ -2458,17 +2458,17 @@
           "name": "Sona BLW Precision Forgings Ltd",
           "exchange": "NSE",
           "sector": "Auto & Ancillaries",
-          "latest_close": 875.85,
-          "change_pct": 0.26,
+          "latest_close": 883.0,
+          "change_pct": 1.08,
           "weight_pct": 6.25,
           "returns": {
-            "1d": 0.26,
-            "1w": 16.34,
-            "1m": 5.52,
-            "3m": 13.84,
-            "6m": 44.65,
-            "1y": 82.47,
-            "3y": 64.59
+            "1d": 1.08,
+            "1w": 17.29,
+            "1m": 6.39,
+            "3m": 14.76,
+            "6m": 45.83,
+            "1y": 83.96,
+            "3y": 65.94
           }
         },
         {
@@ -2476,17 +2476,17 @@
           "name": "Hyundai Motor India Ltd",
           "exchange": "NSE",
           "sector": "Auto & Ancillaries",
-          "latest_close": 1908.8,
-          "change_pct": -0.69,
+          "latest_close": 1899.5,
+          "change_pct": -1.17,
           "weight_pct": 6.25,
           "returns": {
-            "1d": -0.69,
-            "1w": 3.18,
-            "1m": -6.02,
-            "3m": -11.63,
-            "6m": 6.02,
-            "1y": -20.16,
-            "3y": 6.93
+            "1d": -1.17,
+            "1w": 2.68,
+            "1m": -6.47,
+            "3m": -12.06,
+            "6m": 5.5,
+            "1y": -20.55,
+            "3y": 6.41
           }
         },
         {
@@ -2494,17 +2494,17 @@
           "name": "Samvardhana Motherson International Ltd",
           "exchange": "NSE",
           "sector": "Auto & Ancillaries",
-          "latest_close": 157.05,
-          "change_pct": -1.84,
+          "latest_close": 157.25,
+          "change_pct": -1.72,
           "weight_pct": 6.25,
           "returns": {
-            "1d": -1.84,
-            "1w": 3.55,
-            "1m": -3.8,
-            "3m": 4.18,
-            "6m": 29.79,
-            "1y": 47.66,
-            "3y": 160.19
+            "1d": -1.72,
+            "1w": 3.68,
+            "1m": -3.68,
+            "3m": 4.31,
+            "6m": 29.96,
+            "1y": 47.85,
+            "3y": 160.52
           }
         },
         {
@@ -2512,17 +2512,17 @@
           "name": "Tube Investments of India Ltd",
           "exchange": "NSE",
           "sector": "Auto & Ancillaries",
-          "latest_close": 2099.5,
-          "change_pct": -3.56,
+          "latest_close": 2102.5,
+          "change_pct": -3.42,
           "weight_pct": 6.25,
           "returns": {
-            "1d": -3.56,
-            "1w": 0.94,
-            "1m": -11.6,
-            "3m": -23.7,
-            "6m": -28.74,
-            "1y": -31.29,
-            "3y": -33.12
+            "1d": -3.42,
+            "1w": 1.08,
+            "1m": -11.47,
+            "3m": -23.59,
+            "6m": -28.64,
+            "1y": -31.19,
+            "3y": -33.02
           }
         },
         {
@@ -2530,17 +2530,17 @@
           "name": "Ashok Leyland Ltd",
           "exchange": "NSE",
           "sector": "Auto & Ancillaries",
-          "latest_close": 146.0,
-          "change_pct": 0.69,
+          "latest_close": 146.28,
+          "change_pct": 0.88,
           "weight_pct": 6.25,
           "returns": {
-            "1d": 0.69,
-            "1w": 0.72,
-            "1m": -5.31,
-            "3m": -12.14,
-            "6m": -8.39,
-            "1y": 6.2,
-            "3y": 88.39
+            "1d": 0.88,
+            "1w": 0.92,
+            "1m": -5.13,
+            "3m": -11.97,
+            "6m": -8.21,
+            "1y": 6.4,
+            "3y": 88.75
           }
         },
         {
@@ -2548,17 +2548,17 @@
           "name": "Uno Minda Ltd",
           "exchange": "NSE",
           "sector": "Auto & Ancillaries",
-          "latest_close": 1075.5,
-          "change_pct": -1.09,
+          "latest_close": 1081.1,
+          "change_pct": -0.58,
           "weight_pct": 6.25,
           "returns": {
-            "1d": -1.09,
-            "1w": 1.75,
-            "1m": -8.08,
-            "3m": -8.89,
-            "6m": -3.18,
-            "1y": -11.85,
-            "3y": 85.86
+            "1d": -0.58,
+            "1w": 2.28,
+            "1m": -7.6,
+            "3m": -8.42,
+            "6m": -2.67,
+            "1y": -11.39,
+            "3y": 86.83
           }
         },
         {
@@ -2566,17 +2566,17 @@
           "name": "MRF Ltd",
           "exchange": "NSE",
           "sector": "Auto & Ancillaries",
-          "latest_close": 117130.0,
-          "change_pct": -0.79,
+          "latest_close": 117015.0,
+          "change_pct": -0.89,
           "weight_pct": 6.25,
           "returns": {
-            "1d": -0.79,
-            "1w": -0.67,
-            "1m": -6.51,
-            "3m": -11.78,
-            "6m": -9.54,
-            "1y": -25.8,
-            "3y": 8.68
+            "1d": -0.89,
+            "1w": -0.76,
+            "1m": -6.6,
+            "3m": -11.87,
+            "6m": -9.63,
+            "1y": -25.87,
+            "3y": 8.57
           }
         }
       ]
@@ -2587,13 +2587,13 @@
       "index_id": "mtf_sector_it_tech_services",
       "constituents_count": 14,
       "returns": {
-        "1d": 0.99,
-        "1w": 1.56,
-        "1m": 11.9,
-        "3m": 2.04,
-        "6m": 9.15,
-        "1y": -11.3,
-        "3y": 28.46
+        "1d": 1.3,
+        "1w": 1.87,
+        "1m": 12.22,
+        "3m": 2.34,
+        "6m": 9.47,
+        "1y": -11.04,
+        "3y": 28.83
       },
       "stocks": [
         {
@@ -2601,17 +2601,17 @@
           "name": "Tata Consultancy Services Ltd",
           "exchange": "NSE",
           "sector": "IT & Tech Services",
-          "latest_close": 2511.0,
-          "change_pct": 1.33,
+          "latest_close": 2515.0,
+          "change_pct": 1.49,
           "weight_pct": 7.14,
           "returns": {
-            "1d": 1.33,
-            "1w": -0.75,
-            "1m": 23.1,
-            "3m": 6.71,
-            "6m": 3.99,
-            "1y": -13.7,
-            "3y": -18.0
+            "1d": 1.49,
+            "1w": -0.59,
+            "1m": 23.3,
+            "3m": 6.88,
+            "6m": 4.16,
+            "1y": -13.57,
+            "3y": -17.87
           }
         },
         {
@@ -2619,17 +2619,17 @@
           "name": "Wipro Ltd",
           "exchange": "NSE",
           "sector": "IT & Tech Services",
-          "latest_close": 194.94,
-          "change_pct": 2.55,
+          "latest_close": 195.6,
+          "change_pct": 2.89,
           "weight_pct": 7.14,
           "returns": {
-            "1d": 2.55,
-            "1w": 2.69,
-            "1m": 22.99,
-            "3m": 6.15,
-            "6m": -1.73,
-            "1y": -16.4,
-            "3y": 10.42
+            "1d": 2.89,
+            "1w": 3.03,
+            "1m": 23.41,
+            "3m": 6.51,
+            "6m": -1.4,
+            "1y": -16.11,
+            "3y": 10.79
           }
         },
         {
@@ -2637,17 +2637,17 @@
           "name": "HCL Technologies Ltd",
           "exchange": "NSE",
           "sector": "IT & Tech Services",
-          "latest_close": 1436.5,
-          "change_pct": 2.32,
+          "latest_close": 1444.7,
+          "change_pct": 2.91,
           "weight_pct": 7.14,
           "returns": {
-            "1d": 2.32,
-            "1w": 1.01,
-            "1m": 17.83,
-            "3m": 7.6,
-            "6m": 22.1,
-            "1y": -3.03,
-            "3y": 26.64
+            "1d": 2.91,
+            "1w": 1.58,
+            "1m": 18.5,
+            "3m": 8.22,
+            "6m": 22.8,
+            "1y": -2.47,
+            "3y": 27.36
           }
         },
         {
@@ -2655,17 +2655,17 @@
           "name": "Infosys Ltd",
           "exchange": "NSE",
           "sector": "IT & Tech Services",
-          "latest_close": 1177.0,
-          "change_pct": 2.66,
+          "latest_close": 1174.2,
+          "change_pct": 2.42,
           "weight_pct": 7.14,
           "returns": {
-            "1d": 2.66,
-            "1w": 2.01,
-            "1m": 18.4,
-            "3m": 4.15,
-            "6m": 1.75,
-            "1y": -19.5,
-            "3y": -6.66
+            "1d": 2.42,
+            "1w": 1.77,
+            "1m": 18.12,
+            "3m": 3.9,
+            "6m": 1.51,
+            "1y": -19.69,
+            "3y": -6.89
           }
         },
         {
@@ -2673,17 +2673,17 @@
           "name": "MphasiS Ltd",
           "exchange": "NSE",
           "sector": "IT & Tech Services",
-          "latest_close": 2559.5,
-          "change_pct": -0.07,
+          "latest_close": 2559.2,
+          "change_pct": -0.08,
           "weight_pct": 7.14,
           "returns": {
-            "1d": -0.07,
-            "1w": 3.21,
-            "1m": 18.8,
-            "3m": 9.27,
-            "6m": 15.44,
-            "1y": -9.18,
-            "3y": 28.97
+            "1d": -0.08,
+            "1w": 3.19,
+            "1m": 18.79,
+            "3m": 9.26,
+            "6m": 15.42,
+            "1y": -9.19,
+            "3y": 28.95
           }
         },
         {
@@ -2691,17 +2691,17 @@
           "name": "Tech Mahindra Ltd",
           "exchange": "NSE",
           "sector": "IT & Tech Services",
-          "latest_close": 1805.6,
-          "change_pct": 2.03,
+          "latest_close": 1806.5,
+          "change_pct": 2.09,
           "weight_pct": 7.14,
           "returns": {
-            "1d": 2.03,
-            "1w": 0.87,
-            "1m": 19.46,
-            "3m": 10.25,
-            "6m": 26.76,
-            "1y": 30.27,
-            "3y": 76.18
+            "1d": 2.09,
+            "1w": 0.92,
+            "1m": 19.52,
+            "3m": 10.3,
+            "6m": 26.83,
+            "1y": 30.34,
+            "3y": 76.27
           }
         },
         {
@@ -2709,17 +2709,17 @@
           "name": "Info Edge (India) Ltd",
           "exchange": "NSE",
           "sector": "IT & Tech Services",
-          "latest_close": 1164.1,
-          "change_pct": -0.76,
+          "latest_close": 1173.2,
+          "change_pct": 0.02,
           "weight_pct": 7.14,
           "returns": {
-            "1d": -0.76,
-            "1w": -1.89,
-            "1m": -4.54,
-            "3m": -5.07,
-            "6m": 20.03,
-            "1y": -15.3,
-            "3y": 44.64
+            "1d": 0.02,
+            "1w": -1.12,
+            "1m": -3.8,
+            "3m": -4.33,
+            "6m": 20.97,
+            "1y": -14.64,
+            "3y": 45.78
           }
         },
         {
@@ -2727,17 +2727,17 @@
           "name": "LTIMindtree Ltd",
           "exchange": "NSE",
           "sector": "IT & Tech Services",
-          "latest_close": 4208.6,
-          "change_pct": 2.78,
+          "latest_close": 4225.0,
+          "change_pct": 3.18,
           "weight_pct": 7.14,
           "returns": {
-            "1d": 2.78,
-            "1w": 1.8,
-            "1m": 4.66,
-            "3m": -2.95,
-            "6m": 0.48,
-            "1y": -24.72,
-            "3y": -13.06
+            "1d": 3.18,
+            "1w": 2.2,
+            "1m": 5.06,
+            "3m": -2.57,
+            "6m": 0.87,
+            "1y": -24.43,
+            "3y": -12.72
           }
         },
         {
@@ -2745,17 +2745,17 @@
           "name": "Oracle Financial Services Software Ltd",
           "exchange": "NSE",
           "sector": "IT & Tech Services",
-          "latest_close": 9880.0,
-          "change_pct": -0.59,
+          "latest_close": 9897.0,
+          "change_pct": -0.42,
           "weight_pct": 7.14,
           "returns": {
-            "1d": -0.59,
-            "1w": 2.1,
-            "1m": -7.06,
-            "3m": -11.68,
-            "6m": 4.49,
-            "1y": 19.83,
-            "3y": 183.34
+            "1d": -0.42,
+            "1w": 2.27,
+            "1m": -6.9,
+            "3m": -11.52,
+            "6m": 4.67,
+            "1y": 20.04,
+            "3y": 183.83
           }
         },
         {
@@ -2763,17 +2763,17 @@
           "name": "Tata Elxsi Ltd",
           "exchange": "NSE",
           "sector": "IT & Tech Services",
-          "latest_close": 3816.4,
-          "change_pct": 0.33,
+          "latest_close": 3819.6,
+          "change_pct": 0.41,
           "weight_pct": 7.14,
           "returns": {
-            "1d": 0.33,
-            "1w": 3.15,
-            "1m": 23.55,
-            "3m": 3.91,
-            "6m": -5.93,
-            "1y": -29.87,
-            "3y": -47.97
+            "1d": 0.41,
+            "1w": 3.23,
+            "1m": 23.66,
+            "3m": 3.99,
+            "6m": -5.85,
+            "1y": -29.81,
+            "3y": -47.93
           }
         },
         {
@@ -2781,17 +2781,17 @@
           "name": "Persistent Systems Ltd",
           "exchange": "NSE",
           "sector": "IT & Tech Services",
-          "latest_close": 5973.5,
-          "change_pct": 1.59,
+          "latest_close": 6000.5,
+          "change_pct": 2.05,
           "weight_pct": 7.14,
           "returns": {
-            "1d": 1.59,
-            "1w": 4.3,
-            "1m": 13.16,
-            "3m": 7.65,
-            "6m": 24.88,
-            "1y": 0.91,
-            "3y": 97.65
+            "1d": 2.05,
+            "1w": 4.77,
+            "1m": 13.67,
+            "3m": 8.14,
+            "6m": 25.44,
+            "1y": 1.36,
+            "3y": 98.54
           }
         },
         {
@@ -2799,17 +2799,17 @@
           "name": "Coforge Ltd",
           "exchange": "NSE",
           "sector": "IT & Tech Services",
-          "latest_close": 2047.1,
-          "change_pct": 4.34,
+          "latest_close": 2050.5,
+          "change_pct": 4.51,
           "weight_pct": 7.14,
           "returns": {
-            "1d": 4.34,
-            "1w": 7.71,
-            "1m": 17.04,
-            "3m": 19.23,
-            "6m": 71.58,
-            "1y": 14.03,
-            "3y": 111.7
+            "1d": 4.51,
+            "1w": 7.89,
+            "1m": 17.23,
+            "3m": 19.42,
+            "6m": 71.86,
+            "1y": 14.22,
+            "3y": 112.05
           }
         },
         {
@@ -2817,17 +2817,17 @@
           "name": "KPIT Technologies Ltd",
           "exchange": "NSE",
           "sector": "IT & Tech Services",
-          "latest_close": 537.85,
-          "change_pct": -1.08,
+          "latest_close": 537.65,
+          "change_pct": -1.11,
           "weight_pct": 7.14,
           "returns": {
-            "1d": -1.08,
-            "1w": 0.98,
-            "1m": 7.76,
-            "3m": -9.36,
-            "6m": -28.54,
-            "1y": -53.6,
-            "3y": -54.87
+            "1d": -1.11,
+            "1w": 0.94,
+            "1m": 7.72,
+            "3m": -9.39,
+            "6m": -28.57,
+            "1y": -53.61,
+            "3y": -54.89
           }
         },
         {
@@ -2835,17 +2835,17 @@
           "name": "IndiaMART InterMESH Ltd",
           "exchange": "NSE",
           "sector": "IT & Tech Services",
-          "latest_close": 1488.9,
-          "change_pct": -3.58,
+          "latest_close": 1511.6,
+          "change_pct": -2.11,
           "weight_pct": 7.14,
           "returns": {
-            "1d": -3.58,
-            "1w": -5.33,
-            "1m": -8.6,
-            "3m": -17.27,
-            "6m": -27.18,
-            "1y": -37.97,
-            "3y": -40.51
+            "1d": -2.11,
+            "1w": -3.89,
+            "1m": -7.21,
+            "3m": -16.01,
+            "6m": -26.07,
+            "1y": -37.02,
+            "3y": -39.6
           }
         }
       ]
@@ -2856,13 +2856,13 @@
       "index_id": "mtf_sector_chemicals_materials",
       "constituents_count": 11,
       "returns": {
-        "1d": -1.14,
-        "1w": -1.03,
-        "1m": -6.01,
-        "3m": -11.14,
-        "6m": -11.95,
-        "1y": -16.37,
-        "3y": 1.67
+        "1d": -1.01,
+        "1w": -0.9,
+        "1m": -5.88,
+        "3m": -11.02,
+        "6m": -11.82,
+        "1y": -16.26,
+        "3y": 1.81
       },
       "stocks": [
         {
@@ -2870,17 +2870,17 @@
           "name": "Grasim Industries Ltd",
           "exchange": "NSE",
           "sector": "Chemicals & Materials",
-          "latest_close": 2955.6,
-          "change_pct": 0.78,
+          "latest_close": 2958.8,
+          "change_pct": 0.89,
           "weight_pct": 9.09,
           "returns": {
-            "1d": 0.78,
-            "1w": 2.13,
-            "1m": -3.47,
-            "3m": -4.39,
-            "6m": 6.09,
-            "1y": 0.49,
-            "3y": 58.95
+            "1d": 0.89,
+            "1w": 2.24,
+            "1m": -3.37,
+            "3m": -4.28,
+            "6m": 6.21,
+            "1y": 0.6,
+            "3y": 59.12
           }
         },
         {
@@ -2888,17 +2888,17 @@
           "name": "Pidilite Industries Ltd",
           "exchange": "NSE",
           "sector": "Chemicals & Materials",
-          "latest_close": 1443.1,
-          "change_pct": 1.48,
+          "latest_close": 1444.1,
+          "change_pct": 1.55,
           "weight_pct": 9.09,
           "returns": {
-            "1d": 1.48,
-            "1w": -3.0,
-            "1m": -1.5,
-            "3m": -10.44,
-            "6m": 5.66,
-            "1y": -2.21,
-            "3y": 19.68
+            "1d": 1.55,
+            "1w": -2.93,
+            "1m": -1.43,
+            "3m": -10.38,
+            "6m": 5.73,
+            "1y": -2.15,
+            "3y": 19.76
           }
         },
         {
@@ -2906,17 +2906,17 @@
           "name": "PI Industries Ltd",
           "exchange": "NSE",
           "sector": "Chemicals & Materials",
-          "latest_close": 2082.8,
-          "change_pct": -1.29,
+          "latest_close": 2086.8,
+          "change_pct": -1.1,
           "weight_pct": 9.09,
           "returns": {
-            "1d": -1.29,
-            "1w": 1.55,
-            "1m": -9.84,
-            "3m": -24.02,
-            "6m": -31.57,
-            "1y": -41.77,
-            "3y": -37.95
+            "1d": -1.1,
+            "1w": 1.75,
+            "1m": -9.66,
+            "3m": -23.88,
+            "6m": -31.44,
+            "1y": -41.66,
+            "3y": -37.83
           }
         },
         {
@@ -2924,17 +2924,17 @@
           "name": "SRF Ltd",
           "exchange": "NSE",
           "sector": "Chemicals & Materials",
-          "latest_close": 2341.2,
-          "change_pct": -0.74,
+          "latest_close": 2350.0,
+          "change_pct": -0.36,
           "weight_pct": 9.09,
           "returns": {
-            "1d": -0.74,
-            "1w": 1.35,
-            "1m": -5.31,
-            "3m": -10.73,
-            "6m": -6.87,
-            "1y": -21.17,
-            "3y": 7.64
+            "1d": -0.36,
+            "1w": 1.73,
+            "1m": -4.95,
+            "3m": -10.39,
+            "6m": -6.52,
+            "1y": -20.87,
+            "3y": 8.04
           }
         },
         {
@@ -2942,17 +2942,17 @@
           "name": "Astral Ltd",
           "exchange": "NSE",
           "sector": "Chemicals & Materials",
-          "latest_close": 1349.9,
-          "change_pct": -1.14,
+          "latest_close": 1349.4,
+          "change_pct": -1.17,
           "weight_pct": 9.09,
           "returns": {
-            "1d": -1.14,
-            "1w": -0.52,
-            "1m": -1.5,
-            "3m": -6.67,
-            "6m": -11.62,
-            "1y": -7.62,
-            "3y": -26.6
+            "1d": -1.17,
+            "1w": -0.56,
+            "1m": -1.53,
+            "3m": -6.7,
+            "6m": -11.65,
+            "1y": -7.65,
+            "3y": -26.62
           }
         },
         {
@@ -2960,17 +2960,17 @@
           "name": "UPL Ltd",
           "exchange": "NSE",
           "sector": "Chemicals & Materials",
-          "latest_close": 520.9,
-          "change_pct": -3.88,
+          "latest_close": 522.8,
+          "change_pct": -3.53,
           "weight_pct": 9.09,
           "returns": {
-            "1d": -3.88,
-            "1w": 2.41,
-            "1m": -3.49,
-            "3m": -13.8,
-            "6m": -18.06,
-            "1y": -27.09,
-            "3y": -1.63
+            "1d": -3.53,
+            "1w": 2.78,
+            "1m": -3.14,
+            "3m": -13.49,
+            "6m": -17.76,
+            "1y": -26.82,
+            "3y": -1.27
           }
         },
         {
@@ -2978,17 +2978,17 @@
           "name": "Supreme Industries Ltd",
           "exchange": "NSE",
           "sector": "Chemicals & Materials",
-          "latest_close": 3164.9,
-          "change_pct": -1.04,
+          "latest_close": 3177.0,
+          "change_pct": -0.66,
           "weight_pct": 9.09,
           "returns": {
-            "1d": -1.04,
-            "1w": -6.29,
-            "1m": -7.95,
-            "3m": -8.33,
-            "6m": -11.69,
-            "1y": -15.77,
-            "3y": -24.91
+            "1d": -0.66,
+            "1w": -5.93,
+            "1m": -7.59,
+            "3m": -7.98,
+            "6m": -11.35,
+            "1y": -15.45,
+            "3y": -24.62
           }
         },
         {
@@ -2996,17 +2996,17 @@
           "name": "Castrol India Ltd",
           "exchange": "NSE",
           "sector": "Chemicals & Materials",
-          "latest_close": 188.4,
-          "change_pct": 0.42,
+          "latest_close": 188.42,
+          "change_pct": 0.43,
           "weight_pct": 9.09,
           "returns": {
-            "1d": 0.42,
-            "1w": -3.21,
-            "1m": -6.04,
-            "3m": 5.12,
-            "6m": 5.34,
-            "1y": 2.08,
-            "3y": 61.86
+            "1d": 0.43,
+            "1w": -3.2,
+            "1m": -6.03,
+            "3m": 5.13,
+            "6m": 5.35,
+            "1y": 2.09,
+            "3y": 61.87
           }
         },
         {
@@ -3014,17 +3014,17 @@
           "name": "Bayer CropScience Ltd",
           "exchange": "NSE",
           "sector": "Chemicals & Materials",
-          "latest_close": 3259.0,
-          "change_pct": -1.03,
+          "latest_close": 3253.0,
+          "change_pct": -1.21,
           "weight_pct": 9.09,
           "returns": {
-            "1d": -1.03,
-            "1w": -3.68,
-            "1m": -10.16,
-            "3m": -21.95,
-            "6m": -30.63,
-            "1y": -31.54,
-            "3y": -28.28
+            "1d": -1.21,
+            "1w": -3.86,
+            "1m": -10.33,
+            "3m": -22.1,
+            "6m": -30.76,
+            "1y": -31.67,
+            "3y": -28.41
           }
         },
         {
@@ -3032,17 +3032,17 @@
           "name": "Anupam Rasayan India Ltd",
           "exchange": "NSE",
           "sector": "Chemicals & Materials",
-          "latest_close": 1154.2,
-          "change_pct": -2.14,
+          "latest_close": 1156.4,
+          "change_pct": -1.96,
           "weight_pct": 9.09,
           "returns": {
-            "1d": -2.14,
-            "1w": 4.77,
-            "1m": -2.27,
-            "3m": -4.32,
-            "6m": -14.0,
-            "1y": 5.26,
-            "3y": 31.08
+            "1d": -1.96,
+            "1w": 4.97,
+            "1m": -2.08,
+            "3m": -4.13,
+            "6m": -13.84,
+            "1y": 5.46,
+            "3y": 31.33
           }
         },
         {
@@ -3050,17 +3050,17 @@
           "name": "Vinati Organics Ltd",
           "exchange": "NSE",
           "sector": "Chemicals & Materials",
-          "latest_close": 997.5,
-          "change_pct": -3.96,
+          "latest_close": 997.7,
+          "change_pct": -3.94,
           "weight_pct": 9.09,
           "returns": {
-            "1d": -3.96,
-            "1w": -6.85,
-            "1m": -14.62,
-            "3m": -23.02,
-            "6m": -24.05,
-            "1y": -40.74,
-            "3y": -41.48
+            "1d": -3.94,
+            "1w": -6.84,
+            "1m": -14.6,
+            "3m": -23.01,
+            "6m": -24.04,
+            "1y": -40.73,
+            "3y": -41.47
           }
         }
       ]
@@ -3071,13 +3071,13 @@
       "index_id": "mtf_sector_infrastructure_construction",
       "constituents_count": 11,
       "returns": {
-        "1d": -1.37,
-        "1w": 1.27,
-        "1m": -4.84,
-        "3m": -13.87,
-        "6m": -11.51,
-        "1y": -19.78,
-        "3y": 19.74
+        "1d": -1.13,
+        "1w": 1.52,
+        "1m": -4.61,
+        "3m": -13.66,
+        "6m": -11.27,
+        "1y": -19.57,
+        "3y": 20.07
       },
       "stocks": [
         {
@@ -3085,17 +3085,17 @@
           "name": "Shree Cement Ltd",
           "exchange": "NSE",
           "sector": "Infrastructure & Construction",
-          "latest_close": 22845.0,
-          "change_pct": -1.19,
+          "latest_close": 22945.0,
+          "change_pct": -0.76,
           "weight_pct": 9.09,
           "returns": {
-            "1d": -1.19,
-            "1w": 0.48,
-            "1m": 2.24,
-            "3m": -12.32,
-            "6m": -5.33,
-            "1y": -20.08,
-            "3y": -9.8
+            "1d": -0.76,
+            "1w": 0.92,
+            "1m": 2.69,
+            "3m": -11.94,
+            "6m": -4.92,
+            "1y": -19.73,
+            "3y": -9.4
           }
         },
         {
@@ -3103,17 +3103,17 @@
           "name": "UltraTech Cement Ltd",
           "exchange": "NSE",
           "sector": "Infrastructure & Construction",
-          "latest_close": 11065.0,
-          "change_pct": -0.98,
+          "latest_close": 11091.0,
+          "change_pct": -0.75,
           "weight_pct": 9.09,
           "returns": {
-            "1d": -0.98,
-            "1w": 0.14,
-            "1m": 0.99,
-            "3m": -7.04,
-            "6m": -2.55,
-            "1y": -6.32,
-            "3y": 35.71
+            "1d": -0.75,
+            "1w": 0.37,
+            "1m": 1.23,
+            "3m": -6.82,
+            "6m": -2.32,
+            "1y": -6.1,
+            "3y": 36.03
           }
         },
         {
@@ -3121,17 +3121,17 @@
           "name": "Ambuja Cements Ltd",
           "exchange": "NSE",
           "sector": "Infrastructure & Construction",
-          "latest_close": 351.0,
-          "change_pct": -1.04,
+          "latest_close": 352.3,
+          "change_pct": -0.68,
           "weight_pct": 9.09,
           "returns": {
-            "1d": -1.04,
-            "1w": -2.2,
-            "1m": -6.15,
-            "3m": -18.79,
-            "6m": -20.59,
-            "1y": -37.89,
-            "3y": -16.34
+            "1d": -0.68,
+            "1w": -1.84,
+            "1m": -5.8,
+            "3m": -18.49,
+            "6m": -20.3,
+            "1y": -37.66,
+            "3y": -16.03
           }
         },
         {
@@ -3139,17 +3139,17 @@
           "name": "Adani Ports and Special Economic Zone Ltd",
           "exchange": "NSE",
           "sector": "Infrastructure & Construction",
-          "latest_close": 1839.1,
-          "change_pct": -1.76,
+          "latest_close": 1845.3,
+          "change_pct": -1.43,
           "weight_pct": 9.09,
           "returns": {
-            "1d": -1.76,
-            "1w": 8.01,
-            "1m": 2.27,
-            "3m": 8.41,
-            "6m": 11.44,
-            "1y": 26.68,
-            "3y": 137.5
+            "1d": -1.43,
+            "1w": 8.37,
+            "1m": 2.61,
+            "3m": 8.77,
+            "6m": 11.81,
+            "1y": 27.11,
+            "3y": 138.3
           }
         },
         {
@@ -3157,17 +3157,17 @@
           "name": "GMR Airports Infrastructure Ltd",
           "exchange": "NSE",
           "sector": "Infrastructure & Construction",
-          "latest_close": 87.91,
-          "change_pct": 0.73,
+          "latest_close": 88.29,
+          "change_pct": 1.17,
           "weight_pct": 9.09,
           "returns": {
-            "1d": 0.73,
-            "1w": 1.77,
-            "1m": -7.61,
-            "3m": -16.48,
-            "6m": -8.84,
-            "1y": -6.94,
-            "3y": 61.01
+            "1d": 1.17,
+            "1w": 2.21,
+            "1m": -7.21,
+            "3m": -16.12,
+            "6m": -8.44,
+            "1y": -6.54,
+            "3y": 61.7
           }
         },
         {
@@ -3175,17 +3175,17 @@
           "name": "NBCC (India) Ltd",
           "exchange": "NSE",
           "sector": "Infrastructure & Construction",
-          "latest_close": 70.8,
-          "change_pct": -1.6,
+          "latest_close": 71.22,
+          "change_pct": -1.01,
           "weight_pct": 9.09,
           "returns": {
-            "1d": -1.6,
-            "1w": 4.27,
-            "1m": -9.81,
-            "3m": -24.8,
-            "6m": -22.21,
-            "1y": -39.59,
-            "3y": 65.69
+            "1d": -1.01,
+            "1w": 4.89,
+            "1m": -9.27,
+            "3m": -24.35,
+            "6m": -21.75,
+            "1y": -39.23,
+            "3y": 66.67
           }
         },
         {
@@ -3193,17 +3193,17 @@
           "name": "Rail Vikas Nigam Ltd",
           "exchange": "NSE",
           "sector": "Infrastructure & Construction",
-          "latest_close": 181.82,
-          "change_pct": -2.25,
+          "latest_close": 180.89,
+          "change_pct": -2.75,
           "weight_pct": 9.09,
           "returns": {
-            "1d": -2.25,
-            "1w": 0.28,
-            "1m": -9.88,
-            "3m": -19.11,
-            "6m": -38.73,
-            "1y": -44.82,
-            "3y": 19.78
+            "1d": -2.75,
+            "1w": -0.23,
+            "1m": -10.34,
+            "3m": -19.53,
+            "6m": -39.04,
+            "1y": -45.1,
+            "3y": 19.16
           }
         },
         {
@@ -3211,17 +3211,17 @@
           "name": "Adani Enterprises Ltd",
           "exchange": "NSE",
           "sector": "Infrastructure & Construction",
-          "latest_close": 2566.4,
-          "change_pct": -1.59,
+          "latest_close": 2574.2,
+          "change_pct": -1.29,
           "weight_pct": 9.09,
           "returns": {
-            "1d": -1.59,
-            "1w": 3.61,
-            "1m": -11.61,
-            "3m": -14.72,
-            "6m": 6.61,
-            "1y": 1.61,
-            "3y": 11.99
+            "1d": -1.29,
+            "1w": 3.92,
+            "1m": -11.34,
+            "3m": -14.46,
+            "6m": 6.93,
+            "1y": 1.92,
+            "3y": 12.33
           }
         },
         {
@@ -3229,17 +3229,17 @@
           "name": "HeidelbergCement India Ltd",
           "exchange": "NSE",
           "sector": "Infrastructure & Construction",
-          "latest_close": 119.9,
-          "change_pct": -3.26,
+          "latest_close": 119.85,
+          "change_pct": -3.3,
           "weight_pct": 9.09,
           "returns": {
-            "1d": -3.26,
-            "1w": 1.27,
-            "1m": -9.58,
-            "3m": -17.85,
-            "6m": -21.03,
-            "1y": -36.76,
-            "3y": -28.37
+            "1d": -3.3,
+            "1w": 1.22,
+            "1m": -9.62,
+            "3m": -17.89,
+            "6m": -21.06,
+            "1y": -36.79,
+            "3y": -28.4
           }
         },
         {
@@ -3247,17 +3247,17 @@
           "name": "ACC Ltd",
           "exchange": "NSE",
           "sector": "Infrastructure & Construction",
-          "latest_close": 1137.1,
-          "change_pct": -1.47,
+          "latest_close": 1139.3,
+          "change_pct": -1.28,
           "weight_pct": 9.09,
           "returns": {
-            "1d": -1.47,
-            "1w": -1.92,
-            "1m": -5.56,
-            "3m": -16.23,
-            "6m": -19.58,
-            "1y": -38.49,
-            "3y": -39.01
+            "1d": -1.28,
+            "1w": -1.73,
+            "1m": -5.38,
+            "3m": -16.07,
+            "6m": -19.42,
+            "1y": -38.37,
+            "3y": -38.89
           }
         },
         {
@@ -3265,17 +3265,17 @@
           "name": "JSW Cement Ltd",
           "exchange": "NSE",
           "sector": "Infrastructure & Construction",
-          "latest_close": 115.0,
-          "change_pct": -0.7,
+          "latest_close": 115.39,
+          "change_pct": -0.36,
           "weight_pct": 9.09,
           "returns": {
-            "1d": -0.7,
-            "1w": -1.69,
-            "1m": 1.43,
-            "3m": -13.6,
-            "6m": -5.75,
-            "1y": -15.02,
-            "3y": -20.98
+            "1d": -0.36,
+            "1w": -1.36,
+            "1m": 1.77,
+            "3m": -13.31,
+            "6m": -5.43,
+            "1y": -14.73,
+            "3y": -20.71
           }
         }
       ]
@@ -3290,9 +3290,9 @@
         "1w": 2.94,
         "1m": -5.94,
         "3m": -5.01,
-        "6m": -10.82,
-        "1y": 6.82,
-        "3y": 80.91
+        "6m": -10.83,
+        "1y": 6.83,
+        "3y": 81.03
       },
       "stocks": [
         {
@@ -3300,17 +3300,17 @@
           "name": "Coal India Ltd",
           "exchange": "NSE",
           "sector": "Metals & Mining",
-          "latest_close": 386.8,
-          "change_pct": -1.6,
+          "latest_close": 386.5,
+          "change_pct": -1.68,
           "weight_pct": 10.0,
           "returns": {
-            "1d": -1.6,
-            "1w": -2.68,
-            "1m": -8.99,
-            "3m": -5.42,
-            "6m": -17.55,
-            "1y": 6.54,
-            "3y": 51.98
+            "1d": -1.68,
+            "1w": -2.76,
+            "1m": -9.06,
+            "3m": -5.49,
+            "6m": -17.62,
+            "1y": 6.46,
+            "3y": 51.87
           }
         },
         {
@@ -3318,17 +3318,17 @@
           "name": "JSW Steel Ltd",
           "exchange": "NSE",
           "sector": "Metals & Mining",
-          "latest_close": 1260.0,
-          "change_pct": 0.37,
+          "latest_close": 1261.0,
+          "change_pct": 0.45,
           "weight_pct": 10.0,
           "returns": {
-            "1d": 0.37,
-            "1w": 6.28,
-            "1m": 0.53,
-            "3m": -0.79,
-            "6m": 0.22,
-            "1y": 4.73,
-            "3y": 73.91
+            "1d": 0.45,
+            "1w": 6.37,
+            "1m": 0.61,
+            "3m": -0.71,
+            "6m": 0.3,
+            "1y": 4.81,
+            "3y": 74.05
           }
         },
         {
@@ -3336,17 +3336,17 @@
           "name": "Tata Steel Ltd",
           "exchange": "NSE",
           "sector": "Metals & Mining",
-          "latest_close": 168.5,
-          "change_pct": -0.57,
+          "latest_close": 168.11,
+          "change_pct": -0.8,
           "weight_pct": 10.0,
           "returns": {
-            "1d": -0.57,
-            "1w": 0.5,
-            "1m": -8.57,
-            "3m": -11.17,
-            "6m": -18.63,
-            "1y": -6.72,
-            "3y": 51.19
+            "1d": -0.8,
+            "1w": 0.26,
+            "1m": -8.78,
+            "3m": -11.38,
+            "6m": -18.82,
+            "1y": -6.93,
+            "3y": 50.84
           }
         },
         {
@@ -3354,17 +3354,17 @@
           "name": "NMDC Ltd",
           "exchange": "NSE",
           "sector": "Metals & Mining",
-          "latest_close": 67.21,
-          "change_pct": -0.49,
+          "latest_close": 67.29,
+          "change_pct": -0.37,
           "weight_pct": 10.0,
           "returns": {
-            "1d": -0.49,
-            "1w": 1.3,
-            "1m": -10.99,
-            "3m": -19.89,
-            "6m": -24.62,
-            "1y": -7.5,
-            "3y": 47.88
+            "1d": -0.37,
+            "1w": 1.42,
+            "1m": -10.89,
+            "3m": -19.8,
+            "6m": -24.53,
+            "1y": -7.39,
+            "3y": 48.05
           }
         },
         {
@@ -3372,17 +3372,17 @@
           "name": "Hindalco Industries Ltd",
           "exchange": "NSE",
           "sector": "Metals & Mining",
-          "latest_close": 890.7,
-          "change_pct": 0.5,
+          "latest_close": 890.0,
+          "change_pct": 0.42,
           "weight_pct": 10.0,
           "returns": {
-            "1d": 0.5,
-            "1w": 2.4,
-            "1m": -5.43,
-            "3m": -8.59,
-            "6m": -13.74,
-            "1y": 3.95,
-            "3y": 97.41
+            "1d": 0.42,
+            "1w": 2.32,
+            "1m": -5.5,
+            "3m": -8.67,
+            "6m": -13.81,
+            "1y": 3.87,
+            "3y": 97.25
           }
         },
         {
@@ -3390,17 +3390,17 @@
           "name": "APL Apollo Tubes Ltd",
           "exchange": "NSE",
           "sector": "Metals & Mining",
-          "latest_close": 2179.8,
-          "change_pct": -0.69,
+          "latest_close": 2184.1,
+          "change_pct": -0.5,
           "weight_pct": 10.0,
           "returns": {
-            "1d": -0.69,
-            "1w": 7.18,
-            "1m": -0.47,
-            "3m": 20.26,
-            "6m": 14.87,
-            "1y": 22.62,
-            "3y": 40.82
+            "1d": -0.5,
+            "1w": 7.4,
+            "1m": -0.27,
+            "3m": 20.5,
+            "6m": 15.09,
+            "1y": 22.86,
+            "3y": 41.1
           }
         },
         {
@@ -3408,17 +3408,17 @@
           "name": "Jindal Steel & Power Ltd",
           "exchange": "NSE",
           "sector": "Metals & Mining",
-          "latest_close": 1059.0,
-          "change_pct": -0.09,
+          "latest_close": 1059.9,
+          "change_pct": -0.01,
           "weight_pct": 10.0,
           "returns": {
-            "1d": -0.09,
-            "1w": 4.24,
-            "1m": -6.69,
-            "3m": -3.76,
-            "6m": -13.26,
-            "1y": -0.87,
-            "3y": 68.07
+            "1d": -0.01,
+            "1w": 4.33,
+            "1m": -6.61,
+            "3m": -3.68,
+            "6m": -13.19,
+            "1y": -0.79,
+            "3y": 68.21
           }
         },
         {
@@ -3426,17 +3426,17 @@
           "name": "Hindustan Zinc Ltd",
           "exchange": "NSE",
           "sector": "Metals & Mining",
-          "latest_close": 507.75,
-          "change_pct": -1.69,
+          "latest_close": 508.75,
+          "change_pct": -1.5,
           "weight_pct": 10.0,
           "returns": {
-            "1d": -1.69,
-            "1w": 2.37,
-            "1m": -10.29,
-            "3m": -5.83,
-            "6m": -14.8,
-            "1y": 8.26,
-            "3y": 91.92
+            "1d": -1.5,
+            "1w": 2.57,
+            "1m": -10.11,
+            "3m": -5.65,
+            "6m": -14.63,
+            "1y": 8.47,
+            "3y": 92.3
           }
         },
         {
@@ -3444,17 +3444,17 @@
           "name": "Caliber Mining and Logistics Ltd",
           "exchange": "NSE",
           "sector": "Metals & Mining",
-          "latest_close": 524.7,
-          "change_pct": 0.47,
+          "latest_close": 521.15,
+          "change_pct": -0.21,
           "weight_pct": 10.0,
           "returns": {
-            "1d": 0.47,
-            "1w": 2.84,
-            "1m": -1.38,
-            "3m": -5.65,
-            "6m": -0.66,
-            "1y": -0.66,
-            "3y": -0.66
+            "1d": -0.21,
+            "1w": 2.15,
+            "1m": -2.05,
+            "3m": -6.28,
+            "6m": -1.33,
+            "1y": -1.33,
+            "3y": -1.33
           }
         },
         {
@@ -3462,17 +3462,17 @@
           "name": "National Aluminium Company Ltd",
           "exchange": "NSE",
           "sector": "Metals & Mining",
-          "latest_close": 316.8,
-          "change_pct": -2.07,
+          "latest_close": 317.95,
+          "change_pct": -1.72,
           "weight_pct": 10.0,
           "returns": {
-            "1d": -2.07,
-            "1w": 4.99,
-            "1m": -7.08,
-            "3m": -9.27,
-            "6m": -20.06,
-            "1y": 37.8,
-            "3y": 286.53
+            "1d": -1.72,
+            "1w": 5.37,
+            "1m": -6.75,
+            "3m": -8.94,
+            "6m": -19.77,
+            "1y": 38.3,
+            "3y": 287.93
           }
         }
       ]
@@ -3483,13 +3483,13 @@
       "index_id": "mtf_sector_oil_gas_energy",
       "constituents_count": 8,
       "returns": {
-        "1d": -0.53,
-        "1w": 0.13,
-        "1m": -2.05,
-        "3m": -6.39,
-        "6m": -7.67,
-        "1y": -9.83,
-        "3y": 75.52
+        "1d": -0.37,
+        "1w": 0.29,
+        "1m": -1.89,
+        "3m": -6.23,
+        "6m": -7.52,
+        "1y": -9.66,
+        "3y": 75.85
       },
       "stocks": [
         {
@@ -3497,17 +3497,17 @@
           "name": "Reliance Industries Ltd",
           "exchange": "NSE",
           "sector": "Oil, Gas & Energy",
-          "latest_close": 1163.0,
-          "change_pct": -0.38,
+          "latest_close": 1160.0,
+          "change_pct": -0.63,
           "weight_pct": 12.5,
           "returns": {
-            "1d": -0.38,
-            "1w": -2.27,
-            "1m": -2.02,
-            "3m": -11.07,
-            "6m": -18.34,
-            "1y": -21.51,
-            "3y": 2.89
+            "1d": -0.63,
+            "1w": -2.52,
+            "1m": -2.27,
+            "3m": -11.3,
+            "6m": -18.55,
+            "1y": -21.71,
+            "3y": 2.63
           }
         },
         {
@@ -3515,17 +3515,17 @@
           "name": "Oil and Natural Gas Corporation Ltd",
           "exchange": "NSE",
           "sector": "Oil, Gas & Energy",
-          "latest_close": 225.02,
-          "change_pct": -0.34,
+          "latest_close": 226.0,
+          "change_pct": 0.09,
           "weight_pct": 12.5,
           "returns": {
-            "1d": -0.34,
-            "1w": -1.09,
-            "1m": -0.35,
-            "3m": -6.82,
-            "6m": -24.56,
-            "1y": -6.9,
-            "3y": 40.81
+            "1d": 0.09,
+            "1w": -0.66,
+            "1m": 0.09,
+            "3m": -6.42,
+            "6m": -24.23,
+            "1y": -6.5,
+            "3y": 41.43
           }
         },
         {
@@ -3533,17 +3533,17 @@
           "name": "Indian Oil Corporation Ltd",
           "exchange": "NSE",
           "sector": "Oil, Gas & Energy",
-          "latest_close": 128.77,
-          "change_pct": -1.26,
+          "latest_close": 128.94,
+          "change_pct": -1.13,
           "weight_pct": 12.5,
           "returns": {
-            "1d": -1.26,
-            "1w": -0.25,
-            "1m": -4.57,
-            "3m": -7.31,
-            "6m": -8.67,
-            "1y": -17.08,
-            "3y": 69.1
+            "1d": -1.13,
+            "1w": -0.12,
+            "1m": -4.44,
+            "3m": -7.19,
+            "6m": -8.55,
+            "1y": -16.97,
+            "3y": 69.32
           }
         },
         {
@@ -3551,17 +3551,17 @@
           "name": "Bharat Petroleum Corporation Ltd",
           "exchange": "NSE",
           "sector": "Oil, Gas & Energy",
-          "latest_close": 286.05,
-          "change_pct": -1.09,
+          "latest_close": 285.75,
+          "change_pct": -1.19,
           "weight_pct": 12.5,
           "returns": {
-            "1d": -1.09,
-            "1w": 1.45,
-            "1m": -5.66,
-            "3m": -10.54,
-            "6m": -4.79,
-            "1y": -16.04,
-            "3y": 92.35
+            "1d": -1.19,
+            "1w": 1.35,
+            "1m": -5.76,
+            "3m": -10.63,
+            "6m": -4.89,
+            "1y": -16.13,
+            "3y": 92.15
           }
         },
         {
@@ -3569,17 +3569,17 @@
           "name": "GAIL (India) Ltd",
           "exchange": "NSE",
           "sector": "Oil, Gas & Energy",
-          "latest_close": 168.64,
-          "change_pct": 2.1,
+          "latest_close": 169.13,
+          "change_pct": 2.4,
           "weight_pct": 12.5,
           "returns": {
-            "1d": 2.1,
-            "1w": 2.85,
-            "1m": -1.12,
-            "3m": -6.78,
-            "6m": 3.61,
-            "1y": -4.74,
-            "3y": 57.09
+            "1d": 2.4,
+            "1w": 3.15,
+            "1m": -0.83,
+            "3m": -6.51,
+            "6m": 3.91,
+            "1y": -4.47,
+            "3y": 57.55
           }
         },
         {
@@ -3587,17 +3587,17 @@
           "name": "Petronet LNG Ltd",
           "exchange": "NSE",
           "sector": "Oil, Gas & Energy",
-          "latest_close": 286.65,
-          "change_pct": -0.86,
+          "latest_close": 286.85,
+          "change_pct": -0.8,
           "weight_pct": 12.5,
           "returns": {
-            "1d": -0.86,
-            "1w": 0.12,
-            "1m": 0.76,
-            "3m": 2.1,
-            "6m": 4.77,
-            "1y": 5.43,
-            "3y": 60.59
+            "1d": -0.8,
+            "1w": 0.19,
+            "1m": 0.83,
+            "3m": 2.17,
+            "6m": 4.84,
+            "1y": 5.51,
+            "3y": 60.7
           }
         },
         {
@@ -3605,17 +3605,17 @@
           "name": "Oil India Ltd",
           "exchange": "NSE",
           "sector": "Oil, Gas & Energy",
-          "latest_close": 446.25,
-          "change_pct": -1.82,
+          "latest_close": 449.7,
+          "change_pct": -1.06,
           "weight_pct": 12.5,
           "returns": {
-            "1d": -1.82,
-            "1w": -0.36,
-            "1m": -0.53,
-            "3m": -2.49,
-            "6m": -8.89,
-            "1y": 5.27,
-            "3y": 143.45
+            "1d": -1.06,
+            "1w": 0.41,
+            "1m": 0.23,
+            "3m": -1.74,
+            "6m": -8.19,
+            "1y": 6.09,
+            "3y": 145.34
           }
         },
         {
@@ -3623,17 +3623,17 @@
           "name": "Hindustan Petroleum Corporation Ltd",
           "exchange": "NSE",
           "sector": "Oil, Gas & Energy",
-          "latest_close": 340.25,
-          "change_pct": -0.6,
+          "latest_close": 340.05,
+          "change_pct": -0.66,
           "weight_pct": 12.5,
           "returns": {
-            "1d": -0.6,
-            "1w": 0.58,
-            "1m": -2.88,
-            "3m": -8.2,
-            "6m": -4.48,
-            "1y": -23.04,
-            "3y": 137.85
+            "1d": -0.66,
+            "1w": 0.52,
+            "1m": -2.94,
+            "3m": -8.26,
+            "6m": -4.53,
+            "1y": -23.09,
+            "3y": 137.71
           }
         }
       ]
@@ -3644,13 +3644,13 @@
       "index_id": "mtf_sector_renewable_energy_utilities",
       "constituents_count": 8,
       "returns": {
-        "1d": -0.95,
-        "1w": 3.9,
-        "1m": -2.74,
-        "3m": -10.65,
-        "6m": -16.87,
-        "1y": -13.86,
-        "3y": 30.21
+        "1d": -0.81,
+        "1w": 4.05,
+        "1m": -2.6,
+        "3m": -10.52,
+        "6m": -16.74,
+        "1y": -13.74,
+        "3y": 30.39
       },
       "stocks": [
         {
@@ -3658,17 +3658,17 @@
           "name": "NTPC Ltd",
           "exchange": "NSE",
           "sector": "Renewable Energy & Utilities",
-          "latest_close": 316.5,
-          "change_pct": 1.93,
+          "latest_close": 316.55,
+          "change_pct": 1.95,
           "weight_pct": 12.5,
           "returns": {
-            "1d": 1.93,
-            "1w": 6.21,
-            "1m": -1.94,
-            "3m": -7.87,
-            "6m": -19.85,
-            "1y": -5.82,
-            "3y": 45.1
+            "1d": 1.95,
+            "1w": 6.22,
+            "1m": -1.92,
+            "3m": -7.86,
+            "6m": -19.84,
+            "1y": -5.8,
+            "3y": 45.12
           }
         },
         {
@@ -3676,17 +3676,17 @@
           "name": "Power Grid Corporation of India Ltd",
           "exchange": "NSE",
           "sector": "Renewable Energy & Utilities",
-          "latest_close": 266.15,
-          "change_pct": 2.37,
+          "latest_close": 266.25,
+          "change_pct": 2.4,
           "weight_pct": 12.5,
           "returns": {
-            "1d": 2.37,
-            "1w": 7.58,
-            "1m": 2.17,
-            "3m": -5.93,
-            "6m": -16.01,
-            "1y": -5.68,
-            "3y": 46.49
+            "1d": 2.4,
+            "1w": 7.62,
+            "1m": 2.21,
+            "3m": -5.9,
+            "6m": -15.98,
+            "1y": -5.65,
+            "3y": 46.55
           }
         },
         {
@@ -3694,17 +3694,17 @@
           "name": "Tata Power Company Ltd",
           "exchange": "NSE",
           "sector": "Renewable Energy & Utilities",
-          "latest_close": 344.55,
-          "change_pct": 0.0,
+          "latest_close": 344.8,
+          "change_pct": 0.07,
           "weight_pct": 12.5,
           "returns": {
-            "1d": 0.0,
-            "1w": -1.02,
-            "1m": -4.03,
-            "3m": -9.5,
-            "6m": -22.01,
-            "1y": -15.4,
-            "3y": 46.37
+            "1d": 0.07,
+            "1w": -0.95,
+            "1m": -3.96,
+            "3m": -9.43,
+            "6m": -21.96,
+            "1y": -15.34,
+            "3y": 46.48
           }
         },
         {
@@ -3712,17 +3712,17 @@
           "name": "NHPC Ltd",
           "exchange": "NSE",
           "sector": "Renewable Energy & Utilities",
-          "latest_close": 77.35,
-          "change_pct": 0.19,
+          "latest_close": 77.49,
+          "change_pct": 0.38,
           "weight_pct": 12.5,
           "returns": {
-            "1d": 0.19,
-            "1w": 10.75,
-            "1m": 6.24,
-            "3m": -1.49,
-            "6m": -6.77,
-            "1y": -8.34,
-            "3y": 64.61
+            "1d": 0.38,
+            "1w": 10.95,
+            "1m": 6.43,
+            "3m": -1.31,
+            "6m": -6.6,
+            "1y": -8.18,
+            "3y": 64.91
           }
         },
         {
@@ -3730,17 +3730,17 @@
           "name": "JSW Energy Ltd",
           "exchange": "NSE",
           "sector": "Renewable Energy & Utilities",
-          "latest_close": 505.9,
-          "change_pct": -0.8,
+          "latest_close": 507.0,
+          "change_pct": -0.59,
           "weight_pct": 12.5,
           "returns": {
-            "1d": -0.8,
-            "1w": 12.79,
-            "1m": 2.26,
-            "3m": -8.79,
-            "6m": -9.54,
-            "1y": -5.67,
-            "3y": 32.53
+            "1d": -0.59,
+            "1w": 13.03,
+            "1m": 2.49,
+            "3m": -8.59,
+            "6m": -9.34,
+            "1y": -5.47,
+            "3y": 32.82
           }
         },
         {
@@ -3748,17 +3748,17 @@
           "name": "Premier Energies Ltd",
           "exchange": "NSE",
           "sector": "Renewable Energy & Utilities",
-          "latest_close": 851.25,
-          "change_pct": -1.6,
+          "latest_close": 853.0,
+          "change_pct": -1.4,
           "weight_pct": 12.5,
           "returns": {
-            "1d": -1.6,
-            "1w": -0.24,
-            "1m": -2.17,
-            "3m": -16.72,
-            "6m": -16.33,
-            "1y": -22.54,
-            "3y": 1.55
+            "1d": -1.4,
+            "1w": -0.04,
+            "1m": -1.97,
+            "3m": -16.55,
+            "6m": -16.16,
+            "1y": -22.38,
+            "3y": 1.76
           }
         },
         {
@@ -3766,17 +3766,17 @@
           "name": "Suzlon Energy Ltd",
           "exchange": "NSE",
           "sector": "Renewable Energy & Utilities",
-          "latest_close": 33.65,
-          "change_pct": -8.53,
+          "latest_close": 33.7,
+          "change_pct": -8.4,
           "weight_pct": 12.5,
           "returns": {
-            "1d": -8.53,
-            "1w": -10.03,
-            "1m": -14.79,
-            "3m": -29.91,
-            "6m": -39.46,
-            "1y": -42.49,
-            "3y": 9.97
+            "1d": -8.4,
+            "1w": -9.89,
+            "1m": -14.66,
+            "3m": -29.81,
+            "6m": -39.37,
+            "1y": -42.4,
+            "3y": 10.13
           }
         },
         {
@@ -3784,17 +3784,17 @@
           "name": "Juniper Green Energy Ltd",
           "exchange": "NSE",
           "sector": "Renewable Energy & Utilities",
-          "latest_close": 246.8,
-          "change_pct": -1.18,
+          "latest_close": 247.55,
+          "change_pct": -0.88,
           "weight_pct": 12.5,
           "returns": {
-            "1d": -1.18,
-            "1w": 5.13,
-            "1m": -9.7,
-            "3m": -4.97,
-            "6m": -4.97,
-            "1y": -4.97,
-            "3y": -4.97
+            "1d": -0.88,
+            "1w": 5.45,
+            "1m": -9.42,
+            "3m": -4.68,
+            "6m": -4.68,
+            "1y": -4.68,
+            "3y": -4.68
           }
         }
       ]
@@ -3805,13 +3805,13 @@
       "index_id": "mtf_sector_real_estate_realty",
       "constituents_count": 6,
       "returns": {
-        "1d": -0.17,
-        "1w": 5.06,
-        "1m": -2.63,
-        "3m": -8.71,
-        "6m": 5.86,
-        "1y": -9.84,
-        "3y": 51.35
+        "1d": 0.1,
+        "1w": 5.34,
+        "1m": -2.36,
+        "3m": -8.46,
+        "6m": 6.16,
+        "1y": -9.6,
+        "3y": 51.88
       },
       "stocks": [
         {
@@ -3819,17 +3819,17 @@
           "name": "Oberoi Realty Ltd",
           "exchange": "NSE",
           "sector": "Real Estate & Realty",
-          "latest_close": 1644.3,
-          "change_pct": 0.26,
+          "latest_close": 1648.4,
+          "change_pct": 0.51,
           "weight_pct": 16.67,
           "returns": {
-            "1d": 0.26,
-            "1w": 1.96,
-            "1m": -6.76,
-            "3m": -9.92,
-            "6m": -1.17,
-            "1y": -5.59,
-            "3y": 47.0
+            "1d": 0.51,
+            "1w": 2.21,
+            "1m": -6.53,
+            "3m": -9.7,
+            "6m": -0.92,
+            "1y": -5.36,
+            "3y": 47.36
           }
         },
         {
@@ -3837,17 +3837,17 @@
           "name": "DLF Ltd",
           "exchange": "NSE",
           "sector": "Real Estate & Realty",
-          "latest_close": 691.45,
-          "change_pct": -0.42,
+          "latest_close": 692.7,
+          "change_pct": -0.24,
           "weight_pct": 16.67,
           "returns": {
-            "1d": -0.42,
-            "1w": 5.24,
-            "1m": 2.59,
-            "3m": 4.88,
-            "6m": 19.27,
-            "1y": -9.84,
-            "3y": 25.87
+            "1d": -0.24,
+            "1w": 5.43,
+            "1m": 2.77,
+            "3m": 5.07,
+            "6m": 19.49,
+            "1y": -9.68,
+            "3y": 26.1
           }
         },
         {
@@ -3855,17 +3855,17 @@
           "name": "The Phoenix Mills Ltd",
           "exchange": "NSE",
           "sector": "Real Estate & Realty",
-          "latest_close": 1956.4,
-          "change_pct": -0.69,
+          "latest_close": 1958.1,
+          "change_pct": -0.6,
           "weight_pct": 16.67,
           "returns": {
-            "1d": -0.69,
-            "1w": 4.49,
-            "1m": 1.11,
-            "3m": 3.47,
-            "6m": 10.99,
-            "1y": 15.0,
-            "3y": 116.48
+            "1d": -0.6,
+            "1w": 4.58,
+            "1m": 1.19,
+            "3m": 3.56,
+            "6m": 11.09,
+            "1y": 15.1,
+            "3y": 116.67
           }
         },
         {
@@ -3873,17 +3873,17 @@
           "name": "Prestige Estates Projects Ltd",
           "exchange": "NSE",
           "sector": "Real Estate & Realty",
-          "latest_close": 1433.8,
-          "change_pct": -0.36,
+          "latest_close": 1453.7,
+          "change_pct": 1.02,
           "weight_pct": 16.67,
           "returns": {
-            "1d": -0.36,
-            "1w": 2.97,
-            "1m": -3.25,
-            "3m": -11.17,
-            "6m": 1.5,
-            "1y": -18.21,
-            "3y": 87.88
+            "1d": 1.02,
+            "1w": 4.39,
+            "1m": -1.9,
+            "3m": -9.94,
+            "6m": 2.91,
+            "1y": -17.08,
+            "3y": 90.49
           }
         },
         {
@@ -3891,17 +3891,17 @@
           "name": "Godrej Properties Ltd",
           "exchange": "NSE",
           "sector": "Real Estate & Realty",
-          "latest_close": 1604.4,
-          "change_pct": 0.28,
+          "latest_close": 1598.7,
+          "change_pct": -0.08,
           "weight_pct": 16.67,
           "returns": {
-            "1d": 0.28,
-            "1w": 7.21,
-            "1m": -1.48,
-            "3m": -23.81,
-            "6m": -12.15,
-            "1y": -29.87,
-            "3y": -2.86
+            "1d": -0.08,
+            "1w": 6.83,
+            "1m": -1.83,
+            "3m": -24.08,
+            "6m": -12.47,
+            "1y": -30.12,
+            "3y": -3.21
           }
         },
         {
@@ -3909,17 +3909,17 @@
           "name": "Macrotech Developers Ltd (Lodha)",
           "exchange": "NSE",
           "sector": "Real Estate & Realty",
-          "latest_close": 1044.5,
-          "change_pct": -0.12,
+          "latest_close": 1045.6,
+          "change_pct": -0.02,
           "weight_pct": 16.67,
           "returns": {
-            "1d": -0.12,
-            "1w": 8.46,
-            "1m": -7.97,
-            "3m": -15.74,
-            "6m": 16.74,
-            "1y": -10.52,
-            "3y": 33.74
+            "1d": -0.02,
+            "1w": 8.58,
+            "1m": -7.88,
+            "3m": -15.65,
+            "6m": 16.86,
+            "1y": -10.43,
+            "3y": 33.88
           }
         }
       ]
@@ -3930,13 +3930,13 @@
       "index_id": "mtf_sector_logistics_services",
       "constituents_count": 5,
       "returns": {
-        "1d": -0.73,
-        "1w": 1.91,
-        "1m": -6.4,
-        "3m": -14.86,
-        "6m": -11.68,
-        "1y": -22.67,
-        "3y": 0.9
+        "1d": -0.16,
+        "1w": 2.49,
+        "1m": -5.87,
+        "3m": -14.37,
+        "6m": -11.17,
+        "1y": -22.2,
+        "3y": 1.45
       },
       "stocks": [
         {
@@ -3944,17 +3944,17 @@
           "name": "Container Corporation of India Ltd",
           "exchange": "NSE",
           "sector": "Logistics & Services",
-          "latest_close": 415.25,
-          "change_pct": -1.38,
+          "latest_close": 418.9,
+          "change_pct": -0.51,
           "weight_pct": 20.0,
           "returns": {
-            "1d": -1.38,
-            "1w": 1.24,
-            "1m": -7.21,
-            "3m": -20.58,
-            "6m": -17.98,
-            "1y": -23.17,
-            "3y": -37.09
+            "1d": -0.51,
+            "1w": 2.13,
+            "1m": -6.39,
+            "3m": -19.88,
+            "6m": -17.26,
+            "1y": -22.49,
+            "3y": -36.54
           }
         },
         {
@@ -3962,17 +3962,17 @@
           "name": "Delhivery Ltd",
           "exchange": "NSE",
           "sector": "Logistics & Services",
-          "latest_close": 396.45,
-          "change_pct": -0.21,
+          "latest_close": 397.6,
+          "change_pct": 0.08,
           "weight_pct": 20.0,
           "returns": {
-            "1d": -0.21,
-            "1w": 7.15,
-            "1m": -3.23,
-            "3m": -17.74,
-            "6m": -15.12,
-            "1y": -16.59,
-            "3y": -4.09
+            "1d": 0.08,
+            "1w": 7.46,
+            "1m": -2.95,
+            "3m": -17.5,
+            "6m": -14.87,
+            "1y": -16.35,
+            "3y": -3.81
           }
         },
         {
@@ -3980,17 +3980,17 @@
           "name": "InterGlobe Aviation Ltd (IndiGo)",
           "exchange": "NSE",
           "sector": "Logistics & Services",
-          "latest_close": 4806.9,
-          "change_pct": 2.82,
+          "latest_close": 4827.0,
+          "change_pct": 3.25,
           "weight_pct": 20.0,
           "returns": {
-            "1d": 2.82,
-            "1w": 5.67,
-            "1m": -3.55,
-            "3m": -7.04,
-            "6m": 11.91,
-            "1y": -16.04,
-            "3y": 96.22
+            "1d": 3.25,
+            "1w": 6.11,
+            "1m": -3.15,
+            "3m": -6.65,
+            "6m": 12.38,
+            "1y": -15.69,
+            "3y": 97.04
           }
         },
         {
@@ -3998,17 +3998,17 @@
           "name": "LEAP India Ltd",
           "exchange": "NSE",
           "sector": "Logistics & Services",
-          "latest_close": 117.8,
-          "change_pct": -3.84,
+          "latest_close": 119.37,
+          "change_pct": -2.56,
           "weight_pct": 20.0,
           "returns": {
-            "1d": -3.84,
-            "1w": -4.05,
-            "1m": -14.5,
-            "3m": -18.72,
-            "6m": -18.72,
-            "1y": -18.72,
-            "3y": -18.72
+            "1d": -2.56,
+            "1w": -2.77,
+            "1m": -13.36,
+            "3m": -17.64,
+            "6m": -17.64,
+            "1y": -17.64,
+            "3y": -17.64
           }
         },
         {
@@ -4037,13 +4037,13 @@
       "index_id": null,
       "constituents_count": 3,
       "returns": {
-        "1d": -1.12,
-        "1w": 0.42,
-        "1m": -4.17,
-        "3m": -7.24,
-        "6m": -10.13,
-        "1y": -13.04,
-        "3y": 154.08
+        "1d": -0.74,
+        "1w": 0.8,
+        "1m": -3.81,
+        "3m": -6.9,
+        "6m": -9.8,
+        "1y": -12.72,
+        "3y": 155.05
       },
       "stocks": [
         {
@@ -4051,17 +4051,17 @@
           "name": "Bharat Electronics Ltd",
           "exchange": "NSE",
           "sector": "Defense & Aerospace",
-          "latest_close": 368.45,
-          "change_pct": -0.42,
+          "latest_close": 370.55,
+          "change_pct": 0.15,
           "weight_pct": 33.33,
           "returns": {
-            "1d": -0.42,
-            "1w": 1.78,
-            "1m": -5.11,
-            "3m": -4.87,
-            "6m": -14.46,
-            "1y": -9.61,
-            "3y": 183.1
+            "1d": 0.15,
+            "1w": 2.36,
+            "1m": -4.57,
+            "3m": -4.33,
+            "6m": -13.97,
+            "1y": -9.09,
+            "3y": 184.71
           }
         },
         {
@@ -4069,17 +4069,17 @@
           "name": "Hindustan Aeronautics Ltd",
           "exchange": "NSE",
           "sector": "Defense & Aerospace",
-          "latest_close": 4825.1,
-          "change_pct": -0.92,
+          "latest_close": 4835.0,
+          "change_pct": -0.72,
           "weight_pct": 33.33,
           "returns": {
-            "1d": -0.92,
-            "1w": 2.12,
-            "1m": 3.37,
-            "3m": 4.05,
-            "6m": 11.43,
-            "1y": 4.84,
-            "3y": 172.99
+            "1d": -0.72,
+            "1w": 2.33,
+            "1m": 3.58,
+            "3m": 4.27,
+            "6m": 11.66,
+            "1y": 5.05,
+            "3y": 173.55
           }
         },
         {
@@ -4087,17 +4087,17 @@
           "name": "Bharat Dynamics Ltd",
           "exchange": "NSE",
           "sector": "Defense & Aerospace",
-          "latest_close": 990.7,
-          "change_pct": -2.01,
+          "latest_close": 994.3,
+          "change_pct": -1.65,
           "weight_pct": 33.33,
           "returns": {
-            "1d": -2.01,
-            "1w": -2.63,
-            "1m": -10.76,
-            "3m": -20.91,
-            "6m": -27.35,
-            "1y": -34.36,
-            "3y": 106.16
+            "1d": -1.65,
+            "1w": -2.28,
+            "1m": -10.43,
+            "3m": -20.63,
+            "6m": -27.08,
+            "1y": -34.12,
+            "3y": 106.9
           }
         }
       ]
@@ -4108,13 +4108,13 @@
       "index_id": null,
       "constituents_count": 2,
       "returns": {
-        "1d": -0.22,
-        "1w": 2.41,
-        "1m": 7.33,
-        "3m": 0.72,
-        "6m": 1.29,
-        "1y": 2.19,
-        "3y": 125.76
+        "1d": 0.28,
+        "1w": 2.92,
+        "1m": 7.87,
+        "3m": 1.22,
+        "6m": 1.8,
+        "1y": 2.7,
+        "3y": 126.89
       },
       "stocks": [
         {
@@ -4122,17 +4122,17 @@
           "name": "Bharti Airtel Ltd",
           "exchange": "NSE",
           "sector": "Telecom & Media",
-          "latest_close": 1969.2,
-          "change_pct": -0.15,
+          "latest_close": 1980.7,
+          "change_pct": 0.44,
           "weight_pct": 50.0,
           "returns": {
-            "1d": -0.15,
-            "1w": 4.07,
-            "1m": 12.08,
-            "3m": -0.14,
-            "6m": 5.68,
-            "1y": -3.5,
-            "3y": 121.11
+            "1d": 0.44,
+            "1w": 4.68,
+            "1m": 12.73,
+            "3m": 0.44,
+            "6m": 6.3,
+            "1y": -2.94,
+            "3y": 122.4
           }
         },
         {
@@ -4140,17 +4140,17 @@
           "name": "Indus Towers Ltd",
           "exchange": "NSE",
           "sector": "Telecom & Media",
-          "latest_close": 382.85,
-          "change_pct": -0.3,
+          "latest_close": 384.45,
+          "change_pct": 0.12,
           "weight_pct": 50.0,
           "returns": {
-            "1d": -0.3,
-            "1w": 0.75,
-            "1m": 2.59,
-            "3m": 1.57,
-            "6m": -3.1,
-            "1y": 7.88,
-            "3y": 130.42
+            "1d": 0.12,
+            "1w": 1.17,
+            "1m": 3.01,
+            "3m": 2.0,
+            "6m": -2.69,
+            "1y": 8.33,
+            "3y": 131.39
           }
         }
       ]
