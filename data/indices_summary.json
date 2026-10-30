@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T10:14:05.028682Z",
+  "updated_at": "2026-10-30T10:25:56.211391Z",
   "total_stocks": 132,
   "total_indices": 14,
   "indices": [
@@ -8,24 +8,24 @@
       "name": "Master Composite Index",
       "type": "master",
       "file": "data/master_index.json",
-      "current_value": 2055.16,
+      "current_value": 2055.03,
       "prev_close": 2100.35,
-      "change_pts": -45.19,
-      "change_pct": -2.15,
+      "change_pts": -45.32,
+      "change_pct": -2.16,
       "day_open": 2098.83,
       "day_high": 2121.11,
       "day_low": 2029.41,
       "high_52w": 2329.02,
       "low_52w": 1581.8,
-      "all_time_return_pct": 105.52,
+      "all_time_return_pct": 105.5,
       "returns": {
-        "1d": -2.15,
+        "1d": -2.16,
         "1w": 2.38,
-        "1m": -8.16,
-        "3m": -6.27,
+        "1m": -8.17,
+        "3m": -6.28,
         "6m": 3.56,
-        "1y": 2.93,
-        "3y": 105.14
+        "1y": 2.92,
+        "3y": 105.13
       },
       "constituents_count": 132,
       "constituents": [
@@ -480,24 +480,6 @@
           }
         },
         {
-          "ticker": "KPGEL",
-          "name": "KP Green Engineering",
-          "exchange": "BSE",
-          "sector": "Capital Goods & Engineering",
-          "latest_close": 268.0,
-          "change_pct": -0.32,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": -0.32,
-            "1w": 1.09,
-            "1m": -9.92,
-            "3m": -21.02,
-            "6m": -36.27,
-            "1y": -53.86,
-            "3y": 27.91
-          }
-        },
-        {
           "ticker": "REPCOHOME",
           "name": "Repco Home Finance",
           "exchange": "NSE",
@@ -837,6 +819,24 @@
             "6m": 17.93,
             "1y": 6.76,
             "3y": 3.58
+          }
+        },
+        {
+          "ticker": "KPGEL",
+          "name": "KP Green Engineering",
+          "exchange": "BSE",
+          "sector": "Capital Goods & Engineering",
+          "latest_close": 265.7,
+          "change_pct": -1.17,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": -1.17,
+            "1w": 0.23,
+            "1m": -10.69,
+            "3m": -21.69,
+            "6m": -36.82,
+            "1y": -54.26,
+            "3y": 26.81
           }
         },
         {
@@ -2710,24 +2710,24 @@
       "name": "Capital Goods & Engineering",
       "type": "sector",
       "file": "data/sector_capital_goods_engineering.json",
-      "current_value": 2725.45,
+      "current_value": 2723.95,
       "prev_close": 2808.14,
-      "change_pts": -82.69,
-      "change_pct": -2.94,
+      "change_pts": -84.19,
+      "change_pct": -3.0,
       "day_open": 2802.12,
       "day_high": 2828.0,
       "day_low": 2691.31,
       "high_52w": 3186.56,
       "low_52w": 1960.6,
-      "all_time_return_pct": 172.54,
+      "all_time_return_pct": 172.39,
       "returns": {
-        "1d": -2.94,
-        "1w": 2.6,
-        "1m": -11.53,
-        "3m": -0.67,
-        "6m": -1.63,
-        "1y": 8.69,
-        "3y": 171.21
+        "1d": -3.0,
+        "1w": 2.55,
+        "1m": -11.58,
+        "3m": -0.73,
+        "6m": -1.69,
+        "1y": 8.63,
+        "3y": 171.06
       },
       "constituents_count": 16,
       "constituents": [
@@ -2747,24 +2747,6 @@
             "6m": 72.81,
             "1y": 127.09,
             "3y": 307.66
-          }
-        },
-        {
-          "ticker": "KPGEL",
-          "name": "KP Green Engineering",
-          "exchange": "BSE",
-          "sector": "Capital Goods & Engineering",
-          "latest_close": 268.0,
-          "change_pct": -0.32,
-          "weight_pct": 6.25,
-          "returns": {
-            "1d": -0.32,
-            "1w": 1.09,
-            "1m": -9.92,
-            "3m": -21.02,
-            "6m": -36.27,
-            "1y": -53.86,
-            "3y": 27.91
           }
         },
         {
@@ -2819,6 +2801,24 @@
             "6m": -34.65,
             "1y": -31.44,
             "3y": -68.2
+          }
+        },
+        {
+          "ticker": "KPGEL",
+          "name": "KP Green Engineering",
+          "exchange": "BSE",
+          "sector": "Capital Goods & Engineering",
+          "latest_close": 265.7,
+          "change_pct": -1.17,
+          "weight_pct": 6.25,
+          "returns": {
+            "1d": -1.17,
+            "1w": 0.23,
+            "1m": -10.69,
+            "3m": -21.69,
+            "6m": -36.82,
+            "1y": -54.26,
+            "3y": 26.81
           }
         },
         {
