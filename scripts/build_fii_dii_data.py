@@ -50,8 +50,49 @@ def load_existing_fii_dii():
     return None
 
 
+def fetch_live_moneycontrol_fii_dii():
+    """Fallback: Fetch official FII/DII cash market trading activity from Moneycontrol (unblocked globally)."""
+    url = "https://www.moneycontrol.com/markets/fii-dii-data/cash/"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    }
+    try:
+        resp = requests.get(url, headers=headers, timeout=10)
+        if resp.status_code == 200:
+            match = re.search(r'\"fiiDiiData\":\s*(\[\{.*?\}\])', resp.text)
+            if match:
+                records = json.loads(match.group(1))
+                if records and len(records) > 0:
+                    latest = records[0]
+                    raw_date = latest.get("date", "")
+                    dt = datetime.strptime(raw_date, "%Y-%m-%d") if raw_date else datetime.now()
+                    trade_date = dt.strftime("%d-%b-%Y")
+
+                    def clean_val(v):
+                        return round(float(str(v).replace(",", "").strip()), 2)
+
+                    fii_buy = clean_val(latest.get("fiiPurchase", 0))
+                    fii_sell = clean_val(latest.get("fiiSales", 0))
+                    fii_net = clean_val(latest.get("fiiNet", fii_buy - fii_sell))
+
+                    dii_buy = clean_val(latest.get("diiPurchase", 0))
+                    dii_sell = clean_val(latest.get("diiSale", latest.get("diiSales", 0)))
+                    dii_net = clean_val(latest.get("diiNet", dii_buy - dii_sell))
+
+                    print(f"[INFO] Fetched live Moneycontrol FII/DII for {trade_date}: FII Net={fii_net:+.2f} Cr, DII Net={dii_net:+.2f} Cr")
+                    return {
+                        "date": trade_date,
+                        "fii": {"buy": fii_buy, "sell": fii_sell, "net": fii_net},
+                        "dii": {"buy": dii_buy, "sell": dii_sell, "net": dii_net},
+                    }
+    except Exception as e:
+        print(f"[WARN] Moneycontrol FII/DII fallback encountered: {e}")
+    return None
+
+
 def fetch_live_nse_fii_dii():
-    """Fetch official EOD FII/DII cash market trading activity from NSE."""
+    """Fetch official EOD FII/DII cash market trading activity from NSE with Moneycontrol fallback."""
     url = "https://www.nseindia.com/api/fiidiiTradeReact"
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
@@ -69,6 +110,8 @@ def fetch_live_nse_fii_dii():
     session = requests.Session()
     session.headers.update(headers)
     
+    nse_result = None
+
     # Try up to 4 times with progressive backoff and session establishment
     for attempt in range(4):
         try:
@@ -105,17 +148,36 @@ def fetch_live_nse_fii_dii():
                         trade_date = dii_item.get("date", datetime.now().strftime("%d-%b-%Y"))
                         
                         print(f"[INFO] Fetched live NSE FII/DII for {trade_date}: FII Net={fii_net:+.2f} Cr, DII Net={dii_net:+.2f} Cr")
-                        return {
+                        nse_result = {
                             "date": trade_date,
                             "fii": {"buy": fii_buy, "sell": fii_sell, "net": fii_net},
                             "dii": {"buy": dii_buy, "sell": dii_sell, "net": dii_net},
                         }
+                        break
         except Exception as e:
             print(f"[DEBUG] NSE fetch attempt {attempt + 1} encountered: {e}")
             time.sleep(2.0 * (attempt + 1))
             continue
 
-    print("[WARN] Live NSE fetch failed across retries, checking existing verified data...")
+    today_str = datetime.now().strftime("%d-%b-%Y")
+
+    # If NSE succeeded with today's date, return it
+    if nse_result and nse_result.get("date") == today_str:
+        return nse_result
+
+    # Tier 2: Check Moneycontrol (unblocked for cloud runners & updates within minutes of EOD)
+    print("[INFO] Checking secondary Tier 2 Moneycontrol feed...")
+    mc_result = fetch_live_moneycontrol_fii_dii()
+    if mc_result:
+        # If Moneycontrol has today's date or NSE didn't return anything, use Moneycontrol
+        if mc_result.get("date") == today_str or not nse_result:
+            return mc_result
+
+    # If NSE had data (even if yesterday's after trading close), use it
+    if nse_result:
+        return nse_result
+
+    print("[WARN] Live NSE & Moneycontrol fetches failed, checking existing verified data...")
     existing = load_existing_fii_dii()
     if existing and "today" in existing and "fii" in existing["today"]:
         print(f"[INFO] Preserving existing verified session data for {existing['today']['date']}")
