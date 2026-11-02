@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T11:42:43.030986Z",
+  "updated_at": "2026-11-02T12:18:21.712595Z",
   "total_stocks": 216,
   "models": {
     "ema": {
@@ -2247,7 +2247,7 @@
           "y": -2.74,
           "ema_20": 120210.61,
           "ema_50": 123788.15,
-          "ema_200": 130808.17,
+          "ema_200": 130808.16,
           "is_bull": false,
           "quadrant": 3,
           "is_pullback_buy": false
