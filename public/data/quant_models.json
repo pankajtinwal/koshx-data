@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T10:16:13.793920Z",
+  "updated_at": "2026-11-02T11:41:53.852617Z",
   "total_stocks": 132,
   "models": {
     "ema": {
@@ -1035,20 +1035,6 @@
           "is_pullback_buy": false
         },
         {
-          "ticker": "KPGEL",
-          "name": "KP Green Engineering",
-          "sector": "Capital Goods & Engineering",
-          "price": 268.5,
-          "x": -6.03,
-          "y": -2.71,
-          "ema_20": 275.99,
-          "ema_50": 285.73,
-          "ema_200": 348.25,
-          "is_bull": false,
-          "quadrant": 3,
-          "is_pullback_buy": false
-        },
-        {
           "ticker": "SULA",
           "name": "Sula Vineyards",
           "sector": "Consumer Goods & Retail",
@@ -1058,6 +1044,20 @@
           "ema_20": 130.89,
           "ema_50": 136.36,
           "ema_200": 164.62,
+          "is_bull": false,
+          "quadrant": 3,
+          "is_pullback_buy": false
+        },
+        {
+          "ticker": "KPGEL",
+          "name": "KP Green Engineering",
+          "sector": "Capital Goods & Engineering",
+          "price": 268.25,
+          "x": -6.11,
+          "y": -2.79,
+          "ema_20": 275.96,
+          "ema_50": 285.72,
+          "ema_200": 348.24,
           "is_bull": false,
           "quadrant": 3,
           "is_pullback_buy": false
@@ -1875,7 +1875,7 @@
         "x_min": -0.5549,
         "x_max": 0.3406,
         "x_mean": -0.087,
-        "ss_xx": 4.195735
+        "ss_xx": 4.195982
       },
       "stats": {
         "outlier_count": 5
@@ -1925,7 +1925,7 @@
           "x": -47.7,
           "y": 8.32,
           "expected_y": -0.56,
-          "residual": 8.88,
+          "residual": 8.89,
           "studentized_residual": 1.87,
           "is_outlier": false
         },
@@ -1936,7 +1936,7 @@
           "price": 569.95,
           "x": 34.06,
           "y": 14.98,
-          "expected_y": 6.74,
+          "expected_y": 6.75,
           "residual": 8.24,
           "studentized_residual": 1.74,
           "is_outlier": false
@@ -2008,7 +2008,7 @@
           "price": 1798.6,
           "x": -36.09,
           "y": 7.33,
-          "expected_y": 0.48,
+          "expected_y": 0.47,
           "residual": 6.85,
           "studentized_residual": 1.43,
           "is_outlier": false
@@ -2020,7 +2020,7 @@
           "price": 188.28,
           "x": -32.28,
           "y": 7.54,
-          "expected_y": 0.82,
+          "expected_y": 0.81,
           "residual": 6.72,
           "studentized_residual": 1.4,
           "is_outlier": false
@@ -2056,7 +2056,7 @@
           "price": 684.8,
           "x": -17.29,
           "y": 8.26,
-          "expected_y": 2.16,
+          "expected_y": 2.15,
           "residual": 6.11,
           "studentized_residual": 1.26,
           "is_outlier": false
@@ -2081,7 +2081,7 @@
           "x": -25.51,
           "y": 7.15,
           "expected_y": 1.42,
-          "residual": 5.72,
+          "residual": 5.73,
           "studentized_residual": 1.19,
           "is_outlier": false
         },
@@ -2212,7 +2212,7 @@
           "price": 492.25,
           "x": -11.93,
           "y": 6.46,
-          "expected_y": 2.64,
+          "expected_y": 2.63,
           "residual": 3.83,
           "studentized_residual": 0.79,
           "is_outlier": false
@@ -2224,7 +2224,7 @@
           "price": 516.65,
           "x": -14.39,
           "y": 5.96,
-          "expected_y": 2.42,
+          "expected_y": 2.41,
           "residual": 3.55,
           "studentized_residual": 0.73,
           "is_outlier": false
@@ -2249,7 +2249,7 @@
           "x": -12.43,
           "y": 6.06,
           "expected_y": 2.59,
-          "residual": 3.47,
+          "residual": 3.48,
           "studentized_residual": 0.72,
           "is_outlier": false
         },
@@ -2434,18 +2434,6 @@
           "is_outlier": false
         },
         {
-          "ticker": "TALBROAUTO",
-          "name": "Talbros Automotive Components",
-          "sector": "Auto & Ancillaries",
-          "price": 355.55,
-          "x": -21.03,
-          "y": 3.49,
-          "expected_y": 1.82,
-          "residual": 1.67,
-          "studentized_residual": 0.35,
-          "is_outlier": false
-        },
-        {
           "ticker": "CMSINFO",
           "name": "CMS Info Systems",
           "sector": "Financial Services",
@@ -2454,6 +2442,18 @@
           "y": 3.18,
           "expected_y": 1.47,
           "residual": 1.71,
+          "studentized_residual": 0.36,
+          "is_outlier": false
+        },
+        {
+          "ticker": "TALBROAUTO",
+          "name": "Talbros Automotive Components",
+          "sector": "Auto & Ancillaries",
+          "price": 355.55,
+          "x": -21.03,
+          "y": 3.49,
+          "expected_y": 1.82,
+          "residual": 1.67,
           "studentized_residual": 0.35,
           "is_outlier": false
         },
@@ -2524,7 +2524,7 @@
           "price": 687.2,
           "x": -27.7,
           "y": 2.69,
-          "expected_y": 1.23,
+          "expected_y": 1.22,
           "residual": 1.47,
           "studentized_residual": 0.3,
           "is_outlier": false
@@ -2764,7 +2764,7 @@
           "price": 596.85,
           "x": -32.4,
           "y": 0.24,
-          "expected_y": 0.81,
+          "expected_y": 0.8,
           "residual": -0.56,
           "studentized_residual": -0.12,
           "is_outlier": false
@@ -2896,7 +2896,7 @@
           "price": 248.03,
           "x": 29.24,
           "y": 4.93,
-          "expected_y": 6.31,
+          "expected_y": 6.32,
           "residual": -1.38,
           "studentized_residual": -0.29,
           "is_outlier": false
@@ -2969,7 +2969,7 @@
           "x": -37.04,
           "y": -1.83,
           "expected_y": 0.39,
-          "residual": -2.23,
+          "residual": -2.22,
           "studentized_residual": -0.46,
           "is_outlier": false
         },
@@ -3142,18 +3142,6 @@
           "is_outlier": false
         },
         {
-          "ticker": "KPGEL",
-          "name": "KP Green Engineering",
-          "sector": "Capital Goods & Engineering",
-          "price": 268.5,
-          "x": -21.92,
-          "y": -1.88,
-          "expected_y": 1.74,
-          "residual": -3.62,
-          "studentized_residual": -0.75,
-          "is_outlier": false
-        },
-        {
           "ticker": "FCL",
           "name": "Fineotex Chemical",
           "sector": "Chemicals & Materials",
@@ -3163,6 +3151,18 @@
           "expected_y": 5.07,
           "residual": -3.64,
           "studentized_residual": -0.76,
+          "is_outlier": false
+        },
+        {
+          "ticker": "KPGEL",
+          "name": "KP Green Engineering",
+          "sector": "Capital Goods & Engineering",
+          "price": 268.25,
+          "x": -22.01,
+          "y": -1.97,
+          "expected_y": 1.73,
+          "residual": -3.71,
+          "studentized_residual": -0.77,
           "is_outlier": false
         },
         {
@@ -3304,8 +3304,8 @@
           "price": 526.45,
           "x": -10.02,
           "y": -3.49,
-          "expected_y": 2.81,
-          "residual": -6.3,
+          "expected_y": 2.8,
+          "residual": -6.29,
           "studentized_residual": -1.3,
           "is_outlier": false
         },
@@ -3353,7 +3353,7 @@
           "x": -28.43,
           "y": -6.39,
           "expected_y": 1.16,
-          "residual": -7.55,
+          "residual": -7.54,
           "studentized_residual": -1.57,
           "is_outlier": false
         },
@@ -3388,7 +3388,7 @@
           "price": 152.1,
           "x": -41.13,
           "y": -8.86,
-          "expected_y": 0.03,
+          "expected_y": 0.02,
           "residual": -8.88,
           "studentized_residual": -1.86,
           "is_outlier": false
@@ -3464,7 +3464,7 @@
         "std_v": 4.85,
         "mean_a": 1.16,
         "std_a": 2.18,
-        "rho": 0.005,
+        "rho": 0.0052,
         "q2_inflection_count": 3
       },
       "points": [
@@ -3889,7 +3889,7 @@
           "name": "Axiscades Technologies",
           "sector": "IT & Tech Services",
           "price": 1841.4,
-          "x": -0.97,
+          "x": -0.96,
           "y": -1.22,
           "raw_v": -2.66,
           "raw_a": -1.5,
@@ -4019,7 +4019,7 @@
           "name": "Sagility",
           "sector": "IT & Tech Services",
           "price": 42.74,
-          "x": -1.02,
+          "x": -1.01,
           "y": -0.87,
           "raw_v": -2.9,
           "raw_a": -0.73,
@@ -4392,6 +4392,19 @@
           "is_inflection": false
         },
         {
+          "ticker": "KPGEL",
+          "name": "KP Green Engineering",
+          "sector": "Capital Goods & Engineering",
+          "price": 268.25,
+          "x": -0.89,
+          "y": -0.37,
+          "raw_v": -2.3,
+          "raw_a": 0.35,
+          "mahalanobis_dist": 0.97,
+          "quadrant": 3,
+          "is_inflection": false
+        },
+        {
           "ticker": "TRIVENI",
           "name": "Triveni Engineering & Industries",
           "sector": "Consumer Goods & Retail",
@@ -4402,19 +4415,6 @@
           "raw_a": 3.17,
           "mahalanobis_dist": 0.95,
           "quadrant": 2,
-          "is_inflection": false
-        },
-        {
-          "ticker": "KPGEL",
-          "name": "KP Green Engineering",
-          "sector": "Capital Goods & Engineering",
-          "price": 268.5,
-          "x": -0.88,
-          "y": -0.35,
-          "raw_v": -2.26,
-          "raw_a": 0.39,
-          "mahalanobis_dist": 0.95,
-          "quadrant": 3,
           "is_inflection": false
         },
         {
@@ -4812,7 +4812,7 @@
           "name": "Astra Microwave Products",
           "sector": "Defense & Aerospace",
           "price": 1510.7,
-          "x": -0.23,
+          "x": -0.22,
           "y": -0.58,
           "raw_v": 0.93,
           "raw_a": -0.1,
@@ -4969,7 +4969,7 @@
           "sector": "Consumer Goods & Retail",
           "price": 1817.6,
           "x": 0.04,
-          "y": -0.49,
+          "y": -0.48,
           "raw_v": 2.24,
           "raw_a": 0.11,
           "mahalanobis_dist": 0.49,
@@ -5224,9 +5224,9 @@
           "name": "Moschip Technologies",
           "sector": "IT & Tech Services",
           "price": 155.61,
-          "x": 74.1,
+          "x": 74.0,
           "y": -2.77,
-          "half_life_days": 74.1,
+          "half_life_days": 74.0,
           "spread_zscore": -2.77,
           "ar1_b": 0.9907,
           "is_high_elasticity": false
@@ -5296,9 +5296,9 @@
           "name": "Safari Industries (India)",
           "sector": "Consumer Goods & Retail",
           "price": 1218.9,
-          "x": 116.8,
+          "x": 116.7,
           "y": -1.9,
-          "half_life_days": 116.8,
+          "half_life_days": 116.7,
           "spread_zscore": -1.9,
           "ar1_b": 0.9941,
           "is_high_elasticity": false
@@ -5308,9 +5308,9 @@
           "name": "Aptus Value Housing Finance",
           "sector": "Financial Services",
           "price": 199.84,
-          "x": 212.1,
+          "x": 212.0,
           "y": -1.86,
-          "half_life_days": 212.1,
+          "half_life_days": 212.0,
           "spread_zscore": -1.86,
           "ar1_b": 0.9967,
           "is_high_elasticity": false
@@ -5428,9 +5428,9 @@
           "name": "Insolation Energy",
           "sector": "Renewable Energy & Utilities",
           "price": 68.62,
-          "x": 186.3,
+          "x": 186.2,
           "y": -1.68,
-          "half_life_days": 186.3,
+          "half_life_days": 186.2,
           "spread_zscore": -1.68,
           "ar1_b": 0.9963,
           "is_high_elasticity": false
@@ -5440,9 +5440,9 @@
           "name": "Waaree Renewable Technologies",
           "sector": "Renewable Energy & Utilities",
           "price": 704.05,
-          "x": 232.0,
+          "x": 231.9,
           "y": -1.68,
-          "half_life_days": 232.0,
+          "half_life_days": 231.9,
           "spread_zscore": -1.68,
           "ar1_b": 0.997,
           "is_high_elasticity": false
@@ -5644,9 +5644,9 @@
           "name": "Finolex Industries",
           "sector": "Consumer Goods & Retail",
           "price": 140.84,
-          "x": 41.1,
+          "x": 41.0,
           "y": -1.11,
-          "half_life_days": 41.1,
+          "half_life_days": 41.0,
           "spread_zscore": -1.11,
           "ar1_b": 0.9833,
           "is_high_elasticity": false
@@ -5835,12 +5835,12 @@
           "ticker": "KPGEL",
           "name": "KP Green Engineering",
           "sector": "Capital Goods & Engineering",
-          "price": 268.5,
+          "price": 268.25,
           "x": 31.5,
-          "y": -0.77,
+          "y": -0.78,
           "half_life_days": 31.5,
-          "spread_zscore": -0.77,
-          "ar1_b": 0.9782,
+          "spread_zscore": -0.78,
+          "ar1_b": 0.9783,
           "is_high_elasticity": false
         },
         {
@@ -5981,9 +5981,9 @@
           "sector": "Real Estate & Realty",
           "price": 577.2,
           "x": 6.8,
-          "y": -0.29,
+          "y": -0.28,
           "half_life_days": 6.8,
-          "spread_zscore": -0.29,
+          "spread_zscore": -0.28,
           "ar1_b": 0.9028,
           "is_high_elasticity": false
         },
@@ -6005,9 +6005,9 @@
           "sector": "Auto & Ancillaries",
           "price": 2101.5,
           "x": 9.6,
-          "y": -0.22,
+          "y": -0.21,
           "half_life_days": 9.6,
-          "spread_zscore": -0.22,
+          "spread_zscore": -0.21,
           "ar1_b": 0.9302,
           "is_high_elasticity": false
         },
@@ -6656,7 +6656,7 @@
           "y": 1.93,
           "half_life_days": 250.0,
           "spread_zscore": 1.93,
-          "ar1_b": 1.005,
+          "ar1_b": 1.0051,
           "is_high_elasticity": false
         },
         {
@@ -6664,9 +6664,9 @@
           "name": "Coforge",
           "sector": "IT & Tech Services",
           "price": 2099.0,
-          "x": 202.1,
+          "x": 202.2,
           "y": 2.36,
-          "half_life_days": 202.1,
+          "half_life_days": 202.2,
           "spread_zscore": 2.36,
           "ar1_b": 0.9966,
           "is_high_elasticity": false
@@ -7420,11 +7420,11 @@
           "ticker": "KPGEL",
           "name": "KP Green Engineering",
           "sector": "Capital Goods & Engineering",
-          "price": 268.5,
+          "price": 268.25,
           "x": 0.633,
-          "y": -3.56,
+          "y": -3.65,
           "hurst_exponent": 0.633,
-          "dist_50_sma": -3.56,
+          "dist_50_sma": -3.65,
           "regime": "trending",
           "is_anti_fade": false,
           "is_persist_breakout": false

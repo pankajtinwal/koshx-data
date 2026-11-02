@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T10:16:13.465593Z",
+  "updated_at": "2026-11-02T11:41:53.529908Z",
   "total_stocks": 132,
   "total_indices": 14,
   "indices": [
@@ -8,9 +8,9 @@
       "name": "Master Composite Index",
       "type": "master",
       "file": "data/master_index.json",
-      "current_value": 2070.61,
+      "current_value": 2070.59,
       "prev_close": 2039.64,
-      "change_pts": 30.97,
+      "change_pts": 30.95,
       "change_pct": 1.52,
       "day_open": 2046.48,
       "day_high": 2111.27,
@@ -24,8 +24,8 @@
         "1m": -5.75,
         "3m": -6.31,
         "6m": 3.83,
-        "1y": 4.43,
-        "3y": 104.93
+        "1y": 4.42,
+        "3y": 104.92
       },
       "constituents_count": 132,
       "constituents": [
@@ -1488,24 +1488,6 @@
           }
         },
         {
-          "ticker": "KPGEL",
-          "name": "KP Green Engineering",
-          "exchange": "BSE",
-          "sector": "Capital Goods & Engineering",
-          "latest_close": 268.5,
-          "change_pct": 1.05,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 1.05,
-            "1w": -1.86,
-            "1m": -5.06,
-            "3m": -23.68,
-            "6m": -40.09,
-            "1y": -54.48,
-            "3y": 28.14
-          }
-        },
-        {
           "ticker": "BAJAJHFL",
           "name": "Bajaj Housing Finance",
           "exchange": "NSE",
@@ -1521,6 +1503,24 @@
             "6m": -10.04,
             "1y": -29.06,
             "3y": -52.62
+          }
+        },
+        {
+          "ticker": "KPGEL",
+          "name": "KP Green Engineering",
+          "exchange": "BSE",
+          "sector": "Capital Goods & Engineering",
+          "latest_close": 268.25,
+          "change_pct": 0.96,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 0.96,
+            "1w": -1.96,
+            "1m": -5.14,
+            "3m": -23.75,
+            "6m": -40.15,
+            "1y": -54.52,
+            "3y": 28.02
           }
         },
         {
@@ -2710,24 +2710,24 @@
       "name": "Capital Goods & Engineering",
       "type": "sector",
       "file": "data/sector_capital_goods_engineering.json",
-      "current_value": 2764.93,
+      "current_value": 2764.77,
       "prev_close": 2704.61,
-      "change_pts": 60.32,
-      "change_pct": 2.23,
+      "change_pts": 60.16,
+      "change_pct": 2.22,
       "day_open": 2731.24,
       "day_high": 2814.63,
       "day_low": 2674.17,
       "high_52w": 3163.93,
       "low_52w": 1946.67,
-      "all_time_return_pct": 176.49,
+      "all_time_return_pct": 176.48,
       "returns": {
-        "1d": 2.23,
+        "1d": 2.22,
         "1w": 3.11,
-        "1m": -8.82,
+        "1m": -8.83,
         "3m": 0.12,
-        "6m": -1.17,
-        "1y": 10.6,
-        "3y": 172.68
+        "6m": -1.18,
+        "1y": 10.59,
+        "3y": 172.66
       },
       "constituents_count": 16,
       "constituents": [
@@ -2934,17 +2934,17 @@
           "name": "KP Green Engineering",
           "exchange": "BSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 268.5,
-          "change_pct": 1.05,
+          "latest_close": 268.25,
+          "change_pct": 0.96,
           "weight_pct": 6.25,
           "returns": {
-            "1d": 1.05,
-            "1w": -1.86,
-            "1m": -5.06,
-            "3m": -23.68,
-            "6m": -40.09,
-            "1y": -54.48,
-            "3y": 28.14
+            "1d": 0.96,
+            "1w": -1.96,
+            "1m": -5.14,
+            "3m": -23.75,
+            "6m": -40.15,
+            "1y": -54.52,
+            "3y": 28.02
           }
         },
         {
@@ -3536,9 +3536,9 @@
       "prev_close": 2313.67,
       "change_pts": 64.89,
       "change_pct": 2.8,
-      "day_open": 2331.6,
+      "day_open": 2331.59,
       "day_high": 2427.13,
-      "day_low": 2297.21,
+      "day_low": 2297.2,
       "high_52w": 3001.64,
       "low_52w": 1789.62,
       "all_time_return_pct": 137.86,
@@ -3675,7 +3675,7 @@
       "day_open": 2589.39,
       "day_high": 2623.95,
       "day_low": 2485.44,
-      "high_52w": 2910.83,
+      "high_52w": 2910.84,
       "low_52w": 1535.19,
       "all_time_return_pct": 154.93,
       "returns": {
@@ -4055,7 +4055,7 @@
       "day_open": 1914.34,
       "day_high": 1965.78,
       "day_low": 1883.85,
-      "high_52w": 2064.65,
+      "high_52w": 2064.64,
       "low_52w": 1311.85,
       "all_time_return_pct": 92.96,
       "returns": {
