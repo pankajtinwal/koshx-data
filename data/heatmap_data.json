@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T17:00:40.698504Z",
+  "updated_at": "2026-11-02T03:31:19.875788Z",
   "timeframes": [
     "1D",
     "1W",
@@ -1503,11 +1503,11 @@
           "name": "Tanla Platforms",
           "exchange": "NSE",
           "sector": "IT & Tech Services",
-          "latest_close": 627.15,
-          "change_pct": 1.41,
+          "latest_close": 621.15,
+          "change_pct": 1.42,
           "weight_pct": 9.09,
           "returns": {
-            "1d": 1.41,
+            "1d": 1.42,
             "1w": 12.56,
             "1m": 27.43,
             "3m": 6.92,
@@ -1811,13 +1811,13 @@
       "index_id": "sector_infrastructure_construction",
       "constituents_count": 9,
       "returns": {
-        "1d": -1.39,
-        "1w": 1.98,
-        "1m": -11.99,
-        "3m": -21.2,
-        "6m": -16.84,
-        "1y": -26.61,
-        "3y": 54.04
+        "1d": -1.65,
+        "1w": 1.71,
+        "1m": -12.22,
+        "3m": -21.41,
+        "6m": -17.06,
+        "1y": -26.8,
+        "3y": 53.63
       },
       "stocks": [
         {
@@ -1897,17 +1897,17 @@
           "name": "Felix Industries",
           "exchange": "NSE",
           "sector": "Infrastructure & Construction",
-          "latest_close": 180.4,
-          "change_pct": 3.06,
+          "latest_close": 173.65,
+          "change_pct": -3.74,
           "weight_pct": 11.11,
           "returns": {
-            "1d": 3.06,
-            "1w": -0.85,
-            "1m": -9.96,
-            "3m": 1.18,
-            "6m": -17.76,
-            "1y": 1.83,
-            "3y": 68.76
+            "1d": -3.74,
+            "1w": -2.36,
+            "1m": -14.03,
+            "3m": -3.85,
+            "6m": -20.83,
+            "1y": -3.5,
+            "3y": 51.39
           }
         },
         {

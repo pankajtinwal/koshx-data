@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T17:01:30.790862Z",
+  "updated_at": "2026-11-02T03:32:08.894477Z",
   "timeframes": [
     "1D",
     "1W",
@@ -19,11 +19,11 @@
       "constituents_count": 53,
       "returns": {
         "1d": -1.58,
-        "1w": 0.24,
-        "1m": -4.3,
-        "3m": -11.32,
-        "6m": -7.36,
-        "1y": -8.85,
+        "1w": 0.27,
+        "1m": -4.31,
+        "3m": -11.34,
+        "6m": -7.37,
+        "1y": -8.86,
         "3y": 41.69
       },
       "stocks": [
@@ -302,17 +302,17 @@
           "name": "ICICI Prudential Life Insurance Company Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 411.95,
-          "change_pct": -0.01,
+          "latest_close": 410.0,
+          "change_pct": -0.47,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -0.01,
-            "1w": -4.42,
-            "1m": -7.33,
-            "3m": -19.32,
-            "6m": -17.14,
-            "1y": -17.14,
-            "3y": -17.14
+            "1d": -0.47,
+            "1w": -2.89,
+            "1m": -7.62,
+            "3m": -20.45,
+            "6m": -17.53,
+            "1y": -17.53,
+            "3y": -17.53
           }
         },
         {
@@ -1039,7 +1039,7 @@
           "name": "Colgate-Palmolive (India) Ltd",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 1596.5,
+          "latest_close": 1572.5,
           "change_pct": -2.04,
           "weight_pct": 3.85,
           "returns": {

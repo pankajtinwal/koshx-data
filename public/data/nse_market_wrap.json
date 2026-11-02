@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-30T17:01:35.830529Z",
-  "market_date": "30 Oct 2026, 10:31 PM IST",
+  "updated_at": "2026-11-02T03:32:14.057216Z",
+  "market_date": "02 Nov 2026, 09:02 AM IST",
   "macro_regime": {
     "name": "BULLISH EXPANSION",
     "description": "Broad-based institutional participation across constituents.",
@@ -3109,7 +3109,7 @@
         {
           "ticker": "COLPAL",
           "name": "Colgate-Palmolive",
-          "close": 1596.5,
+          "close": 1572.5,
           "return_1d": -2.04,
           "return_1w": -0.53,
           "return_1m": -9.46

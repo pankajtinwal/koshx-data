@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T17:00:40.692149Z",
+  "updated_at": "2026-11-02T03:31:19.869311Z",
   "total_stocks": 132,
   "total_indices": 14,
   "indices": [
@@ -8,24 +8,24 @@
       "name": "Master Composite Index",
       "type": "master",
       "file": "data/master_index.json",
-      "current_value": 2055.03,
+      "current_value": 2054.77,
       "prev_close": 2100.35,
-      "change_pts": -45.32,
-      "change_pct": -2.16,
-      "day_open": 2098.83,
-      "day_high": 2121.11,
-      "day_low": 2029.41,
+      "change_pts": -45.58,
+      "change_pct": -2.17,
+      "day_open": 2098.55,
+      "day_high": 2121.13,
+      "day_low": 2029.12,
       "high_52w": 2329.02,
       "low_52w": 1581.8,
-      "all_time_return_pct": 105.5,
+      "all_time_return_pct": 105.48,
       "returns": {
-        "1d": -2.16,
-        "1w": 2.38,
-        "1m": -8.17,
-        "3m": -6.28,
-        "6m": 3.56,
-        "1y": 2.92,
-        "3y": 105.13
+        "1d": -2.17,
+        "1w": 2.36,
+        "1m": -8.18,
+        "3m": -6.29,
+        "6m": 3.54,
+        "1y": 2.91,
+        "3y": 105.1
       },
       "constituents_count": 132,
       "constituents": [
@@ -81,24 +81,6 @@
             "6m": 71.4,
             "1y": 13.91,
             "3y": 111.48
-          }
-        },
-        {
-          "ticker": "FELIX",
-          "name": "Felix Industries",
-          "exchange": "NSE",
-          "sector": "Infrastructure & Construction",
-          "latest_close": 180.4,
-          "change_pct": 3.06,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 3.06,
-            "1w": -0.85,
-            "1m": -9.96,
-            "3m": 1.18,
-            "6m": -17.76,
-            "1y": 1.83,
-            "3y": 68.76
           }
         },
         {
@@ -160,11 +142,11 @@
           "name": "Tanla Platforms",
           "exchange": "NSE",
           "sector": "IT & Tech Services",
-          "latest_close": 627.15,
-          "change_pct": 1.41,
+          "latest_close": 621.15,
+          "change_pct": 1.42,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 1.41,
+            "1d": 1.42,
             "1w": 12.56,
             "1m": 27.43,
             "3m": 6.92,
@@ -1884,6 +1866,24 @@
           }
         },
         {
+          "ticker": "FELIX",
+          "name": "Felix Industries",
+          "exchange": "NSE",
+          "sector": "Infrastructure & Construction",
+          "latest_close": 173.65,
+          "change_pct": -3.74,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": -3.74,
+            "1w": -2.36,
+            "1m": -14.03,
+            "3m": -3.85,
+            "6m": -20.83,
+            "1y": -3.5,
+            "3y": 51.39
+          }
+        },
+        {
           "ticker": "EIEL",
           "name": "Enviro Infra Engineers",
           "exchange": "NSE",
@@ -2714,11 +2714,11 @@
       "prev_close": 2808.14,
       "change_pts": -84.19,
       "change_pct": -3.0,
-      "day_open": 2802.12,
+      "day_open": 2802.11,
       "day_high": 2828.0,
       "day_low": 2691.31,
       "high_52w": 3186.56,
-      "low_52w": 1960.6,
+      "low_52w": 1960.59,
       "all_time_return_pct": 172.39,
       "returns": {
         "1d": -3.0,
@@ -3032,7 +3032,7 @@
       "change_pct": -2.0,
       "day_open": 2812.94,
       "day_high": 2882.53,
-      "day_low": 2690.6,
+      "day_low": 2690.59,
       "high_52w": 3104.69,
       "low_52w": 1865.04,
       "all_time_return_pct": 175.11,
@@ -4049,10 +4049,10 @@
       "type": "sector",
       "file": "data/sector_it_tech_services.json",
       "current_value": 1868.03,
-      "prev_close": 1912.01,
-      "change_pts": -43.98,
+      "prev_close": 1912.0,
+      "change_pts": -43.97,
       "change_pct": -2.3,
-      "day_open": 1913.39,
+      "day_open": 1913.38,
       "day_high": 1938.9,
       "day_low": 1842.67,
       "high_52w": 2056.35,
@@ -4092,11 +4092,11 @@
           "name": "Tanla Platforms",
           "exchange": "NSE",
           "sector": "IT & Tech Services",
-          "latest_close": 627.15,
-          "change_pct": 1.41,
+          "latest_close": 621.15,
+          "change_pct": 1.42,
           "weight_pct": 9.09,
           "returns": {
-            "1d": 1.41,
+            "1d": 1.42,
             "1w": 12.56,
             "1m": 27.43,
             "3m": 6.92,
@@ -4274,24 +4274,24 @@
       "name": "Infrastructure & Construction",
       "type": "sector",
       "file": "data/sector_infrastructure_construction.json",
-      "current_value": 1576.22,
+      "current_value": 1572.05,
       "prev_close": 1598.43,
-      "change_pts": -22.21,
-      "change_pct": -1.39,
-      "day_open": 1606.24,
-      "day_high": 1621.08,
-      "day_low": 1556.19,
+      "change_pts": -26.38,
+      "change_pct": -1.65,
+      "day_open": 1602.12,
+      "day_high": 1620.54,
+      "day_low": 1551.63,
       "high_52w": 2198.27,
       "low_52w": 1378.42,
-      "all_time_return_pct": 57.62,
+      "all_time_return_pct": 57.2,
       "returns": {
-        "1d": -1.39,
-        "1w": 1.98,
-        "1m": -11.99,
-        "3m": -21.2,
-        "6m": -16.84,
-        "1y": -26.61,
-        "3y": 54.04
+        "1d": -1.65,
+        "1w": 1.71,
+        "1m": -12.22,
+        "3m": -21.41,
+        "6m": -17.06,
+        "1y": -26.8,
+        "3y": 53.63
       },
       "constituents_count": 9,
       "constituents": [
@@ -4311,24 +4311,6 @@
             "6m": 14.97,
             "1y": -6.93,
             "3y": 1.92
-          }
-        },
-        {
-          "ticker": "FELIX",
-          "name": "Felix Industries",
-          "exchange": "NSE",
-          "sector": "Infrastructure & Construction",
-          "latest_close": 180.4,
-          "change_pct": 3.06,
-          "weight_pct": 11.11,
-          "returns": {
-            "1d": 3.06,
-            "1w": -0.85,
-            "1m": -9.96,
-            "3m": 1.18,
-            "6m": -17.76,
-            "1y": 1.83,
-            "3y": 68.76
           }
         },
         {
@@ -4437,6 +4419,24 @@
             "6m": -18.8,
             "1y": -47.19,
             "3y": -3.22
+          }
+        },
+        {
+          "ticker": "FELIX",
+          "name": "Felix Industries",
+          "exchange": "NSE",
+          "sector": "Infrastructure & Construction",
+          "latest_close": 173.65,
+          "change_pct": -3.74,
+          "weight_pct": 11.11,
+          "returns": {
+            "1d": -3.74,
+            "1w": -2.36,
+            "1m": -14.03,
+            "3m": -3.85,
+            "6m": -20.83,
+            "1y": -3.5,
+            "3y": 51.39
           }
         },
         {
