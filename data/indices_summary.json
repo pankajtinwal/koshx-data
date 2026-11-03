@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T11:21:30.013863Z",
+  "updated_at": "2026-11-03T11:52:26.919842Z",
   "total_stocks": 132,
   "total_indices": 14,
   "indices": [
@@ -3027,8 +3027,8 @@
       "type": "sector",
       "file": "data/sector_chemicals_materials.json",
       "current_value": 2764.27,
-      "prev_close": 2731.61,
-      "change_pts": 32.66,
+      "prev_close": 2731.62,
+      "change_pts": 32.65,
       "change_pct": 1.2,
       "day_open": 2757.1,
       "day_high": 2852.44,
@@ -3675,7 +3675,7 @@
       "day_open": 2540.84,
       "day_high": 2562.24,
       "day_low": 2475.1,
-      "high_52w": 2881.79,
+      "high_52w": 2881.78,
       "low_52w": 1519.87,
       "all_time_return_pct": 151.11,
       "returns": {
@@ -4881,8 +4881,8 @@
       "type": "sector",
       "file": "data/sector_real_estate_realty.json",
       "current_value": 1721.7,
-      "prev_close": 1743.77,
-      "change_pts": -22.07,
+      "prev_close": 1743.76,
+      "change_pts": -22.06,
       "change_pct": -1.27,
       "day_open": 1741.46,
       "day_high": 1768.03,
