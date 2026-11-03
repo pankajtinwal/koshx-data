@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T18:03:48.726692Z",
+  "updated_at": "2026-11-03T18:24:43.861410Z",
   "total_stocks": 216,
   "models": {
     "ema": {
@@ -10340,7 +10340,7 @@
           "y": 0.86,
           "half_life_days": 10.6,
           "spread_zscore": 0.86,
-          "ar1_b": 0.937,
+          "ar1_b": 0.9369,
           "is_high_elasticity": false
         },
         {
@@ -10673,9 +10673,9 @@
           "sector": "Infrastructure & Construction",
           "price": 1866.9,
           "x": 21.5,
-          "y": 1.7,
+          "y": 1.71,
           "half_life_days": 21.5,
-          "spread_zscore": 1.7,
+          "spread_zscore": 1.71,
           "ar1_b": 0.9682,
           "is_high_elasticity": false
         },
