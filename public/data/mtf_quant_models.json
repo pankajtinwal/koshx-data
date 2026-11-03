@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T11:53:15.929799Z",
+  "updated_at": "2026-11-03T17:45:57.779277Z",
   "total_stocks": 216,
   "models": {
     "ema": {
@@ -8584,9 +8584,9 @@
           "name": "KEI Industries Ltd",
           "sector": "Capital Goods & Engineering",
           "price": 3881.4,
-          "x": 102.0,
+          "x": 101.9,
           "y": -2.48,
-          "half_life_days": 102.0,
+          "half_life_days": 101.9,
           "spread_zscore": -2.48,
           "ar1_b": 0.9932,
           "is_high_elasticity": false
@@ -8608,9 +8608,9 @@
           "name": "PB Fintech Ltd (Policybazaar)",
           "sector": "Financial Services",
           "price": 928.0,
-          "x": 73.0,
+          "x": 73.1,
           "y": -2.32,
-          "half_life_days": 73.0,
+          "half_life_days": 73.1,
           "spread_zscore": -2.32,
           "ar1_b": 0.9906,
           "is_high_elasticity": false
@@ -9572,7 +9572,7 @@
           "y": -0.55,
           "half_life_days": 6.4,
           "spread_zscore": -0.55,
-          "ar1_b": 0.8977,
+          "ar1_b": 0.8978,
           "is_high_elasticity": false
         },
         {
