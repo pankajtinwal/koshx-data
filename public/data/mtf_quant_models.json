@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T10:02:15.365106Z",
+  "updated_at": "2026-11-04T11:36:16.658973Z",
   "total_stocks": 216,
   "models": {
     "ema": {
@@ -10088,7 +10088,7 @@
           "y": 0.38,
           "half_life_days": 8.8,
           "spread_zscore": 0.38,
-          "ar1_b": 0.9243,
+          "ar1_b": 0.9244,
           "is_high_elasticity": false
         },
         {
@@ -11020,9 +11020,9 @@
           "name": "Bharti Airtel Ltd",
           "sector": "Telecom & Media",
           "price": 2067.6,
-          "x": 33.5,
+          "x": 33.4,
           "y": 3.11,
-          "half_life_days": 33.5,
+          "half_life_days": 33.4,
           "spread_zscore": 3.11,
           "ar1_b": 0.9795,
           "is_high_elasticity": false

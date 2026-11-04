@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T10:01:25.512423Z",
+  "updated_at": "2026-11-04T11:35:29.223969Z",
   "total_stocks": 132,
   "total_indices": 14,
   "indices": [
@@ -8,24 +8,24 @@
       "name": "Master Composite Index",
       "type": "master",
       "file": "data/master_index.json",
-      "current_value": 2079.42,
+      "current_value": 2078.42,
       "prev_close": 2036.7,
-      "change_pts": 42.72,
-      "change_pct": 2.1,
+      "change_pts": 41.72,
+      "change_pct": 2.05,
       "day_open": 2039.1,
-      "day_high": 2107.37,
-      "day_low": 2005.92,
+      "day_high": 2107.74,
+      "day_low": 2005.88,
       "high_52w": 2266.12,
       "low_52w": 1539.08,
-      "all_time_return_pct": 107.94,
+      "all_time_return_pct": 107.84,
       "returns": {
-        "1d": 2.1,
-        "1w": 2.83,
-        "1m": -2.98,
-        "3m": -4.76,
-        "6m": 4.19,
-        "1y": 6.96,
-        "3y": 107.94
+        "1d": 2.05,
+        "1w": 2.78,
+        "1m": -3.03,
+        "3m": -4.81,
+        "6m": 4.14,
+        "1y": 6.91,
+        "3y": 107.84
       },
       "constituents_count": 132,
       "constituents": [
@@ -34,35 +34,17 @@
           "name": "Redington",
           "exchange": "NSE",
           "sector": "Logistics & Services",
-          "latest_close": 367.0,
-          "change_pct": 9.47,
+          "latest_close": 366.75,
+          "change_pct": 9.4,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 9.47,
-            "1w": 4.44,
-            "1m": -11.08,
-            "3m": 5.51,
-            "6m": 68.02,
-            "1y": 49.88,
-            "3y": 167.82
-          }
-        },
-        {
-          "ticker": "SANGHVIMOV",
-          "name": "Sanghvi Movers",
-          "exchange": "NSE",
-          "sector": "Infrastructure & Construction",
-          "latest_close": 351.0,
-          "change_pct": 9.06,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 9.06,
-            "1w": 0.98,
-            "1m": -14.37,
-            "3m": -25.68,
-            "6m": 7.38,
-            "1y": -10.9,
-            "3y": -7.9
+            "1d": 9.4,
+            "1w": 4.37,
+            "1m": -11.14,
+            "3m": 5.43,
+            "6m": 67.9,
+            "1y": 49.77,
+            "3y": 167.64
           }
         },
         {
@@ -70,35 +52,17 @@
           "name": "Fineotex Chemical",
           "exchange": "NSE",
           "sector": "Chemicals & Materials",
-          "latest_close": 53.57,
-          "change_pct": 8.99,
+          "latest_close": 53.42,
+          "change_pct": 8.69,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 8.99,
-            "1w": 7.12,
-            "1m": -0.85,
-            "3m": 38.75,
-            "6m": 110.24,
-            "1y": 84.85,
-            "3y": 80.67
-          }
-        },
-        {
-          "ticker": "DEEPINDS",
-          "name": "Deep Industries",
-          "exchange": "NSE",
-          "sector": "Renewable Energy & Utilities",
-          "latest_close": 650.0,
-          "change_pct": 7.44,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 7.44,
-            "1w": -4.12,
-            "1m": -12.99,
-            "3m": 1.38,
-            "6m": 42.6,
-            "1y": 31.75,
-            "3y": 158.72
+            "1d": 8.69,
+            "1w": 6.82,
+            "1m": -1.13,
+            "3m": 38.36,
+            "6m": 109.65,
+            "1y": 84.33,
+            "3y": 80.17
           }
         },
         {
@@ -106,53 +70,35 @@
           "name": "Ideaforge Technology",
           "exchange": "NSE",
           "sector": "Defense & Aerospace",
-          "latest_close": 710.0,
-          "change_pct": 7.31,
+          "latest_close": 713.3,
+          "change_pct": 7.81,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 7.31,
-            "1w": 4.6,
-            "1m": 1.19,
-            "3m": -18.62,
-            "6m": -12.59,
-            "1y": 49.22,
-            "3y": -15.14
+            "1d": 7.81,
+            "1w": 5.08,
+            "1m": 1.66,
+            "3m": -18.24,
+            "6m": -12.18,
+            "1y": 49.92,
+            "3y": -14.75
           }
         },
         {
-          "ticker": "EIEL",
-          "name": "Enviro Infra Engineers",
+          "ticker": "DEEPINDS",
+          "name": "Deep Industries",
           "exchange": "NSE",
-          "sector": "Infrastructure & Construction",
-          "latest_close": 180.0,
-          "change_pct": 7.28,
+          "sector": "Renewable Energy & Utilities",
+          "latest_close": 651.75,
+          "change_pct": 7.73,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 7.28,
-            "1w": 9.09,
-            "1m": -0.34,
-            "3m": -17.45,
-            "6m": -14.85,
-            "1y": -28.49,
-            "3y": -13.07
-          }
-        },
-        {
-          "ticker": "POLYMED",
-          "name": "Poly Medicure",
-          "exchange": "NSE",
-          "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 1605.0,
-          "change_pct": 7.27,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 7.27,
-            "1w": 8.74,
-            "1m": -0.9,
-            "3m": -5.87,
-            "6m": -2.86,
-            "1y": -17.74,
-            "3y": 17.53
+            "1d": 7.73,
+            "1w": -3.86,
+            "1m": -12.76,
+            "3m": 1.65,
+            "6m": 42.99,
+            "1y": 32.1,
+            "3y": 159.41
           }
         },
         {
@@ -160,35 +106,53 @@
           "name": "Insolation Energy",
           "exchange": "NSE",
           "sector": "Renewable Energy & Utilities",
-          "latest_close": 73.0,
-          "change_pct": 7.15,
+          "latest_close": 73.02,
+          "change_pct": 7.18,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 7.15,
-            "1w": 2.37,
-            "1m": -12.51,
-            "3m": -35.59,
-            "6m": -45.83,
-            "1y": -24.59,
-            "3y": -24.59
+            "1d": 7.18,
+            "1w": 2.4,
+            "1m": -12.49,
+            "3m": -35.57,
+            "6m": -45.81,
+            "1y": -24.57,
+            "3y": -24.57
           }
         },
         {
-          "ticker": "MOSCHIP",
-          "name": "Moschip Technologies",
+          "ticker": "SANGHVIMOV",
+          "name": "Sanghvi Movers",
           "exchange": "NSE",
-          "sector": "IT & Tech Services",
-          "latest_close": 169.5,
-          "change_pct": 7.0,
+          "sector": "Infrastructure & Construction",
+          "latest_close": 344.8,
+          "change_pct": 7.13,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 7.0,
-            "1w": -1.48,
-            "1m": -13.45,
-            "3m": -18.73,
-            "6m": -19.02,
-            "1y": -29.96,
-            "3y": -14.71
+            "1d": 7.13,
+            "1w": -0.81,
+            "1m": -15.88,
+            "3m": -26.99,
+            "6m": 5.48,
+            "1y": -12.48,
+            "3y": -9.53
+          }
+        },
+        {
+          "ticker": "EIEL",
+          "name": "Enviro Infra Engineers",
+          "exchange": "NSE",
+          "sector": "Infrastructure & Construction",
+          "latest_close": 179.55,
+          "change_pct": 7.02,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 7.02,
+            "1w": 8.82,
+            "1m": -0.59,
+            "3m": -17.66,
+            "6m": -15.06,
+            "1y": -28.67,
+            "3y": -13.29
           }
         },
         {
@@ -210,6 +174,24 @@
           }
         },
         {
+          "ticker": "MOSCHIP",
+          "name": "Moschip Technologies",
+          "exchange": "NSE",
+          "sector": "IT & Tech Services",
+          "latest_close": 168.83,
+          "change_pct": 6.58,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 6.58,
+            "1w": -1.87,
+            "1m": -13.79,
+            "3m": -19.05,
+            "6m": -19.34,
+            "1y": -30.24,
+            "3y": -15.05
+          }
+        },
+        {
           "ticker": "DENTA",
           "name": "Denta Water And Infra Solutions",
           "exchange": "NSE",
@@ -228,75 +210,57 @@
           }
         },
         {
+          "ticker": "POLYMED",
+          "name": "Poly Medicure",
+          "exchange": "NSE",
+          "sector": "Pharmaceuticals & Healthcare",
+          "latest_close": 1586.8,
+          "change_pct": 6.06,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 6.06,
+            "1w": 7.51,
+            "1m": -2.03,
+            "3m": -6.93,
+            "6m": -3.96,
+            "1y": -18.68,
+            "3y": 16.2
+          }
+        },
+        {
           "ticker": "EMS",
           "name": "EMS",
           "exchange": "NSE",
           "sector": "Infrastructure & Construction",
-          "latest_close": 306.5,
-          "change_pct": 6.0,
+          "latest_close": 304.7,
+          "change_pct": 5.38,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 6.0,
-            "1w": 5.29,
-            "1m": -6.5,
-            "3m": -24.35,
-            "6m": -16.0,
-            "1y": -38.79,
-            "3y": -2.16
+            "1d": 5.38,
+            "1w": 4.67,
+            "1m": -7.05,
+            "3m": -24.79,
+            "6m": -16.5,
+            "1y": -39.15,
+            "3y": -2.74
           }
         },
         {
-          "ticker": "MANORAMA",
-          "name": "Manorama Industries",
-          "exchange": "NSE",
-          "sector": "Consumer Goods & Retail",
-          "latest_close": 1945.0,
-          "change_pct": 5.64,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 5.64,
-            "1w": 7.97,
-            "1m": 0.01,
-            "3m": 21.01,
-            "6m": 21.4,
-            "1y": 46.9,
-            "3y": 353.57
-          }
-        },
-        {
-          "ticker": "RISHABH",
-          "name": "Rishabh Instruments",
+          "ticker": "TRIL",
+          "name": "Transformers & Rectifiers (India)",
           "exchange": "NSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 643.8,
-          "change_pct": 5.51,
+          "latest_close": 317.55,
+          "change_pct": 5.31,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 5.51,
-            "1w": -1.63,
-            "1m": -6.18,
-            "3m": -0.52,
-            "6m": 29.61,
-            "1y": 65.2,
-            "3y": 31.08
-          }
-        },
-        {
-          "ticker": "RPTECH",
-          "name": "Rashi Peripherals",
-          "exchange": "NSE",
-          "sector": "Electronics & Consumer Durables",
-          "latest_close": 845.0,
-          "change_pct": 5.41,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 5.41,
-            "1w": 4.93,
-            "1m": -10.44,
-            "3m": -6.19,
-            "6m": 69.1,
-            "1y": 152.67,
-            "3y": 165.94
+            "1d": 5.31,
+            "1w": 0.91,
+            "1m": 11.25,
+            "3m": 7.85,
+            "6m": 1.59,
+            "1y": -24.12,
+            "3y": 244.79
           }
         },
         {
@@ -318,39 +282,39 @@
           }
         },
         {
-          "ticker": "TRIL",
-          "name": "Transformers & Rectifiers (India)",
+          "ticker": "RPTECH",
+          "name": "Rashi Peripherals",
           "exchange": "NSE",
-          "sector": "Capital Goods & Engineering",
-          "latest_close": 317.5,
-          "change_pct": 5.29,
+          "sector": "Electronics & Consumer Durables",
+          "latest_close": 843.45,
+          "change_pct": 5.22,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 5.29,
-            "1w": 0.89,
-            "1m": 11.23,
-            "3m": 7.84,
-            "6m": 1.58,
-            "1y": -24.13,
-            "3y": 244.73
+            "1d": 5.22,
+            "1w": 4.74,
+            "1m": -10.6,
+            "3m": -6.36,
+            "6m": 68.79,
+            "1y": 152.21,
+            "3y": 165.45
           }
         },
         {
-          "ticker": "FIEMIND",
-          "name": "Fiem Industries",
+          "ticker": "RISHABH",
+          "name": "Rishabh Instruments",
           "exchange": "NSE",
-          "sector": "Auto & Ancillaries",
-          "latest_close": 1920.0,
-          "change_pct": 5.24,
+          "sector": "Capital Goods & Engineering",
+          "latest_close": 640.55,
+          "change_pct": 4.97,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 5.24,
-            "1w": 15.36,
-            "1m": 8.9,
-            "3m": -23.14,
-            "6m": -13.44,
-            "1y": -7.7,
-            "3y": 124.36
+            "1d": 4.97,
+            "1w": -2.13,
+            "1m": -6.65,
+            "3m": -1.02,
+            "6m": 28.96,
+            "1y": 64.37,
+            "3y": 30.42
           }
         },
         {
@@ -390,24 +354,6 @@
           }
         },
         {
-          "ticker": "YATHARTH",
-          "name": "Yatharth Hospital & Trauma Care Services",
-          "exchange": "NSE",
-          "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 1029.0,
-          "change_pct": 4.8,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 4.8,
-            "1w": 8.83,
-            "1m": 2.59,
-            "3m": 19.95,
-            "6m": 25.3,
-            "1y": 25.31,
-            "3y": 176.44
-          }
-        },
-        {
           "ticker": "BEL",
           "name": "Bharat Electronics",
           "exchange": "NSE",
@@ -423,6 +369,42 @@
             "6m": -9.05,
             "1y": -3.59,
             "3y": 196.02
+          }
+        },
+        {
+          "ticker": "YATHARTH",
+          "name": "Yatharth Hospital & Trauma Care Services",
+          "exchange": "NSE",
+          "sector": "Pharmaceuticals & Healthcare",
+          "latest_close": 1027.9,
+          "change_pct": 4.69,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 4.69,
+            "1w": 8.71,
+            "1m": 2.48,
+            "3m": 19.82,
+            "6m": 25.16,
+            "1y": 25.18,
+            "3y": 176.15
+          }
+        },
+        {
+          "ticker": "MANORAMA",
+          "name": "Manorama Industries",
+          "exchange": "NSE",
+          "sector": "Consumer Goods & Retail",
+          "latest_close": 1926.8,
+          "change_pct": 4.65,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 4.65,
+            "1w": 6.96,
+            "1m": -0.93,
+            "3m": 19.88,
+            "6m": 20.27,
+            "1y": 45.53,
+            "3y": 349.33
           }
         },
         {
@@ -444,42 +426,6 @@
           }
         },
         {
-          "ticker": "BAJAJHFL",
-          "name": "Bajaj Housing Finance",
-          "exchange": "NSE",
-          "sector": "Financial Services",
-          "latest_close": 81.78,
-          "change_pct": 4.59,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 4.59,
-            "1w": 5.55,
-            "1m": -1.22,
-            "3m": -5.98,
-            "6m": -5.97,
-            "1y": -25.34,
-            "3y": -50.44
-          }
-        },
-        {
-          "ticker": "AVANTIFEED",
-          "name": "Avanti Feeds",
-          "exchange": "NSE",
-          "sector": "Consumer Goods & Retail",
-          "latest_close": 708.0,
-          "change_pct": 4.47,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 4.47,
-            "1w": 6.1,
-            "1m": -0.44,
-            "3m": -20.36,
-            "6m": -46.9,
-            "1y": 3.69,
-            "3y": 79.92
-          }
-        },
-        {
           "ticker": "TEXRAIL",
           "name": "Texmaco Rail & Engineering",
           "exchange": "NSE",
@@ -498,21 +444,21 @@
           }
         },
         {
-          "ticker": "ARVINDSMART",
-          "name": "Arvind Smartspaces",
+          "ticker": "FIEMIND",
+          "name": "Fiem Industries",
           "exchange": "NSE",
-          "sector": "Real Estate & Realty",
-          "latest_close": 599.5,
-          "change_pct": 4.35,
+          "sector": "Auto & Ancillaries",
+          "latest_close": 1904.0,
+          "change_pct": 4.36,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 4.35,
-            "1w": 1.86,
-            "1m": 3.32,
-            "3m": 0.89,
-            "6m": -5.61,
-            "1y": -2.54,
-            "3y": 80.9
+            "1d": 4.36,
+            "1w": 14.4,
+            "1m": 7.99,
+            "3m": -23.78,
+            "6m": -14.16,
+            "1y": -8.47,
+            "3y": 122.49
           }
         },
         {
@@ -534,75 +480,93 @@
           }
         },
         {
-          "ticker": "NRBBEARING",
-          "name": "NRB Bearings",
-          "exchange": "NSE",
-          "sector": "Auto & Ancillaries",
-          "latest_close": 485.0,
-          "change_pct": 4.11,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 4.11,
-            "1w": 6.63,
-            "1m": -9.46,
-            "3m": 5.96,
-            "6m": 66.75,
-            "1y": 78.61,
-            "3y": 98.21
-          }
-        },
-        {
           "ticker": "FINPIPE",
           "name": "Finolex Industries",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 143.6,
-          "change_pct": 4.04,
+          "latest_close": 143.95,
+          "change_pct": 4.3,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 4.04,
+            "1d": 4.3,
+            "1w": 1.92,
+            "1m": -3.59,
+            "3m": -12.34,
+            "6m": -17.11,
+            "1y": -22.2,
+            "3y": -20.79
+          }
+        },
+        {
+          "ticker": "AVANTIFEED",
+          "name": "Avanti Feeds",
+          "exchange": "NSE",
+          "sector": "Consumer Goods & Retail",
+          "latest_close": 706.55,
+          "change_pct": 4.26,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 4.26,
+            "1w": 5.88,
+            "1m": -0.64,
+            "3m": -20.52,
+            "6m": -47.01,
+            "1y": 3.48,
+            "3y": 79.56
+          }
+        },
+        {
+          "ticker": "ARVINDSMART",
+          "name": "Arvind Smartspaces",
+          "exchange": "NSE",
+          "sector": "Real Estate & Realty",
+          "latest_close": 598.35,
+          "change_pct": 4.15,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 4.15,
             "1w": 1.67,
-            "1m": -3.82,
-            "3m": -12.56,
-            "6m": -17.31,
-            "1y": -22.39,
-            "3y": -20.99
+            "1m": 3.12,
+            "3m": 0.69,
+            "6m": -5.79,
+            "1y": -2.73,
+            "3y": 80.56
           }
         },
         {
-          "ticker": "MANINDS",
-          "name": "Man Industries India",
+          "ticker": "BAJAJHFL",
+          "name": "Bajaj Housing Finance",
           "exchange": "NSE",
-          "sector": "Capital Goods & Engineering",
-          "latest_close": 778.0,
-          "change_pct": 4.03,
+          "sector": "Financial Services",
+          "latest_close": 81.42,
+          "change_pct": 4.13,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 4.03,
-            "1w": 0.06,
-            "1m": -12.41,
-            "3m": 45.93,
-            "6m": 45.11,
-            "1y": 97.44,
-            "3y": 209.47
+            "1d": 4.13,
+            "1w": 5.09,
+            "1m": -1.65,
+            "3m": -6.39,
+            "6m": -6.38,
+            "1y": -25.67,
+            "3y": -50.65
           }
         },
         {
-          "ticker": "AXISCADES",
-          "name": "Axiscades Technologies",
+          "ticker": "NRBBEARING",
+          "name": "NRB Bearings",
           "exchange": "NSE",
-          "sector": "IT & Tech Services",
-          "latest_close": 1917.0,
-          "change_pct": 3.94,
+          "sector": "Auto & Ancillaries",
+          "latest_close": 484.45,
+          "change_pct": 3.99,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 3.94,
-            "1w": -4.84,
-            "1m": -16.01,
-            "3m": 20.54,
-            "6m": -11.1,
-            "1y": 23.53,
-            "3y": 259.9
+            "1d": 3.99,
+            "1w": 6.51,
+            "1m": -9.57,
+            "3m": 5.84,
+            "6m": 66.56,
+            "1y": 78.41,
+            "3y": 97.99
           }
         },
         {
@@ -610,71 +574,17 @@
           "name": "Anant Raj",
           "exchange": "NSE",
           "sector": "Real Estate & Realty",
-          "latest_close": 461.1,
-          "change_pct": 3.93,
+          "latest_close": 460.4,
+          "change_pct": 3.78,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 3.93,
-            "1w": -0.59,
-            "1m": -21.5,
-            "3m": -26.6,
-            "6m": -17.03,
-            "1y": -28.44,
-            "3y": 90.14
-          }
-        },
-        {
-          "ticker": "GUJTHEM",
-          "name": "Gujarat Themis Biosyn",
-          "exchange": "NSE",
-          "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 391.5,
-          "change_pct": 3.8,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 3.8,
-            "1w": 10.11,
-            "1m": 4.79,
-            "3m": 10.17,
-            "6m": 3.69,
-            "1y": -14.86,
-            "3y": 61.34
-          }
-        },
-        {
-          "ticker": "KRISHANA",
-          "name": "Krishana Phoschem",
-          "exchange": "NSE",
-          "sector": "Chemicals & Materials",
-          "latest_close": 240.5,
-          "change_pct": 3.72,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 3.72,
-            "1w": 10.59,
-            "1m": 29.42,
-            "3m": 34.55,
-            "6m": 81.22,
-            "1y": 137.98,
-            "3y": 403.45
-          }
-        },
-        {
-          "ticker": "SULA",
-          "name": "Sula Vineyards",
-          "exchange": "NSE",
-          "sector": "Consumer Goods & Retail",
-          "latest_close": 135.59,
-          "change_pct": 3.71,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 3.71,
-            "1w": 6.69,
-            "1m": 2.46,
-            "3m": -20.6,
-            "6m": -20.94,
-            "1y": -45.89,
-            "3y": -70.42
+            "1d": 3.78,
+            "1w": -0.74,
+            "1m": -21.62,
+            "3m": -26.71,
+            "6m": -17.16,
+            "1y": -28.55,
+            "3y": 89.85
           }
         },
         {
@@ -682,35 +592,71 @@
           "name": "J Kumar Infraprojects",
           "exchange": "NSE",
           "sector": "Infrastructure & Construction",
-          "latest_close": 420.0,
-          "change_pct": 3.49,
+          "latest_close": 421.0,
+          "change_pct": 3.73,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 3.49,
-            "1w": 2.61,
-            "1m": -7.43,
-            "3m": -13.58,
-            "6m": -17.58,
-            "1y": -33.48,
-            "3y": 2.67
+            "1d": 3.73,
+            "1w": 2.86,
+            "1m": -7.21,
+            "3m": -13.37,
+            "6m": -17.38,
+            "1y": -33.32,
+            "3y": 2.92
           }
         },
         {
-          "ticker": "MACPOWER",
-          "name": "Macpower CNC Machines",
+          "ticker": "KRISHANA",
+          "name": "Krishana Phoschem",
           "exchange": "NSE",
-          "sector": "Capital Goods & Engineering",
-          "latest_close": 2211.0,
-          "change_pct": 3.48,
+          "sector": "Chemicals & Materials",
+          "latest_close": 240.29,
+          "change_pct": 3.63,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 3.48,
-            "1w": 14.05,
-            "1m": 2.34,
-            "3m": 44.16,
-            "6m": 86.09,
-            "1y": 174.33,
-            "3y": 314.32
+            "1d": 3.63,
+            "1w": 10.49,
+            "1m": 29.31,
+            "3m": 34.44,
+            "6m": 81.06,
+            "1y": 137.77,
+            "3y": 403.01
+          }
+        },
+        {
+          "ticker": "NGLFINE",
+          "name": "NGL Fine-Chem",
+          "exchange": "NSE",
+          "sector": "Pharmaceuticals & Healthcare",
+          "latest_close": 2653.2,
+          "change_pct": 3.59,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 3.59,
+            "1w": 1.63,
+            "1m": -11.21,
+            "3m": -22.56,
+            "6m": 0.53,
+            "1y": 62.87,
+            "3y": 46.21
+          }
+        },
+        {
+          "ticker": "AXISCADES",
+          "name": "Axiscades Technologies",
+          "exchange": "NSE",
+          "sector": "IT & Tech Services",
+          "latest_close": 1910.4,
+          "change_pct": 3.58,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 3.58,
+            "1w": -5.17,
+            "1m": -16.29,
+            "3m": 20.13,
+            "6m": -11.4,
+            "1y": 23.1,
+            "3y": 258.66
           }
         },
         {
@@ -718,17 +664,17 @@
           "name": "Astra Microwave Products",
           "exchange": "NSE",
           "sector": "Defense & Aerospace",
-          "latest_close": 1579.9,
-          "change_pct": 3.47,
+          "latest_close": 1580.1,
+          "change_pct": 3.48,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 3.47,
-            "1w": 0.72,
-            "1m": -4.35,
-            "3m": -12.56,
-            "6m": 45.39,
-            "1y": 49.33,
-            "3y": 246.5
+            "1d": 3.48,
+            "1w": 0.73,
+            "1m": -4.33,
+            "3m": -12.55,
+            "6m": 45.41,
+            "1y": 49.35,
+            "3y": 246.54
           }
         },
         {
@@ -750,39 +696,111 @@
           }
         },
         {
+          "ticker": "MANINDS",
+          "name": "Man Industries India",
+          "exchange": "NSE",
+          "sector": "Capital Goods & Engineering",
+          "latest_close": 772.7,
+          "change_pct": 3.32,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 3.32,
+            "1w": -0.62,
+            "1m": -13.01,
+            "3m": 44.93,
+            "6m": 44.12,
+            "1y": 96.09,
+            "3y": 207.36
+          }
+        },
+        {
           "ticker": "ASHAPURMIN",
           "name": "Ashapura Minechem",
           "exchange": "NSE",
           "sector": "Chemicals & Materials",
-          "latest_close": 432.0,
-          "change_pct": 3.46,
+          "latest_close": 431.3,
+          "change_pct": 3.29,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 3.46,
-            "1w": 0.83,
-            "1m": -11.99,
-            "3m": -41.38,
-            "6m": -34.31,
-            "1y": -34.81,
-            "3y": 45.09
+            "1d": 3.29,
+            "1w": 0.67,
+            "1m": -12.13,
+            "3m": -41.47,
+            "6m": -34.42,
+            "1y": -34.92,
+            "3y": 44.86
           }
         },
         {
-          "ticker": "KRYSTAL",
-          "name": "Krystal Integrated Services",
+          "ticker": "NH",
+          "name": "Narayana Hrudayalaya",
           "exchange": "NSE",
-          "sector": "Logistics & Services",
-          "latest_close": 582.95,
-          "change_pct": 3.31,
+          "sector": "Pharmaceuticals & Healthcare",
+          "latest_close": 1931.5,
+          "change_pct": 3.26,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 3.31,
-            "1w": 1.8,
-            "1m": -10.95,
-            "3m": -2.62,
-            "6m": -5.24,
-            "1y": -0.7,
-            "3y": -17.68
+            "1d": 3.26,
+            "1w": 12.09,
+            "1m": 12.14,
+            "3m": 1.49,
+            "6m": 5.18,
+            "1y": 5.76,
+            "3y": 87.66
+          }
+        },
+        {
+          "ticker": "INNOVACAP",
+          "name": "Innova Captab",
+          "exchange": "NSE",
+          "sector": "Pharmaceuticals & Healthcare",
+          "latest_close": 1035.0,
+          "change_pct": 3.16,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 3.16,
+            "1w": -1.4,
+            "1m": -9.64,
+            "3m": 9.52,
+            "6m": 18.59,
+            "1y": 25.61,
+            "3y": 91.74
+          }
+        },
+        {
+          "ticker": "MACPOWER",
+          "name": "Macpower CNC Machines",
+          "exchange": "NSE",
+          "sector": "Capital Goods & Engineering",
+          "latest_close": 2204.0,
+          "change_pct": 3.15,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 3.15,
+            "1w": 13.68,
+            "1m": 2.01,
+            "3m": 43.71,
+            "6m": 85.5,
+            "1y": 173.46,
+            "3y": 313.0
+          }
+        },
+        {
+          "ticker": "SULA",
+          "name": "Sula Vineyards",
+          "exchange": "NSE",
+          "sector": "Consumer Goods & Retail",
+          "latest_close": 134.85,
+          "change_pct": 3.14,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 3.14,
+            "1w": 6.11,
+            "1m": 1.9,
+            "3m": -21.03,
+            "6m": -21.37,
+            "1y": -46.18,
+            "3y": -70.58
           }
         },
         {
@@ -804,57 +822,39 @@
           }
         },
         {
-          "ticker": "NGLFINE",
-          "name": "NGL Fine-Chem",
-          "exchange": "NSE",
-          "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 2640.0,
-          "change_pct": 3.08,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 3.08,
-            "1w": 1.13,
-            "1m": -11.66,
-            "3m": -22.95,
-            "6m": 0.03,
-            "1y": 62.06,
-            "3y": 45.48
-          }
-        },
-        {
-          "ticker": "NH",
-          "name": "Narayana Hrudayalaya",
-          "exchange": "NSE",
-          "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 1928.0,
-          "change_pct": 3.07,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 3.07,
-            "1w": 11.89,
-            "1m": 11.94,
-            "3m": 1.31,
-            "6m": 4.99,
-            "1y": 5.57,
-            "3y": 87.32
-          }
-        },
-        {
           "ticker": "VISHNU",
           "name": "Vishnu Chemicals",
           "exchange": "NSE",
           "sector": "Chemicals & Materials",
-          "latest_close": 534.65,
-          "change_pct": 3.01,
+          "latest_close": 534.75,
+          "change_pct": 3.02,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 3.01,
-            "1w": -5.95,
-            "1m": -17.46,
-            "3m": -9.15,
-            "6m": -10.89,
-            "1y": 5.31,
-            "3y": 63.21
+            "1d": 3.02,
+            "1w": -5.93,
+            "1m": -17.45,
+            "3m": -9.14,
+            "6m": -10.87,
+            "1y": 5.33,
+            "3y": 63.24
+          }
+        },
+        {
+          "ticker": "INDOMIM",
+          "name": "INDO-MIM",
+          "exchange": "NSE",
+          "sector": "Capital Goods & Engineering",
+          "latest_close": 1240.1,
+          "change_pct": 3.02,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 3.02,
+            "1w": 7.93,
+            "1m": -6.08,
+            "3m": 54.64,
+            "6m": 67.19,
+            "1y": 67.19,
+            "3y": 67.19
           }
         },
         {
@@ -912,57 +912,75 @@
           }
         },
         {
-          "ticker": "INDOMIM",
-          "name": "INDO-MIM",
+          "ticker": "HBLENGINE",
+          "name": "HBL Engineering",
           "exchange": "NSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 1239.0,
-          "change_pct": 2.92,
+          "latest_close": 836.4,
+          "change_pct": 2.89,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 2.92,
-            "1w": 7.83,
-            "1m": -6.16,
-            "3m": 54.5,
-            "6m": 67.04,
-            "1y": 67.04,
-            "3y": 67.04
+            "1d": 2.89,
+            "1w": 3.27,
+            "1m": 9.53,
+            "3m": 13.72,
+            "6m": -2.0,
+            "1y": -15.6,
+            "3y": 173.0
           }
         },
         {
-          "ticker": "REPCOHOME",
-          "name": "Repco Home Finance",
+          "ticker": "GUJTHEM",
+          "name": "Gujarat Themis Biosyn",
           "exchange": "NSE",
-          "sector": "Financial Services",
-          "latest_close": 330.0,
-          "change_pct": 2.87,
+          "sector": "Pharmaceuticals & Healthcare",
+          "latest_close": 387.75,
+          "change_pct": 2.81,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 2.87,
-            "1w": 7.97,
-            "1m": 0.23,
-            "3m": -13.78,
-            "6m": -17.9,
-            "1y": -25.73,
-            "3y": -17.73
+            "1d": 2.81,
+            "1w": 9.06,
+            "1m": 3.79,
+            "3m": 9.11,
+            "6m": 2.69,
+            "1y": -15.68,
+            "3y": 59.8
           }
         },
         {
-          "ticker": "AADHARHFC",
-          "name": "Aadhar Housing Finance",
+          "ticker": "KRYSTAL",
+          "name": "Krystal Integrated Services",
           "exchange": "NSE",
-          "sector": "Financial Services",
-          "latest_close": 433.0,
-          "change_pct": 2.79,
+          "sector": "Logistics & Services",
+          "latest_close": 579.85,
+          "change_pct": 2.76,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 2.79,
-            "1w": 0.58,
-            "1m": -4.56,
-            "3m": -14.29,
-            "6m": -13.42,
-            "1y": -14.96,
-            "3y": 31.43
+            "1d": 2.76,
+            "1w": 1.26,
+            "1m": -11.43,
+            "3m": -3.14,
+            "6m": -5.74,
+            "1y": -1.22,
+            "3y": -18.12
+          }
+        },
+        {
+          "ticker": "AVANTEL",
+          "name": "Avantel",
+          "exchange": "NSE",
+          "sector": "Defense & Aerospace",
+          "latest_close": 138.82,
+          "change_pct": 2.73,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 2.73,
+            "1w": 3.27,
+            "1m": -5.94,
+            "3m": -15.84,
+            "6m": -11.3,
+            "1y": -17.2,
+            "3y": -31.9
           }
         },
         {
@@ -970,53 +988,17 @@
           "name": "Brigade Enterprises",
           "exchange": "NSE",
           "sector": "Real Estate & Realty",
-          "latest_close": 541.0,
-          "change_pct": 2.69,
+          "latest_close": 541.1,
+          "change_pct": 2.7,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 2.69,
-            "1w": 0.49,
-            "1m": -5.35,
-            "3m": -5.14,
-            "6m": -10.52,
-            "1y": -28.9,
-            "3y": 6.56
-          }
-        },
-        {
-          "ticker": "INNOVACAP",
-          "name": "Innova Captab",
-          "exchange": "NSE",
-          "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 1030.0,
-          "change_pct": 2.66,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 2.66,
-            "1w": -1.88,
-            "1m": -10.08,
-            "3m": 8.99,
-            "6m": 18.02,
-            "1y": 25.01,
-            "3y": 90.81
-          }
-        },
-        {
-          "ticker": "JWL",
-          "name": "Jupiter Wagons",
-          "exchange": "NSE",
-          "sector": "Capital Goods & Engineering",
-          "latest_close": 197.3,
-          "change_pct": 2.66,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 2.66,
-            "1w": 8.98,
-            "1m": -11.7,
-            "3m": -23.78,
-            "6m": -33.85,
-            "1y": -38.74,
-            "3y": -36.33
+            "1d": 2.7,
+            "1w": 0.51,
+            "1m": -5.34,
+            "3m": -5.12,
+            "6m": -10.51,
+            "1y": -28.88,
+            "3y": 6.58
           }
         },
         {
@@ -1038,21 +1020,21 @@
           }
         },
         {
-          "ticker": "HBLENGINE",
-          "name": "HBL Engineering",
+          "ticker": "JWL",
+          "name": "Jupiter Wagons",
           "exchange": "NSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 833.0,
-          "change_pct": 2.47,
+          "latest_close": 197.04,
+          "change_pct": 2.53,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 2.47,
-            "1w": 2.85,
-            "1m": 9.09,
-            "3m": 13.26,
-            "6m": -2.4,
-            "1y": -15.94,
-            "3y": 171.89
+            "1d": 2.53,
+            "1w": 8.83,
+            "1m": -11.82,
+            "3m": -23.88,
+            "6m": -33.93,
+            "1y": -38.82,
+            "3y": -36.41
           }
         },
         {
@@ -1060,17 +1042,53 @@
           "name": "Avalon Technologies",
           "exchange": "NSE",
           "sector": "Electronics & Consumer Durables",
-          "latest_close": 2037.8,
-          "change_pct": 2.35,
+          "latest_close": 2041.0,
+          "change_pct": 2.51,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 2.35,
-            "1w": -0.43,
-            "1m": -9.68,
-            "3m": 11.77,
-            "6m": 77.08,
-            "1y": 77.15,
-            "3y": 304.89
+            "1d": 2.51,
+            "1w": -0.27,
+            "1m": -9.54,
+            "3m": 11.95,
+            "6m": 77.35,
+            "1y": 77.43,
+            "3y": 305.52
+          }
+        },
+        {
+          "ticker": "TDPOWERSYS",
+          "name": "TD Power Systems",
+          "exchange": "NSE",
+          "sector": "Capital Goods & Engineering",
+          "latest_close": 728.4,
+          "change_pct": 2.37,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 2.37,
+            "1w": 1.36,
+            "1m": -10.39,
+            "3m": 21.21,
+            "6m": 25.26,
+            "1y": 78.04,
+            "3y": 488.99
+          }
+        },
+        {
+          "ticker": "AADHARHFC",
+          "name": "Aadhar Housing Finance",
+          "exchange": "NSE",
+          "sector": "Financial Services",
+          "latest_close": 431.2,
+          "change_pct": 2.36,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 2.36,
+            "1w": 0.16,
+            "1m": -4.96,
+            "3m": -14.65,
+            "6m": -13.78,
+            "1y": -15.32,
+            "3y": 30.88
           }
         },
         {
@@ -1092,6 +1110,24 @@
           }
         },
         {
+          "ticker": "EPACK",
+          "name": "EPACK Durable",
+          "exchange": "NSE",
+          "sector": "Electronics & Consumer Durables",
+          "latest_close": 157.83,
+          "change_pct": 2.33,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 2.33,
+            "1w": -8.21,
+            "1m": -6.13,
+            "3m": -31.25,
+            "6m": -41.81,
+            "1y": -52.7,
+            "3y": -23.97
+          }
+        },
+        {
           "ticker": "KARURVYSYA",
           "name": "Karur Vysya Bank",
           "exchange": "NSE",
@@ -1110,57 +1146,21 @@
           }
         },
         {
-          "ticker": "SUBROS",
-          "name": "Subros",
+          "ticker": "REPCOHOME",
+          "name": "Repco Home Finance",
           "exchange": "NSE",
-          "sector": "Auto & Ancillaries",
-          "latest_close": 597.0,
-          "change_pct": 2.19,
+          "sector": "Financial Services",
+          "latest_close": 328.2,
+          "change_pct": 2.31,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 2.19,
-            "1w": 0.21,
-            "1m": -11.67,
-            "3m": -27.72,
-            "6m": -23.46,
-            "1y": -42.47,
-            "3y": 50.63
-          }
-        },
-        {
-          "ticker": "MONTECARLO",
-          "name": "Monte Carlo Fashions",
-          "exchange": "NSE",
-          "sector": "Consumer Goods & Retail",
-          "latest_close": 495.0,
-          "change_pct": 2.16,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 2.16,
-            "1w": -2.77,
-            "1m": -4.24,
-            "3m": 2.52,
-            "6m": -11.8,
-            "1y": -29.15,
-            "3y": -31.08
-          }
-        },
-        {
-          "ticker": "TALBROAUTO",
-          "name": "Talbros Automotive Components",
-          "exchange": "NSE",
-          "sector": "Auto & Ancillaries",
-          "latest_close": 369.95,
-          "change_pct": 2.15,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 2.15,
-            "1w": 3.48,
-            "1m": -11.17,
-            "3m": -15.48,
-            "6m": 13.63,
-            "1y": 27.54,
-            "3y": 60.7
+            "1d": 2.31,
+            "1w": 7.38,
+            "1m": -0.32,
+            "3m": -14.25,
+            "6m": -18.35,
+            "1y": -26.14,
+            "3y": -18.18
           }
         },
         {
@@ -1168,17 +1168,17 @@
           "name": "Aptus Value Housing Finance",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 206.0,
-          "change_pct": 2.13,
+          "latest_close": 206.28,
+          "change_pct": 2.27,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 2.13,
-            "1w": 3.72,
-            "1m": -7.89,
-            "3m": -22.06,
-            "6m": -22.24,
-            "1y": -28.9,
-            "3y": -25.53
+            "1d": 2.27,
+            "1w": 3.86,
+            "1m": -7.77,
+            "3m": -21.95,
+            "6m": -22.13,
+            "1y": -28.81,
+            "3y": -25.43
           }
         },
         {
@@ -1200,42 +1200,6 @@
           }
         },
         {
-          "ticker": "AVANTEL",
-          "name": "Avantel",
-          "exchange": "NSE",
-          "sector": "Defense & Aerospace",
-          "latest_close": 138.0,
-          "change_pct": 2.12,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 2.12,
-            "1w": 2.66,
-            "1m": -6.5,
-            "3m": -16.33,
-            "6m": -11.83,
-            "1y": -17.69,
-            "3y": -32.3
-          }
-        },
-        {
-          "ticker": "TDPOWERSYS",
-          "name": "TD Power Systems",
-          "exchange": "NSE",
-          "sector": "Capital Goods & Engineering",
-          "latest_close": 726.5,
-          "change_pct": 2.1,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 2.1,
-            "1w": 1.09,
-            "1m": -10.63,
-            "3m": 20.89,
-            "6m": 24.93,
-            "1y": 77.57,
-            "3y": 487.45
-          }
-        },
-        {
           "ticker": "ACMESOLAR",
           "name": "Acme Solar Holdings",
           "exchange": "NSE",
@@ -1251,6 +1215,24 @@
             "6m": 42.01,
             "1y": 53.9,
             "3y": 66.61
+          }
+        },
+        {
+          "ticker": "TALBROAUTO",
+          "name": "Talbros Automotive Components",
+          "exchange": "NSE",
+          "sector": "Auto & Ancillaries",
+          "latest_close": 369.25,
+          "change_pct": 1.96,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 1.96,
+            "1w": 3.29,
+            "1m": -11.33,
+            "3m": -15.64,
+            "6m": 13.42,
+            "1y": 27.3,
+            "3y": 60.4
           }
         },
         {
@@ -1290,39 +1272,39 @@
           }
         },
         {
-          "ticker": "EPACK",
-          "name": "EPACK Durable",
+          "ticker": "SUBROS",
+          "name": "Subros",
           "exchange": "NSE",
-          "sector": "Electronics & Consumer Durables",
-          "latest_close": 157.1,
-          "change_pct": 1.86,
+          "sector": "Auto & Ancillaries",
+          "latest_close": 595.1,
+          "change_pct": 1.87,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 1.86,
-            "1w": -8.64,
-            "1m": -6.56,
-            "3m": -31.57,
-            "6m": -42.08,
-            "1y": -52.91,
-            "3y": -24.33
+            "1d": 1.87,
+            "1w": -0.11,
+            "1m": -11.95,
+            "3m": -27.95,
+            "6m": -23.71,
+            "1y": -42.65,
+            "3y": 50.15
           }
         },
         {
-          "ticker": "BCLIND",
-          "name": "BCL Industries",
+          "ticker": "HOMEFIRST",
+          "name": "Home First Finance Company",
           "exchange": "NSE",
-          "sector": "Consumer Goods & Retail",
-          "latest_close": 28.99,
-          "change_pct": 1.86,
+          "sector": "Financial Services",
+          "latest_close": 1082.3,
+          "change_pct": 1.76,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 1.86,
-            "1w": -3.56,
-            "1m": -7.35,
-            "3m": -20.49,
-            "6m": -19.34,
-            "1y": -26.14,
-            "3y": -41.41
+            "1d": 1.76,
+            "1w": 6.69,
+            "1m": -1.27,
+            "3m": -8.81,
+            "6m": -11.35,
+            "1y": -9.08,
+            "3y": 21.13
           }
         },
         {
@@ -1330,35 +1312,53 @@
           "name": "Pricol",
           "exchange": "NSE",
           "sector": "Auto & Ancillaries",
-          "latest_close": 676.85,
-          "change_pct": 1.71,
+          "latest_close": 676.6,
+          "change_pct": 1.68,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 1.71,
-            "1w": 4.88,
-            "1m": -3.92,
-            "3m": -11.72,
-            "6m": 15.52,
-            "1y": 26.57,
-            "3y": 87.87
+            "1d": 1.68,
+            "1w": 4.84,
+            "1m": -3.95,
+            "3m": -11.75,
+            "6m": 15.48,
+            "1y": 26.52,
+            "3y": 87.8
           }
         },
         {
-          "ticker": "ZENTEC",
-          "name": "Zen Technologies",
+          "ticker": "MONTECARLO",
+          "name": "Monte Carlo Fashions",
           "exchange": "NSE",
-          "sector": "Defense & Aerospace",
-          "latest_close": 1738.8,
-          "change_pct": 1.65,
+          "sector": "Consumer Goods & Retail",
+          "latest_close": 492.35,
+          "change_pct": 1.61,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 1.65,
-            "1w": 10.84,
-            "1m": 8.71,
-            "3m": 3.88,
-            "6m": 11.01,
-            "1y": 23.65,
-            "3y": 146.16
+            "1d": 1.61,
+            "1w": -3.29,
+            "1m": -4.75,
+            "3m": 1.97,
+            "6m": -12.27,
+            "1y": -29.53,
+            "3y": -31.45
+          }
+        },
+        {
+          "ticker": "BCLIND",
+          "name": "BCL Industries",
+          "exchange": "NSE",
+          "sector": "Consumer Goods & Retail",
+          "latest_close": 28.9,
+          "change_pct": 1.55,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 1.55,
+            "1w": -3.86,
+            "1m": -7.64,
+            "3m": -20.74,
+            "6m": -19.59,
+            "1y": -26.37,
+            "3y": -41.59
           }
         },
         {
@@ -1380,42 +1380,6 @@
           }
         },
         {
-          "ticker": "KPGEL",
-          "name": "KP Green Engineering",
-          "exchange": "BSE",
-          "sector": "Capital Goods & Engineering",
-          "latest_close": 270.6,
-          "change_pct": 1.48,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 1.48,
-            "1w": 0.73,
-            "1m": -2.71,
-            "3m": -20.99,
-            "6m": -43.78,
-            "1y": -54.98,
-            "3y": 29.15
-          }
-        },
-        {
-          "ticker": "SHARDAMOTR",
-          "name": "Sharda Motor Industries",
-          "exchange": "NSE",
-          "sector": "Auto & Ancillaries",
-          "latest_close": 869.0,
-          "change_pct": 1.47,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 1.47,
-            "1w": 5.47,
-            "1m": -5.4,
-            "3m": -1.51,
-            "6m": -1.81,
-            "1y": -18.14,
-            "3y": -7.92
-          }
-        },
-        {
           "ticker": "SYRMA",
           "name": "Syrma SGS Technology",
           "exchange": "NSE",
@@ -1434,21 +1398,57 @@
           }
         },
         {
-          "ticker": "QPOWER",
-          "name": "Quality Power Electrical Equipments",
+          "ticker": "POWERMECH",
+          "name": "Power Mech Projects",
           "exchange": "NSE",
-          "sector": "Capital Goods & Engineering",
-          "latest_close": 1454.6,
+          "sector": "Infrastructure & Construction",
+          "latest_close": 2247.3,
           "change_pct": 1.44,
           "weight_pct": 0.76,
           "returns": {
             "1d": 1.44,
-            "1w": 6.9,
-            "1m": -10.22,
-            "3m": 29.27,
-            "6m": 21.45,
-            "1y": 50.99,
-            "3y": 275.7
+            "1w": 1.92,
+            "1m": -7.58,
+            "3m": -12.61,
+            "6m": -12.34,
+            "1y": -8.85,
+            "3y": 22.38
+          }
+        },
+        {
+          "ticker": "KPGEL",
+          "name": "KP Green Engineering",
+          "exchange": "BSE",
+          "sector": "Capital Goods & Engineering",
+          "latest_close": 270.5,
+          "change_pct": 1.44,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 1.44,
+            "1w": 0.69,
+            "1m": -2.75,
+            "3m": -21.02,
+            "6m": -43.81,
+            "1y": -54.99,
+            "3y": 29.1
+          }
+        },
+        {
+          "ticker": "TRIVENI",
+          "name": "Triveni Engineering & Industries",
+          "exchange": "NSE",
+          "sector": "Consumer Goods & Retail",
+          "latest_close": 245.61,
+          "change_pct": 1.42,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 1.42,
+            "1w": 9.16,
+            "1m": 3.54,
+            "3m": 4.85,
+            "6m": -39.39,
+            "1y": -30.88,
+            "3y": -30.77
           }
         },
         {
@@ -1488,6 +1488,42 @@
           }
         },
         {
+          "ticker": "NAVA",
+          "name": "Nava",
+          "exchange": "NSE",
+          "sector": "Renewable Energy & Utilities",
+          "latest_close": 521.95,
+          "change_pct": 1.3,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 1.3,
+            "1w": 4.08,
+            "1m": -6.24,
+            "3m": -9.48,
+            "6m": -24.62,
+            "1y": -12.89,
+            "3y": 163.37
+          }
+        },
+        {
+          "ticker": "QPOWER",
+          "name": "Quality Power Electrical Equipments",
+          "exchange": "NSE",
+          "sector": "Capital Goods & Engineering",
+          "latest_close": 1452.5,
+          "change_pct": 1.29,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 1.29,
+            "1w": 6.75,
+            "1m": -10.35,
+            "3m": 29.09,
+            "6m": 21.28,
+            "1y": 50.77,
+            "3y": 275.16
+          }
+        },
+        {
           "ticker": "TRAVELFOOD",
           "name": "Travel Food Services",
           "exchange": "NSE",
@@ -1506,21 +1542,39 @@
           }
         },
         {
-          "ticker": "ARSSBL",
-          "name": "Anand Rathi Share & Stock Brokers",
+          "ticker": "ZENTEC",
+          "name": "Zen Technologies",
           "exchange": "NSE",
-          "sector": "Financial Services",
-          "latest_close": 486.2,
-          "change_pct": 1.14,
+          "sector": "Defense & Aerospace",
+          "latest_close": 1729.1,
+          "change_pct": 1.08,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 1.14,
-            "1w": 3.12,
-            "1m": -9.12,
-            "3m": -5.66,
-            "6m": -17.17,
-            "1y": -8.71,
-            "3y": 10.09
+            "1d": 1.08,
+            "1w": 10.22,
+            "1m": 8.1,
+            "3m": 3.3,
+            "6m": 10.39,
+            "1y": 22.96,
+            "3y": 144.79
+          }
+        },
+        {
+          "ticker": "APCOTEXIND",
+          "name": "Apcotex Industries",
+          "exchange": "NSE",
+          "sector": "Chemicals & Materials",
+          "latest_close": 487.75,
+          "change_pct": 1.04,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 1.04,
+            "1w": -3.41,
+            "1m": -16.94,
+            "3m": -22.52,
+            "6m": 15.67,
+            "1y": 39.85,
+            "3y": 5.27
           }
         },
         {
@@ -1528,89 +1582,53 @@
           "name": "Honasa Consumer",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 461.9,
-          "change_pct": 1.03,
+          "latest_close": 461.75,
+          "change_pct": 1.0,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 1.03,
-            "1w": 2.39,
-            "1m": 4.48,
-            "3m": 1.11,
-            "6m": 34.66,
-            "1y": 65.46,
-            "3y": 37.88
+            "1d": 1.0,
+            "1w": 2.36,
+            "1m": 4.44,
+            "3m": 1.08,
+            "6m": 34.62,
+            "1y": 65.41,
+            "3y": 37.83
           }
         },
         {
-          "ticker": "TRIVENI",
-          "name": "Triveni Engineering & Industries",
+          "ticker": "SHARDAMOTR",
+          "name": "Sharda Motor Industries",
           "exchange": "NSE",
-          "sector": "Consumer Goods & Retail",
-          "latest_close": 244.65,
-          "change_pct": 1.02,
+          "sector": "Auto & Ancillaries",
+          "latest_close": 865.0,
+          "change_pct": 1.0,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 1.02,
-            "1w": 8.74,
-            "1m": 3.13,
-            "3m": 4.44,
-            "6m": -39.62,
-            "1y": -31.15,
-            "3y": -31.04
+            "1d": 1.0,
+            "1w": 4.99,
+            "1m": -5.83,
+            "3m": -1.97,
+            "6m": -2.26,
+            "1y": -18.51,
+            "3y": -8.35
           }
         },
         {
-          "ticker": "NEULANDLAB",
-          "name": "Neuland Laboratories",
-          "exchange": "NSE",
-          "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 19620.0,
-          "change_pct": 1.01,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 1.01,
-            "1w": -1.75,
-            "1m": -10.31,
-            "3m": -1.68,
-            "6m": 15.41,
-            "1y": 11.63,
-            "3y": 387.97
-          }
-        },
-        {
-          "ticker": "HOMEFIRST",
-          "name": "Home First Finance Company",
+          "ticker": "ARSSBL",
+          "name": "Anand Rathi Share & Stock Brokers",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 1074.0,
-          "change_pct": 0.98,
+          "latest_close": 485.3,
+          "change_pct": 0.96,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 0.98,
-            "1w": 5.88,
-            "1m": -2.03,
-            "3m": -9.51,
-            "6m": -12.03,
-            "1y": -9.77,
-            "3y": 20.2
-          }
-        },
-        {
-          "ticker": "NESCO",
-          "name": "Nesco",
-          "exchange": "NSE",
-          "sector": "Real Estate & Realty",
-          "latest_close": 1047.0,
-          "change_pct": 0.97,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 0.97,
-            "1w": 4.17,
-            "1m": 1.0,
-            "3m": -0.23,
-            "6m": -17.65,
-            "1y": -18.93,
-            "3y": 63.67
+            "1d": 0.96,
+            "1w": 2.93,
+            "1m": -9.29,
+            "3m": -5.83,
+            "6m": -17.33,
+            "1y": -8.87,
+            "3y": 9.89
           }
         },
         {
@@ -1668,93 +1686,39 @@
           }
         },
         {
-          "ticker": "NAVA",
-          "name": "Nava",
+          "ticker": "NEULANDLAB",
+          "name": "Neuland Laboratories",
           "exchange": "NSE",
-          "sector": "Renewable Energy & Utilities",
-          "latest_close": 519.4,
-          "change_pct": 0.81,
+          "sector": "Pharmaceuticals & Healthcare",
+          "latest_close": 19576.0,
+          "change_pct": 0.78,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 0.81,
-            "1w": 3.57,
-            "1m": -6.7,
-            "3m": -9.92,
-            "6m": -24.99,
-            "1y": -13.32,
-            "3y": 162.08
+            "1d": 0.78,
+            "1w": -1.97,
+            "1m": -10.51,
+            "3m": -1.9,
+            "6m": 15.15,
+            "1y": 11.38,
+            "3y": 386.88
           }
         },
         {
-          "ticker": "POWERMECH",
-          "name": "Power Mech Projects",
+          "ticker": "INDEGENE",
+          "name": "Indegene",
           "exchange": "NSE",
-          "sector": "Infrastructure & Construction",
-          "latest_close": 2233.0,
-          "change_pct": 0.79,
+          "sector": "IT & Tech Services",
+          "latest_close": 617.1,
+          "change_pct": 0.7,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 0.79,
-            "1w": 1.27,
-            "1m": -8.16,
-            "3m": -13.16,
-            "6m": -12.9,
-            "1y": -9.43,
-            "3y": 21.6
-          }
-        },
-        {
-          "ticker": "SMLMAH",
-          "name": "SML Mahindra",
-          "exchange": "NSE",
-          "sector": "Auto & Ancillaries",
-          "latest_close": 4944.0,
-          "change_pct": 0.73,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 0.73,
-            "1w": 3.75,
-            "1m": -22.19,
-            "3m": -16.45,
-            "6m": 28.42,
-            "1y": 52.58,
-            "3y": 287.63
-          }
-        },
-        {
-          "ticker": "SUDARSCHEM",
-          "name": "Sudarshan Chemical Industries",
-          "exchange": "NSE",
-          "sector": "Chemicals & Materials",
-          "latest_close": 1084.0,
-          "change_pct": 0.68,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 0.68,
-            "1w": 1.84,
-            "1m": -11.81,
-            "3m": 0.4,
-            "6m": 15.16,
-            "1y": -6.19,
-            "3y": 132.17
-          }
-        },
-        {
-          "ticker": "APCOTEXIND",
-          "name": "Apcotex Industries",
-          "exchange": "NSE",
-          "sector": "Chemicals & Materials",
-          "latest_close": 485.85,
-          "change_pct": 0.64,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 0.64,
-            "1w": -3.78,
-            "1m": -17.27,
-            "3m": -22.82,
-            "6m": 15.22,
-            "1y": 39.3,
-            "3y": 4.86
+            "1d": 0.7,
+            "1w": 3.03,
+            "1m": 3.12,
+            "3m": 14.21,
+            "6m": 16.29,
+            "1y": 14.98,
+            "3y": 8.93
           }
         },
         {
@@ -1776,21 +1740,39 @@
           }
         },
         {
+          "ticker": "GRSE",
+          "name": "Garden Reach Shipbuilders & Engineers",
+          "exchange": "NSE",
+          "sector": "Defense & Aerospace",
+          "latest_close": 2143.4,
+          "change_pct": 0.58,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 0.58,
+            "1w": 12.95,
+            "1m": 1.56,
+            "3m": -14.27,
+            "6m": -28.85,
+            "1y": -15.49,
+            "3y": 188.49
+          }
+        },
+        {
           "ticker": "BLS",
           "name": "BLS International Services",
           "exchange": "NSE",
           "sector": "Logistics & Services",
-          "latest_close": 216.85,
-          "change_pct": 0.57,
+          "latest_close": 216.73,
+          "change_pct": 0.51,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 0.57,
-            "1w": -0.33,
-            "1m": 0.51,
-            "3m": -14.98,
-            "6m": -24.2,
-            "1y": -32.01,
-            "3y": -21.18
+            "1d": 0.51,
+            "1w": -0.38,
+            "1m": 0.45,
+            "3m": -15.03,
+            "6m": -24.24,
+            "1y": -32.05,
+            "3y": -21.22
           }
         },
         {
@@ -1798,17 +1780,17 @@
           "name": "Firstsource Solutions",
           "exchange": "NSE",
           "sector": "IT & Tech Services",
-          "latest_close": 290.5,
-          "change_pct": 0.52,
+          "latest_close": 290.4,
+          "change_pct": 0.48,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 0.52,
-            "1w": -5.67,
-            "1m": 12.86,
-            "3m": -14.42,
-            "6m": 19.35,
-            "1y": -15.8,
-            "3y": 91.45
+            "1d": 0.48,
+            "1w": -5.7,
+            "1m": 12.82,
+            "3m": -14.45,
+            "6m": 19.3,
+            "1y": -15.83,
+            "3y": 91.38
           }
         },
         {
@@ -1830,39 +1812,93 @@
           }
         },
         {
-          "ticker": "INDEGENE",
-          "name": "Indegene",
+          "ticker": "SMLMAH",
+          "name": "SML Mahindra",
           "exchange": "NSE",
-          "sector": "IT & Tech Services",
-          "latest_close": 614.2,
-          "change_pct": 0.23,
+          "sector": "Auto & Ancillaries",
+          "latest_close": 4928.8,
+          "change_pct": 0.42,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 0.23,
-            "1w": 2.55,
-            "1m": 2.63,
-            "3m": 13.68,
-            "6m": 15.74,
-            "1y": 14.44,
-            "3y": 8.42
+            "1d": 0.42,
+            "1w": 3.43,
+            "1m": -22.43,
+            "3m": -16.71,
+            "6m": 28.03,
+            "1y": 52.12,
+            "3y": 286.44
           }
         },
         {
-          "ticker": "GRSE",
-          "name": "Garden Reach Shipbuilders & Engineers",
+          "ticker": "NESCO",
+          "name": "Nesco",
           "exchange": "NSE",
-          "sector": "Defense & Aerospace",
-          "latest_close": 2135.0,
-          "change_pct": 0.19,
+          "sector": "Real Estate & Realty",
+          "latest_close": 1040.4,
+          "change_pct": 0.33,
           "weight_pct": 0.76,
           "returns": {
-            "1d": 0.19,
-            "1w": 12.51,
-            "1m": 1.17,
-            "3m": -14.6,
-            "6m": -29.13,
-            "1y": -15.82,
-            "3y": 187.36
+            "1d": 0.33,
+            "1w": 3.51,
+            "1m": 0.37,
+            "3m": -0.86,
+            "6m": -18.17,
+            "1y": -19.44,
+            "3y": 62.63
+          }
+        },
+        {
+          "ticker": "CHOICEIN",
+          "name": "Choice International",
+          "exchange": "NSE",
+          "sector": "Financial Services",
+          "latest_close": 745.95,
+          "change_pct": 0.13,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 0.13,
+            "1w": 1.85,
+            "1m": 2.75,
+            "3m": -9.51,
+            "6m": 8.87,
+            "1y": -7.79,
+            "3y": 261.8
+          }
+        },
+        {
+          "ticker": "SUDARSCHEM",
+          "name": "Sudarshan Chemical Industries",
+          "exchange": "NSE",
+          "sector": "Chemicals & Materials",
+          "latest_close": 1077.95,
+          "change_pct": 0.12,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 0.12,
+            "1w": 1.27,
+            "1m": -12.3,
+            "3m": -0.16,
+            "6m": 14.52,
+            "1y": -6.71,
+            "3y": 130.87
+          }
+        },
+        {
+          "ticker": "PAISALO",
+          "name": "Paisalo Digital",
+          "exchange": "NSE",
+          "sector": "Financial Services",
+          "latest_close": 77.36,
+          "change_pct": 0.08,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 0.08,
+            "1w": -2.04,
+            "1m": -4.65,
+            "3m": 12.02,
+            "6m": 58.27,
+            "1y": 101.62,
+            "3y": 99.18
           }
         },
         {
@@ -1920,78 +1956,6 @@
           }
         },
         {
-          "ticker": "PAISALO",
-          "name": "Paisalo Digital",
-          "exchange": "NSE",
-          "sector": "Financial Services",
-          "latest_close": 77.25,
-          "change_pct": -0.06,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": -0.06,
-            "1w": -2.18,
-            "1m": -4.78,
-            "3m": 11.86,
-            "6m": 58.04,
-            "1y": 101.33,
-            "3y": 98.89
-          }
-        },
-        {
-          "ticker": "EFCIL",
-          "name": "EFC (I)",
-          "exchange": "NSE",
-          "sector": "Real Estate & Realty",
-          "latest_close": 165.47,
-          "change_pct": -0.11,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": -0.11,
-            "1w": -4.04,
-            "1m": -1.94,
-            "3m": -12.91,
-            "6m": -11.93,
-            "1y": -43.36,
-            "3y": -52.02
-          }
-        },
-        {
-          "ticker": "CHOICEIN",
-          "name": "Choice International",
-          "exchange": "NSE",
-          "sector": "Financial Services",
-          "latest_close": 744.0,
-          "change_pct": -0.13,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": -0.13,
-            "1w": 1.58,
-            "1m": 2.48,
-            "3m": -9.75,
-            "6m": 8.58,
-            "1y": -8.03,
-            "3y": 260.85
-          }
-        },
-        {
-          "ticker": "NEWGEN",
-          "name": "Newgen Software Technologies",
-          "exchange": "NSE",
-          "sector": "IT & Tech Services",
-          "latest_close": 442.5,
-          "change_pct": -0.15,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": -0.15,
-            "1w": -3.38,
-            "1m": -3.54,
-            "3m": -20.49,
-            "6m": -9.25,
-            "1y": -53.97,
-            "3y": -22.0
-          }
-        },
-        {
           "ticker": "AHLUCONT",
           "name": "Ahluwalia Contracts (India)",
           "exchange": "NSE",
@@ -2010,21 +1974,75 @@
           }
         },
         {
+          "ticker": "NEWGEN",
+          "name": "Newgen Software Technologies",
+          "exchange": "NSE",
+          "sector": "IT & Tech Services",
+          "latest_close": 441.65,
+          "change_pct": -0.34,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": -0.34,
+            "1w": -3.57,
+            "1m": -3.73,
+            "3m": -20.65,
+            "6m": -9.42,
+            "1y": -54.06,
+            "3y": -22.15
+          }
+        },
+        {
           "ticker": "SAFARI",
           "name": "Safari Industries (India)",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 1210.0,
+          "latest_close": 1210.1,
+          "change_pct": -0.41,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": -0.41,
+            "1w": -1.3,
+            "1m": -7.53,
+            "3m": -19.33,
+            "6m": -18.06,
+            "1y": -42.39,
+            "3y": -43.51
+          }
+        },
+        {
+          "ticker": "EFCIL",
+          "name": "EFC (I)",
+          "exchange": "NSE",
+          "sector": "Real Estate & Realty",
+          "latest_close": 164.95,
           "change_pct": -0.42,
           "weight_pct": 0.76,
           "returns": {
             "1d": -0.42,
-            "1w": -1.31,
-            "1m": -7.53,
-            "3m": -19.33,
-            "6m": -18.07,
-            "1y": -42.4,
-            "3y": -43.52
+            "1w": -4.34,
+            "1m": -2.25,
+            "3m": -13.18,
+            "6m": -12.21,
+            "1y": -43.54,
+            "3y": -52.17
+          }
+        },
+        {
+          "ticker": "TANLA",
+          "name": "Tanla Platforms",
+          "exchange": "NSE",
+          "sector": "IT & Tech Services",
+          "latest_close": 659.1,
+          "change_pct": -0.45,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": -0.45,
+            "1w": 11.15,
+            "1m": 36.37,
+            "3m": 8.38,
+            "6m": 18.4,
+            "1y": 8.26,
+            "3y": -24.76
           }
         },
         {
@@ -2046,75 +2064,39 @@
           }
         },
         {
-          "ticker": "TANLA",
-          "name": "Tanla Platforms",
-          "exchange": "NSE",
-          "sector": "IT & Tech Services",
-          "latest_close": 657.0,
-          "change_pct": -0.76,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": -0.76,
-            "1w": 10.8,
-            "1m": 35.93,
-            "3m": 8.04,
-            "6m": 18.02,
-            "1y": 7.92,
-            "3y": -25.0
-          }
-        },
-        {
-          "ticker": "KSB",
-          "name": "KSB",
-          "exchange": "NSE",
-          "sector": "Capital Goods & Engineering",
-          "latest_close": 660.3,
-          "change_pct": -0.89,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": -0.89,
-            "1w": 1.25,
-            "1m": -17.87,
-            "3m": -16.62,
-            "6m": -24.78,
-            "1y": -14.2,
-            "3y": 9.39
-          }
-        },
-        {
-          "ticker": "MINDACORP",
-          "name": "Minda Corporation",
-          "exchange": "NSE",
-          "sector": "Auto & Ancillaries",
-          "latest_close": 678.4,
-          "change_pct": -0.91,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": -0.91,
-            "1w": 7.73,
-            "1m": 4.72,
-            "3m": -6.06,
-            "6m": 28.96,
-            "1y": 14.96,
-            "3y": 102.72
-          }
-        },
-        {
           "ticker": "SJS",
           "name": "SJS Enterprises",
           "exchange": "NSE",
           "sector": "Auto & Ancillaries",
-          "latest_close": 2150.0,
-          "change_pct": -0.95,
+          "latest_close": 2156.3,
+          "change_pct": -0.66,
           "weight_pct": 0.76,
           "returns": {
-            "1d": -0.95,
-            "1w": 5.04,
-            "1m": 5.41,
-            "3m": -14.35,
-            "6m": 10.46,
-            "1y": 24.44,
-            "3y": 208.66
+            "1d": -0.66,
+            "1w": 5.35,
+            "1m": 5.72,
+            "3m": -14.1,
+            "6m": 10.79,
+            "1y": 24.8,
+            "3y": 209.57
+          }
+        },
+        {
+          "ticker": "GABRIEL",
+          "name": "Gabriel India",
+          "exchange": "NSE",
+          "sector": "Auto & Ancillaries",
+          "latest_close": 1391.6,
+          "change_pct": -0.68,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": -0.68,
+            "1w": -3.96,
+            "1m": 6.75,
+            "3m": -12.17,
+            "6m": 28.52,
+            "1y": 10.38,
+            "3y": 322.11
           }
         },
         {
@@ -2122,17 +2104,53 @@
           "name": "Windlas Biotech",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 871.0,
-          "change_pct": -0.98,
+          "latest_close": 873.45,
+          "change_pct": -0.7,
           "weight_pct": 0.76,
           "returns": {
-            "1d": -0.98,
-            "1w": -1.99,
-            "1m": -14.43,
-            "3m": 1.65,
-            "6m": 1.95,
-            "1y": -6.42,
-            "3y": 142.11
+            "1d": -0.7,
+            "1w": -1.72,
+            "1m": -14.19,
+            "3m": 1.94,
+            "6m": 2.24,
+            "1y": -6.15,
+            "3y": 142.79
+          }
+        },
+        {
+          "ticker": "MINDACORP",
+          "name": "Minda Corporation",
+          "exchange": "NSE",
+          "sector": "Auto & Ancillaries",
+          "latest_close": 678.55,
+          "change_pct": -0.88,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": -0.88,
+            "1w": 7.75,
+            "1m": 4.74,
+            "3m": -6.04,
+            "6m": 28.99,
+            "1y": 14.98,
+            "3y": 102.76
+          }
+        },
+        {
+          "ticker": "KSB",
+          "name": "KSB",
+          "exchange": "NSE",
+          "sector": "Capital Goods & Engineering",
+          "latest_close": 659.2,
+          "change_pct": -1.05,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": -1.05,
+            "1w": 1.08,
+            "1m": -18.0,
+            "3m": -16.76,
+            "6m": -24.9,
+            "1y": -14.34,
+            "3y": 9.2
           }
         },
         {
@@ -2154,39 +2172,57 @@
           }
         },
         {
-          "ticker": "GABRIEL",
-          "name": "Gabriel India",
-          "exchange": "NSE",
-          "sector": "Auto & Ancillaries",
-          "latest_close": 1384.8,
-          "change_pct": -1.16,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": -1.16,
-            "1w": -4.43,
-            "1m": 6.23,
-            "3m": -12.6,
-            "6m": 27.9,
-            "1y": 9.84,
-            "3y": 320.04
-          }
-        },
-        {
           "ticker": "DATAMATICS",
           "name": "Datamatics Global Services",
           "exchange": "NSE",
           "sector": "IT & Tech Services",
-          "latest_close": 729.0,
-          "change_pct": -1.74,
+          "latest_close": 731.25,
+          "change_pct": -1.44,
           "weight_pct": 0.76,
           "returns": {
-            "1d": -1.74,
-            "1w": 1.11,
-            "1m": -5.29,
-            "3m": -16.35,
-            "6m": -5.82,
-            "1y": -20.3,
-            "3y": 29.23
+            "1d": -1.44,
+            "1w": 1.42,
+            "1m": -5.0,
+            "3m": -16.1,
+            "6m": -5.52,
+            "1y": -20.06,
+            "3y": 29.63
+          }
+        },
+        {
+          "ticker": "BLISSGVS",
+          "name": "Bliss GVS Pharma",
+          "exchange": "NSE",
+          "sector": "Pharmaceuticals & Healthcare",
+          "latest_close": 619.55,
+          "change_pct": -1.86,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": -1.86,
+            "1w": -4.46,
+            "1m": -6.81,
+            "3m": 24.66,
+            "6m": 131.67,
+            "1y": 304.56,
+            "3y": 530.33
+          }
+        },
+        {
+          "ticker": "SRM",
+          "name": "SRM Contractors Limited",
+          "exchange": "NSE",
+          "sector": "Infrastructure & Construction",
+          "latest_close": 379.25,
+          "change_pct": -2.02,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": -2.02,
+            "1w": -7.17,
+            "1m": -4.87,
+            "3m": -25.72,
+            "6m": -27.82,
+            "1y": -35.33,
+            "3y": 67.81
           }
         },
         {
@@ -2244,42 +2280,6 @@
           }
         },
         {
-          "ticker": "SRM",
-          "name": "SRM Contractors Limited",
-          "exchange": "NSE",
-          "sector": "Infrastructure & Construction",
-          "latest_close": 378.05,
-          "change_pct": -2.33,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": -2.33,
-            "1w": -7.47,
-            "1m": -5.17,
-            "3m": -25.95,
-            "6m": -28.05,
-            "1y": -35.54,
-            "3y": 67.28
-          }
-        },
-        {
-          "ticker": "BLISSGVS",
-          "name": "Bliss GVS Pharma",
-          "exchange": "NSE",
-          "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 615.0,
-          "change_pct": -2.58,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": -2.58,
-            "1w": -5.17,
-            "1m": -7.49,
-            "3m": 23.74,
-            "6m": 129.97,
-            "1y": 301.59,
-            "3y": 525.7
-          }
-        },
-        {
           "ticker": "RBZJEWEL",
           "name": "RBZ Jewellers",
           "exchange": "NSE",
@@ -2302,17 +2302,17 @@
           "name": "RateGain Travel Technologies",
           "exchange": "NSE",
           "sector": "IT & Tech Services",
-          "latest_close": 794.95,
-          "change_pct": -3.08,
+          "latest_close": 795.2,
+          "change_pct": -3.05,
           "weight_pct": 0.76,
           "returns": {
-            "1d": -3.08,
-            "1w": -1.71,
-            "1m": -6.42,
-            "3m": -18.75,
-            "6m": 24.63,
-            "1y": 15.92,
-            "3y": 13.43
+            "1d": -3.05,
+            "1w": -1.68,
+            "1m": -6.39,
+            "3m": -18.72,
+            "6m": 24.67,
+            "1y": 15.95,
+            "3y": 13.46
           }
         },
         {
@@ -2320,35 +2320,17 @@
           "name": "Acutaas Chemicals",
           "exchange": "NSE",
           "sector": "Chemicals & Materials",
-          "latest_close": 3783.0,
-          "change_pct": -3.1,
+          "latest_close": 3777.3,
+          "change_pct": -3.25,
           "weight_pct": 0.76,
           "returns": {
-            "1d": -3.1,
-            "1w": 1.97,
-            "1m": 21.16,
-            "3m": 15.32,
-            "6m": 40.96,
-            "1y": 106.39,
-            "3y": 561.5
-          }
-        },
-        {
-          "ticker": "INDIAGLYCO",
-          "name": "India Glycols",
-          "exchange": "NSE",
-          "sector": "Chemicals & Materials",
-          "latest_close": 309.45,
-          "change_pct": -4.42,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": -4.42,
-            "1w": -6.64,
-            "1m": 2.01,
-            "3m": -73.21,
-            "6m": -71.69,
-            "1y": -69.24,
-            "3y": -10.32
+            "1d": -3.25,
+            "1w": 1.81,
+            "1m": 20.98,
+            "3m": 15.15,
+            "6m": 40.74,
+            "1y": 106.08,
+            "3y": 560.51
           }
         },
         {
@@ -2356,35 +2338,17 @@
           "name": "Marksans Pharma",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 301.0,
-          "change_pct": -4.54,
+          "latest_close": 301.65,
+          "change_pct": -4.33,
           "weight_pct": 0.76,
           "returns": {
-            "1d": -4.54,
-            "1w": -1.38,
-            "1m": -9.24,
-            "3m": 11.52,
-            "6m": 53.84,
-            "1y": 61.58,
-            "3y": 159.53
-          }
-        },
-        {
-          "ticker": "SHREEPUSHK",
-          "name": "Shree Pushkar Chemicals & Fertilisers",
-          "exchange": "NSE",
-          "sector": "Chemicals & Materials",
-          "latest_close": 592.1,
-          "change_pct": -4.98,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": -4.98,
-            "1w": 9.1,
-            "1m": 19.73,
-            "3m": 42.76,
-            "6m": 52.35,
-            "1y": 50.99,
-            "3y": 216.89
+            "1d": -4.33,
+            "1w": -1.16,
+            "1m": -9.05,
+            "3m": 11.76,
+            "6m": 54.17,
+            "1y": 61.93,
+            "3y": 160.09
           }
         },
         {
@@ -2392,17 +2356,53 @@
           "name": "Sri Lotus Developers And Realty",
           "exchange": "NSE",
           "sector": "Real Estate & Realty",
-          "latest_close": 229.75,
-          "change_pct": -5.0,
+          "latest_close": 231.2,
+          "change_pct": -4.4,
           "weight_pct": 0.76,
           "returns": {
-            "1d": -5.0,
-            "1w": -6.58,
-            "1m": -3.42,
-            "3m": 19.47,
-            "6m": 60.42,
-            "1y": 29.69,
-            "3y": 17.86
+            "1d": -4.4,
+            "1w": -5.99,
+            "1m": -2.81,
+            "3m": 20.22,
+            "6m": 61.43,
+            "1y": 30.5,
+            "3y": 18.6
+          }
+        },
+        {
+          "ticker": "INDIAGLYCO",
+          "name": "India Glycols",
+          "exchange": "NSE",
+          "sector": "Chemicals & Materials",
+          "latest_close": 309.2,
+          "change_pct": -4.49,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": -4.49,
+            "1w": -6.71,
+            "1m": 1.93,
+            "3m": -73.24,
+            "6m": -71.71,
+            "1y": -69.27,
+            "3y": -10.39
+          }
+        },
+        {
+          "ticker": "SHREEPUSHK",
+          "name": "Shree Pushkar Chemicals & Fertilisers",
+          "exchange": "NSE",
+          "sector": "Chemicals & Materials",
+          "latest_close": 594.75,
+          "change_pct": -4.55,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": -4.55,
+            "1w": 9.59,
+            "1m": 20.26,
+            "3m": 43.4,
+            "6m": 53.03,
+            "1y": 51.67,
+            "3y": 218.3
           }
         }
       ]
@@ -2412,45 +2412,27 @@
       "name": "Auto & Ancillaries",
       "type": "sector",
       "file": "data/sector_auto_ancillaries.json",
-      "current_value": 2560.39,
+      "current_value": 2557.83,
       "prev_close": 2516.27,
-      "change_pts": 44.12,
-      "change_pct": 1.75,
+      "change_pts": 41.56,
+      "change_pct": 1.65,
       "day_open": 2522.43,
-      "day_high": 2586.18,
-      "day_low": 2470.29,
+      "day_high": 2588.11,
+      "day_low": 2470.06,
       "high_52w": 2925.98,
       "low_52w": 1835.76,
-      "all_time_return_pct": 156.04,
+      "all_time_return_pct": 155.78,
       "returns": {
-        "1d": 1.75,
-        "1w": 4.28,
-        "1m": -3.91,
-        "3m": -8.31,
-        "6m": 12.57,
-        "1y": 16.88,
-        "3y": 156.04
+        "1d": 1.65,
+        "1w": 4.18,
+        "1m": -4.01,
+        "3m": -8.4,
+        "6m": 12.45,
+        "1y": 16.76,
+        "3y": 155.78
       },
       "constituents_count": 15,
       "constituents": [
-        {
-          "ticker": "FIEMIND",
-          "name": "Fiem Industries",
-          "exchange": "NSE",
-          "sector": "Auto & Ancillaries",
-          "latest_close": 1920.0,
-          "change_pct": 5.24,
-          "weight_pct": 6.67,
-          "returns": {
-            "1d": 5.24,
-            "1w": 15.36,
-            "1m": 8.9,
-            "3m": -23.14,
-            "6m": -13.44,
-            "1y": -7.7,
-            "3y": 124.36
-          }
-        },
         {
           "ticker": "OLECTRA",
           "name": "Olectra Greentech",
@@ -2470,21 +2452,39 @@
           }
         },
         {
+          "ticker": "FIEMIND",
+          "name": "Fiem Industries",
+          "exchange": "NSE",
+          "sector": "Auto & Ancillaries",
+          "latest_close": 1904.0,
+          "change_pct": 4.36,
+          "weight_pct": 6.67,
+          "returns": {
+            "1d": 4.36,
+            "1w": 14.4,
+            "1m": 7.99,
+            "3m": -23.78,
+            "6m": -14.16,
+            "1y": -8.47,
+            "3y": 122.49
+          }
+        },
+        {
           "ticker": "NRBBEARING",
           "name": "NRB Bearings",
           "exchange": "NSE",
           "sector": "Auto & Ancillaries",
-          "latest_close": 485.0,
-          "change_pct": 4.11,
+          "latest_close": 484.45,
+          "change_pct": 3.99,
           "weight_pct": 6.67,
           "returns": {
-            "1d": 4.11,
-            "1w": 6.63,
-            "1m": -9.46,
-            "3m": 5.96,
-            "6m": 66.75,
-            "1y": 78.61,
-            "3y": 98.21
+            "1d": 3.99,
+            "1w": 6.51,
+            "1m": -9.57,
+            "3m": 5.84,
+            "6m": 66.56,
+            "1y": 78.41,
+            "3y": 97.99
           }
         },
         {
@@ -2542,39 +2542,39 @@
           }
         },
         {
-          "ticker": "SUBROS",
-          "name": "Subros",
-          "exchange": "NSE",
-          "sector": "Auto & Ancillaries",
-          "latest_close": 597.0,
-          "change_pct": 2.19,
-          "weight_pct": 6.67,
-          "returns": {
-            "1d": 2.19,
-            "1w": 0.21,
-            "1m": -11.67,
-            "3m": -27.72,
-            "6m": -23.46,
-            "1y": -42.47,
-            "3y": 50.63
-          }
-        },
-        {
           "ticker": "TALBROAUTO",
           "name": "Talbros Automotive Components",
           "exchange": "NSE",
           "sector": "Auto & Ancillaries",
-          "latest_close": 369.95,
-          "change_pct": 2.15,
+          "latest_close": 369.25,
+          "change_pct": 1.96,
           "weight_pct": 6.67,
           "returns": {
-            "1d": 2.15,
-            "1w": 3.48,
-            "1m": -11.17,
-            "3m": -15.48,
-            "6m": 13.63,
-            "1y": 27.54,
-            "3y": 60.7
+            "1d": 1.96,
+            "1w": 3.29,
+            "1m": -11.33,
+            "3m": -15.64,
+            "6m": 13.42,
+            "1y": 27.3,
+            "3y": 60.4
+          }
+        },
+        {
+          "ticker": "SUBROS",
+          "name": "Subros",
+          "exchange": "NSE",
+          "sector": "Auto & Ancillaries",
+          "latest_close": 595.1,
+          "change_pct": 1.87,
+          "weight_pct": 6.67,
+          "returns": {
+            "1d": 1.87,
+            "1w": -0.11,
+            "1m": -11.95,
+            "3m": -27.95,
+            "6m": -23.71,
+            "1y": -42.65,
+            "3y": 50.15
           }
         },
         {
@@ -2582,17 +2582,17 @@
           "name": "Pricol",
           "exchange": "NSE",
           "sector": "Auto & Ancillaries",
-          "latest_close": 676.85,
-          "change_pct": 1.71,
+          "latest_close": 676.6,
+          "change_pct": 1.68,
           "weight_pct": 6.67,
           "returns": {
-            "1d": 1.71,
-            "1w": 4.88,
-            "1m": -3.92,
-            "3m": -11.72,
-            "6m": 15.52,
-            "1y": 26.57,
-            "3y": 87.87
+            "1d": 1.68,
+            "1w": 4.84,
+            "1m": -3.95,
+            "3m": -11.75,
+            "6m": 15.48,
+            "1y": 26.52,
+            "3y": 87.8
           }
         },
         {
@@ -2600,17 +2600,17 @@
           "name": "Sharda Motor Industries",
           "exchange": "NSE",
           "sector": "Auto & Ancillaries",
-          "latest_close": 869.0,
-          "change_pct": 1.47,
+          "latest_close": 865.0,
+          "change_pct": 1.0,
           "weight_pct": 6.67,
           "returns": {
-            "1d": 1.47,
-            "1w": 5.47,
-            "1m": -5.4,
-            "3m": -1.51,
-            "6m": -1.81,
-            "1y": -18.14,
-            "3y": -7.92
+            "1d": 1.0,
+            "1w": 4.99,
+            "1m": -5.83,
+            "3m": -1.97,
+            "6m": -2.26,
+            "1y": -18.51,
+            "3y": -8.35
           }
         },
         {
@@ -2618,35 +2618,17 @@
           "name": "SML Mahindra",
           "exchange": "NSE",
           "sector": "Auto & Ancillaries",
-          "latest_close": 4944.0,
-          "change_pct": 0.73,
+          "latest_close": 4928.8,
+          "change_pct": 0.42,
           "weight_pct": 6.67,
           "returns": {
-            "1d": 0.73,
-            "1w": 3.75,
-            "1m": -22.19,
-            "3m": -16.45,
-            "6m": 28.42,
-            "1y": 52.58,
-            "3y": 287.63
-          }
-        },
-        {
-          "ticker": "MINDACORP",
-          "name": "Minda Corporation",
-          "exchange": "NSE",
-          "sector": "Auto & Ancillaries",
-          "latest_close": 678.4,
-          "change_pct": -0.91,
-          "weight_pct": 6.67,
-          "returns": {
-            "1d": -0.91,
-            "1w": 7.73,
-            "1m": 4.72,
-            "3m": -6.06,
-            "6m": 28.96,
-            "1y": 14.96,
-            "3y": 102.72
+            "1d": 0.42,
+            "1w": 3.43,
+            "1m": -22.43,
+            "3m": -16.71,
+            "6m": 28.03,
+            "1y": 52.12,
+            "3y": 286.44
           }
         },
         {
@@ -2654,17 +2636,17 @@
           "name": "SJS Enterprises",
           "exchange": "NSE",
           "sector": "Auto & Ancillaries",
-          "latest_close": 2150.0,
-          "change_pct": -0.95,
+          "latest_close": 2156.3,
+          "change_pct": -0.66,
           "weight_pct": 6.67,
           "returns": {
-            "1d": -0.95,
-            "1w": 5.04,
-            "1m": 5.41,
-            "3m": -14.35,
-            "6m": 10.46,
-            "1y": 24.44,
-            "3y": 208.66
+            "1d": -0.66,
+            "1w": 5.35,
+            "1m": 5.72,
+            "3m": -14.1,
+            "6m": 10.79,
+            "1y": 24.8,
+            "3y": 209.57
           }
         },
         {
@@ -2672,17 +2654,35 @@
           "name": "Gabriel India",
           "exchange": "NSE",
           "sector": "Auto & Ancillaries",
-          "latest_close": 1384.8,
-          "change_pct": -1.16,
+          "latest_close": 1391.6,
+          "change_pct": -0.68,
           "weight_pct": 6.67,
           "returns": {
-            "1d": -1.16,
-            "1w": -4.43,
-            "1m": 6.23,
-            "3m": -12.6,
-            "6m": 27.9,
-            "1y": 9.84,
-            "3y": 320.04
+            "1d": -0.68,
+            "1w": -3.96,
+            "1m": 6.75,
+            "3m": -12.17,
+            "6m": 28.52,
+            "1y": 10.38,
+            "3y": 322.11
+          }
+        },
+        {
+          "ticker": "MINDACORP",
+          "name": "Minda Corporation",
+          "exchange": "NSE",
+          "sector": "Auto & Ancillaries",
+          "latest_close": 678.55,
+          "change_pct": -0.88,
+          "weight_pct": 6.67,
+          "returns": {
+            "1d": -0.88,
+            "1w": 7.75,
+            "1m": 4.74,
+            "3m": -6.04,
+            "6m": 28.99,
+            "1y": 14.98,
+            "3y": 102.76
           }
         },
         {
@@ -2710,24 +2710,24 @@
       "name": "Capital Goods & Engineering",
       "type": "sector",
       "file": "data/sector_capital_goods_engineering.json",
-      "current_value": 2739.28,
+      "current_value": 2737.19,
       "prev_close": 2653.27,
-      "change_pts": 86.01,
-      "change_pct": 3.24,
+      "change_pts": 83.92,
+      "change_pct": 3.16,
       "day_open": 2662.67,
-      "day_high": 2760.24,
+      "day_high": 2760.26,
       "day_low": 2610.89,
       "high_52w": 3029.48,
       "low_52w": 1863.95,
-      "all_time_return_pct": 173.93,
+      "all_time_return_pct": 173.72,
       "returns": {
-        "1d": 3.24,
-        "1w": 4.26,
-        "1m": -5.32,
-        "3m": 3.1,
-        "6m": 1.82,
-        "1y": 15.94,
-        "3y": 173.93
+        "1d": 3.16,
+        "1w": 4.18,
+        "1m": -5.39,
+        "3m": 3.02,
+        "6m": 1.75,
+        "1y": 15.85,
+        "3y": 173.72
       },
       "constituents_count": 16,
       "constituents": [
@@ -2750,21 +2750,21 @@
           }
         },
         {
-          "ticker": "RISHABH",
-          "name": "Rishabh Instruments",
+          "ticker": "TRIL",
+          "name": "Transformers & Rectifiers (India)",
           "exchange": "NSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 643.8,
-          "change_pct": 5.51,
+          "latest_close": 317.55,
+          "change_pct": 5.31,
           "weight_pct": 6.25,
           "returns": {
-            "1d": 5.51,
-            "1w": -1.63,
-            "1m": -6.18,
-            "3m": -0.52,
-            "6m": 29.61,
-            "1y": 65.2,
-            "3y": 31.08
+            "1d": 5.31,
+            "1w": 0.91,
+            "1m": 11.25,
+            "3m": 7.85,
+            "6m": 1.59,
+            "1y": -24.12,
+            "3y": 244.79
           }
         },
         {
@@ -2786,21 +2786,21 @@
           }
         },
         {
-          "ticker": "TRIL",
-          "name": "Transformers & Rectifiers (India)",
+          "ticker": "RISHABH",
+          "name": "Rishabh Instruments",
           "exchange": "NSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 317.5,
-          "change_pct": 5.29,
+          "latest_close": 640.55,
+          "change_pct": 4.97,
           "weight_pct": 6.25,
           "returns": {
-            "1d": 5.29,
-            "1w": 0.89,
-            "1m": 11.23,
-            "3m": 7.84,
-            "6m": 1.58,
-            "1y": -24.13,
-            "3y": 244.73
+            "1d": 4.97,
+            "1w": -2.13,
+            "1m": -6.65,
+            "3m": -1.02,
+            "6m": 28.96,
+            "1y": 64.37,
+            "3y": 30.42
           }
         },
         {
@@ -2826,17 +2826,17 @@
           "name": "Man Industries India",
           "exchange": "NSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 778.0,
-          "change_pct": 4.03,
+          "latest_close": 772.7,
+          "change_pct": 3.32,
           "weight_pct": 6.25,
           "returns": {
-            "1d": 4.03,
-            "1w": 0.06,
-            "1m": -12.41,
-            "3m": 45.93,
-            "6m": 45.11,
-            "1y": 97.44,
-            "3y": 209.47
+            "1d": 3.32,
+            "1w": -0.62,
+            "1m": -13.01,
+            "3m": 44.93,
+            "6m": 44.12,
+            "1y": 96.09,
+            "3y": 207.36
           }
         },
         {
@@ -2844,17 +2844,35 @@
           "name": "Macpower CNC Machines",
           "exchange": "NSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 2211.0,
-          "change_pct": 3.48,
+          "latest_close": 2204.0,
+          "change_pct": 3.15,
           "weight_pct": 6.25,
           "returns": {
-            "1d": 3.48,
-            "1w": 14.05,
-            "1m": 2.34,
-            "3m": 44.16,
-            "6m": 86.09,
-            "1y": 174.33,
-            "3y": 314.32
+            "1d": 3.15,
+            "1w": 13.68,
+            "1m": 2.01,
+            "3m": 43.71,
+            "6m": 85.5,
+            "1y": 173.46,
+            "3y": 313.0
+          }
+        },
+        {
+          "ticker": "INDOMIM",
+          "name": "INDO-MIM",
+          "exchange": "NSE",
+          "sector": "Capital Goods & Engineering",
+          "latest_close": 1240.1,
+          "change_pct": 3.02,
+          "weight_pct": 6.25,
+          "returns": {
+            "1d": 3.02,
+            "1w": 7.93,
+            "1m": -6.08,
+            "3m": 54.64,
+            "6m": 67.19,
+            "1y": 67.19,
+            "3y": 67.19
           }
         },
         {
@@ -2876,21 +2894,21 @@
           }
         },
         {
-          "ticker": "INDOMIM",
-          "name": "INDO-MIM",
+          "ticker": "HBLENGINE",
+          "name": "HBL Engineering",
           "exchange": "NSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 1239.0,
-          "change_pct": 2.92,
+          "latest_close": 836.4,
+          "change_pct": 2.89,
           "weight_pct": 6.25,
           "returns": {
-            "1d": 2.92,
-            "1w": 7.83,
-            "1m": -6.16,
-            "3m": 54.5,
-            "6m": 67.04,
-            "1y": 67.04,
-            "3y": 67.04
+            "1d": 2.89,
+            "1w": 3.27,
+            "1m": 9.53,
+            "3m": 13.72,
+            "6m": -2.0,
+            "1y": -15.6,
+            "3y": 173.0
           }
         },
         {
@@ -2898,35 +2916,17 @@
           "name": "Jupiter Wagons",
           "exchange": "NSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 197.3,
-          "change_pct": 2.66,
+          "latest_close": 197.04,
+          "change_pct": 2.53,
           "weight_pct": 6.25,
           "returns": {
-            "1d": 2.66,
-            "1w": 8.98,
-            "1m": -11.7,
-            "3m": -23.78,
-            "6m": -33.85,
-            "1y": -38.74,
-            "3y": -36.33
-          }
-        },
-        {
-          "ticker": "HBLENGINE",
-          "name": "HBL Engineering",
-          "exchange": "NSE",
-          "sector": "Capital Goods & Engineering",
-          "latest_close": 833.0,
-          "change_pct": 2.47,
-          "weight_pct": 6.25,
-          "returns": {
-            "1d": 2.47,
-            "1w": 2.85,
-            "1m": 9.09,
-            "3m": 13.26,
-            "6m": -2.4,
-            "1y": -15.94,
-            "3y": 171.89
+            "1d": 2.53,
+            "1w": 8.83,
+            "1m": -11.82,
+            "3m": -23.88,
+            "6m": -33.93,
+            "1y": -38.82,
+            "3y": -36.41
           }
         },
         {
@@ -2934,17 +2934,17 @@
           "name": "TD Power Systems",
           "exchange": "NSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 726.5,
-          "change_pct": 2.1,
+          "latest_close": 728.4,
+          "change_pct": 2.37,
           "weight_pct": 6.25,
           "returns": {
-            "1d": 2.1,
-            "1w": 1.09,
-            "1m": -10.63,
-            "3m": 20.89,
-            "6m": 24.93,
-            "1y": 77.57,
-            "3y": 487.45
+            "1d": 2.37,
+            "1w": 1.36,
+            "1m": -10.39,
+            "3m": 21.21,
+            "6m": 25.26,
+            "1y": 78.04,
+            "3y": 488.99
           }
         },
         {
@@ -2970,17 +2970,17 @@
           "name": "KP Green Engineering",
           "exchange": "BSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 270.6,
-          "change_pct": 1.48,
+          "latest_close": 270.5,
+          "change_pct": 1.44,
           "weight_pct": 6.25,
           "returns": {
-            "1d": 1.48,
-            "1w": 0.73,
-            "1m": -2.71,
-            "3m": -20.99,
-            "6m": -43.78,
-            "1y": -54.98,
-            "3y": 29.15
+            "1d": 1.44,
+            "1w": 0.69,
+            "1m": -2.75,
+            "3m": -21.02,
+            "6m": -43.81,
+            "1y": -54.99,
+            "3y": 29.1
           }
         },
         {
@@ -2988,17 +2988,17 @@
           "name": "Quality Power Electrical Equipments",
           "exchange": "NSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 1454.6,
-          "change_pct": 1.44,
+          "latest_close": 1452.5,
+          "change_pct": 1.29,
           "weight_pct": 6.25,
           "returns": {
-            "1d": 1.44,
-            "1w": 6.9,
-            "1m": -10.22,
-            "3m": 29.27,
-            "6m": 21.45,
-            "1y": 50.99,
-            "3y": 275.7
+            "1d": 1.29,
+            "1w": 6.75,
+            "1m": -10.35,
+            "3m": 29.09,
+            "6m": 21.28,
+            "1y": 50.77,
+            "3y": 275.16
           }
         },
         {
@@ -3006,17 +3006,17 @@
           "name": "KSB",
           "exchange": "NSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 660.3,
-          "change_pct": -0.89,
+          "latest_close": 659.2,
+          "change_pct": -1.05,
           "weight_pct": 6.25,
           "returns": {
-            "1d": -0.89,
-            "1w": 1.25,
-            "1m": -17.87,
-            "3m": -16.62,
-            "6m": -24.78,
-            "1y": -14.2,
-            "3y": 9.39
+            "1d": -1.05,
+            "1w": 1.08,
+            "1m": -18.0,
+            "3m": -16.76,
+            "6m": -24.9,
+            "1y": -14.34,
+            "3y": 9.2
           }
         }
       ]
@@ -3026,24 +3026,24 @@
       "name": "Chemicals & Materials",
       "type": "sector",
       "file": "data/sector_chemicals_materials.json",
-      "current_value": 2810.97,
+      "current_value": 2809.54,
       "prev_close": 2785.99,
-      "change_pts": 24.98,
-      "change_pct": 0.9,
+      "change_pts": 23.55,
+      "change_pct": 0.85,
       "day_open": 2785.82,
       "day_high": 2866.31,
       "day_low": 2714.81,
       "high_52w": 3111.88,
       "low_52w": 1869.36,
-      "all_time_return_pct": 181.1,
+      "all_time_return_pct": 180.95,
       "returns": {
-        "1d": 0.9,
-        "1w": 1.59,
-        "1m": 0.46,
-        "3m": -3.08,
-        "6m": 13.98,
-        "1y": 30.87,
-        "3y": 181.1
+        "1d": 0.85,
+        "1w": 1.53,
+        "1m": 0.41,
+        "3m": -3.13,
+        "6m": 13.92,
+        "1y": 30.8,
+        "3y": 180.95
       },
       "constituents_count": 10,
       "constituents": [
@@ -3052,17 +3052,17 @@
           "name": "Fineotex Chemical",
           "exchange": "NSE",
           "sector": "Chemicals & Materials",
-          "latest_close": 53.57,
-          "change_pct": 8.99,
+          "latest_close": 53.42,
+          "change_pct": 8.69,
           "weight_pct": 10.0,
           "returns": {
-            "1d": 8.99,
-            "1w": 7.12,
-            "1m": -0.85,
-            "3m": 38.75,
-            "6m": 110.24,
-            "1y": 84.85,
-            "3y": 80.67
+            "1d": 8.69,
+            "1w": 6.82,
+            "1m": -1.13,
+            "3m": 38.36,
+            "6m": 109.65,
+            "1y": 84.33,
+            "3y": 80.17
           }
         },
         {
@@ -3070,17 +3070,17 @@
           "name": "Krishana Phoschem",
           "exchange": "NSE",
           "sector": "Chemicals & Materials",
-          "latest_close": 240.5,
-          "change_pct": 3.72,
+          "latest_close": 240.29,
+          "change_pct": 3.63,
           "weight_pct": 10.0,
           "returns": {
-            "1d": 3.72,
-            "1w": 10.59,
-            "1m": 29.42,
-            "3m": 34.55,
-            "6m": 81.22,
-            "1y": 137.98,
-            "3y": 403.45
+            "1d": 3.63,
+            "1w": 10.49,
+            "1m": 29.31,
+            "3m": 34.44,
+            "6m": 81.06,
+            "1y": 137.77,
+            "3y": 403.01
           }
         },
         {
@@ -3088,17 +3088,17 @@
           "name": "Ashapura Minechem",
           "exchange": "NSE",
           "sector": "Chemicals & Materials",
-          "latest_close": 432.0,
-          "change_pct": 3.46,
+          "latest_close": 431.3,
+          "change_pct": 3.29,
           "weight_pct": 10.0,
           "returns": {
-            "1d": 3.46,
-            "1w": 0.83,
-            "1m": -11.99,
-            "3m": -41.38,
-            "6m": -34.31,
-            "1y": -34.81,
-            "3y": 45.09
+            "1d": 3.29,
+            "1w": 0.67,
+            "1m": -12.13,
+            "3m": -41.47,
+            "6m": -34.42,
+            "1y": -34.92,
+            "3y": 44.86
           }
         },
         {
@@ -3106,17 +3106,35 @@
           "name": "Vishnu Chemicals",
           "exchange": "NSE",
           "sector": "Chemicals & Materials",
-          "latest_close": 534.65,
-          "change_pct": 3.01,
+          "latest_close": 534.75,
+          "change_pct": 3.02,
           "weight_pct": 10.0,
           "returns": {
-            "1d": 3.01,
-            "1w": -5.95,
-            "1m": -17.46,
-            "3m": -9.15,
-            "6m": -10.89,
-            "1y": 5.31,
-            "3y": 63.21
+            "1d": 3.02,
+            "1w": -5.93,
+            "1m": -17.45,
+            "3m": -9.14,
+            "6m": -10.87,
+            "1y": 5.33,
+            "3y": 63.24
+          }
+        },
+        {
+          "ticker": "APCOTEXIND",
+          "name": "Apcotex Industries",
+          "exchange": "NSE",
+          "sector": "Chemicals & Materials",
+          "latest_close": 487.75,
+          "change_pct": 1.04,
+          "weight_pct": 10.0,
+          "returns": {
+            "1d": 1.04,
+            "1w": -3.41,
+            "1m": -16.94,
+            "3m": -22.52,
+            "6m": 15.67,
+            "1y": 39.85,
+            "3y": 5.27
           }
         },
         {
@@ -3142,35 +3160,17 @@
           "name": "Sudarshan Chemical Industries",
           "exchange": "NSE",
           "sector": "Chemicals & Materials",
-          "latest_close": 1084.0,
-          "change_pct": 0.68,
+          "latest_close": 1077.95,
+          "change_pct": 0.12,
           "weight_pct": 10.0,
           "returns": {
-            "1d": 0.68,
-            "1w": 1.84,
-            "1m": -11.81,
-            "3m": 0.4,
-            "6m": 15.16,
-            "1y": -6.19,
-            "3y": 132.17
-          }
-        },
-        {
-          "ticker": "APCOTEXIND",
-          "name": "Apcotex Industries",
-          "exchange": "NSE",
-          "sector": "Chemicals & Materials",
-          "latest_close": 485.85,
-          "change_pct": 0.64,
-          "weight_pct": 10.0,
-          "returns": {
-            "1d": 0.64,
-            "1w": -3.78,
-            "1m": -17.27,
-            "3m": -22.82,
-            "6m": 15.22,
-            "1y": 39.3,
-            "3y": 4.86
+            "1d": 0.12,
+            "1w": 1.27,
+            "1m": -12.3,
+            "3m": -0.16,
+            "6m": 14.52,
+            "1y": -6.71,
+            "3y": 130.87
           }
         },
         {
@@ -3178,17 +3178,17 @@
           "name": "Acutaas Chemicals",
           "exchange": "NSE",
           "sector": "Chemicals & Materials",
-          "latest_close": 3783.0,
-          "change_pct": -3.1,
+          "latest_close": 3777.3,
+          "change_pct": -3.25,
           "weight_pct": 10.0,
           "returns": {
-            "1d": -3.1,
-            "1w": 1.97,
-            "1m": 21.16,
-            "3m": 15.32,
-            "6m": 40.96,
-            "1y": 106.39,
-            "3y": 561.5
+            "1d": -3.25,
+            "1w": 1.81,
+            "1m": 20.98,
+            "3m": 15.15,
+            "6m": 40.74,
+            "1y": 106.08,
+            "3y": 560.51
           }
         },
         {
@@ -3196,17 +3196,17 @@
           "name": "India Glycols",
           "exchange": "NSE",
           "sector": "Chemicals & Materials",
-          "latest_close": 309.45,
-          "change_pct": -4.42,
+          "latest_close": 309.2,
+          "change_pct": -4.49,
           "weight_pct": 10.0,
           "returns": {
-            "1d": -4.42,
-            "1w": -6.64,
-            "1m": 2.01,
-            "3m": -73.21,
-            "6m": -71.69,
-            "1y": -69.24,
-            "3y": -10.32
+            "1d": -4.49,
+            "1w": -6.71,
+            "1m": 1.93,
+            "3m": -73.24,
+            "6m": -71.71,
+            "1y": -69.27,
+            "3y": -10.39
           }
         },
         {
@@ -3214,17 +3214,17 @@
           "name": "Shree Pushkar Chemicals & Fertilisers",
           "exchange": "NSE",
           "sector": "Chemicals & Materials",
-          "latest_close": 592.1,
-          "change_pct": -4.98,
+          "latest_close": 594.75,
+          "change_pct": -4.55,
           "weight_pct": 10.0,
           "returns": {
-            "1d": -4.98,
-            "1w": 9.1,
-            "1m": 19.73,
-            "3m": 42.76,
-            "6m": 52.35,
-            "1y": 50.99,
-            "3y": 216.89
+            "1d": -4.55,
+            "1w": 9.59,
+            "1m": 20.26,
+            "3m": 43.4,
+            "6m": 53.03,
+            "1y": 51.67,
+            "3y": 218.3
           }
         }
       ]
@@ -3234,24 +3234,24 @@
       "name": "Consumer Goods & Retail",
       "type": "sector",
       "file": "data/sector_consumer_goods_retail.json",
-      "current_value": 1311.64,
+      "current_value": 1309.91,
       "prev_close": 1288.9,
-      "change_pts": 22.74,
-      "change_pct": 1.76,
+      "change_pts": 21.01,
+      "change_pct": 1.63,
       "day_open": 1285.96,
-      "day_high": 1328.46,
+      "day_high": 1329.11,
       "day_low": 1271.63,
       "high_52w": 1488.91,
       "low_52w": 1119.22,
-      "all_time_return_pct": 31.16,
+      "all_time_return_pct": 30.99,
       "returns": {
-        "1d": 1.76,
-        "1w": 3.96,
-        "1m": -2.35,
-        "3m": -5.97,
-        "6m": -5.38,
-        "1y": -0.56,
-        "3y": 31.16
+        "1d": 1.63,
+        "1w": 3.82,
+        "1m": -2.48,
+        "3m": -6.1,
+        "6m": -5.5,
+        "1y": -0.69,
+        "3y": 30.99
       },
       "constituents_count": 15,
       "constituents": [
@@ -3260,17 +3260,17 @@
           "name": "Manorama Industries",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 1945.0,
-          "change_pct": 5.64,
+          "latest_close": 1926.8,
+          "change_pct": 4.65,
           "weight_pct": 6.67,
           "returns": {
-            "1d": 5.64,
-            "1w": 7.97,
-            "1m": 0.01,
-            "3m": 21.01,
-            "6m": 21.4,
-            "1y": 46.9,
-            "3y": 353.57
+            "1d": 4.65,
+            "1w": 6.96,
+            "1m": -0.93,
+            "3m": 19.88,
+            "6m": 20.27,
+            "1y": 45.53,
+            "3y": 349.33
           }
         },
         {
@@ -3292,39 +3292,39 @@
           }
         },
         {
-          "ticker": "AVANTIFEED",
-          "name": "Avanti Feeds",
-          "exchange": "NSE",
-          "sector": "Consumer Goods & Retail",
-          "latest_close": 708.0,
-          "change_pct": 4.47,
-          "weight_pct": 6.67,
-          "returns": {
-            "1d": 4.47,
-            "1w": 6.1,
-            "1m": -0.44,
-            "3m": -20.36,
-            "6m": -46.9,
-            "1y": 3.69,
-            "3y": 79.92
-          }
-        },
-        {
           "ticker": "FINPIPE",
           "name": "Finolex Industries",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 143.6,
-          "change_pct": 4.04,
+          "latest_close": 143.95,
+          "change_pct": 4.3,
           "weight_pct": 6.67,
           "returns": {
-            "1d": 4.04,
-            "1w": 1.67,
-            "1m": -3.82,
-            "3m": -12.56,
-            "6m": -17.31,
-            "1y": -22.39,
-            "3y": -20.99
+            "1d": 4.3,
+            "1w": 1.92,
+            "1m": -3.59,
+            "3m": -12.34,
+            "6m": -17.11,
+            "1y": -22.2,
+            "3y": -20.79
+          }
+        },
+        {
+          "ticker": "AVANTIFEED",
+          "name": "Avanti Feeds",
+          "exchange": "NSE",
+          "sector": "Consumer Goods & Retail",
+          "latest_close": 706.55,
+          "change_pct": 4.26,
+          "weight_pct": 6.67,
+          "returns": {
+            "1d": 4.26,
+            "1w": 5.88,
+            "1m": -0.64,
+            "3m": -20.52,
+            "6m": -47.01,
+            "1y": 3.48,
+            "3y": 79.56
           }
         },
         {
@@ -3332,17 +3332,17 @@
           "name": "Sula Vineyards",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 135.59,
-          "change_pct": 3.71,
+          "latest_close": 134.85,
+          "change_pct": 3.14,
           "weight_pct": 6.67,
           "returns": {
-            "1d": 3.71,
-            "1w": 6.69,
-            "1m": 2.46,
-            "3m": -20.6,
-            "6m": -20.94,
-            "1y": -45.89,
-            "3y": -70.42
+            "1d": 3.14,
+            "1w": 6.11,
+            "1m": 1.9,
+            "3m": -21.03,
+            "6m": -21.37,
+            "1y": -46.18,
+            "3y": -70.58
           }
         },
         {
@@ -3350,17 +3350,17 @@
           "name": "Monte Carlo Fashions",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 495.0,
-          "change_pct": 2.16,
+          "latest_close": 492.35,
+          "change_pct": 1.61,
           "weight_pct": 6.67,
           "returns": {
-            "1d": 2.16,
-            "1w": -2.77,
-            "1m": -4.24,
-            "3m": 2.52,
-            "6m": -11.8,
-            "1y": -29.15,
-            "3y": -31.08
+            "1d": 1.61,
+            "1w": -3.29,
+            "1m": -4.75,
+            "3m": 1.97,
+            "6m": -12.27,
+            "1y": -29.53,
+            "3y": -31.45
           }
         },
         {
@@ -3368,17 +3368,35 @@
           "name": "BCL Industries",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 28.99,
-          "change_pct": 1.86,
+          "latest_close": 28.9,
+          "change_pct": 1.55,
           "weight_pct": 6.67,
           "returns": {
-            "1d": 1.86,
-            "1w": -3.56,
-            "1m": -7.35,
-            "3m": -20.49,
-            "6m": -19.34,
-            "1y": -26.14,
-            "3y": -41.41
+            "1d": 1.55,
+            "1w": -3.86,
+            "1m": -7.64,
+            "3m": -20.74,
+            "6m": -19.59,
+            "1y": -26.37,
+            "3y": -41.59
+          }
+        },
+        {
+          "ticker": "TRIVENI",
+          "name": "Triveni Engineering & Industries",
+          "exchange": "NSE",
+          "sector": "Consumer Goods & Retail",
+          "latest_close": 245.61,
+          "change_pct": 1.42,
+          "weight_pct": 6.67,
+          "returns": {
+            "1d": 1.42,
+            "1w": 9.16,
+            "1m": 3.54,
+            "3m": 4.85,
+            "6m": -39.39,
+            "1y": -30.88,
+            "3y": -30.77
           }
         },
         {
@@ -3404,35 +3422,17 @@
           "name": "Honasa Consumer",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 461.9,
-          "change_pct": 1.03,
+          "latest_close": 461.75,
+          "change_pct": 1.0,
           "weight_pct": 6.67,
           "returns": {
-            "1d": 1.03,
-            "1w": 2.39,
-            "1m": 4.48,
-            "3m": 1.11,
-            "6m": 34.66,
-            "1y": 65.46,
-            "3y": 37.88
-          }
-        },
-        {
-          "ticker": "TRIVENI",
-          "name": "Triveni Engineering & Industries",
-          "exchange": "NSE",
-          "sector": "Consumer Goods & Retail",
-          "latest_close": 244.65,
-          "change_pct": 1.02,
-          "weight_pct": 6.67,
-          "returns": {
-            "1d": 1.02,
-            "1w": 8.74,
-            "1m": 3.13,
-            "3m": 4.44,
-            "6m": -39.62,
-            "1y": -31.15,
-            "3y": -31.04
+            "1d": 1.0,
+            "1w": 2.36,
+            "1m": 4.44,
+            "3m": 1.08,
+            "6m": 34.62,
+            "1y": 65.41,
+            "3y": 37.83
           }
         },
         {
@@ -3476,17 +3476,17 @@
           "name": "Safari Industries (India)",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 1210.0,
-          "change_pct": -0.42,
+          "latest_close": 1210.1,
+          "change_pct": -0.41,
           "weight_pct": 6.67,
           "returns": {
-            "1d": -0.42,
-            "1w": -1.31,
+            "1d": -0.41,
+            "1w": -1.3,
             "1m": -7.53,
             "3m": -19.33,
-            "6m": -18.07,
-            "1y": -42.4,
-            "3y": -43.52
+            "6m": -18.06,
+            "1y": -42.39,
+            "3y": -43.51
           }
         },
         {
@@ -3532,24 +3532,24 @@
       "name": "Defense & Aerospace",
       "type": "sector",
       "file": "data/sector_defense_aerospace.json",
-      "current_value": 2445.56,
+      "current_value": 2449.29,
       "prev_close": 2368.78,
-      "change_pts": 76.78,
-      "change_pct": 3.24,
+      "change_pts": 80.51,
+      "change_pct": 3.4,
       "day_open": 2368.09,
       "day_high": 2471.08,
       "day_low": 2338.7,
       "high_52w": 2943.52,
       "low_52w": 1754.96,
-      "all_time_return_pct": 144.56,
+      "all_time_return_pct": 144.93,
       "returns": {
-        "1d": 3.24,
-        "1w": 6.86,
-        "1m": 0.84,
-        "3m": -8.99,
-        "6m": -1.68,
-        "1y": 15.66,
-        "3y": 144.56
+        "1d": 3.4,
+        "1w": 7.02,
+        "1m": 0.99,
+        "3m": -8.85,
+        "6m": -1.53,
+        "1y": 15.84,
+        "3y": 144.93
       },
       "constituents_count": 6,
       "constituents": [
@@ -3558,17 +3558,17 @@
           "name": "Ideaforge Technology",
           "exchange": "NSE",
           "sector": "Defense & Aerospace",
-          "latest_close": 710.0,
-          "change_pct": 7.31,
+          "latest_close": 713.3,
+          "change_pct": 7.81,
           "weight_pct": 16.67,
           "returns": {
-            "1d": 7.31,
-            "1w": 4.6,
-            "1m": 1.19,
-            "3m": -18.62,
-            "6m": -12.59,
-            "1y": 49.22,
-            "3y": -15.14
+            "1d": 7.81,
+            "1w": 5.08,
+            "1m": 1.66,
+            "3m": -18.24,
+            "6m": -12.18,
+            "1y": 49.92,
+            "3y": -14.75
           }
         },
         {
@@ -3594,17 +3594,17 @@
           "name": "Astra Microwave Products",
           "exchange": "NSE",
           "sector": "Defense & Aerospace",
-          "latest_close": 1579.9,
-          "change_pct": 3.47,
+          "latest_close": 1580.1,
+          "change_pct": 3.48,
           "weight_pct": 16.67,
           "returns": {
-            "1d": 3.47,
-            "1w": 0.72,
-            "1m": -4.35,
-            "3m": -12.56,
-            "6m": 45.39,
-            "1y": 49.33,
-            "3y": 246.5
+            "1d": 3.48,
+            "1w": 0.73,
+            "1m": -4.33,
+            "3m": -12.55,
+            "6m": 45.41,
+            "1y": 49.35,
+            "3y": 246.54
           }
         },
         {
@@ -3612,17 +3612,17 @@
           "name": "Avantel",
           "exchange": "NSE",
           "sector": "Defense & Aerospace",
-          "latest_close": 138.0,
-          "change_pct": 2.12,
+          "latest_close": 138.82,
+          "change_pct": 2.73,
           "weight_pct": 16.67,
           "returns": {
-            "1d": 2.12,
-            "1w": 2.66,
-            "1m": -6.5,
-            "3m": -16.33,
-            "6m": -11.83,
-            "1y": -17.69,
-            "3y": -32.3
+            "1d": 2.73,
+            "1w": 3.27,
+            "1m": -5.94,
+            "3m": -15.84,
+            "6m": -11.3,
+            "1y": -17.2,
+            "3y": -31.9
           }
         },
         {
@@ -3630,17 +3630,17 @@
           "name": "Zen Technologies",
           "exchange": "NSE",
           "sector": "Defense & Aerospace",
-          "latest_close": 1738.8,
-          "change_pct": 1.65,
+          "latest_close": 1729.1,
+          "change_pct": 1.08,
           "weight_pct": 16.67,
           "returns": {
-            "1d": 1.65,
-            "1w": 10.84,
-            "1m": 8.71,
-            "3m": 3.88,
-            "6m": 11.01,
-            "1y": 23.65,
-            "3y": 146.16
+            "1d": 1.08,
+            "1w": 10.22,
+            "1m": 8.1,
+            "3m": 3.3,
+            "6m": 10.39,
+            "1y": 22.96,
+            "3y": 144.79
           }
         },
         {
@@ -3648,17 +3648,17 @@
           "name": "Garden Reach Shipbuilders & Engineers",
           "exchange": "NSE",
           "sector": "Defense & Aerospace",
-          "latest_close": 2135.0,
-          "change_pct": 0.19,
+          "latest_close": 2143.4,
+          "change_pct": 0.58,
           "weight_pct": 16.67,
           "returns": {
-            "1d": 0.19,
-            "1w": 12.51,
-            "1m": 1.17,
-            "3m": -14.6,
-            "6m": -29.13,
-            "1y": -15.82,
-            "3y": 187.36
+            "1d": 0.58,
+            "1w": 12.95,
+            "1m": 1.56,
+            "3m": -14.27,
+            "6m": -28.85,
+            "1y": -15.49,
+            "3y": 188.49
           }
         }
       ]
@@ -3668,24 +3668,24 @@
       "name": "Electronics & Consumer Durables",
       "type": "sector",
       "file": "data/sector_electronics_consumer_durables.json",
-      "current_value": 2529.54,
+      "current_value": 2531.73,
       "prev_close": 2480.16,
-      "change_pts": 49.38,
-      "change_pct": 1.99,
+      "change_pts": 51.57,
+      "change_pct": 2.08,
       "day_open": 2475.16,
       "day_high": 2567.65,
       "day_low": 2451.7,
       "high_52w": 2846.28,
       "low_52w": 1501.15,
-      "all_time_return_pct": 152.95,
+      "all_time_return_pct": 153.17,
       "returns": {
-        "1d": 1.99,
-        "1w": -1.94,
-        "1m": -6.51,
-        "3m": -4.94,
-        "6m": 20.77,
-        "1y": 35.06,
-        "3y": 152.95
+        "1d": 2.08,
+        "1w": -1.85,
+        "1m": -6.43,
+        "3m": -4.86,
+        "6m": 20.88,
+        "1y": 35.17,
+        "3y": 153.17
       },
       "constituents_count": 5,
       "constituents": [
@@ -3694,17 +3694,17 @@
           "name": "Rashi Peripherals",
           "exchange": "NSE",
           "sector": "Electronics & Consumer Durables",
-          "latest_close": 845.0,
-          "change_pct": 5.41,
+          "latest_close": 843.45,
+          "change_pct": 5.22,
           "weight_pct": 20.0,
           "returns": {
-            "1d": 5.41,
-            "1w": 4.93,
-            "1m": -10.44,
-            "3m": -6.19,
-            "6m": 69.1,
-            "1y": 152.67,
-            "3y": 165.94
+            "1d": 5.22,
+            "1w": 4.74,
+            "1m": -10.6,
+            "3m": -6.36,
+            "6m": 68.79,
+            "1y": 152.21,
+            "3y": 165.45
           }
         },
         {
@@ -3712,17 +3712,17 @@
           "name": "Avalon Technologies",
           "exchange": "NSE",
           "sector": "Electronics & Consumer Durables",
-          "latest_close": 2037.8,
-          "change_pct": 2.35,
+          "latest_close": 2041.0,
+          "change_pct": 2.51,
           "weight_pct": 20.0,
           "returns": {
-            "1d": 2.35,
-            "1w": -0.43,
-            "1m": -9.68,
-            "3m": 11.77,
-            "6m": 77.08,
-            "1y": 77.15,
-            "3y": 304.89
+            "1d": 2.51,
+            "1w": -0.27,
+            "1m": -9.54,
+            "3m": 11.95,
+            "6m": 77.35,
+            "1y": 77.43,
+            "3y": 305.52
           }
         },
         {
@@ -3730,17 +3730,17 @@
           "name": "EPACK Durable",
           "exchange": "NSE",
           "sector": "Electronics & Consumer Durables",
-          "latest_close": 157.1,
-          "change_pct": 1.86,
+          "latest_close": 157.83,
+          "change_pct": 2.33,
           "weight_pct": 20.0,
           "returns": {
-            "1d": 1.86,
-            "1w": -8.64,
-            "1m": -6.56,
-            "3m": -31.57,
-            "6m": -42.08,
-            "1y": -52.91,
-            "3y": -24.33
+            "1d": 2.33,
+            "1w": -8.21,
+            "1m": -6.13,
+            "3m": -31.25,
+            "6m": -41.81,
+            "1y": -52.7,
+            "3y": -23.97
           }
         },
         {
@@ -3786,24 +3786,24 @@
       "name": "Financial Services",
       "type": "sector",
       "file": "data/sector_financial_services.json",
-      "current_value": 1729.4,
+      "current_value": 1728.99,
       "prev_close": 1702.22,
-      "change_pts": 27.18,
-      "change_pct": 1.6,
-      "day_open": 1695.77,
+      "change_pts": 26.77,
+      "change_pct": 1.57,
+      "day_open": 1695.76,
       "day_high": 1744.83,
       "day_low": 1684.16,
       "high_52w": 1939.67,
       "low_52w": 1449.78,
-      "all_time_return_pct": 72.94,
+      "all_time_return_pct": 72.9,
       "returns": {
-        "1d": 1.6,
-        "1w": 2.94,
-        "1m": -2.04,
-        "3m": -6.75,
-        "6m": -2.01,
-        "1y": -3.15,
-        "3y": 72.94
+        "1d": 1.57,
+        "1w": 2.92,
+        "1m": -2.06,
+        "3m": -6.77,
+        "6m": -2.03,
+        "1y": -3.17,
+        "3y": 72.9
       },
       "constituents_count": 13,
       "constituents": [
@@ -3812,17 +3812,17 @@
           "name": "Bajaj Housing Finance",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 81.78,
-          "change_pct": 4.59,
+          "latest_close": 81.42,
+          "change_pct": 4.13,
           "weight_pct": 7.69,
           "returns": {
-            "1d": 4.59,
-            "1w": 5.55,
-            "1m": -1.22,
-            "3m": -5.98,
-            "6m": -5.97,
-            "1y": -25.34,
-            "3y": -50.44
+            "1d": 4.13,
+            "1w": 5.09,
+            "1m": -1.65,
+            "3m": -6.39,
+            "6m": -6.38,
+            "1y": -25.67,
+            "3y": -50.65
           }
         },
         {
@@ -3844,39 +3844,21 @@
           }
         },
         {
-          "ticker": "REPCOHOME",
-          "name": "Repco Home Finance",
-          "exchange": "NSE",
-          "sector": "Financial Services",
-          "latest_close": 330.0,
-          "change_pct": 2.87,
-          "weight_pct": 7.69,
-          "returns": {
-            "1d": 2.87,
-            "1w": 7.97,
-            "1m": 0.23,
-            "3m": -13.78,
-            "6m": -17.9,
-            "1y": -25.73,
-            "3y": -17.73
-          }
-        },
-        {
           "ticker": "AADHARHFC",
           "name": "Aadhar Housing Finance",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 433.0,
-          "change_pct": 2.79,
+          "latest_close": 431.2,
+          "change_pct": 2.36,
           "weight_pct": 7.69,
           "returns": {
-            "1d": 2.79,
-            "1w": 0.58,
-            "1m": -4.56,
-            "3m": -14.29,
-            "6m": -13.42,
-            "1y": -14.96,
-            "3y": 31.43
+            "1d": 2.36,
+            "1w": 0.16,
+            "1m": -4.96,
+            "3m": -14.65,
+            "6m": -13.78,
+            "1y": -15.32,
+            "3y": 30.88
           }
         },
         {
@@ -3916,39 +3898,39 @@
           }
         },
         {
+          "ticker": "REPCOHOME",
+          "name": "Repco Home Finance",
+          "exchange": "NSE",
+          "sector": "Financial Services",
+          "latest_close": 328.2,
+          "change_pct": 2.31,
+          "weight_pct": 7.69,
+          "returns": {
+            "1d": 2.31,
+            "1w": 7.38,
+            "1m": -0.32,
+            "3m": -14.25,
+            "6m": -18.35,
+            "1y": -26.14,
+            "3y": -18.18
+          }
+        },
+        {
           "ticker": "APTUS",
           "name": "Aptus Value Housing Finance",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 206.0,
-          "change_pct": 2.13,
+          "latest_close": 206.28,
+          "change_pct": 2.27,
           "weight_pct": 7.69,
           "returns": {
-            "1d": 2.13,
-            "1w": 3.72,
-            "1m": -7.89,
-            "3m": -22.06,
-            "6m": -22.24,
-            "1y": -28.9,
-            "3y": -25.53
-          }
-        },
-        {
-          "ticker": "ARSSBL",
-          "name": "Anand Rathi Share & Stock Brokers",
-          "exchange": "NSE",
-          "sector": "Financial Services",
-          "latest_close": 486.2,
-          "change_pct": 1.14,
-          "weight_pct": 7.69,
-          "returns": {
-            "1d": 1.14,
-            "1w": 3.12,
-            "1m": -9.12,
-            "3m": -5.66,
-            "6m": -17.17,
-            "1y": -8.71,
-            "3y": 10.09
+            "1d": 2.27,
+            "1w": 3.86,
+            "1m": -7.77,
+            "3m": -21.95,
+            "6m": -22.13,
+            "1y": -28.81,
+            "3y": -25.43
           }
         },
         {
@@ -3956,17 +3938,35 @@
           "name": "Home First Finance Company",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 1074.0,
-          "change_pct": 0.98,
+          "latest_close": 1082.3,
+          "change_pct": 1.76,
           "weight_pct": 7.69,
           "returns": {
-            "1d": 0.98,
-            "1w": 5.88,
-            "1m": -2.03,
-            "3m": -9.51,
-            "6m": -12.03,
-            "1y": -9.77,
-            "3y": 20.2
+            "1d": 1.76,
+            "1w": 6.69,
+            "1m": -1.27,
+            "3m": -8.81,
+            "6m": -11.35,
+            "1y": -9.08,
+            "3y": 21.13
+          }
+        },
+        {
+          "ticker": "ARSSBL",
+          "name": "Anand Rathi Share & Stock Brokers",
+          "exchange": "NSE",
+          "sector": "Financial Services",
+          "latest_close": 485.3,
+          "change_pct": 0.96,
+          "weight_pct": 7.69,
+          "returns": {
+            "1d": 0.96,
+            "1w": 2.93,
+            "1m": -9.29,
+            "3m": -5.83,
+            "6m": -17.33,
+            "1y": -8.87,
+            "3y": 9.89
           }
         },
         {
@@ -3988,39 +3988,39 @@
           }
         },
         {
-          "ticker": "PAISALO",
-          "name": "Paisalo Digital",
-          "exchange": "NSE",
-          "sector": "Financial Services",
-          "latest_close": 77.25,
-          "change_pct": -0.06,
-          "weight_pct": 7.69,
-          "returns": {
-            "1d": -0.06,
-            "1w": -2.18,
-            "1m": -4.78,
-            "3m": 11.86,
-            "6m": 58.04,
-            "1y": 101.33,
-            "3y": 98.89
-          }
-        },
-        {
           "ticker": "CHOICEIN",
           "name": "Choice International",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 744.0,
-          "change_pct": -0.13,
+          "latest_close": 745.95,
+          "change_pct": 0.13,
           "weight_pct": 7.69,
           "returns": {
-            "1d": -0.13,
-            "1w": 1.58,
-            "1m": 2.48,
-            "3m": -9.75,
-            "6m": 8.58,
-            "1y": -8.03,
-            "3y": 260.85
+            "1d": 0.13,
+            "1w": 1.85,
+            "1m": 2.75,
+            "3m": -9.51,
+            "6m": 8.87,
+            "1y": -7.79,
+            "3y": 261.8
+          }
+        },
+        {
+          "ticker": "PAISALO",
+          "name": "Paisalo Digital",
+          "exchange": "NSE",
+          "sector": "Financial Services",
+          "latest_close": 77.36,
+          "change_pct": 0.08,
+          "weight_pct": 7.69,
+          "returns": {
+            "1d": 0.08,
+            "1w": -2.04,
+            "1m": -4.65,
+            "3m": 12.02,
+            "6m": 58.27,
+            "1y": 101.62,
+            "3y": 99.18
           }
         },
         {
@@ -4048,24 +4048,24 @@
       "name": "IT & Tech Services",
       "type": "sector",
       "file": "data/sector_it_tech_services.json",
-      "current_value": 1919.02,
+      "current_value": 1919.22,
       "prev_close": 1901.05,
-      "change_pts": 17.97,
-      "change_pct": 0.95,
+      "change_pts": 18.17,
+      "change_pct": 0.96,
       "day_open": 1903.83,
       "day_high": 1951.15,
-      "day_low": 1871.17,
+      "day_low": 1870.99,
       "high_52w": 1998.69,
       "low_52w": 1284.37,
-      "all_time_return_pct": 91.9,
+      "all_time_return_pct": 91.92,
       "returns": {
-        "1d": 0.95,
-        "1w": 0.43,
-        "1m": 0.95,
-        "3m": -1.4,
-        "6m": 14.24,
-        "1y": -2.22,
-        "3y": 91.9
+        "1d": 0.96,
+        "1w": 0.44,
+        "1m": 0.97,
+        "3m": -1.39,
+        "6m": 14.25,
+        "1y": -2.21,
+        "3y": 91.92
       },
       "constituents_count": 11,
       "constituents": [
@@ -4074,17 +4074,17 @@
           "name": "Moschip Technologies",
           "exchange": "NSE",
           "sector": "IT & Tech Services",
-          "latest_close": 169.5,
-          "change_pct": 7.0,
+          "latest_close": 168.83,
+          "change_pct": 6.58,
           "weight_pct": 9.09,
           "returns": {
-            "1d": 7.0,
-            "1w": -1.48,
-            "1m": -13.45,
-            "3m": -18.73,
-            "6m": -19.02,
-            "1y": -29.96,
-            "3y": -14.71
+            "1d": 6.58,
+            "1w": -1.87,
+            "1m": -13.79,
+            "3m": -19.05,
+            "6m": -19.34,
+            "1y": -30.24,
+            "3y": -15.05
           }
         },
         {
@@ -4092,17 +4092,17 @@
           "name": "Axiscades Technologies",
           "exchange": "NSE",
           "sector": "IT & Tech Services",
-          "latest_close": 1917.0,
-          "change_pct": 3.94,
+          "latest_close": 1910.4,
+          "change_pct": 3.58,
           "weight_pct": 9.09,
           "returns": {
-            "1d": 3.94,
-            "1w": -4.84,
-            "1m": -16.01,
-            "3m": 20.54,
-            "6m": -11.1,
-            "1y": 23.53,
-            "3y": 259.9
+            "1d": 3.58,
+            "1w": -5.17,
+            "1m": -16.29,
+            "3m": 20.13,
+            "6m": -11.4,
+            "1y": 23.1,
+            "3y": 258.66
           }
         },
         {
@@ -4142,39 +4142,39 @@
           }
         },
         {
-          "ticker": "FSL",
-          "name": "Firstsource Solutions",
-          "exchange": "NSE",
-          "sector": "IT & Tech Services",
-          "latest_close": 290.5,
-          "change_pct": 0.52,
-          "weight_pct": 9.09,
-          "returns": {
-            "1d": 0.52,
-            "1w": -5.67,
-            "1m": 12.86,
-            "3m": -14.42,
-            "6m": 19.35,
-            "1y": -15.8,
-            "3y": 91.45
-          }
-        },
-        {
           "ticker": "INDEGENE",
           "name": "Indegene",
           "exchange": "NSE",
           "sector": "IT & Tech Services",
-          "latest_close": 614.2,
-          "change_pct": 0.23,
+          "latest_close": 617.1,
+          "change_pct": 0.7,
           "weight_pct": 9.09,
           "returns": {
-            "1d": 0.23,
-            "1w": 2.55,
-            "1m": 2.63,
-            "3m": 13.68,
-            "6m": 15.74,
-            "1y": 14.44,
-            "3y": 8.42
+            "1d": 0.7,
+            "1w": 3.03,
+            "1m": 3.12,
+            "3m": 14.21,
+            "6m": 16.29,
+            "1y": 14.98,
+            "3y": 8.93
+          }
+        },
+        {
+          "ticker": "FSL",
+          "name": "Firstsource Solutions",
+          "exchange": "NSE",
+          "sector": "IT & Tech Services",
+          "latest_close": 290.4,
+          "change_pct": 0.48,
+          "weight_pct": 9.09,
+          "returns": {
+            "1d": 0.48,
+            "1w": -5.7,
+            "1m": 12.82,
+            "3m": -14.45,
+            "6m": 19.3,
+            "1y": -15.83,
+            "3y": 91.38
           }
         },
         {
@@ -4200,17 +4200,17 @@
           "name": "Newgen Software Technologies",
           "exchange": "NSE",
           "sector": "IT & Tech Services",
-          "latest_close": 442.5,
-          "change_pct": -0.15,
+          "latest_close": 441.65,
+          "change_pct": -0.34,
           "weight_pct": 9.09,
           "returns": {
-            "1d": -0.15,
-            "1w": -3.38,
-            "1m": -3.54,
-            "3m": -20.49,
-            "6m": -9.25,
-            "1y": -53.97,
-            "3y": -22.0
+            "1d": -0.34,
+            "1w": -3.57,
+            "1m": -3.73,
+            "3m": -20.65,
+            "6m": -9.42,
+            "1y": -54.06,
+            "3y": -22.15
           }
         },
         {
@@ -4218,17 +4218,17 @@
           "name": "Tanla Platforms",
           "exchange": "NSE",
           "sector": "IT & Tech Services",
-          "latest_close": 657.0,
-          "change_pct": -0.76,
+          "latest_close": 659.1,
+          "change_pct": -0.45,
           "weight_pct": 9.09,
           "returns": {
-            "1d": -0.76,
-            "1w": 10.8,
-            "1m": 35.93,
-            "3m": 8.04,
-            "6m": 18.02,
-            "1y": 7.92,
-            "3y": -25.0
+            "1d": -0.45,
+            "1w": 11.15,
+            "1m": 36.37,
+            "3m": 8.38,
+            "6m": 18.4,
+            "1y": 8.26,
+            "3y": -24.76
           }
         },
         {
@@ -4236,17 +4236,17 @@
           "name": "Datamatics Global Services",
           "exchange": "NSE",
           "sector": "IT & Tech Services",
-          "latest_close": 729.0,
-          "change_pct": -1.74,
+          "latest_close": 731.25,
+          "change_pct": -1.44,
           "weight_pct": 9.09,
           "returns": {
-            "1d": -1.74,
-            "1w": 1.11,
-            "1m": -5.29,
-            "3m": -16.35,
-            "6m": -5.82,
-            "1y": -20.3,
-            "3y": 29.23
+            "1d": -1.44,
+            "1w": 1.42,
+            "1m": -5.0,
+            "3m": -16.1,
+            "6m": -5.52,
+            "1y": -20.06,
+            "3y": 29.63
           }
         },
         {
@@ -4254,17 +4254,17 @@
           "name": "RateGain Travel Technologies",
           "exchange": "NSE",
           "sector": "IT & Tech Services",
-          "latest_close": 794.95,
-          "change_pct": -3.08,
+          "latest_close": 795.2,
+          "change_pct": -3.05,
           "weight_pct": 9.09,
           "returns": {
-            "1d": -3.08,
-            "1w": -1.71,
-            "1m": -6.42,
-            "3m": -18.75,
-            "6m": 24.63,
-            "1y": 15.92,
-            "3y": 13.43
+            "1d": -3.05,
+            "1w": -1.68,
+            "1m": -6.39,
+            "3m": -18.72,
+            "6m": 24.67,
+            "1y": 15.95,
+            "3y": 13.46
           }
         }
       ]
@@ -4274,24 +4274,24 @@
       "name": "Infrastructure & Construction",
       "type": "sector",
       "file": "data/sector_infrastructure_construction.json",
-      "current_value": 1530.64,
+      "current_value": 1527.66,
       "prev_close": 1474.75,
-      "change_pts": 55.89,
-      "change_pct": 3.79,
+      "change_pts": 52.91,
+      "change_pct": 3.59,
       "day_open": 1478.96,
-      "day_high": 1550.05,
+      "day_high": 1550.31,
       "day_low": 1456.2,
       "high_52w": 2006.51,
       "low_52w": 1292.14,
-      "all_time_return_pct": 53.06,
+      "all_time_return_pct": 52.77,
       "returns": {
-        "1d": 3.79,
-        "1w": 2.79,
-        "1m": -5.79,
-        "3m": -20.11,
-        "6m": -15.32,
-        "1y": -22.54,
-        "3y": 53.06
+        "1d": 3.59,
+        "1w": 2.59,
+        "1m": -5.97,
+        "3m": -20.27,
+        "6m": -15.48,
+        "1y": -22.69,
+        "3y": 52.77
       },
       "constituents_count": 9,
       "constituents": [
@@ -4300,17 +4300,17 @@
           "name": "Sanghvi Movers",
           "exchange": "NSE",
           "sector": "Infrastructure & Construction",
-          "latest_close": 351.0,
-          "change_pct": 9.06,
+          "latest_close": 344.8,
+          "change_pct": 7.13,
           "weight_pct": 11.11,
           "returns": {
-            "1d": 9.06,
-            "1w": 0.98,
-            "1m": -14.37,
-            "3m": -25.68,
-            "6m": 7.38,
-            "1y": -10.9,
-            "3y": -7.9
+            "1d": 7.13,
+            "1w": -0.81,
+            "1m": -15.88,
+            "3m": -26.99,
+            "6m": 5.48,
+            "1y": -12.48,
+            "3y": -9.53
           }
         },
         {
@@ -4318,17 +4318,17 @@
           "name": "Enviro Infra Engineers",
           "exchange": "NSE",
           "sector": "Infrastructure & Construction",
-          "latest_close": 180.0,
-          "change_pct": 7.28,
+          "latest_close": 179.55,
+          "change_pct": 7.02,
           "weight_pct": 11.11,
           "returns": {
-            "1d": 7.28,
-            "1w": 9.09,
-            "1m": -0.34,
-            "3m": -17.45,
-            "6m": -14.85,
-            "1y": -28.49,
-            "3y": -13.07
+            "1d": 7.02,
+            "1w": 8.82,
+            "1m": -0.59,
+            "3m": -17.66,
+            "6m": -15.06,
+            "1y": -28.67,
+            "3y": -13.29
           }
         },
         {
@@ -4354,17 +4354,17 @@
           "name": "EMS",
           "exchange": "NSE",
           "sector": "Infrastructure & Construction",
-          "latest_close": 306.5,
-          "change_pct": 6.0,
+          "latest_close": 304.7,
+          "change_pct": 5.38,
           "weight_pct": 11.11,
           "returns": {
-            "1d": 6.0,
-            "1w": 5.29,
-            "1m": -6.5,
-            "3m": -24.35,
-            "6m": -16.0,
-            "1y": -38.79,
-            "3y": -2.16
+            "1d": 5.38,
+            "1w": 4.67,
+            "1m": -7.05,
+            "3m": -24.79,
+            "6m": -16.5,
+            "1y": -39.15,
+            "3y": -2.74
           }
         },
         {
@@ -4372,17 +4372,17 @@
           "name": "J Kumar Infraprojects",
           "exchange": "NSE",
           "sector": "Infrastructure & Construction",
-          "latest_close": 420.0,
-          "change_pct": 3.49,
+          "latest_close": 421.0,
+          "change_pct": 3.73,
           "weight_pct": 11.11,
           "returns": {
-            "1d": 3.49,
-            "1w": 2.61,
-            "1m": -7.43,
-            "3m": -13.58,
-            "6m": -17.58,
-            "1y": -33.48,
-            "3y": 2.67
+            "1d": 3.73,
+            "1w": 2.86,
+            "1m": -7.21,
+            "3m": -13.37,
+            "6m": -17.38,
+            "1y": -33.32,
+            "3y": 2.92
           }
         },
         {
@@ -4390,17 +4390,17 @@
           "name": "Power Mech Projects",
           "exchange": "NSE",
           "sector": "Infrastructure & Construction",
-          "latest_close": 2233.0,
-          "change_pct": 0.79,
+          "latest_close": 2247.3,
+          "change_pct": 1.44,
           "weight_pct": 11.11,
           "returns": {
-            "1d": 0.79,
-            "1w": 1.27,
-            "1m": -8.16,
-            "3m": -13.16,
-            "6m": -12.9,
-            "1y": -9.43,
-            "3y": 21.6
+            "1d": 1.44,
+            "1w": 1.92,
+            "1m": -7.58,
+            "3m": -12.61,
+            "6m": -12.34,
+            "1y": -8.85,
+            "3y": 22.38
           }
         },
         {
@@ -4444,17 +4444,17 @@
           "name": "SRM Contractors Limited",
           "exchange": "NSE",
           "sector": "Infrastructure & Construction",
-          "latest_close": 378.05,
-          "change_pct": -2.33,
+          "latest_close": 379.25,
+          "change_pct": -2.02,
           "weight_pct": 11.11,
           "returns": {
-            "1d": -2.33,
-            "1w": -7.47,
-            "1m": -5.17,
-            "3m": -25.95,
-            "6m": -28.05,
-            "1y": -35.54,
-            "3y": 67.28
+            "1d": -2.02,
+            "1w": -7.17,
+            "1m": -4.87,
+            "3m": -25.72,
+            "6m": -27.82,
+            "1y": -35.33,
+            "3y": 67.81
           }
         }
       ]
@@ -4464,24 +4464,24 @@
       "name": "Logistics & Services",
       "type": "sector",
       "file": "data/sector_logistics_services.json",
-      "current_value": 1073.93,
+      "current_value": 1072.92,
       "prev_close": 1045.75,
-      "change_pts": 28.18,
-      "change_pct": 2.69,
+      "change_pts": 27.17,
+      "change_pct": 2.6,
       "day_open": 1052.82,
       "day_high": 1084.17,
       "day_low": 1038.18,
       "high_52w": 1266.13,
       "low_52w": 893.36,
-      "all_time_return_pct": 7.39,
+      "all_time_return_pct": 7.29,
       "returns": {
-        "1d": 2.69,
-        "1w": 1.69,
-        "1m": -3.27,
-        "3m": -5.62,
-        "6m": -1.77,
-        "1y": -12.7,
-        "3y": 7.39
+        "1d": 2.6,
+        "1w": 1.59,
+        "1m": -3.36,
+        "3m": -5.71,
+        "6m": -1.87,
+        "1y": -12.79,
+        "3y": 7.29
       },
       "constituents_count": 7,
       "constituents": [
@@ -4490,17 +4490,17 @@
           "name": "Redington",
           "exchange": "NSE",
           "sector": "Logistics & Services",
-          "latest_close": 367.0,
-          "change_pct": 9.47,
+          "latest_close": 366.75,
+          "change_pct": 9.4,
           "weight_pct": 14.29,
           "returns": {
-            "1d": 9.47,
-            "1w": 4.44,
-            "1m": -11.08,
-            "3m": 5.51,
-            "6m": 68.02,
-            "1y": 49.88,
-            "3y": 167.82
+            "1d": 9.4,
+            "1w": 4.37,
+            "1m": -11.14,
+            "3m": 5.43,
+            "6m": 67.9,
+            "1y": 49.77,
+            "3y": 167.64
           }
         },
         {
@@ -4508,17 +4508,17 @@
           "name": "Krystal Integrated Services",
           "exchange": "NSE",
           "sector": "Logistics & Services",
-          "latest_close": 582.95,
-          "change_pct": 3.31,
+          "latest_close": 579.85,
+          "change_pct": 2.76,
           "weight_pct": 14.29,
           "returns": {
-            "1d": 3.31,
-            "1w": 1.8,
-            "1m": -10.95,
-            "3m": -2.62,
-            "6m": -5.24,
-            "1y": -0.7,
-            "3y": -17.68
+            "1d": 2.76,
+            "1w": 1.26,
+            "1m": -11.43,
+            "3m": -3.14,
+            "6m": -5.74,
+            "1y": -1.22,
+            "3y": -18.12
           }
         },
         {
@@ -4598,17 +4598,17 @@
           "name": "BLS International Services",
           "exchange": "NSE",
           "sector": "Logistics & Services",
-          "latest_close": 216.85,
-          "change_pct": 0.57,
+          "latest_close": 216.73,
+          "change_pct": 0.51,
           "weight_pct": 14.29,
           "returns": {
-            "1d": 0.57,
-            "1w": -0.33,
-            "1m": 0.51,
-            "3m": -14.98,
-            "6m": -24.2,
-            "1y": -32.01,
-            "3y": -21.18
+            "1d": 0.51,
+            "1w": -0.38,
+            "1m": 0.45,
+            "3m": -15.03,
+            "6m": -24.24,
+            "1y": -32.05,
+            "3y": -21.22
           }
         }
       ]
@@ -4618,24 +4618,24 @@
       "name": "Pharmaceuticals & Healthcare",
       "type": "sector",
       "file": "data/sector_pharmaceuticals_healthcare.json",
-      "current_value": 2666.87,
+      "current_value": 2666.58,
       "prev_close": 2630.73,
-      "change_pts": 36.14,
-      "change_pct": 1.37,
+      "change_pts": 35.85,
+      "change_pct": 1.36,
       "day_open": 2640.86,
       "day_high": 2731.75,
       "day_low": 2572.53,
       "high_52w": 2950.82,
       "low_52w": 1651.05,
-      "all_time_return_pct": 166.69,
+      "all_time_return_pct": 166.66,
       "returns": {
-        "1d": 1.37,
-        "1w": 3.09,
-        "1m": -1.9,
-        "3m": 5.62,
-        "6m": 22.87,
-        "1y": 33.77,
-        "3y": 166.69
+        "1d": 1.36,
+        "1w": 3.08,
+        "1m": -1.91,
+        "3m": 5.61,
+        "6m": 22.86,
+        "1y": 33.76,
+        "3y": 166.66
       },
       "constituents_count": 13,
       "constituents": [
@@ -4644,17 +4644,17 @@
           "name": "Poly Medicure",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 1605.0,
-          "change_pct": 7.27,
+          "latest_close": 1586.8,
+          "change_pct": 6.06,
           "weight_pct": 7.69,
           "returns": {
-            "1d": 7.27,
-            "1w": 8.74,
-            "1m": -0.9,
-            "3m": -5.87,
-            "6m": -2.86,
-            "1y": -17.74,
-            "3y": 17.53
+            "1d": 6.06,
+            "1w": 7.51,
+            "1m": -2.03,
+            "3m": -6.93,
+            "6m": -3.96,
+            "1y": -18.68,
+            "3y": 16.2
           }
         },
         {
@@ -4662,35 +4662,17 @@
           "name": "Yatharth Hospital & Trauma Care Services",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 1029.0,
-          "change_pct": 4.8,
+          "latest_close": 1027.9,
+          "change_pct": 4.69,
           "weight_pct": 7.69,
           "returns": {
-            "1d": 4.8,
-            "1w": 8.83,
-            "1m": 2.59,
-            "3m": 19.95,
-            "6m": 25.3,
-            "1y": 25.31,
-            "3y": 176.44
-          }
-        },
-        {
-          "ticker": "GUJTHEM",
-          "name": "Gujarat Themis Biosyn",
-          "exchange": "NSE",
-          "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 391.5,
-          "change_pct": 3.8,
-          "weight_pct": 7.69,
-          "returns": {
-            "1d": 3.8,
-            "1w": 10.11,
-            "1m": 4.79,
-            "3m": 10.17,
-            "6m": 3.69,
-            "1y": -14.86,
-            "3y": 61.34
+            "1d": 4.69,
+            "1w": 8.71,
+            "1m": 2.48,
+            "3m": 19.82,
+            "6m": 25.16,
+            "1y": 25.18,
+            "3y": 176.15
           }
         },
         {
@@ -4698,17 +4680,17 @@
           "name": "NGL Fine-Chem",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 2640.0,
-          "change_pct": 3.08,
+          "latest_close": 2653.2,
+          "change_pct": 3.59,
           "weight_pct": 7.69,
           "returns": {
-            "1d": 3.08,
-            "1w": 1.13,
-            "1m": -11.66,
-            "3m": -22.95,
-            "6m": 0.03,
-            "1y": 62.06,
-            "3y": 45.48
+            "1d": 3.59,
+            "1w": 1.63,
+            "1m": -11.21,
+            "3m": -22.56,
+            "6m": 0.53,
+            "1y": 62.87,
+            "3y": 46.21
           }
         },
         {
@@ -4716,17 +4698,17 @@
           "name": "Narayana Hrudayalaya",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 1928.0,
-          "change_pct": 3.07,
+          "latest_close": 1931.5,
+          "change_pct": 3.26,
           "weight_pct": 7.69,
           "returns": {
-            "1d": 3.07,
-            "1w": 11.89,
-            "1m": 11.94,
-            "3m": 1.31,
-            "6m": 4.99,
-            "1y": 5.57,
-            "3y": 87.32
+            "1d": 3.26,
+            "1w": 12.09,
+            "1m": 12.14,
+            "3m": 1.49,
+            "6m": 5.18,
+            "1y": 5.76,
+            "3y": 87.66
           }
         },
         {
@@ -4734,17 +4716,35 @@
           "name": "Innova Captab",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 1030.0,
-          "change_pct": 2.66,
+          "latest_close": 1035.0,
+          "change_pct": 3.16,
           "weight_pct": 7.69,
           "returns": {
-            "1d": 2.66,
-            "1w": -1.88,
-            "1m": -10.08,
-            "3m": 8.99,
-            "6m": 18.02,
-            "1y": 25.01,
-            "3y": 90.81
+            "1d": 3.16,
+            "1w": -1.4,
+            "1m": -9.64,
+            "3m": 9.52,
+            "6m": 18.59,
+            "1y": 25.61,
+            "3y": 91.74
+          }
+        },
+        {
+          "ticker": "GUJTHEM",
+          "name": "Gujarat Themis Biosyn",
+          "exchange": "NSE",
+          "sector": "Pharmaceuticals & Healthcare",
+          "latest_close": 387.75,
+          "change_pct": 2.81,
+          "weight_pct": 7.69,
+          "returns": {
+            "1d": 2.81,
+            "1w": 9.06,
+            "1m": 3.79,
+            "3m": 9.11,
+            "6m": 2.69,
+            "1y": -15.68,
+            "3y": 59.8
           }
         },
         {
@@ -4770,17 +4770,17 @@
           "name": "Neuland Laboratories",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 19620.0,
-          "change_pct": 1.01,
+          "latest_close": 19576.0,
+          "change_pct": 0.78,
           "weight_pct": 7.69,
           "returns": {
-            "1d": 1.01,
-            "1w": -1.75,
-            "1m": -10.31,
-            "3m": -1.68,
-            "6m": 15.41,
-            "1y": 11.63,
-            "3y": 387.97
+            "1d": 0.78,
+            "1w": -1.97,
+            "1m": -10.51,
+            "3m": -1.9,
+            "6m": 15.15,
+            "1y": 11.38,
+            "3y": 386.88
           }
         },
         {
@@ -4806,17 +4806,35 @@
           "name": "Windlas Biotech",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 871.0,
-          "change_pct": -0.98,
+          "latest_close": 873.45,
+          "change_pct": -0.7,
           "weight_pct": 7.69,
           "returns": {
-            "1d": -0.98,
-            "1w": -1.99,
-            "1m": -14.43,
-            "3m": 1.65,
-            "6m": 1.95,
-            "1y": -6.42,
-            "3y": 142.11
+            "1d": -0.7,
+            "1w": -1.72,
+            "1m": -14.19,
+            "3m": 1.94,
+            "6m": 2.24,
+            "1y": -6.15,
+            "3y": 142.79
+          }
+        },
+        {
+          "ticker": "BLISSGVS",
+          "name": "Bliss GVS Pharma",
+          "exchange": "NSE",
+          "sector": "Pharmaceuticals & Healthcare",
+          "latest_close": 619.55,
+          "change_pct": -1.86,
+          "weight_pct": 7.69,
+          "returns": {
+            "1d": -1.86,
+            "1w": -4.46,
+            "1m": -6.81,
+            "3m": 24.66,
+            "6m": 131.67,
+            "1y": 304.56,
+            "3y": 530.33
           }
         },
         {
@@ -4838,39 +4856,21 @@
           }
         },
         {
-          "ticker": "BLISSGVS",
-          "name": "Bliss GVS Pharma",
-          "exchange": "NSE",
-          "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 615.0,
-          "change_pct": -2.58,
-          "weight_pct": 7.69,
-          "returns": {
-            "1d": -2.58,
-            "1w": -5.17,
-            "1m": -7.49,
-            "3m": 23.74,
-            "6m": 129.97,
-            "1y": 301.59,
-            "3y": 525.7
-          }
-        },
-        {
           "ticker": "MARKSANS",
           "name": "Marksans Pharma",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 301.0,
-          "change_pct": -4.54,
+          "latest_close": 301.65,
+          "change_pct": -4.33,
           "weight_pct": 7.69,
           "returns": {
-            "1d": -4.54,
-            "1w": -1.38,
-            "1m": -9.24,
-            "3m": 11.52,
-            "6m": 53.84,
-            "1y": 61.58,
-            "3y": 159.53
+            "1d": -4.33,
+            "1w": -1.16,
+            "1m": -9.05,
+            "3m": 11.76,
+            "6m": 54.17,
+            "1y": 61.93,
+            "3y": 160.09
           }
         }
       ]
@@ -4880,24 +4880,24 @@
       "name": "Real Estate & Realty",
       "type": "sector",
       "file": "data/sector_real_estate_realty.json",
-      "current_value": 1739.68,
+      "current_value": 1737.7,
       "prev_close": 1720.09,
-      "change_pts": 19.59,
-      "change_pct": 1.14,
+      "change_pts": 17.61,
+      "change_pct": 1.02,
       "day_open": 1722.32,
       "day_high": 1770.23,
       "day_low": 1695.12,
       "high_52w": 2060.04,
       "low_52w": 1374.83,
-      "all_time_return_pct": 73.97,
+      "all_time_return_pct": 73.77,
       "returns": {
-        "1d": 1.14,
-        "1w": -0.75,
-        "1m": -4.68,
-        "3m": -4.0,
-        "6m": -1.07,
-        "1y": -14.58,
-        "3y": 73.97
+        "1d": 1.02,
+        "1w": -0.86,
+        "1m": -4.79,
+        "3m": -4.11,
+        "6m": -1.18,
+        "1y": -14.67,
+        "3y": 73.77
       },
       "constituents_count": 6,
       "constituents": [
@@ -4906,17 +4906,17 @@
           "name": "Arvind Smartspaces",
           "exchange": "NSE",
           "sector": "Real Estate & Realty",
-          "latest_close": 599.5,
-          "change_pct": 4.35,
+          "latest_close": 598.35,
+          "change_pct": 4.15,
           "weight_pct": 16.67,
           "returns": {
-            "1d": 4.35,
-            "1w": 1.86,
-            "1m": 3.32,
-            "3m": 0.89,
-            "6m": -5.61,
-            "1y": -2.54,
-            "3y": 80.9
+            "1d": 4.15,
+            "1w": 1.67,
+            "1m": 3.12,
+            "3m": 0.69,
+            "6m": -5.79,
+            "1y": -2.73,
+            "3y": 80.56
           }
         },
         {
@@ -4924,17 +4924,17 @@
           "name": "Anant Raj",
           "exchange": "NSE",
           "sector": "Real Estate & Realty",
-          "latest_close": 461.1,
-          "change_pct": 3.93,
+          "latest_close": 460.4,
+          "change_pct": 3.78,
           "weight_pct": 16.67,
           "returns": {
-            "1d": 3.93,
-            "1w": -0.59,
-            "1m": -21.5,
-            "3m": -26.6,
-            "6m": -17.03,
-            "1y": -28.44,
-            "3y": 90.14
+            "1d": 3.78,
+            "1w": -0.74,
+            "1m": -21.62,
+            "3m": -26.71,
+            "6m": -17.16,
+            "1y": -28.55,
+            "3y": 89.85
           }
         },
         {
@@ -4942,17 +4942,17 @@
           "name": "Brigade Enterprises",
           "exchange": "NSE",
           "sector": "Real Estate & Realty",
-          "latest_close": 541.0,
-          "change_pct": 2.69,
+          "latest_close": 541.1,
+          "change_pct": 2.7,
           "weight_pct": 16.67,
           "returns": {
-            "1d": 2.69,
-            "1w": 0.49,
-            "1m": -5.35,
-            "3m": -5.14,
-            "6m": -10.52,
-            "1y": -28.9,
-            "3y": 6.56
+            "1d": 2.7,
+            "1w": 0.51,
+            "1m": -5.34,
+            "3m": -5.12,
+            "6m": -10.51,
+            "1y": -28.88,
+            "3y": 6.58
           }
         },
         {
@@ -4960,17 +4960,17 @@
           "name": "Nesco",
           "exchange": "NSE",
           "sector": "Real Estate & Realty",
-          "latest_close": 1047.0,
-          "change_pct": 0.97,
+          "latest_close": 1040.4,
+          "change_pct": 0.33,
           "weight_pct": 16.67,
           "returns": {
-            "1d": 0.97,
-            "1w": 4.17,
-            "1m": 1.0,
-            "3m": -0.23,
-            "6m": -17.65,
-            "1y": -18.93,
-            "3y": 63.67
+            "1d": 0.33,
+            "1w": 3.51,
+            "1m": 0.37,
+            "3m": -0.86,
+            "6m": -18.17,
+            "1y": -19.44,
+            "3y": 62.63
           }
         },
         {
@@ -4978,17 +4978,17 @@
           "name": "EFC (I)",
           "exchange": "NSE",
           "sector": "Real Estate & Realty",
-          "latest_close": 165.47,
-          "change_pct": -0.11,
+          "latest_close": 164.95,
+          "change_pct": -0.42,
           "weight_pct": 16.67,
           "returns": {
-            "1d": -0.11,
-            "1w": -4.04,
-            "1m": -1.94,
-            "3m": -12.91,
-            "6m": -11.93,
-            "1y": -43.36,
-            "3y": -52.02
+            "1d": -0.42,
+            "1w": -4.34,
+            "1m": -2.25,
+            "3m": -13.18,
+            "6m": -12.21,
+            "1y": -43.54,
+            "3y": -52.17
           }
         },
         {
@@ -4996,17 +4996,17 @@
           "name": "Sri Lotus Developers And Realty",
           "exchange": "NSE",
           "sector": "Real Estate & Realty",
-          "latest_close": 229.75,
-          "change_pct": -5.0,
+          "latest_close": 231.2,
+          "change_pct": -4.4,
           "weight_pct": 16.67,
           "returns": {
-            "1d": -5.0,
-            "1w": -6.58,
-            "1m": -3.42,
-            "3m": 19.47,
-            "6m": 60.42,
-            "1y": 29.69,
-            "3y": 17.86
+            "1d": -4.4,
+            "1w": -5.99,
+            "1m": -2.81,
+            "3m": 20.22,
+            "6m": 61.43,
+            "1y": 30.5,
+            "3y": 18.6
           }
         }
       ]
@@ -5016,24 +5016,24 @@
       "name": "Renewable Energy & Utilities",
       "type": "sector",
       "file": "data/sector_renewable_energy_utilities.json",
-      "current_value": 2164.58,
+      "current_value": 2167.39,
       "prev_close": 2072.24,
-      "change_pts": 92.34,
-      "change_pct": 4.46,
+      "change_pts": 95.15,
+      "change_pct": 4.59,
       "day_open": 2076.6,
-      "day_high": 2191.19,
+      "day_high": 2192.21,
       "day_low": 2064.23,
       "high_52w": 2702.75,
       "low_52w": 1834.36,
-      "all_time_return_pct": 116.46,
+      "all_time_return_pct": 116.74,
       "returns": {
-        "1d": 4.46,
-        "1w": 3.21,
-        "1m": -8.83,
-        "3m": -13.38,
-        "6m": -14.06,
-        "1y": -16.92,
-        "3y": 116.46
+        "1d": 4.59,
+        "1w": 3.34,
+        "1m": -8.71,
+        "3m": -13.27,
+        "6m": -13.95,
+        "1y": -16.81,
+        "3y": 116.74
       },
       "constituents_count": 6,
       "constituents": [
@@ -5042,17 +5042,17 @@
           "name": "Deep Industries",
           "exchange": "NSE",
           "sector": "Renewable Energy & Utilities",
-          "latest_close": 650.0,
-          "change_pct": 7.44,
+          "latest_close": 651.75,
+          "change_pct": 7.73,
           "weight_pct": 16.67,
           "returns": {
-            "1d": 7.44,
-            "1w": -4.12,
-            "1m": -12.99,
-            "3m": 1.38,
-            "6m": 42.6,
-            "1y": 31.75,
-            "3y": 158.72
+            "1d": 7.73,
+            "1w": -3.86,
+            "1m": -12.76,
+            "3m": 1.65,
+            "6m": 42.99,
+            "1y": 32.1,
+            "3y": 159.41
           }
         },
         {
@@ -5060,17 +5060,17 @@
           "name": "Insolation Energy",
           "exchange": "NSE",
           "sector": "Renewable Energy & Utilities",
-          "latest_close": 73.0,
-          "change_pct": 7.15,
+          "latest_close": 73.02,
+          "change_pct": 7.18,
           "weight_pct": 16.67,
           "returns": {
-            "1d": 7.15,
-            "1w": 2.37,
-            "1m": -12.51,
-            "3m": -35.59,
-            "6m": -45.83,
-            "1y": -24.59,
-            "3y": -24.59
+            "1d": 7.18,
+            "1w": 2.4,
+            "1m": -12.49,
+            "3m": -35.57,
+            "6m": -45.81,
+            "1y": -24.57,
+            "3y": -24.57
           }
         },
         {
@@ -5132,17 +5132,17 @@
           "name": "Nava",
           "exchange": "NSE",
           "sector": "Renewable Energy & Utilities",
-          "latest_close": 519.4,
-          "change_pct": 0.81,
+          "latest_close": 521.95,
+          "change_pct": 1.3,
           "weight_pct": 16.67,
           "returns": {
-            "1d": 0.81,
-            "1w": 3.57,
-            "1m": -6.7,
-            "3m": -9.92,
-            "6m": -24.99,
-            "1y": -13.32,
-            "3y": 162.08
+            "1d": 1.3,
+            "1w": 4.08,
+            "1m": -6.24,
+            "3m": -9.48,
+            "6m": -24.62,
+            "1y": -12.89,
+            "3y": 163.37
           }
         }
       ]
