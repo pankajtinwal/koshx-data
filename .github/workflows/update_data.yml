@@ -19,6 +19,10 @@ on:
   repository_dispatch:
     types: [update-indices]
 
+concurrency:
+  group: update-data-feed
+  cancel-in-progress: false
+
 jobs:
   update-data:
     runs-on: ubuntu-latest
@@ -74,6 +78,23 @@ jobs:
             git commit -m "chore(data): automated index & fii/dii update"
             TARGET_BRANCH="${{ github.ref_name }}"
             if [ -z "$TARGET_BRANCH" ]; then TARGET_BRANCH="main"; fi
-            git pull --rebase --autostash origin "$TARGET_BRANCH"
-            git push origin "HEAD:$TARGET_BRANCH"
+
+            pushed=0
+            for attempt in 1 2 3 4; do
+              echo "[INFO] Push attempt $attempt of 4..."
+              git pull --rebase --autostash origin "$TARGET_BRANCH" || true
+              if git push origin "HEAD:$TARGET_BRANCH"; then
+                echo "[SUCCESS] Pushed changes successfully on attempt $attempt."
+                pushed=1
+                break
+              else
+                echo "[WARN] Push attempt $attempt failed. Backing off for $((attempt * 5))s..."
+                sleep $((attempt * 5))
+              fi
+            done
+
+            if [ "$pushed" -ne 1 ]; then
+              echo "[ERROR] Failed to push changes after 4 attempts."
+              exit 1
+            fi
           fi
