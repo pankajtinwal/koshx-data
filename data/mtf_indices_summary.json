@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T11:36:16.129403Z",
+  "updated_at": "2026-11-04T12:03:43.524807Z",
   "total_stocks": 216,
   "total_indices": 14,
   "indices": [
@@ -5322,7 +5322,7 @@
       "day_high": 1611.16,
       "day_low": 1560.82,
       "high_52w": 1786.83,
-      "low_52w": 1458.94,
+      "low_52w": 1458.95,
       "all_time_return_pct": 60.08,
       "returns": {
         "1d": 1.79,
@@ -7778,9 +7778,9 @@
       "name": "Real Estate & Realty",
       "type": "sector",
       "file": "data/mtf_sector_real_estate_realty.json",
-      "current_value": 1555.96,
+      "current_value": 1555.97,
       "prev_close": 1511.12,
-      "change_pts": 44.84,
+      "change_pts": 44.85,
       "change_pct": 2.97,
       "day_open": 1505.31,
       "day_high": 1563.9,
@@ -7794,7 +7794,7 @@
         "1m": 4.94,
         "3m": -2.45,
         "6m": 9.93,
-        "1y": -4.85,
+        "1y": -4.84,
         "3y": 55.6
       },
       "constituents_count": 6,
