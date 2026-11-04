@@ -1,38 +1,38 @@
 {
-  "updated_at": "2026-11-04T12:03:52.137910Z",
-  "market_date": "03-Nov-2026",
+  "updated_at": "2026-11-04T17:58:50.418614Z",
+  "market_date": "04-Nov-2026",
   "today": {
-    "date": "03-Nov-2026",
+    "date": "04-Nov-2026",
     "fii": {
-      "buy": 20970.51,
-      "sell": 14133.7,
-      "net": 6836.81
+      "buy": 21607.38,
+      "sell": 14323.35,
+      "net": 7284.03
     },
     "dii": {
-      "buy": 16723.91,
-      "sell": 20402.76,
-      "net": -3678.85
+      "buy": 16392.82,
+      "sell": 20105.05,
+      "net": -3712.23
     },
-    "combined_net_cr": 3157.96,
+    "combined_net_cr": 3571.8,
     "absorption_ratio_pct": 100.0,
     "active_regime": "Foreign Momentum / DII Profit Booking",
     "regime_description": "Foreign capital driving large-caps while domestic institutions book profits to rebalance cash.",
-    "fii_index_futures_long_pct": 12.3,
-    "fii_index_futures_short_pct": 87.7,
-    "fii_fno_sentiment": "Extreme Short Skew (Historical 12th Percentile - Short Squeeze Risk)",
-    "client_retail_long_pct": 76.8,
-    "pro_desk_long_pct": 56.1,
-    "dii_fno_long_pct": 88.0,
-    "z_score_fii": 3.35,
-    "flow_classification": "ELEVATED FLOW"
+    "fii_index_futures_long_pct": 13.6,
+    "fii_index_futures_short_pct": 86.4,
+    "fii_fno_sentiment": "Extreme Short Skew (Historical 13th Percentile - Short Squeeze Risk)",
+    "client_retail_long_pct": 76.6,
+    "pro_desk_long_pct": 45.2,
+    "dii_fno_long_pct": 87.5,
+    "z_score_fii": 3.54,
+    "flow_classification": "STATISTICAL OUTLIER (-3.4\u03c3)"
   },
   "summary_stats_3y": {
-    "total_fii_net_cr": -342798.96,
-    "total_dii_net_cr": 884992.11,
-    "cumulative_absorption_ratio": 258.2,
-    "nifty_3y_return_pct": 23.1,
-    "avg_daily_fii_flow": -464.5,
-    "avg_daily_dii_flow": 1199.2
+    "total_fii_net_cr": -335514.93,
+    "total_dii_net_cr": 881279.88,
+    "cumulative_absorption_ratio": 262.7,
+    "nifty_3y_return_pct": 23.9,
+    "avg_daily_fii_flow": -454.0,
+    "avg_daily_dii_flow": 1192.5
   },
   "daily_history_3y": [
     {
@@ -11842,6 +11842,22 @@
       "cum_dii": 1270392.11,
       "fii_long_ratio": 12.3,
       "absorption_ratio": 100.0
+    },
+    {
+      "date": "2026-11-04",
+      "nifty_open": 23742.25,
+      "nifty_high": 23960.6,
+      "nifty_low": 23696.15,
+      "nifty_close": 23960.6,
+      "nifty_change": 149.75,
+      "nifty_change_pct": 0.63,
+      "fii_net": 7284.03,
+      "dii_net": -3712.23,
+      "combined_net": 3571.8,
+      "cum_fii": -519714.93,
+      "cum_dii": 1266679.88,
+      "fii_long_ratio": 13.6,
+      "absorption_ratio": 100.0
     }
   ],
   "regimes_matrix": [
@@ -12257,9 +12273,9 @@
         "nifty_ret": 2.26
       },
       "Nov": {
-        "fii": 9951,
-        "dii": -4071,
-        "nifty_ret": 2.53
+        "fii": 17236,
+        "dii": -7783,
+        "nifty_ret": 3.18
       }
     }
   }
