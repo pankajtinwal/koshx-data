@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T10:16:05.942414Z",
+  "updated_at": "2026-11-05T11:30:50.456046Z",
   "total_stocks": 132,
   "total_indices": 14,
   "indices": [
@@ -8,24 +8,24 @@
       "name": "Master Composite Index",
       "type": "master",
       "file": "data/master_index.json",
-      "current_value": 2096.88,
+      "current_value": 2096.96,
       "prev_close": 2078.11,
-      "change_pts": 18.77,
-      "change_pct": 0.9,
+      "change_pts": 18.85,
+      "change_pct": 0.91,
       "day_open": 2111.04,
       "day_high": 2155.17,
       "day_low": 2061.8,
       "high_52w": 2266.12,
       "low_52w": 1539.08,
-      "all_time_return_pct": 109.69,
+      "all_time_return_pct": 109.7,
       "returns": {
-        "1d": 0.9,
+        "1d": 0.91,
         "1w": 2.61,
-        "1m": -3.48,
+        "1m": -3.47,
         "3m": -4.01,
-        "6m": 3.28,
+        "6m": 3.29,
         "1y": 7.86,
-        "3y": 109.69
+        "3y": 109.7
       },
       "constituents_count": 132,
       "constituents": [
@@ -318,6 +318,24 @@
           }
         },
         {
+          "ticker": "KPGEL",
+          "name": "KP Green Engineering",
+          "exchange": "BSE",
+          "sector": "Capital Goods & Engineering",
+          "latest_close": 280.45,
+          "change_pct": 3.68,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 3.68,
+            "1w": 4.31,
+            "1m": 2.52,
+            "3m": -16.57,
+            "6m": -43.12,
+            "1y": -53.34,
+            "3y": 33.85
+          }
+        },
+        {
           "ticker": "VIKRAMSOLR",
           "name": "Vikram Solar",
           "exchange": "NSE",
@@ -351,24 +369,6 @@
             "6m": -18.65,
             "1y": -40.52,
             "3y": -41.68
-          }
-        },
-        {
-          "ticker": "KPGEL",
-          "name": "KP Green Engineering",
-          "exchange": "BSE",
-          "sector": "Capital Goods & Engineering",
-          "latest_close": 279.0,
-          "change_pct": 3.14,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 3.14,
-            "1w": 3.78,
-            "1m": 1.99,
-            "3m": -17.0,
-            "6m": -43.41,
-            "1y": -53.58,
-            "3y": 33.16
           }
         },
         {
@@ -2416,7 +2416,7 @@
       "prev_close": 2557.83,
       "change_pts": 28.69,
       "change_pct": 1.12,
-      "day_open": 2605.64,
+      "day_open": 2605.63,
       "day_high": 2679.06,
       "day_low": 2528.81,
       "high_52w": 2925.98,
@@ -2710,24 +2710,24 @@
       "name": "Capital Goods & Engineering",
       "type": "sector",
       "file": "data/sector_capital_goods_engineering.json",
-      "current_value": 2742.04,
+      "current_value": 2742.95,
       "prev_close": 2737.19,
-      "change_pts": 4.85,
-      "change_pct": 0.18,
+      "change_pts": 5.76,
+      "change_pct": 0.21,
       "day_open": 2777.58,
       "day_high": 2829.49,
       "day_low": 2705.65,
       "high_52w": 3029.48,
       "low_52w": 1863.95,
-      "all_time_return_pct": 174.2,
+      "all_time_return_pct": 174.29,
       "returns": {
-        "1d": 0.18,
-        "1w": 2.71,
-        "1m": -5.73,
-        "3m": 2.57,
-        "6m": -0.42,
-        "1y": 16.06,
-        "3y": 174.2
+        "1d": 0.21,
+        "1w": 2.74,
+        "1m": -5.7,
+        "3m": 2.6,
+        "6m": -0.39,
+        "1y": 16.1,
+        "3y": 174.29
       },
       "constituents_count": 16,
       "constituents": [
@@ -2754,17 +2754,17 @@
           "name": "KP Green Engineering",
           "exchange": "BSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 279.0,
-          "change_pct": 3.14,
+          "latest_close": 280.45,
+          "change_pct": 3.68,
           "weight_pct": 6.25,
           "returns": {
-            "1d": 3.14,
-            "1w": 3.78,
-            "1m": 1.99,
-            "3m": -17.0,
-            "6m": -43.41,
-            "1y": -53.58,
-            "3y": 33.16
+            "1d": 3.68,
+            "1w": 4.31,
+            "1m": 2.52,
+            "3m": -16.57,
+            "6m": -43.12,
+            "1y": -53.34,
+            "3y": 33.85
           }
         },
         {
@@ -3027,14 +3027,14 @@
       "type": "sector",
       "file": "data/sector_chemicals_materials.json",
       "current_value": 2814.7,
-      "prev_close": 2809.55,
-      "change_pts": 5.15,
+      "prev_close": 2809.54,
+      "change_pts": 5.16,
       "change_pct": 0.18,
       "day_open": 2853.39,
       "day_high": 2888.98,
-      "day_low": 2782.39,
-      "high_52w": 3111.89,
-      "low_52w": 1869.37,
+      "day_low": 2782.38,
+      "high_52w": 3111.88,
+      "low_52w": 1869.36,
       "all_time_return_pct": 181.47,
       "returns": {
         "1d": 0.18,
