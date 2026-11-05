@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T17:58:38.422832Z",
+  "updated_at": "2026-11-05T18:17:49.923766Z",
   "total_stocks": 132,
   "total_indices": 14,
   "indices": [
@@ -4880,13 +4880,13 @@
       "name": "Real Estate & Realty",
       "type": "sector",
       "file": "data/sector_real_estate_realty.json",
-      "current_value": 1762.86,
+      "current_value": 1762.87,
       "prev_close": 1737.7,
-      "change_pts": 25.16,
+      "change_pts": 25.17,
       "change_pct": 1.45,
       "day_open": 1757.91,
       "day_high": 1803.74,
-      "day_low": 1733.28,
+      "day_low": 1733.29,
       "high_52w": 2060.04,
       "low_52w": 1374.83,
       "all_time_return_pct": 76.29,

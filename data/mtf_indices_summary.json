@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T17:59:28.977675Z",
+  "updated_at": "2026-11-05T18:18:41.225000Z",
   "total_stocks": 216,
   "total_indices": 14,
   "indices": [
@@ -6803,12 +6803,12 @@
       "type": "sector",
       "file": "data/mtf_sector_logistics_services.json",
       "current_value": 1053.78,
-      "prev_close": 1016.34,
-      "change_pts": 37.44,
+      "prev_close": 1016.35,
+      "change_pts": 37.43,
       "change_pct": 3.68,
       "day_open": 1048.1,
       "day_high": 1069.71,
-      "day_low": 1038.68,
+      "day_low": 1038.69,
       "high_52w": 1264.09,
       "low_52w": 950.91,
       "all_time_return_pct": 5.38,
