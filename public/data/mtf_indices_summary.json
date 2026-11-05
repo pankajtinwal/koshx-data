@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T11:31:51.570389Z",
+  "updated_at": "2026-11-05T12:15:03.668262Z",
   "total_stocks": 216,
   "total_indices": 14,
   "indices": [
@@ -6297,8 +6297,8 @@
       "type": "sector",
       "file": "data/mtf_sector_it_tech_services.json",
       "current_value": 1210.93,
-      "prev_close": 1185.02,
-      "change_pts": 25.91,
+      "prev_close": 1185.03,
+      "change_pts": 25.9,
       "change_pct": 2.19,
       "day_open": 1202.22,
       "day_high": 1226.2,
@@ -7779,8 +7779,8 @@
       "type": "sector",
       "file": "data/mtf_sector_real_estate_realty.json",
       "current_value": 1609.54,
-      "prev_close": 1555.97,
-      "change_pts": 53.57,
+      "prev_close": 1555.96,
+      "change_pts": 53.58,
       "change_pct": 3.44,
       "day_open": 1585.68,
       "day_high": 1615.55,
