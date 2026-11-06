@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T17:41:24.371723Z",
+  "updated_at": "2026-11-06T17:55:28.119143Z",
   "total_stocks": 132,
   "total_indices": 14,
   "indices": [
@@ -2420,7 +2420,7 @@
       "day_high": 2617.76,
       "day_low": 2503.95,
       "high_52w": 2925.98,
-      "low_52w": 1835.76,
+      "low_52w": 1835.75,
       "all_time_return_pct": 156.98,
       "returns": {
         "1d": -0.65,
@@ -3026,15 +3026,15 @@
       "name": "Chemicals & Materials",
       "type": "sector",
       "file": "data/sector_chemicals_materials.json",
-      "current_value": 2772.59,
+      "current_value": 2772.58,
       "prev_close": 2814.7,
-      "change_pts": -42.11,
+      "change_pts": -42.12,
       "change_pct": -1.5,
       "day_open": 2783.26,
       "day_high": 2838.73,
-      "day_low": 2702.78,
-      "high_52w": 3111.89,
-      "low_52w": 1869.37,
+      "day_low": 2702.77,
+      "high_52w": 3111.88,
+      "low_52w": 1869.36,
       "all_time_return_pct": 177.26,
       "returns": {
         "1d": -1.5,
