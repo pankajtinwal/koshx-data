@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T10:16:53.896335Z",
+  "updated_at": "2026-11-06T11:32:02.358700Z",
   "total_stocks": 216,
   "total_indices": 14,
   "indices": [
@@ -5322,7 +5322,7 @@
       "day_high": 1676.73,
       "day_low": 1622.34,
       "high_52w": 1786.83,
-      "low_52w": 1458.94,
+      "low_52w": 1458.95,
       "all_time_return_pct": 66.91,
       "returns": {
         "1d": 0.73,
@@ -7915,8 +7915,8 @@
       "type": "sector",
       "file": "data/mtf_sector_renewable_energy_utilities.json",
       "current_value": 1621.25,
-      "prev_close": 1612.53,
-      "change_pts": 8.72,
+      "prev_close": 1612.54,
+      "change_pts": 8.71,
       "change_pct": 0.54,
       "day_open": 1608.72,
       "day_high": 1635.12,

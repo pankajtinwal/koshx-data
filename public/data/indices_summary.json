@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T10:16:07.585212Z",
+  "updated_at": "2026-11-06T11:31:09.508776Z",
   "total_stocks": 132,
   "total_indices": 14,
   "indices": [
@@ -8,24 +8,24 @@
       "name": "Master Composite Index",
       "type": "master",
       "file": "data/master_index.json",
-      "current_value": 2067.28,
+      "current_value": 2067.11,
       "prev_close": 2096.78,
-      "change_pts": -29.5,
-      "change_pct": -1.41,
+      "change_pts": -29.67,
+      "change_pct": -1.42,
       "day_open": 2080.14,
       "day_high": 2109.59,
       "day_low": 2018.94,
       "high_52w": 2266.12,
       "low_52w": 1539.08,
-      "all_time_return_pct": 106.73,
+      "all_time_return_pct": 106.71,
       "returns": {
-        "1d": -1.41,
-        "1w": 3.4,
+        "1d": -1.42,
+        "1w": 3.39,
         "1m": -4.59,
-        "3m": -5.41,
+        "3m": -5.42,
         "6m": 1.81,
-        "1y": 8.57,
-        "3y": 105.87
+        "1y": 8.56,
+        "3y": 105.85
       },
       "constituents_count": 132,
       "constituents": [
@@ -120,24 +120,6 @@
           }
         },
         {
-          "ticker": "KPGEL",
-          "name": "KP Green Engineering",
-          "exchange": "BSE",
-          "sector": "Capital Goods & Engineering",
-          "latest_close": 288.0,
-          "change_pct": 2.69,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 2.69,
-            "1w": 8.39,
-            "1m": 4.94,
-            "3m": -13.85,
-            "6m": -37.38,
-            "1y": -50.91,
-            "3y": 37.45
-          }
-        },
-        {
           "ticker": "KARURVYSYA",
           "name": "Karur Vysya Bank",
           "exchange": "NSE",
@@ -207,6 +189,24 @@
             "6m": -33.69,
             "1y": -54.77,
             "3y": -60.05
+          }
+        },
+        {
+          "ticker": "KPGEL",
+          "name": "KP Green Engineering",
+          "exchange": "BSE",
+          "sector": "Capital Goods & Engineering",
+          "latest_close": 285.0,
+          "change_pct": 1.62,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": 1.62,
+            "1w": 7.26,
+            "1m": 3.84,
+            "3m": -14.75,
+            "6m": -38.03,
+            "1y": -51.42,
+            "3y": 36.02
           }
         },
         {
@@ -2710,24 +2710,24 @@
       "name": "Capital Goods & Engineering",
       "type": "sector",
       "file": "data/sector_capital_goods_engineering.json",
-      "current_value": 2676.24,
+      "current_value": 2674.41,
       "prev_close": 2742.95,
-      "change_pts": -66.71,
-      "change_pct": -2.43,
+      "change_pts": -68.54,
+      "change_pct": -2.5,
       "day_open": 2707.23,
       "day_high": 2738.35,
       "day_low": 2591.35,
       "high_52w": 3029.48,
       "low_52w": 1863.95,
-      "all_time_return_pct": 167.62,
+      "all_time_return_pct": 167.44,
       "returns": {
-        "1d": -2.43,
-        "1w": 3.34,
-        "1m": -7.58,
-        "3m": 0.48,
-        "6m": -1.56,
-        "1y": 16.31,
-        "3y": 167.9
+        "1d": -2.5,
+        "1w": 3.27,
+        "1m": -7.65,
+        "3m": 0.41,
+        "6m": -1.63,
+        "1y": 16.23,
+        "3y": 167.72
       },
       "constituents_count": 16,
       "constituents": [
@@ -2736,17 +2736,17 @@
           "name": "KP Green Engineering",
           "exchange": "BSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 288.0,
-          "change_pct": 2.69,
+          "latest_close": 285.0,
+          "change_pct": 1.62,
           "weight_pct": 6.25,
           "returns": {
-            "1d": 2.69,
-            "1w": 8.39,
-            "1m": 4.94,
-            "3m": -13.85,
-            "6m": -37.38,
-            "1y": -50.91,
-            "3y": 37.45
+            "1d": 1.62,
+            "1w": 7.26,
+            "1m": 3.84,
+            "3m": -14.75,
+            "6m": -38.03,
+            "1y": -51.42,
+            "3y": 36.02
           }
         },
         {
@@ -3026,15 +3026,15 @@
       "name": "Chemicals & Materials",
       "type": "sector",
       "file": "data/sector_chemicals_materials.json",
-      "current_value": 2772.58,
+      "current_value": 2772.59,
       "prev_close": 2814.7,
-      "change_pts": -42.12,
+      "change_pts": -42.11,
       "change_pct": -1.5,
       "day_open": 2783.26,
       "day_high": 2838.73,
-      "day_low": 2702.77,
-      "high_52w": 3111.88,
-      "low_52w": 1869.36,
+      "day_low": 2702.78,
+      "high_52w": 3111.89,
+      "low_52w": 1869.37,
       "all_time_return_pct": 177.26,
       "returns": {
         "1d": -1.5,
