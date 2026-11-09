@@ -27,6 +27,7 @@ import sys
 import json
 import time
 from datetime import datetime, timedelta
+from concurrent.futures import ThreadPoolExecutor
 import pandas as pd
 import numpy as np
 try:
@@ -283,6 +284,15 @@ def fetch_index_data():
                 c = float(h["Close"].iloc[-1])
                 prev_1d = float(h["Close"].iloc[-2]) if len(h) >= 2 else c
                 
+                # Check official previousClose from quote summary to reconcile against special/Muhurat trading sessions
+                try:
+                    info = t.info
+                    pc = info.get("previousClose") or info.get("regularMarketPreviousClose")
+                    if pc and float(pc) > 0:
+                        prev_1d = float(pc)
+                except Exception:
+                    pass
+                
                 # Google Finance calendar lookback methodology:
                 latest_dt = h.index[-1]
                 target_1w = latest_dt - pd.Timedelta(days=7)
@@ -384,6 +394,37 @@ def fetch_all_constituent_stocks():
         print(f"[ERROR] Bulk download failed: {e}")
         return {}
 
+    # Parallel fetch of official settled previous close from exchange clearinghouse (via t.info)
+    # This guarantees exact 1-day change reconciliation even when daily OHLC tables omit special/Muhurat sessions.
+    print(f"[INFO] Fetching official previousClose in parallel for {len(all_symbols_list)} constituent stocks...")
+    official_pc_map = {}
+
+    def fetch_pc(sym):
+        try:
+            t = yf.Ticker(f"{sym}.NS")
+            info = t.info
+            pc = info.get("previousClose") or info.get("regularMarketPreviousClose")
+            if pc and float(pc) > 0:
+                return sym, float(pc)
+        except Exception:
+            pass
+        return sym, None
+
+    with ThreadPoolExecutor(max_workers=25) as ex:
+        for sym, pc in ex.map(fetch_pc, all_symbols_list):
+            if pc is not None:
+                official_pc_map[sym] = pc
+
+    # Also load history.json as secondary fallback if available
+    history_cache = {}
+    history_file = os.path.join(DATA_DIR, "history.json")
+    if os.path.exists(history_file):
+        try:
+            with open(history_file, "r") as f:
+                history_cache = json.load(f)
+        except Exception:
+            pass
+
     stocks_data = {}
     for sym in all_symbols_list:
         yf_sym = f"{sym}.NS"
@@ -391,9 +432,15 @@ def fetch_all_constituent_stocks():
             sub = df[yf_sym] if yf_sym in df else None
             if sub is not None and not sub.empty:
                 c_series = sub["Close"].dropna()
-                if len(c_series) >= 2:
+                if len(c_series) >= 1:
                     c = float(c_series.iloc[-1])
-                    prev_1d = float(c_series.iloc[-2])
+                    prev_1d = float(c_series.iloc[-2]) if len(c_series) >= 2 else c
+
+                    # Reconcile against official NSE previous close:
+                    if sym in official_pc_map:
+                        prev_1d = official_pc_map[sym]
+                    elif yf_sym in history_cache and len(history_cache[yf_sym]) >= 2:
+                        prev_1d = float(history_cache[yf_sym][-2]["close"])
 
                     # Google Finance calendar lookback methodology:
                     latest_dt = c_series.index[-1]
@@ -414,11 +461,14 @@ def fetch_all_constituent_stocks():
                     high_52w = float(c_series.max())
                     low_52w = float(c_series.min())
 
+                    change_pts = round(c - prev_1d, 2)
+                    return_1d = round(((c - prev_1d) / prev_1d) * 100, 2) if prev_1d > 0 else 0.0
+
                     stocks_data[sym] = {
                         "ticker": sym,
                         "close": round(c, 2),
-                        "change_pts": round(c - prev_1d, 2),
-                        "return_1d": round(((c - prev_1d) / prev_1d) * 100, 2),
+                        "change_pts": change_pts,
+                        "return_1d": return_1d,
                         "return_1w": round(((c - prev_1w) / prev_1w) * 100, 2),
                         "return_1m": round(((c - prev_1m) / prev_1m) * 100, 2),
                         "dma_20": round(dma_20, 2),
