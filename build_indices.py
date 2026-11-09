@@ -18,6 +18,7 @@ import argparse
 from datetime import datetime, timedelta
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
+import subprocess
 import pandas as pd
 import numpy as np
 try:
@@ -33,7 +34,6 @@ MTF_STOCKS_FILE = os.path.join(WORKSPACE_DIR, "MTF Stocks.json")
 CACHE_FILE = os.path.join(DATA_DIR, "history.json")
 MASTER_INDEX_FILE = os.path.join(DATA_DIR, "master_index.json")
 SUMMARY_FILE = os.path.join(DATA_DIR, "indices_summary.json")
-STOCKS_SUMMARY_FILE = os.path.join(DATA_DIR, "stocks_summary.json")
 HEATMAP_FILE = os.path.join(DATA_DIR, "heatmap_data.json")
 QUANT_MODELS_FILE = os.path.join(DATA_DIR, "quant_models.json")
 MTF_HEATMAP_FILE = os.path.join(DATA_DIR, "mtf_heatmap_data.json")
@@ -203,30 +203,34 @@ def repair_cache_trading_day_gaps(cache: dict) -> dict:
     prev_market_date = market_dates[-2]
     print(f"[GAP-SENTINEL] Active calendar: {len(market_dates)} days. Latest={latest_market_date}, Prev={prev_market_date}")
 
-    # Step 2: Find tickers missing the immediate previous market session
+    # Step 2: Find tickers missing or having synthetic 0-volume candles on the immediate previous market session
     missing_prev = []
     for sym, candles in cache.items():
         if not candles:
             continue
-        c_dates = {c["date"] for c in candles}
-        if latest_market_date in c_dates and prev_market_date not in c_dates:
-            missing_prev.append(sym)
+        by_d = {c["date"]: c for c in candles}
+        if latest_market_date in by_d:
+            if prev_market_date not in by_d:
+                missing_prev.append(sym)
+            elif by_d[prev_market_date].get("volume", 0) == 0:
+                missing_prev.append(sym)
 
     # Step 3: Fetch official NSE previous close in parallel
     prev_close_map = {}
     if missing_prev and yf is not None:
-        print(f"[GAP-SENTINEL] Fetching official NSE previous close for {len(missing_prev)} tickers missing {prev_market_date}...")
+        print(f"[GAP-SENTINEL] Fetching official NSE previous close for {len(missing_prev)} tickers missing/synthetic on {prev_market_date}...")
         def fetch_prev(sym):
             try:
                 t = yf.Ticker(sym)
-                pc = t.fast_info.previous_close
+                info = t.info
+                pc = info.get("previousClose") or info.get("regularMarketPreviousClose") or t.fast_info.previous_close
                 if pc and float(pc) > 0:
                     return sym, float(pc)
             except Exception:
                 pass
             return sym, None
 
-        with ThreadPoolExecutor(max_workers=15) as ex:
+        with ThreadPoolExecutor(max_workers=25) as ex:
             for s, pc in ex.map(fetch_prev, missing_prev):
                 if pc:
                     prev_close_map[s] = pc
@@ -241,10 +245,21 @@ def repair_cache_trading_day_gaps(cache: dict) -> dict:
         last_date = candles[-1]["date"]
         by_date = {c["date"]: c for c in candles}
 
+        # Update previous market date with official NSE settled close if available
+        if prev_market_date in by_date and sym in prev_close_map:
+            official_pc = round(prev_close_map[sym], 2)
+            if by_date[prev_market_date]["close"] != official_pc:
+                by_date[prev_market_date]["close"] = official_pc
+                if by_date[prev_market_date].get("volume", 0) == 0:
+                    by_date[prev_market_date]["open"] = official_pc
+                    by_date[prev_market_date]["high"] = max(by_date[prev_market_date].get("high", official_pc), official_pc)
+                    by_date[prev_market_date]["low"] = min(by_date[prev_market_date].get("low", official_pc), official_pc)
+
         relevant_market_days = [d for d in market_dates if first_date <= d <= last_date]
         missing_days = [d for d in relevant_market_days if d not in by_date]
 
         if not missing_days:
+            cache[sym] = sorted(by_date.values(), key=lambda x: x["date"])
             continue
 
         repaired_tickers_count += 1
@@ -288,7 +303,6 @@ def ingest_data(stocks: list, force_refresh: bool = False, batch_size: int = 18)
     if yf is None:
         raise ImportError("yfinance is required for downloading fresh data. Please install it using `pip3 install yfinance`.")
     cache = {} if force_refresh else load_cache()
-    today_str = datetime.today().strftime("%Y-%m-%d")
     
     # Identify what needs to be pulled (Full 3-year history required)
     three_years_ago_str = (datetime.today() - timedelta(days=365 * 3 + 14)).strftime("%Y-%m-%d")
@@ -553,7 +567,6 @@ def compute_quant_models(stocks: list, cache: dict, master_candles: list) -> dic
     4. Ornstein-Uhlenbeck Mean Reversion (Spread relative to Master Index, AR(1) half-life on log scale, High Elasticity setups)
     5. Fractal Regime (120-day Hurst Exponent via R/S analysis vs 50 SMA % dist, H=0.5 divider, Anti-persistent fades & Persistent breakouts)
     """
-    import numpy as np
 
     def get_stock_history(s):
         sym = get_yf_ticker(s)
@@ -1002,8 +1015,6 @@ def process_mtf_watchlist(cache: dict, force_refresh: bool = False, batch_size: 
         json.dump(tv_mtf_master_candles, f, indent=2)
     print(f"[INFO] Saved MTF Master Index to {MTF_MASTER_INDEX_FILE} ({len(tv_mtf_master_candles)} trading days)")
 
-    mtf_ref_candles = mtf_master_candles
-
     mtf_indices_summary = []
     if mtf_master_candles:
         latest = mtf_master_candles[-1]
@@ -1168,7 +1179,7 @@ def process_mtf_watchlist(cache: dict, force_refresh: bool = False, batch_size: 
 
     # Compute 5 Quantitative Scatter Models for MTF Universe
     print("\n[INFO] Computing 5 Quantitative Models for MTF Universe...")
-    mtf_quant_payload = compute_quant_models(mtf_stocks, cache, mtf_ref_candles)
+    mtf_quant_payload = compute_quant_models(mtf_stocks, cache, mtf_master_candles)
     with open(MTF_QUANT_MODELS_FILE, "w") as f:
         json.dump(mtf_quant_payload, f, indent=2)
     print(f"[INFO] Successfully saved MTF Quantitative Models to {MTF_QUANT_MODELS_FILE}")
@@ -1401,7 +1412,6 @@ def main():
 
     # Build Broader Indian Market Wrap (NSE Nifty 50, Bank Nifty, and official Sector Indices)
     try:
-        import subprocess
         wrap_script = os.path.join(WORKSPACE_DIR, "scripts", "build_nse_market_wrap.py")
         if os.path.exists(wrap_script):
             print("\n[INFO] Updating Broader Indian Market (NSE) Wrap data...")
@@ -1411,7 +1421,6 @@ def main():
 
     # Extract Institutional FII & DII Cash Flows and Derivatives Sentiment
     try:
-        import subprocess
         fii_dii_script = os.path.join(WORKSPACE_DIR, "scripts", "build_fii_dii_data.py")
         if os.path.exists(fii_dii_script):
             print("\n[INFO] Extracting Institutional FII & DII Cash Flows and Derivatives Sentiment...")
@@ -1421,7 +1430,6 @@ def main():
 
     # Build MTF Stock Candlestick Pages and Directory Data
     try:
-        import subprocess
         stocks_pages_script = os.path.join(WORKSPACE_DIR, "scripts", "build_stock_pages_data.py")
         if os.path.exists(stocks_pages_script):
             print("\n[INFO] Updating MTF Stock Candlestick Pages and Directory data...")
