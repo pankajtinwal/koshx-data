@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T12:48:43.684586Z",
+  "updated_at": "2026-11-09T20:40:48.623982Z",
   "market_date": "09-Nov-2026",
   "today": {
     "date": "09-Nov-2026",
@@ -17,12 +17,12 @@
     "absorption_ratio_pct": 100.0,
     "active_regime": "Foreign Momentum / DII Profit Booking",
     "regime_description": "Foreign capital driving large-caps while domestic institutions book profits to rebalance cash.",
-    "fii_index_futures_long_pct": 24.6,
-    "fii_index_futures_short_pct": 75.4,
+    "fii_index_futures_long_pct": 26.8,
+    "fii_index_futures_short_pct": 73.2,
     "fii_fno_sentiment": "Bearish Leaning / Moderate Short Bias",
-    "client_retail_long_pct": 64.7,
-    "pro_desk_long_pct": 39.6,
-    "dii_fno_long_pct": 74.5,
+    "client_retail_long_pct": 64.2,
+    "pro_desk_long_pct": 36.9,
+    "dii_fno_long_pct": 69.0,
     "z_score_fii": 3.51,
     "flow_classification": "STATISTICAL OUTLIER (-3.4\u03c3)"
   },
@@ -30,7 +30,7 @@
     "total_fii_net_cr": -297258.94,
     "total_dii_net_cr": 855017.03,
     "cumulative_absorption_ratio": 287.6,
-    "nifty_3y_return_pct": 28.7,
+    "nifty_3y_return_pct": 28.6,
     "avg_daily_fii_flow": -402.2,
     "avg_daily_dii_flow": 1157.0
   },
@@ -11845,18 +11845,18 @@
     },
     {
       "date": "2026-11-09",
-      "nifty_open": 25076.4,
-      "nifty_high": 25084.05,
-      "nifty_low": 24838.75,
-      "nifty_close": 25044.65,
-      "nifty_change": 14.3,
-      "nifty_change_pct": 0.06,
+      "nifty_open": 24538.2,
+      "nifty_high": 25030.35,
+      "nifty_low": 24388.05,
+      "nifty_close": 25030.35,
+      "nifty_change": 493.75,
+      "nifty_change_pct": 2.01,
       "fii_net": 7212.22,
       "dii_net": -7172.53,
       "combined_net": 39.69,
       "cum_fii": -481458.94,
       "cum_dii": 1240417.03,
-      "fii_long_ratio": 24.6,
+      "fii_long_ratio": 26.8,
       "absorption_ratio": 100.0
     }
   ],
@@ -12275,7 +12275,7 @@
       "Nov": {
         "fii": 53172,
         "dii": -31369,
-        "nifty_ret": 7.85
+        "nifty_ret": 7.79
       }
     }
   }

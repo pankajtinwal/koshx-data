@@ -1,46 +1,46 @@
 {
-  "updated_at": "2026-11-09T12:48:40.573033Z",
-  "market_date": "09 Nov 2026, 06:18 PM IST",
+  "updated_at": "2026-11-09T20:40:46.934485Z",
+  "market_date": "10 Nov 2026, 02:10 AM IST",
   "macro_regime": {
     "name": "BULLISH EXPANSION",
     "description": "Broad-based institutional participation across constituents.",
-    "cap_vs_equal_weight_divergence": 1.48,
-    "nifty_cap_weighted_1w": 6.84,
+    "cap_vs_equal_weight_divergence": 3.22,
+    "nifty_cap_weighted_1w": 8.58,
     "nifty_equal_weighted_1w": 5.36,
     "timeframes": {
       "1d": {
         "name": "CONSOLIDATION",
         "description": "Selective stock-picking regime with sideways sector rotation.",
-        "cap_vs_equal_weight_divergence": 0.21,
-        "nifty_cap_weighted": 0.23,
+        "cap_vs_equal_weight_divergence": 0.16,
+        "nifty_cap_weighted": 0.18,
         "nifty_equal_weighted": 0.02,
         "quant_bullets": [
-          "Nifty 50 closed +0.23% with 21 advances vs 28 declines.",
-          "Cap-weighted divergence stands at +0.21%, indicating broad participation.",
+          "Nifty 50 closed +0.18% with 21 advances vs 28 declines.",
+          "Cap-weighted divergence stands at +0.16%, indicating broad participation.",
           "Constituent breadth: 90% of stocks trade above 50 DMA, indicating defensive regime."
         ]
       },
       "1w": {
         "name": "BULLISH EXPANSION",
         "description": "Broad-based institutional participation across constituents.",
-        "cap_vs_equal_weight_divergence": 1.48,
-        "nifty_cap_weighted": 6.84,
+        "cap_vs_equal_weight_divergence": 3.22,
+        "nifty_cap_weighted": 8.58,
         "nifty_equal_weighted": 5.36,
         "quant_bullets": [
-          "Nifty 50 delivered +6.84% over the past 5 sessions under BULLISH EXPANSION.",
-          "Index sits +7.65% below 50 DMA (23265) and +4.37% below 200 DMA (23996).",
+          "Nifty 50 delivered +8.58% over the past 5 sessions under BULLISH EXPANSION.",
+          "Index sits +7.67% below 50 DMA (23248) and +4.30% below 200 DMA (23999).",
           "Top sector rotation led by Nifty Realty (+9.46%), lagging sector Nifty IT (-0.71%)."
         ]
       },
       "1m": {
         "name": "BULLISH EXPANSION",
         "description": "Broad-based institutional participation across constituents.",
-        "cap_vs_equal_weight_divergence": 1.23,
-        "nifty_cap_weighted": 11.21,
+        "cap_vs_equal_weight_divergence": 0.76,
+        "nifty_cap_weighted": 10.74,
         "nifty_equal_weighted": 9.98,
         "quant_bullets": [
-          "Month-to-date Nifty 50 return stands at +11.21%.",
-          "Current drawdown from 52W ATH (26373) is -5.04% over 208 sessions.",
+          "Month-to-date Nifty 50 return stands at +10.74%.",
+          "Current drawdown from 52W ATH (26373) is -5.09% over 207 sessions.",
           "Longer-term institutional structural trend characterized by BULLISH EXPANSION."
         ]
       }
@@ -48,20 +48,20 @@
   },
   "quant_regime_panel": {
     "trend": {
-      "nifty_close": 25044.65,
-      "dma_50": 23264.8,
-      "dma_200": 23995.8,
-      "dist_50_dma_pct": 7.65,
-      "dist_200_dma_pct": 4.37,
-      "dma_200_slope_monthly_pct": -1.13,
+      "nifty_close": 25030.35,
+      "dma_50": 23248.0,
+      "dma_200": 23998.9,
+      "dist_50_dma_pct": 7.67,
+      "dist_200_dma_pct": 4.3,
+      "dma_200_slope_monthly_pct": -1.19,
       "trend_status": "ABOVE 50 & 200 DMA (BULLISH EXPANSION)"
     },
     "volatility": {
-      "realized_vol_20d_pct": 16.1,
-      "realized_vol_percentile_1y": 82.8,
-      "india_vix": 17.42,
-      "india_vix_percentile_1y": 79.3,
-      "vix_minus_rv_spread": 1.3,
+      "realized_vol_20d_pct": 16.2,
+      "realized_vol_percentile_1y": 83.6,
+      "india_vix": 17.47,
+      "india_vix_percentile_1y": 80.0,
+      "vix_minus_rv_spread": 1.24,
       "vol_environment": "CONTAINED VOLATILITY (NORMAL RISK PREMIUM)"
     },
     "conditional_stats": {
@@ -97,11 +97,11 @@
   },
   "drawdown_anatomy": {
     "ath_level": 26373.2,
-    "drawdown_pct": -5.04,
-    "days_in_drawdown": 208,
+    "drawdown_pct": -5.09,
+    "days_in_drawdown": 207,
     "pct_stocks_in_10pct_drawdown": 64.0,
     "pct_stocks_in_20pct_drawdown": 18.0,
-    "historical_severity_rank": "Cyclical Correction (-5.0% pullback from ATH 26373)"
+    "historical_severity_rank": "Cyclical Correction (-5.1% pullback from ATH 26373)"
   },
   "koshx_model_consensus": {
     "total_active_signals": 48,
@@ -143,83 +143,83 @@
   "benchmarks": {
     "nifty_50": {
       "symbol": "^NSEI",
-      "close": 25044.65,
-      "change_pts": 58.25,
-      "return_1d": 0.23,
-      "return_1w": 6.84,
-      "return_1m": 11.21,
-      "high_1w": 25084.05,
-      "low_1w": 23207.05,
-      "candles_count": 493,
+      "close": 25030.35,
+      "change_pts": 43.95,
+      "return_1d": 0.18,
+      "return_1w": 8.58,
+      "return_1m": 10.74,
+      "high_1w": 25030.35,
+      "low_1w": 22905.1,
+      "candles_count": 492,
       "quant_meta": {
-        "dma_50": 23264.76,
-        "dma_200": 23995.83,
-        "dist_50_dma_pct": 7.65,
-        "dist_200_dma_pct": 4.37,
-        "dma_200_slope_monthly_pct": -1.13,
+        "dma_50": 23248.02,
+        "dma_200": 23998.93,
+        "dist_50_dma_pct": 7.67,
+        "dist_200_dma_pct": 4.3,
+        "dma_200_slope_monthly_pct": -1.19,
         "ath_level": 26373.2,
-        "drawdown_pct": -5.04,
-        "days_in_drawdown": 208,
-        "realized_vol_20d_pct": 16.12,
-        "realized_vol_percentile_1y": 82.8
+        "drawdown_pct": -5.09,
+        "days_in_drawdown": 207,
+        "realized_vol_20d_pct": 16.23,
+        "realized_vol_percentile_1y": 83.6
       }
     },
     "bank_nifty": {
       "symbol": "^NSEBANK",
-      "close": 59741.25,
-      "change_pts": 890.65,
-      "return_1d": 1.51,
-      "return_1w": 8.62,
-      "return_1m": 8.12,
-      "high_1w": 59741.25,
-      "low_1w": 54582.0,
-      "candles_count": 63
+      "close": 59086.0,
+      "change_pts": 235.4,
+      "return_1d": 0.4,
+      "return_1w": 8.04,
+      "return_1m": 7.32,
+      "high_1w": 59086.0,
+      "low_1w": 54580.75,
+      "candles_count": 62
     },
     "nifty_midcap": {
       "symbol": "^NSMIDCP",
-      "close": 72789.45,
-      "change_pts": 797.75,
-      "return_1d": 1.11,
-      "return_1w": 5.55,
-      "return_1m": 6.78,
-      "high_1w": 72802.5,
-      "low_1w": 67964.45,
-      "candles_count": 63
+      "close": 71657.8,
+      "change_pts": -333.9,
+      "return_1d": -0.46,
+      "return_1w": 5.83,
+      "return_1m": 3.25,
+      "high_1w": 71984.15,
+      "low_1w": 67463.4,
+      "candles_count": 62
     },
     "nifty_it": {
       "symbol": "^CNXIT",
-      "close": 32468.9,
-      "change_pts": -400.7,
-      "return_1d": -1.22,
-      "return_1w": 0.08,
-      "return_1m": 13.63,
+      "close": 32977.9,
+      "change_pts": 108.3,
+      "return_1d": 0.33,
+      "return_1w": 1.14,
+      "return_1m": 18.81,
       "high_1w": 33616.2,
       "low_1w": 31738.55,
-      "candles_count": 63
+      "candles_count": 62
     },
     "nifty_pharma": {
       "symbol": "^CNXPHARMA",
-      "close": 28896.1,
-      "change_pts": 468.3,
-      "return_1d": 1.65,
-      "return_1w": 6.61,
-      "return_1m": 11.3,
-      "high_1w": 29224.85,
-      "low_1w": 26907.3,
-      "candles_count": 63
+      "close": 27940.4,
+      "change_pts": -487.4,
+      "return_1d": -1.71,
+      "return_1w": 3.01,
+      "return_1m": 5.69,
+      "high_1w": 27940.4,
+      "low_1w": 26681.2,
+      "candles_count": 62
     },
     "india_vix_meta": {
-      "level": 17.42,
-      "percentile_1y": 79.3
+      "level": 17.47,
+      "percentile_1y": 80.0
     }
   },
   "nifty_50_summary": {
-    "close": 25044.65,
-    "return_1d": 0.23,
-    "return_1w": 6.84,
-    "return_1m": 11.21,
-    "high_1w": 25084.05,
-    "low_1w": 23207.05,
+    "close": 25030.35,
+    "return_1d": 0.18,
+    "return_1w": 8.58,
+    "return_1m": 10.74,
+    "high_1w": 25030.35,
+    "low_1w": 22905.1,
     "advances": 46,
     "declines": 4,
     "unchanged": 0,
@@ -252,10 +252,10 @@
         "return_1d": 4.22,
         "return_1w": 16.29,
         "return_1m": 23.83,
-        "point_impact": 28.56,
-        "point_impact_1d": 7.4,
-        "point_impact_1w": 28.56,
-        "point_impact_1m": 41.78
+        "point_impact": 28.54,
+        "point_impact_1d": 7.39,
+        "point_impact_1w": 28.54,
+        "point_impact_1m": 41.75
       },
       {
         "ticker": "M&M",
@@ -267,10 +267,10 @@
         "return_1d": 0.7,
         "return_1w": 14.7,
         "return_1m": 17.68,
-        "point_impact": 95.72,
+        "point_impact": 95.67,
         "point_impact_1d": 4.56,
-        "point_impact_1w": 95.72,
-        "point_impact_1m": 115.13
+        "point_impact_1w": 95.67,
+        "point_impact_1m": 115.06
       },
       {
         "ticker": "ICICIBANK",
@@ -282,10 +282,10 @@
         "return_1d": 1.53,
         "return_1w": 14.53,
         "return_1m": 17.27,
-        "point_impact": 294.76,
-        "point_impact_1d": 31.04,
-        "point_impact_1w": 294.76,
-        "point_impact_1m": 350.34
+        "point_impact": 294.59,
+        "point_impact_1d": 31.02,
+        "point_impact_1w": 294.59,
+        "point_impact_1m": 350.14
       },
       {
         "ticker": "HDFCBANK",
@@ -297,10 +297,10 @@
         "return_1d": 1.79,
         "return_1w": 14.02,
         "return_1m": 12.85,
-        "point_impact": 403.79,
-        "point_impact_1d": 51.55,
-        "point_impact_1w": 403.79,
-        "point_impact_1m": 370.1
+        "point_impact": 403.56,
+        "point_impact_1d": 51.52,
+        "point_impact_1w": 403.56,
+        "point_impact_1m": 369.89
       },
       {
         "ticker": "TITAN",
@@ -312,10 +312,10 @@
         "return_1d": 0.29,
         "return_1w": 11.81,
         "return_1m": 13.49,
-        "point_impact": 50.28,
+        "point_impact": 50.25,
         "point_impact_1d": 1.23,
-        "point_impact_1w": 50.28,
-        "point_impact_1m": 57.43
+        "point_impact_1w": 50.25,
+        "point_impact_1m": 57.4
       },
       {
         "ticker": "SHRIRAMFIN",
@@ -327,10 +327,10 @@
         "return_1d": 0.52,
         "return_1w": 11.77,
         "return_1m": 3.42,
-        "point_impact": 29.48,
+        "point_impact": 29.46,
         "point_impact_1d": 1.3,
-        "point_impact_1w": 29.48,
-        "point_impact_1m": 8.57
+        "point_impact_1w": 29.46,
+        "point_impact_1m": 8.56
       },
       {
         "ticker": "BAJFINANCE",
@@ -342,10 +342,10 @@
         "return_1d": -1.56,
         "return_1w": 10.99,
         "return_1m": 10.92,
-        "point_impact": 57.8,
+        "point_impact": 57.77,
         "point_impact_1d": -8.2,
-        "point_impact_1w": 57.8,
-        "point_impact_1m": 57.43
+        "point_impact_1w": 57.77,
+        "point_impact_1m": 57.4
       },
       {
         "ticker": "MARUTI",
@@ -357,10 +357,10 @@
         "return_1d": 0.88,
         "return_1w": 10.76,
         "return_1m": 13.2,
-        "point_impact": 53.9,
+        "point_impact": 53.87,
         "point_impact_1d": 4.41,
-        "point_impact_1w": 53.9,
-        "point_impact_1m": 66.12
+        "point_impact_1w": 53.87,
+        "point_impact_1m": 66.08
       },
       {
         "ticker": "BAJAJFINSV",
@@ -372,10 +372,10 @@
         "return_1d": -0.98,
         "return_1w": 8.6,
         "return_1m": 5.89,
-        "point_impact": 23.69,
+        "point_impact": 23.68,
         "point_impact_1d": -2.7,
-        "point_impact_1w": 23.69,
-        "point_impact_1m": 16.23
+        "point_impact_1w": 23.68,
+        "point_impact_1m": 16.22
       },
       {
         "ticker": "NESTLEIND",
@@ -387,9 +387,9 @@
         "return_1d": 1.91,
         "return_1w": 8.6,
         "return_1m": -2.64,
-        "point_impact": 19.38,
-        "point_impact_1d": 4.31,
-        "point_impact_1w": 19.38,
+        "point_impact": 19.37,
+        "point_impact_1d": 4.3,
+        "point_impact_1w": 19.37,
         "point_impact_1m": -5.95
       }
     ],
@@ -404,10 +404,10 @@
         "return_1d": -1.3,
         "return_1w": -2.52,
         "return_1m": 4.74,
-        "point_impact": -8.84,
+        "point_impact": -8.83,
         "point_impact_1d": -4.56,
-        "point_impact_1w": -8.84,
-        "point_impact_1m": 16.62
+        "point_impact_1w": -8.83,
+        "point_impact_1m": 16.61
       },
       {
         "ticker": "HCLTECH",
@@ -419,10 +419,10 @@
         "return_1d": -2.43,
         "return_1w": -1.88,
         "return_1m": 16.67,
-        "point_impact": -8.95,
+        "point_impact": -8.94,
         "point_impact_1d": -11.56,
-        "point_impact_1w": -8.95,
-        "point_impact_1m": 79.32
+        "point_impact_1w": -8.94,
+        "point_impact_1m": 79.28
       },
       {
         "ticker": "TCS",
@@ -434,10 +434,10 @@
         "return_1d": -0.94,
         "return_1w": -1.05,
         "return_1m": 15.42,
-        "point_impact": -10.26,
+        "point_impact": -10.25,
         "point_impact_1d": -9.18,
-        "point_impact_1w": -10.26,
-        "point_impact_1m": 150.61
+        "point_impact_1w": -10.25,
+        "point_impact_1m": 150.53
       },
       {
         "ticker": "ONGC",
@@ -452,7 +452,7 @@
         "point_impact": -2.14,
         "point_impact_1d": -2.07,
         "point_impact_1w": -2.14,
-        "point_impact_1m": 20.77
+        "point_impact_1m": 20.76
       },
       {
         "ticker": "COALINDIA",
@@ -464,9 +464,9 @@
         "return_1d": 0.12,
         "return_1w": 0.94,
         "return_1m": 0.07,
-        "point_impact": 2.83,
+        "point_impact": 2.82,
         "point_impact_1d": 0.36,
-        "point_impact_1w": 2.83,
+        "point_impact_1w": 2.82,
         "point_impact_1m": 0.21
       },
       {
@@ -480,9 +480,9 @@
         "return_1w": 1.01,
         "return_1m": 20.2,
         "point_impact": 2.53,
-        "point_impact_1d": -3.41,
+        "point_impact_1d": -3.4,
         "point_impact_1w": 2.53,
-        "point_impact_1m": 50.59
+        "point_impact_1m": 50.56
       },
       {
         "ticker": "APOLLOHOSP",
@@ -494,10 +494,10 @@
         "return_1d": 1.42,
         "return_1w": 1.07,
         "return_1m": 6.5,
-        "point_impact": 1.88,
+        "point_impact": 1.87,
         "point_impact_1d": 2.49,
-        "point_impact_1w": 1.88,
-        "point_impact_1m": 11.4
+        "point_impact_1w": 1.87,
+        "point_impact_1m": 11.39
       },
       {
         "ticker": "TATAPOWER",
@@ -527,7 +527,7 @@
         "point_impact": 2.73,
         "point_impact_1d": -0.32,
         "point_impact_1w": 2.73,
-        "point_impact_1m": 17.81
+        "point_impact_1m": 17.8
       },
       {
         "ticker": "WIPRO",
@@ -542,7 +542,7 @@
         "point_impact": 2.31,
         "point_impact_1d": 1.28,
         "point_impact_1w": 2.31,
-        "point_impact_1m": 39.29
+        "point_impact_1m": 39.27
       }
     ],
     "top_pullers": [
@@ -556,10 +556,10 @@
         "return_1d": 1.79,
         "return_1w": 14.02,
         "return_1m": 12.85,
-        "point_impact": 403.79,
-        "point_impact_1d": 51.55,
-        "point_impact_1w": 403.79,
-        "point_impact_1m": 370.1
+        "point_impact": 403.56,
+        "point_impact_1d": 51.52,
+        "point_impact_1w": 403.56,
+        "point_impact_1m": 369.89
       },
       {
         "ticker": "ICICIBANK",
@@ -571,10 +571,10 @@
         "return_1d": 1.53,
         "return_1w": 14.53,
         "return_1m": 17.27,
-        "point_impact": 294.76,
-        "point_impact_1d": 31.04,
-        "point_impact_1w": 294.76,
-        "point_impact_1m": 350.34
+        "point_impact": 294.59,
+        "point_impact_1d": 31.02,
+        "point_impact_1w": 294.59,
+        "point_impact_1m": 350.14
       },
       {
         "ticker": "M&M",
@@ -586,10 +586,10 @@
         "return_1d": 0.7,
         "return_1w": 14.7,
         "return_1m": 17.68,
-        "point_impact": 95.72,
+        "point_impact": 95.67,
         "point_impact_1d": 4.56,
-        "point_impact_1w": 95.72,
-        "point_impact_1m": 115.13
+        "point_impact_1w": 95.67,
+        "point_impact_1m": 115.06
       },
       {
         "ticker": "AXISBANK",
@@ -601,10 +601,10 @@
         "return_1d": -0.3,
         "return_1w": 8.41,
         "return_1m": 4.1,
-        "point_impact": 67.4,
+        "point_impact": 67.36,
         "point_impact_1d": -2.4,
-        "point_impact_1w": 67.4,
-        "point_impact_1m": 32.86
+        "point_impact_1w": 67.36,
+        "point_impact_1m": 32.84
       },
       {
         "ticker": "LT",
@@ -616,10 +616,10 @@
         "return_1d": 1.82,
         "return_1w": 6.22,
         "return_1m": 13.01,
-        "point_impact": 59.2,
-        "point_impact_1d": 17.32,
-        "point_impact_1w": 59.2,
-        "point_impact_1m": 123.82
+        "point_impact": 59.16,
+        "point_impact_1d": 17.31,
+        "point_impact_1w": 59.16,
+        "point_impact_1m": 123.75
       }
     ],
     "top_draggers": [
@@ -633,10 +633,10 @@
         "return_1d": -0.94,
         "return_1w": -1.05,
         "return_1m": 15.42,
-        "point_impact": -10.26,
+        "point_impact": -10.25,
         "point_impact_1d": -9.18,
-        "point_impact_1w": -10.26,
-        "point_impact_1m": 150.61
+        "point_impact_1w": -10.25,
+        "point_impact_1m": 150.53
       },
       {
         "ticker": "HCLTECH",
@@ -648,10 +648,10 @@
         "return_1d": -2.43,
         "return_1w": -1.88,
         "return_1m": 16.67,
-        "point_impact": -8.95,
+        "point_impact": -8.94,
         "point_impact_1d": -11.56,
-        "point_impact_1w": -8.95,
-        "point_impact_1m": 79.32
+        "point_impact_1w": -8.94,
+        "point_impact_1m": 79.28
       },
       {
         "ticker": "POWERGRID",
@@ -663,10 +663,10 @@
         "return_1d": -1.3,
         "return_1w": -2.52,
         "return_1m": 4.74,
-        "point_impact": -8.84,
+        "point_impact": -8.83,
         "point_impact_1d": -4.56,
-        "point_impact_1w": -8.84,
-        "point_impact_1m": 16.62
+        "point_impact_1w": -8.83,
+        "point_impact_1m": 16.61
       },
       {
         "ticker": "ONGC",
@@ -681,7 +681,7 @@
         "point_impact": -2.14,
         "point_impact_1d": -2.07,
         "point_impact_1w": -2.14,
-        "point_impact_1m": 20.77
+        "point_impact_1m": 20.76
       },
       {
         "ticker": "TATAPOWER",
@@ -712,10 +712,10 @@
             "return_1d": 1.79,
             "return_1w": 14.02,
             "return_1m": 12.85,
-            "point_impact": 403.79,
-            "point_impact_1d": 51.55,
-            "point_impact_1w": 403.79,
-            "point_impact_1m": 370.1
+            "point_impact": 403.56,
+            "point_impact_1d": 51.52,
+            "point_impact_1w": 403.56,
+            "point_impact_1m": 369.89
           },
           {
             "ticker": "ICICIBANK",
@@ -727,10 +727,10 @@
             "return_1d": 1.53,
             "return_1w": 14.53,
             "return_1m": 17.27,
-            "point_impact": 294.76,
-            "point_impact_1d": 31.04,
-            "point_impact_1w": 294.76,
-            "point_impact_1m": 350.34
+            "point_impact": 294.59,
+            "point_impact_1d": 31.02,
+            "point_impact_1w": 294.59,
+            "point_impact_1m": 350.14
           },
           {
             "ticker": "SBIN",
@@ -742,10 +742,10 @@
             "return_1d": 2.56,
             "return_1w": 5.57,
             "return_1m": 8.64,
-            "point_impact": 41.85,
-            "point_impact_1d": 19.23,
-            "point_impact_1w": 41.85,
-            "point_impact_1m": 64.92
+            "point_impact": 41.83,
+            "point_impact_1d": 19.22,
+            "point_impact_1w": 41.83,
+            "point_impact_1m": 64.88
           },
           {
             "ticker": "LT",
@@ -757,10 +757,10 @@
             "return_1d": 1.82,
             "return_1w": 6.22,
             "return_1m": 13.01,
-            "point_impact": 59.2,
-            "point_impact_1d": 17.32,
-            "point_impact_1w": 59.2,
-            "point_impact_1m": 123.82
+            "point_impact": 59.16,
+            "point_impact_1d": 17.31,
+            "point_impact_1w": 59.16,
+            "point_impact_1m": 123.75
           },
           {
             "ticker": "TRENT",
@@ -772,10 +772,10 @@
             "return_1d": 2.02,
             "return_1w": 2.39,
             "return_1m": 6.89,
-            "point_impact": 8.98,
-            "point_impact_1d": 7.59,
-            "point_impact_1w": 8.98,
-            "point_impact_1m": 25.88
+            "point_impact": 8.97,
+            "point_impact_1d": 7.58,
+            "point_impact_1w": 8.97,
+            "point_impact_1m": 25.87
           }
         ],
         "top_draggers": [
@@ -789,10 +789,10 @@
             "return_1d": -1.49,
             "return_1w": 1.68,
             "return_1m": 15.35,
-            "point_impact": 22.72,
-            "point_impact_1d": -20.15,
-            "point_impact_1w": 22.72,
-            "point_impact_1m": 207.6
+            "point_impact": 22.71,
+            "point_impact_1d": -20.14,
+            "point_impact_1w": 22.71,
+            "point_impact_1m": 207.48
           },
           {
             "ticker": "ITC",
@@ -804,10 +804,10 @@
             "return_1d": -1.64,
             "return_1w": 4.65,
             "return_1m": 4.81,
-            "point_impact": 47.75,
-            "point_impact_1d": -16.84,
-            "point_impact_1w": 47.75,
-            "point_impact_1m": 49.39
+            "point_impact": 47.72,
+            "point_impact_1d": -16.83,
+            "point_impact_1w": 47.72,
+            "point_impact_1m": 49.36
           },
           {
             "ticker": "HCLTECH",
@@ -819,10 +819,10 @@
             "return_1d": -2.43,
             "return_1w": -1.88,
             "return_1m": 16.67,
-            "point_impact": -8.95,
+            "point_impact": -8.94,
             "point_impact_1d": -11.56,
-            "point_impact_1w": -8.95,
-            "point_impact_1m": 79.32
+            "point_impact_1w": -8.94,
+            "point_impact_1m": 79.28
           },
           {
             "ticker": "TATASTEEL",
@@ -834,10 +834,10 @@
             "return_1d": -2.81,
             "return_1w": 4.22,
             "return_1m": 6.36,
-            "point_impact": 14.8,
+            "point_impact": 14.79,
             "point_impact_1d": -9.85,
-            "point_impact_1w": 14.8,
-            "point_impact_1m": 22.3
+            "point_impact_1w": 14.79,
+            "point_impact_1m": 22.29
           },
           {
             "ticker": "TCS",
@@ -849,10 +849,10 @@
             "return_1d": -0.94,
             "return_1w": -1.05,
             "return_1m": 15.42,
-            "point_impact": -10.26,
+            "point_impact": -10.25,
             "point_impact_1d": -9.18,
-            "point_impact_1w": -10.26,
-            "point_impact_1m": 150.61
+            "point_impact_1w": -10.25,
+            "point_impact_1m": 150.53
           }
         ]
       },
@@ -868,10 +868,10 @@
             "return_1d": 1.79,
             "return_1w": 14.02,
             "return_1m": 12.85,
-            "point_impact": 403.79,
-            "point_impact_1d": 51.55,
-            "point_impact_1w": 403.79,
-            "point_impact_1m": 370.1
+            "point_impact": 403.56,
+            "point_impact_1d": 51.52,
+            "point_impact_1w": 403.56,
+            "point_impact_1m": 369.89
           },
           {
             "ticker": "ICICIBANK",
@@ -883,10 +883,10 @@
             "return_1d": 1.53,
             "return_1w": 14.53,
             "return_1m": 17.27,
-            "point_impact": 294.76,
-            "point_impact_1d": 31.04,
-            "point_impact_1w": 294.76,
-            "point_impact_1m": 350.34
+            "point_impact": 294.59,
+            "point_impact_1d": 31.02,
+            "point_impact_1w": 294.59,
+            "point_impact_1m": 350.14
           },
           {
             "ticker": "M&M",
@@ -898,10 +898,10 @@
             "return_1d": 0.7,
             "return_1w": 14.7,
             "return_1m": 17.68,
-            "point_impact": 95.72,
+            "point_impact": 95.67,
             "point_impact_1d": 4.56,
-            "point_impact_1w": 95.72,
-            "point_impact_1m": 115.13
+            "point_impact_1w": 95.67,
+            "point_impact_1m": 115.06
           },
           {
             "ticker": "AXISBANK",
@@ -913,10 +913,10 @@
             "return_1d": -0.3,
             "return_1w": 8.41,
             "return_1m": 4.1,
-            "point_impact": 67.4,
+            "point_impact": 67.36,
             "point_impact_1d": -2.4,
-            "point_impact_1w": 67.4,
-            "point_impact_1m": 32.86
+            "point_impact_1w": 67.36,
+            "point_impact_1m": 32.84
           },
           {
             "ticker": "LT",
@@ -928,10 +928,10 @@
             "return_1d": 1.82,
             "return_1w": 6.22,
             "return_1m": 13.01,
-            "point_impact": 59.2,
-            "point_impact_1d": 17.32,
-            "point_impact_1w": 59.2,
-            "point_impact_1m": 123.82
+            "point_impact": 59.16,
+            "point_impact_1d": 17.31,
+            "point_impact_1w": 59.16,
+            "point_impact_1m": 123.75
           }
         ],
         "top_draggers": [
@@ -945,10 +945,10 @@
             "return_1d": -0.94,
             "return_1w": -1.05,
             "return_1m": 15.42,
-            "point_impact": -10.26,
+            "point_impact": -10.25,
             "point_impact_1d": -9.18,
-            "point_impact_1w": -10.26,
-            "point_impact_1m": 150.61
+            "point_impact_1w": -10.25,
+            "point_impact_1m": 150.53
           },
           {
             "ticker": "HCLTECH",
@@ -960,10 +960,10 @@
             "return_1d": -2.43,
             "return_1w": -1.88,
             "return_1m": 16.67,
-            "point_impact": -8.95,
+            "point_impact": -8.94,
             "point_impact_1d": -11.56,
-            "point_impact_1w": -8.95,
-            "point_impact_1m": 79.32
+            "point_impact_1w": -8.94,
+            "point_impact_1m": 79.28
           },
           {
             "ticker": "POWERGRID",
@@ -975,10 +975,10 @@
             "return_1d": -1.3,
             "return_1w": -2.52,
             "return_1m": 4.74,
-            "point_impact": -8.84,
+            "point_impact": -8.83,
             "point_impact_1d": -4.56,
-            "point_impact_1w": -8.84,
-            "point_impact_1m": 16.62
+            "point_impact_1w": -8.83,
+            "point_impact_1m": 16.61
           },
           {
             "ticker": "ONGC",
@@ -993,7 +993,7 @@
             "point_impact": -2.14,
             "point_impact_1d": -2.07,
             "point_impact_1w": -2.14,
-            "point_impact_1m": 20.77
+            "point_impact_1m": 20.76
           },
           {
             "ticker": "TATAPOWER",
@@ -1024,10 +1024,10 @@
             "return_1d": 1.79,
             "return_1w": 14.02,
             "return_1m": 12.85,
-            "point_impact": 403.79,
-            "point_impact_1d": 51.55,
-            "point_impact_1w": 403.79,
-            "point_impact_1m": 370.1
+            "point_impact": 403.56,
+            "point_impact_1d": 51.52,
+            "point_impact_1w": 403.56,
+            "point_impact_1m": 369.89
           },
           {
             "ticker": "ICICIBANK",
@@ -1039,10 +1039,10 @@
             "return_1d": 1.53,
             "return_1w": 14.53,
             "return_1m": 17.27,
-            "point_impact": 294.76,
-            "point_impact_1d": 31.04,
-            "point_impact_1w": 294.76,
-            "point_impact_1m": 350.34
+            "point_impact": 294.59,
+            "point_impact_1d": 31.02,
+            "point_impact_1w": 294.59,
+            "point_impact_1m": 350.14
           },
           {
             "ticker": "RELIANCE",
@@ -1054,10 +1054,10 @@
             "return_1d": 0.03,
             "return_1w": 1.88,
             "return_1m": 13.17,
-            "point_impact": 43.32,
+            "point_impact": 43.29,
             "point_impact_1d": 0.69,
-            "point_impact_1w": 43.32,
-            "point_impact_1m": 303.45
+            "point_impact_1w": 43.29,
+            "point_impact_1m": 303.28
           },
           {
             "ticker": "INFY",
@@ -1069,10 +1069,10 @@
             "return_1d": -1.49,
             "return_1w": 1.68,
             "return_1m": 15.35,
-            "point_impact": 22.72,
-            "point_impact_1d": -20.15,
-            "point_impact_1w": 22.72,
-            "point_impact_1m": 207.6
+            "point_impact": 22.71,
+            "point_impact_1d": -20.14,
+            "point_impact_1w": 22.71,
+            "point_impact_1m": 207.48
           },
           {
             "ticker": "TCS",
@@ -1084,10 +1084,10 @@
             "return_1d": -0.94,
             "return_1w": -1.05,
             "return_1m": 15.42,
-            "point_impact": -10.26,
+            "point_impact": -10.25,
             "point_impact_1d": -9.18,
-            "point_impact_1w": -10.26,
-            "point_impact_1m": 150.61
+            "point_impact_1w": -10.25,
+            "point_impact_1m": 150.53
           }
         ],
         "top_draggers": [
@@ -1101,9 +1101,9 @@
             "return_1d": 1.91,
             "return_1w": 8.6,
             "return_1m": -2.64,
-            "point_impact": 19.38,
-            "point_impact_1d": 4.31,
-            "point_impact_1w": 19.38,
+            "point_impact": 19.37,
+            "point_impact_1d": 4.3,
+            "point_impact_1w": 19.37,
             "point_impact_1m": -5.95
           },
           {
@@ -1131,9 +1131,9 @@
             "return_1d": 0.12,
             "return_1w": 0.94,
             "return_1m": 0.07,
-            "point_impact": 2.83,
+            "point_impact": 2.82,
             "point_impact_1d": 0.36,
-            "point_impact_1w": 2.83,
+            "point_impact_1w": 2.82,
             "point_impact_1m": 0.21
           },
           {
@@ -1146,9 +1146,9 @@
             "return_1d": -0.9,
             "return_1w": 3.48,
             "return_1m": 2.73,
-            "point_impact": 9.59,
+            "point_impact": 9.58,
             "point_impact_1d": -2.48,
-            "point_impact_1w": 9.59,
+            "point_impact_1w": 9.58,
             "point_impact_1m": 7.52
           },
           {
@@ -1180,10 +1180,10 @@
         "return_1d": 4.22,
         "return_1w": 16.29,
         "return_1m": 23.83,
-        "point_impact": 28.56,
-        "point_impact_1d": 7.4,
-        "point_impact_1w": 28.56,
-        "point_impact_1m": 41.78
+        "point_impact": 28.54,
+        "point_impact_1d": 7.39,
+        "point_impact_1w": 28.54,
+        "point_impact_1m": 41.75
       },
       {
         "ticker": "M&M",
@@ -1195,10 +1195,10 @@
         "return_1d": 0.7,
         "return_1w": 14.7,
         "return_1m": 17.68,
-        "point_impact": 95.72,
+        "point_impact": 95.67,
         "point_impact_1d": 4.56,
-        "point_impact_1w": 95.72,
-        "point_impact_1m": 115.13
+        "point_impact_1w": 95.67,
+        "point_impact_1m": 115.06
       },
       {
         "ticker": "ICICIBANK",
@@ -1210,10 +1210,10 @@
         "return_1d": 1.53,
         "return_1w": 14.53,
         "return_1m": 17.27,
-        "point_impact": 294.76,
-        "point_impact_1d": 31.04,
-        "point_impact_1w": 294.76,
-        "point_impact_1m": 350.34
+        "point_impact": 294.59,
+        "point_impact_1d": 31.02,
+        "point_impact_1w": 294.59,
+        "point_impact_1m": 350.14
       },
       {
         "ticker": "HDFCBANK",
@@ -1225,10 +1225,10 @@
         "return_1d": 1.79,
         "return_1w": 14.02,
         "return_1m": 12.85,
-        "point_impact": 403.79,
-        "point_impact_1d": 51.55,
-        "point_impact_1w": 403.79,
-        "point_impact_1m": 370.1
+        "point_impact": 403.56,
+        "point_impact_1d": 51.52,
+        "point_impact_1w": 403.56,
+        "point_impact_1m": 369.89
       },
       {
         "ticker": "TITAN",
@@ -1240,10 +1240,10 @@
         "return_1d": 0.29,
         "return_1w": 11.81,
         "return_1m": 13.49,
-        "point_impact": 50.28,
+        "point_impact": 50.25,
         "point_impact_1d": 1.23,
-        "point_impact_1w": 50.28,
-        "point_impact_1m": 57.43
+        "point_impact_1w": 50.25,
+        "point_impact_1m": 57.4
       },
       {
         "ticker": "SHRIRAMFIN",
@@ -1255,10 +1255,10 @@
         "return_1d": 0.52,
         "return_1w": 11.77,
         "return_1m": 3.42,
-        "point_impact": 29.48,
+        "point_impact": 29.46,
         "point_impact_1d": 1.3,
-        "point_impact_1w": 29.48,
-        "point_impact_1m": 8.57
+        "point_impact_1w": 29.46,
+        "point_impact_1m": 8.56
       },
       {
         "ticker": "BAJFINANCE",
@@ -1270,10 +1270,10 @@
         "return_1d": -1.56,
         "return_1w": 10.99,
         "return_1m": 10.92,
-        "point_impact": 57.8,
+        "point_impact": 57.77,
         "point_impact_1d": -8.2,
-        "point_impact_1w": 57.8,
-        "point_impact_1m": 57.43
+        "point_impact_1w": 57.77,
+        "point_impact_1m": 57.4
       },
       {
         "ticker": "MARUTI",
@@ -1285,10 +1285,10 @@
         "return_1d": 0.88,
         "return_1w": 10.76,
         "return_1m": 13.2,
-        "point_impact": 53.9,
+        "point_impact": 53.87,
         "point_impact_1d": 4.41,
-        "point_impact_1w": 53.9,
-        "point_impact_1m": 66.12
+        "point_impact_1w": 53.87,
+        "point_impact_1m": 66.08
       },
       {
         "ticker": "BAJAJFINSV",
@@ -1300,10 +1300,10 @@
         "return_1d": -0.98,
         "return_1w": 8.6,
         "return_1m": 5.89,
-        "point_impact": 23.69,
+        "point_impact": 23.68,
         "point_impact_1d": -2.7,
-        "point_impact_1w": 23.69,
-        "point_impact_1m": 16.23
+        "point_impact_1w": 23.68,
+        "point_impact_1m": 16.22
       },
       {
         "ticker": "NESTLEIND",
@@ -1315,9 +1315,9 @@
         "return_1d": 1.91,
         "return_1w": 8.6,
         "return_1m": -2.64,
-        "point_impact": 19.38,
-        "point_impact_1d": 4.31,
-        "point_impact_1w": 19.38,
+        "point_impact": 19.37,
+        "point_impact_1d": 4.3,
+        "point_impact_1w": 19.37,
         "point_impact_1m": -5.95
       },
       {
@@ -1330,10 +1330,10 @@
         "return_1d": -0.3,
         "return_1w": 8.41,
         "return_1m": 4.1,
-        "point_impact": 67.4,
+        "point_impact": 67.36,
         "point_impact_1d": -2.4,
-        "point_impact_1w": 67.4,
-        "point_impact_1m": 32.86
+        "point_impact_1w": 67.36,
+        "point_impact_1m": 32.84
       },
       {
         "ticker": "BPCL",
@@ -1345,10 +1345,10 @@
         "return_1d": -0.5,
         "return_1w": 7.83,
         "return_1m": 9.8,
-        "point_impact": 17.65,
+        "point_impact": 17.64,
         "point_impact_1d": -1.13,
-        "point_impact_1w": 17.65,
-        "point_impact_1m": 22.09
+        "point_impact_1w": 17.64,
+        "point_impact_1m": 22.08
       },
       {
         "ticker": "ULTRACEMCO",
@@ -1360,10 +1360,10 @@
         "return_1d": -1.79,
         "return_1w": 7.8,
         "return_1m": 14.99,
-        "point_impact": 25.4,
-        "point_impact_1d": -5.83,
-        "point_impact_1w": 25.4,
-        "point_impact_1m": 48.8
+        "point_impact": 25.38,
+        "point_impact_1d": -5.82,
+        "point_impact_1w": 25.38,
+        "point_impact_1m": 48.78
       },
       {
         "ticker": "SUNPHARMA",
@@ -1375,10 +1375,10 @@
         "return_1d": -0.55,
         "return_1w": 7.6,
         "return_1m": 8.21,
-        "point_impact": 41.87,
+        "point_impact": 41.85,
         "point_impact_1d": -3.03,
-        "point_impact_1w": 41.87,
-        "point_impact_1m": 45.24
+        "point_impact_1w": 41.85,
+        "point_impact_1m": 45.21
       },
       {
         "ticker": "ASIANPAINT",
@@ -1390,10 +1390,10 @@
         "return_1d": -0.78,
         "return_1w": 7.29,
         "return_1m": 7.53,
-        "point_impact": 21.91,
+        "point_impact": 21.9,
         "point_impact_1d": -2.34,
-        "point_impact_1w": 21.91,
-        "point_impact_1m": 22.63
+        "point_impact_1w": 21.9,
+        "point_impact_1m": 22.62
       },
       {
         "ticker": "INDUSINDBK",
@@ -1420,10 +1420,10 @@
         "return_1d": 1.82,
         "return_1w": 6.22,
         "return_1m": 13.01,
-        "point_impact": 59.2,
-        "point_impact_1d": 17.32,
-        "point_impact_1w": 59.2,
-        "point_impact_1m": 123.82
+        "point_impact": 59.16,
+        "point_impact_1d": 17.31,
+        "point_impact_1w": 59.16,
+        "point_impact_1m": 123.75
       },
       {
         "ticker": "BAJAJ-AUTO",
@@ -1438,7 +1438,7 @@
         "point_impact": 10.85,
         "point_impact_1d": 1.1,
         "point_impact_1w": 10.85,
-        "point_impact_1m": 21.53
+        "point_impact_1m": 21.52
       },
       {
         "ticker": "EICHERMOT",
@@ -1450,10 +1450,10 @@
         "return_1d": -0.29,
         "return_1w": 5.77,
         "return_1m": 8.21,
-        "point_impact": 14.45,
+        "point_impact": 14.44,
         "point_impact_1d": -0.73,
-        "point_impact_1w": 14.45,
-        "point_impact_1m": 20.56
+        "point_impact_1w": 14.44,
+        "point_impact_1m": 20.55
       },
       {
         "ticker": "SBIN",
@@ -1465,10 +1465,10 @@
         "return_1d": 2.56,
         "return_1w": 5.57,
         "return_1m": 8.64,
-        "point_impact": 41.85,
-        "point_impact_1d": 19.23,
-        "point_impact_1w": 41.85,
-        "point_impact_1m": 64.92
+        "point_impact": 41.83,
+        "point_impact_1d": 19.22,
+        "point_impact_1w": 41.83,
+        "point_impact_1m": 64.88
       },
       {
         "ticker": "TATACONSUM",
@@ -1480,10 +1480,10 @@
         "return_1d": 0.36,
         "return_1w": 5.35,
         "return_1m": 13.5,
-        "point_impact": 10.72,
+        "point_impact": 10.71,
         "point_impact_1d": 0.72,
-        "point_impact_1w": 10.72,
-        "point_impact_1m": 27.05
+        "point_impact_1w": 10.71,
+        "point_impact_1m": 27.03
       },
       {
         "ticker": "HINDALCO",
@@ -1498,7 +1498,7 @@
         "point_impact": 14.68,
         "point_impact_1d": 2.01,
         "point_impact_1w": 14.68,
-        "point_impact_1m": 18.27
+        "point_impact_1m": 18.25
       },
       {
         "ticker": "HINDUNILVR",
@@ -1510,10 +1510,10 @@
         "return_1d": -0.34,
         "return_1w": 4.85,
         "return_1m": 7.2,
-        "point_impact": 30.37,
+        "point_impact": 30.35,
         "point_impact_1d": -2.13,
-        "point_impact_1w": 30.37,
-        "point_impact_1m": 45.08
+        "point_impact_1w": 30.35,
+        "point_impact_1m": 45.05
       },
       {
         "ticker": "BEL",
@@ -1525,10 +1525,10 @@
         "return_1d": -0.79,
         "return_1w": 4.79,
         "return_1m": 7.17,
-        "point_impact": 14.4,
+        "point_impact": 14.39,
         "point_impact_1d": -2.37,
-        "point_impact_1w": 14.4,
-        "point_impact_1m": 21.55
+        "point_impact_1w": 14.39,
+        "point_impact_1m": 21.54
       },
       {
         "ticker": "ADANIPORTS",
@@ -1540,10 +1540,10 @@
         "return_1d": -0.34,
         "return_1w": 4.78,
         "return_1m": 10.32,
-        "point_impact": 11.97,
+        "point_impact": 11.96,
         "point_impact_1d": -0.85,
-        "point_impact_1w": 11.97,
-        "point_impact_1m": 25.85
+        "point_impact_1w": 11.96,
+        "point_impact_1m": 25.83
       },
       {
         "ticker": "ITC",
@@ -1555,10 +1555,10 @@
         "return_1d": -1.64,
         "return_1w": 4.65,
         "return_1m": 4.81,
-        "point_impact": 47.75,
-        "point_impact_1d": -16.84,
-        "point_impact_1w": 47.75,
-        "point_impact_1m": 49.39
+        "point_impact": 47.72,
+        "point_impact_1d": -16.83,
+        "point_impact_1w": 47.72,
+        "point_impact_1m": 49.36
       },
       {
         "ticker": "KOTAKBANK",
@@ -1570,10 +1570,10 @@
         "return_1d": -0.21,
         "return_1w": 4.61,
         "return_1m": 8.73,
-        "point_impact": 31.17,
+        "point_impact": 31.16,
         "point_impact_1d": -1.42,
-        "point_impact_1w": 31.17,
-        "point_impact_1m": 59.03
+        "point_impact_1w": 31.16,
+        "point_impact_1m": 59.0
       },
       {
         "ticker": "TATASTEEL",
@@ -1585,10 +1585,10 @@
         "return_1d": -2.81,
         "return_1w": 4.22,
         "return_1m": 6.36,
-        "point_impact": 14.8,
+        "point_impact": 14.79,
         "point_impact_1d": -9.85,
-        "point_impact_1w": 14.8,
-        "point_impact_1m": 22.3
+        "point_impact_1w": 14.79,
+        "point_impact_1m": 22.29
       },
       {
         "ticker": "HEROMOTOCO",
@@ -1600,10 +1600,10 @@
         "return_1d": -1.23,
         "return_1w": 4.19,
         "return_1m": 10.52,
-        "point_impact": 7.35,
+        "point_impact": 7.34,
         "point_impact_1d": -2.16,
-        "point_impact_1w": 7.35,
-        "point_impact_1m": 18.44
+        "point_impact_1w": 7.34,
+        "point_impact_1m": 18.43
       },
       {
         "ticker": "BHARTIARTL",
@@ -1615,10 +1615,10 @@
         "return_1d": -0.64,
         "return_1w": 4.13,
         "return_1m": 14.79,
-        "point_impact": 37.24,
+        "point_impact": 37.22,
         "point_impact_1d": -5.77,
-        "point_impact_1w": 37.24,
-        "point_impact_1m": 133.35
+        "point_impact_1w": 37.22,
+        "point_impact_1m": 133.27
       },
       {
         "ticker": "GRASIM",
@@ -1633,7 +1633,7 @@
         "point_impact": 8.29,
         "point_impact_1d": -2.64,
         "point_impact_1w": 8.29,
-        "point_impact_1m": 21.82
+        "point_impact_1m": 21.81
       },
       {
         "ticker": "JSWENERGY",
@@ -1648,7 +1648,7 @@
         "point_impact": 5.24,
         "point_impact_1d": -0.24,
         "point_impact_1w": 5.24,
-        "point_impact_1m": 19.78
+        "point_impact_1m": 19.76
       },
       {
         "ticker": "ADANIENT",
@@ -1660,9 +1660,9 @@
         "return_1d": -0.9,
         "return_1w": 3.48,
         "return_1m": 2.73,
-        "point_impact": 9.59,
+        "point_impact": 9.58,
         "point_impact_1d": -2.48,
-        "point_impact_1w": 9.59,
+        "point_impact_1w": 9.58,
         "point_impact_1m": 7.52
       },
       {
@@ -1693,7 +1693,7 @@
         "point_impact": 6.41,
         "point_impact_1d": 2.18,
         "point_impact_1w": 6.41,
-        "point_impact_1m": 31.48
+        "point_impact_1m": 31.46
       },
       {
         "ticker": "JSWSTEEL",
@@ -1708,7 +1708,7 @@
         "point_impact": 5.67,
         "point_impact_1d": -0.6,
         "point_impact_1w": 5.67,
-        "point_impact_1m": 30.71
+        "point_impact_1m": 30.7
       },
       {
         "ticker": "NTPC",
@@ -1720,10 +1720,10 @@
         "return_1d": 1.87,
         "return_1w": 2.75,
         "return_1m": 6.38,
-        "point_impact": 11.02,
+        "point_impact": 11.01,
         "point_impact_1d": 7.49,
-        "point_impact_1w": 11.02,
-        "point_impact_1m": 25.57
+        "point_impact_1w": 11.01,
+        "point_impact_1m": 25.55
       },
       {
         "ticker": "TRENT",
@@ -1735,10 +1735,10 @@
         "return_1d": 2.02,
         "return_1w": 2.39,
         "return_1m": 6.89,
-        "point_impact": 8.98,
-        "point_impact_1d": 7.59,
-        "point_impact_1w": 8.98,
-        "point_impact_1m": 25.88
+        "point_impact": 8.97,
+        "point_impact_1d": 7.58,
+        "point_impact_1w": 8.97,
+        "point_impact_1m": 25.87
       },
       {
         "ticker": "RELIANCE",
@@ -1750,10 +1750,10 @@
         "return_1d": 0.03,
         "return_1w": 1.88,
         "return_1m": 13.17,
-        "point_impact": 43.32,
+        "point_impact": 43.29,
         "point_impact_1d": 0.69,
-        "point_impact_1w": 43.32,
-        "point_impact_1m": 303.45
+        "point_impact_1w": 43.29,
+        "point_impact_1m": 303.28
       },
       {
         "ticker": "INFY",
@@ -1765,10 +1765,10 @@
         "return_1d": -1.49,
         "return_1w": 1.68,
         "return_1m": 15.35,
-        "point_impact": 22.72,
-        "point_impact_1d": -20.15,
-        "point_impact_1w": 22.72,
-        "point_impact_1m": 207.6
+        "point_impact": 22.71,
+        "point_impact_1d": -20.14,
+        "point_impact_1w": 22.71,
+        "point_impact_1m": 207.48
       },
       {
         "ticker": "WIPRO",
@@ -1783,7 +1783,7 @@
         "point_impact": 2.31,
         "point_impact_1d": 1.28,
         "point_impact_1w": 2.31,
-        "point_impact_1m": 39.29
+        "point_impact_1m": 39.27
       },
       {
         "ticker": "CIPLA",
@@ -1798,7 +1798,7 @@
         "point_impact": 2.73,
         "point_impact_1d": -0.32,
         "point_impact_1w": 2.73,
-        "point_impact_1m": 17.81
+        "point_impact_1m": 17.8
       },
       {
         "ticker": "TATAPOWER",
@@ -1825,10 +1825,10 @@
         "return_1d": 1.42,
         "return_1w": 1.07,
         "return_1m": 6.5,
-        "point_impact": 1.88,
+        "point_impact": 1.87,
         "point_impact_1d": 2.49,
-        "point_impact_1w": 1.88,
-        "point_impact_1m": 11.4
+        "point_impact_1w": 1.87,
+        "point_impact_1m": 11.39
       },
       {
         "ticker": "TECHM",
@@ -1841,9 +1841,9 @@
         "return_1w": 1.01,
         "return_1m": 20.2,
         "point_impact": 2.53,
-        "point_impact_1d": -3.41,
+        "point_impact_1d": -3.4,
         "point_impact_1w": 2.53,
-        "point_impact_1m": 50.59
+        "point_impact_1m": 50.56
       },
       {
         "ticker": "COALINDIA",
@@ -1855,9 +1855,9 @@
         "return_1d": 0.12,
         "return_1w": 0.94,
         "return_1m": 0.07,
-        "point_impact": 2.83,
+        "point_impact": 2.82,
         "point_impact_1d": 0.36,
-        "point_impact_1w": 2.83,
+        "point_impact_1w": 2.82,
         "point_impact_1m": 0.21
       },
       {
@@ -1873,7 +1873,7 @@
         "point_impact": -2.14,
         "point_impact_1d": -2.07,
         "point_impact_1w": -2.14,
-        "point_impact_1m": 20.77
+        "point_impact_1m": 20.76
       },
       {
         "ticker": "TCS",
@@ -1885,10 +1885,10 @@
         "return_1d": -0.94,
         "return_1w": -1.05,
         "return_1m": 15.42,
-        "point_impact": -10.26,
+        "point_impact": -10.25,
         "point_impact_1d": -9.18,
-        "point_impact_1w": -10.26,
-        "point_impact_1m": 150.61
+        "point_impact_1w": -10.25,
+        "point_impact_1m": 150.53
       },
       {
         "ticker": "HCLTECH",
@@ -1900,10 +1900,10 @@
         "return_1d": -2.43,
         "return_1w": -1.88,
         "return_1m": 16.67,
-        "point_impact": -8.95,
+        "point_impact": -8.94,
         "point_impact_1d": -11.56,
-        "point_impact_1w": -8.95,
-        "point_impact_1m": 79.32
+        "point_impact_1w": -8.94,
+        "point_impact_1m": 79.28
       },
       {
         "ticker": "POWERGRID",
@@ -1915,20 +1915,20 @@
         "return_1d": -1.3,
         "return_1w": -2.52,
         "return_1m": 4.74,
-        "point_impact": -8.84,
+        "point_impact": -8.83,
         "point_impact_1d": -4.56,
-        "point_impact_1w": -8.84,
-        "point_impact_1m": 16.62
+        "point_impact_1w": -8.83,
+        "point_impact_1m": 16.61
       }
     ]
   },
   "bank_nifty_summary": {
-    "close": 59741.25,
-    "return_1d": 1.51,
-    "return_1w": 8.62,
-    "return_1m": 8.12,
-    "high_1w": 59741.25,
-    "low_1w": 54582.0,
+    "close": 59086.0,
+    "return_1d": 0.4,
+    "return_1w": 8.04,
+    "return_1m": 7.32,
+    "high_1w": 59086.0,
+    "low_1w": 54580.75,
     "advances": 11,
     "declines": 0,
     "breadth_pct": 100.0,
@@ -2294,9 +2294,9 @@
       "return_1d": 1.61,
       "return_1w": 7.34,
       "return_1m": 6.91,
-      "official_return_1d": 1.51,
-      "official_return_1w": 8.62,
-      "official_return_1m": 8.12,
+      "official_return_1d": 0.4,
+      "official_return_1w": 8.04,
+      "official_return_1m": 7.32,
       "advances": 12,
       "declines": 0,
       "advances_1d": 8,
@@ -2667,9 +2667,9 @@
       "return_1d": 1.56,
       "return_1w": 5.85,
       "return_1m": 9.76,
-      "official_return_1d": 1.65,
-      "official_return_1w": 6.61,
-      "official_return_1m": 11.3,
+      "official_return_1d": -1.71,
+      "official_return_1w": 3.01,
+      "official_return_1m": 5.69,
       "advances": 11,
       "declines": 1,
       "advances_1d": 10,
@@ -3175,9 +3175,9 @@
       "return_1d": -1.18,
       "return_1w": -0.71,
       "return_1m": 15.28,
-      "official_return_1d": -1.22,
-      "official_return_1w": 0.08,
-      "official_return_1m": 13.63,
+      "official_return_1d": 0.33,
+      "official_return_1w": 1.14,
+      "official_return_1m": 18.81,
       "advances": 3,
       "declines": 6,
       "advances_1d": 2,
