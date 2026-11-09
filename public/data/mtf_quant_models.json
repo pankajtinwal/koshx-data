@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T15:36:18.267838Z",
+  "updated_at": "2026-11-09T03:32:03.099565Z",
   "total_stocks": 216,
   "models": {
     "ema": {
@@ -1875,6 +1875,20 @@
           "is_pullback_buy": false
         },
         {
+          "ticker": "DABUR",
+          "name": "Dabur India Ltd",
+          "sector": "Consumer Goods & Retail",
+          "price": 382.8,
+          "x": 0.84,
+          "y": 2.25,
+          "ema_20": 374.39,
+          "ema_50": 379.62,
+          "ema_200": 417.06,
+          "is_bull": false,
+          "quadrant": 1,
+          "is_pullback_buy": false
+        },
+        {
           "ticker": "OBEROIRLTY",
           "name": "Oberoi Realty Ltd",
           "sector": "Real Estate & Realty",
@@ -2040,20 +2054,6 @@
           "ema_200": 918.65,
           "is_bull": false,
           "quadrant": 1,
-          "is_pullback_buy": false
-        },
-        {
-          "ticker": "DABUR",
-          "name": "Dabur India Ltd",
-          "sector": "Consumer Goods & Retail",
-          "price": 382.8,
-          "x": -0.05,
-          "y": 1.4,
-          "ema_20": 377.53,
-          "ema_50": 383.0,
-          "ema_200": 420.9,
-          "is_bull": false,
-          "quadrant": 2,
           "is_pullback_buy": false
         },
         {
@@ -3044,14 +3044,14 @@
       "y_label": "5-Day Log Return (%)",
       "regression": {
         "alpha": 0.0505,
-        "beta": 0.0814,
-        "r_squared": 0.0395,
+        "beta": 0.0813,
+        "r_squared": 0.0394,
         "std_err": 0.0461,
         "n": 215,
         "x_min": -0.588,
         "x_max": 0.377,
-        "x_mean": -0.0406,
-        "ss_xx": 2.812147
+        "x_mean": -0.0405,
+        "ss_xx": 2.811929
       },
       "stats": {
         "outlier_count": 7
@@ -3077,7 +3077,7 @@
           "x": -5.79,
           "y": 15.75,
           "expected_y": 4.58,
-          "residual": 11.18,
+          "residual": 11.17,
           "studentized_residual": 2.43,
           "is_outlier": true
         },
@@ -3124,7 +3124,7 @@
           "price": 1071.55,
           "x": -21.55,
           "y": 11.66,
-          "expected_y": 3.29,
+          "expected_y": 3.3,
           "residual": 8.36,
           "studentized_residual": 1.83,
           "is_outlier": false
@@ -3149,7 +3149,7 @@
           "x": -27.03,
           "y": 10.54,
           "expected_y": 2.85,
-          "residual": 7.69,
+          "residual": 7.68,
           "studentized_residual": 1.69,
           "is_outlier": false
         },
@@ -3161,7 +3161,7 @@
           "x": 0.46,
           "y": 12.69,
           "expected_y": 5.09,
-          "residual": 7.61,
+          "residual": 7.6,
           "studentized_residual": 1.65,
           "is_outlier": false
         },
@@ -3185,7 +3185,7 @@
           "x": 5.26,
           "y": 12.5,
           "expected_y": 5.48,
-          "residual": 7.03,
+          "residual": 7.02,
           "studentized_residual": 1.53,
           "is_outlier": false
         },
@@ -3208,7 +3208,7 @@
           "price": 960.05,
           "x": -14.8,
           "y": 10.62,
-          "expected_y": 3.84,
+          "expected_y": 3.85,
           "residual": 6.77,
           "studentized_residual": 1.47,
           "is_outlier": false
@@ -3232,7 +3232,7 @@
           "price": 216.8,
           "x": -13.57,
           "y": 10.6,
-          "expected_y": 3.94,
+          "expected_y": 3.95,
           "residual": 6.65,
           "studentized_residual": 1.45,
           "is_outlier": false
@@ -3244,8 +3244,8 @@
           "price": 39.0,
           "x": -18.87,
           "y": 10.11,
-          "expected_y": 3.51,
-          "residual": 6.6,
+          "expected_y": 3.52,
+          "residual": 6.59,
           "studentized_residual": 1.44,
           "is_outlier": false
         },
@@ -3256,7 +3256,7 @@
           "price": 942.35,
           "x": 5.7,
           "y": 12.03,
-          "expected_y": 5.51,
+          "expected_y": 5.52,
           "residual": 6.52,
           "studentized_residual": 1.42,
           "is_outlier": false
@@ -3268,7 +3268,7 @@
           "price": 293.45,
           "x": -7.32,
           "y": 10.73,
-          "expected_y": 4.45,
+          "expected_y": 4.46,
           "residual": 6.27,
           "studentized_residual": 1.36,
           "is_outlier": false
@@ -3292,7 +3292,7 @@
           "price": 4990.5,
           "x": -1.31,
           "y": 10.87,
-          "expected_y": 4.94,
+          "expected_y": 4.95,
           "residual": 5.93,
           "studentized_residual": 1.29,
           "is_outlier": false
@@ -3305,7 +3305,7 @@
           "x": 3.19,
           "y": 11.21,
           "expected_y": 5.31,
-          "residual": 5.9,
+          "residual": 5.89,
           "studentized_residual": 1.28,
           "is_outlier": false
         },
@@ -3316,8 +3316,8 @@
           "price": 192.3,
           "x": -36.24,
           "y": 7.88,
-          "expected_y": 2.1,
-          "residual": 5.78,
+          "expected_y": 2.11,
+          "residual": 5.77,
           "studentized_residual": 1.28,
           "is_outlier": false
         },
@@ -3328,7 +3328,7 @@
           "price": 784.1,
           "x": 7.56,
           "y": 11.35,
-          "expected_y": 5.66,
+          "expected_y": 5.67,
           "residual": 5.68,
           "studentized_residual": 1.24,
           "is_outlier": false
@@ -3340,7 +3340,7 @@
           "price": 568.55,
           "x": -2.88,
           "y": 10.48,
-          "expected_y": 4.81,
+          "expected_y": 4.82,
           "residual": 5.66,
           "studentized_residual": 1.23,
           "is_outlier": false
@@ -3353,7 +3353,7 @@
           "x": -10.31,
           "y": 9.56,
           "expected_y": 4.21,
-          "residual": 5.35,
+          "residual": 5.34,
           "studentized_residual": 1.16,
           "is_outlier": false
         },
@@ -3388,7 +3388,7 @@
           "price": 1123.0,
           "x": -14.48,
           "y": 8.78,
-          "expected_y": 3.87,
+          "expected_y": 3.88,
           "residual": 4.91,
           "studentized_residual": 1.07,
           "is_outlier": false
@@ -3401,7 +3401,7 @@
           "x": -7.65,
           "y": 9.34,
           "expected_y": 4.43,
-          "residual": 4.92,
+          "residual": 4.91,
           "studentized_residual": 1.07,
           "is_outlier": false
         },
@@ -3413,7 +3413,7 @@
           "x": 6.13,
           "y": 10.46,
           "expected_y": 5.55,
-          "residual": 4.92,
+          "residual": 4.91,
           "studentized_residual": 1.07,
           "is_outlier": false
         },
@@ -3424,8 +3424,8 @@
           "price": 1855.1,
           "x": -7.93,
           "y": 9.23,
-          "expected_y": 4.4,
-          "residual": 4.83,
+          "expected_y": 4.41,
+          "residual": 4.82,
           "studentized_residual": 1.05,
           "is_outlier": false
         },
@@ -3436,8 +3436,8 @@
           "price": 395.65,
           "x": -5.38,
           "y": 9.39,
-          "expected_y": 4.61,
-          "residual": 4.78,
+          "expected_y": 4.62,
+          "residual": 4.77,
           "studentized_residual": 1.04,
           "is_outlier": false
         },
@@ -3448,8 +3448,8 @@
           "price": 582.5,
           "x": -8.31,
           "y": 8.9,
-          "expected_y": 4.37,
-          "residual": 4.53,
+          "expected_y": 4.38,
+          "residual": 4.52,
           "studentized_residual": 0.98,
           "is_outlier": false
         },
@@ -3484,7 +3484,7 @@
           "price": 5417.3,
           "x": 2.0,
           "y": 9.63,
-          "expected_y": 5.21,
+          "expected_y": 5.22,
           "residual": 4.42,
           "studentized_residual": 0.96,
           "is_outlier": false
@@ -3497,7 +3497,7 @@
           "x": -26.8,
           "y": 7.07,
           "expected_y": 2.87,
-          "residual": 4.21,
+          "residual": 4.2,
           "studentized_residual": 0.92,
           "is_outlier": false
         },
@@ -3521,7 +3521,7 @@
           "x": -6.8,
           "y": 8.57,
           "expected_y": 4.5,
-          "residual": 4.08,
+          "residual": 4.07,
           "studentized_residual": 0.89,
           "is_outlier": false
         },
@@ -3533,7 +3533,7 @@
           "x": 1.08,
           "y": 9.21,
           "expected_y": 5.14,
-          "residual": 4.08,
+          "residual": 4.07,
           "studentized_residual": 0.89,
           "is_outlier": false
         },
@@ -3544,8 +3544,8 @@
           "price": 295.3,
           "x": -12.46,
           "y": 8.07,
-          "expected_y": 4.03,
-          "residual": 4.04,
+          "expected_y": 4.04,
+          "residual": 4.03,
           "studentized_residual": 0.88,
           "is_outlier": false
         },
@@ -3556,7 +3556,7 @@
           "price": 272.27,
           "x": -11.78,
           "y": 7.94,
-          "expected_y": 4.09,
+          "expected_y": 4.1,
           "residual": 3.84,
           "studentized_residual": 0.84,
           "is_outlier": false
@@ -3568,7 +3568,7 @@
           "price": 3903.8,
           "x": -22.21,
           "y": 7.03,
-          "expected_y": 3.24,
+          "expected_y": 3.25,
           "residual": 3.79,
           "studentized_residual": 0.83,
           "is_outlier": false
@@ -3592,8 +3592,8 @@
           "price": 111.33,
           "x": -3.66,
           "y": 8.52,
-          "expected_y": 4.75,
-          "residual": 3.77,
+          "expected_y": 4.76,
+          "residual": 3.76,
           "studentized_residual": 0.82,
           "is_outlier": false
         },
@@ -3604,8 +3604,8 @@
           "price": 967.0,
           "x": -58.8,
           "y": 3.79,
-          "expected_y": 0.26,
-          "residual": 3.53,
+          "expected_y": 0.27,
+          "residual": 3.52,
           "studentized_residual": 0.81,
           "is_outlier": false
         },
@@ -3616,7 +3616,7 @@
           "price": 12499.0,
           "x": 7.3,
           "y": 9.32,
-          "expected_y": 5.64,
+          "expected_y": 5.65,
           "residual": 3.67,
           "studentized_residual": 0.8,
           "is_outlier": false
@@ -3628,7 +3628,7 @@
           "price": 126700.0,
           "x": -5.22,
           "y": 8.03,
-          "expected_y": 4.62,
+          "expected_y": 4.63,
           "residual": 3.41,
           "studentized_residual": 0.74,
           "is_outlier": false
@@ -3652,7 +3652,7 @@
           "price": 903.0,
           "x": -12.26,
           "y": 7.41,
-          "expected_y": 4.05,
+          "expected_y": 4.06,
           "residual": 3.36,
           "studentized_residual": 0.73,
           "is_outlier": false
@@ -3664,7 +3664,7 @@
           "price": 1692.8,
           "x": -14.21,
           "y": 7.21,
-          "expected_y": 3.89,
+          "expected_y": 3.9,
           "residual": 3.32,
           "studentized_residual": 0.72,
           "is_outlier": false
@@ -3688,7 +3688,7 @@
           "price": 230.0,
           "x": -7.96,
           "y": 7.56,
-          "expected_y": 4.4,
+          "expected_y": 4.41,
           "residual": 3.16,
           "studentized_residual": 0.69,
           "is_outlier": false
@@ -3700,7 +3700,7 @@
           "price": 317.6,
           "x": -0.58,
           "y": 8.04,
-          "expected_y": 5.0,
+          "expected_y": 5.01,
           "residual": 3.04,
           "studentized_residual": 0.66,
           "is_outlier": false
@@ -3712,7 +3712,7 @@
           "price": 1604.9,
           "x": 0.78,
           "y": 8.14,
-          "expected_y": 5.11,
+          "expected_y": 5.12,
           "residual": 3.02,
           "studentized_residual": 0.66,
           "is_outlier": false
@@ -3737,7 +3737,7 @@
           "x": -14.42,
           "y": 6.81,
           "expected_y": 3.88,
-          "residual": 2.94,
+          "residual": 2.93,
           "studentized_residual": 0.64,
           "is_outlier": false
         },
@@ -3749,7 +3749,7 @@
           "x": -0.78,
           "y": 7.87,
           "expected_y": 4.99,
-          "residual": 2.89,
+          "residual": 2.88,
           "studentized_residual": 0.63,
           "is_outlier": false
         },
@@ -3772,8 +3772,8 @@
           "price": 1314.7,
           "x": 7.69,
           "y": 8.38,
-          "expected_y": 5.67,
-          "residual": 2.71,
+          "expected_y": 5.68,
+          "residual": 2.7,
           "studentized_residual": 0.59,
           "is_outlier": false
         },
@@ -3784,9 +3784,9 @@
           "price": 1273.5,
           "x": -16.31,
           "y": 6.36,
-          "expected_y": 3.72,
+          "expected_y": 3.73,
           "residual": 2.64,
-          "studentized_residual": 0.58,
+          "studentized_residual": 0.57,
           "is_outlier": false
         },
         {
@@ -3796,8 +3796,8 @@
           "price": 2594.9,
           "x": 11.37,
           "y": 8.56,
-          "expected_y": 5.97,
-          "residual": 2.59,
+          "expected_y": 5.98,
+          "residual": 2.58,
           "studentized_residual": 0.56,
           "is_outlier": false
         },
@@ -3832,8 +3832,8 @@
           "price": 3425.0,
           "x": -17.01,
           "y": 5.86,
-          "expected_y": 3.66,
-          "residual": 2.2,
+          "expected_y": 3.67,
+          "residual": 2.19,
           "studentized_residual": 0.48,
           "is_outlier": false
         },
@@ -3868,7 +3868,7 @@
           "price": 1343.5,
           "x": -0.07,
           "y": 7.05,
-          "expected_y": 5.04,
+          "expected_y": 5.05,
           "residual": 2.01,
           "studentized_residual": 0.44,
           "is_outlier": false
@@ -3904,20 +3904,8 @@
           "price": 11068.0,
           "x": -3.03,
           "y": 6.61,
-          "expected_y": 4.8,
-          "residual": 1.81,
-          "studentized_residual": 0.39,
-          "is_outlier": false
-        },
-        {
-          "ticker": "KEI",
-          "name": "KEI Industries Ltd",
-          "sector": "Capital Goods & Engineering",
-          "price": 4010.0,
-          "x": -35.17,
-          "y": 3.93,
-          "expected_y": 2.19,
-          "residual": 1.74,
+          "expected_y": 4.81,
+          "residual": 1.8,
           "studentized_residual": 0.39,
           "is_outlier": false
         },
@@ -3928,7 +3916,19 @@
           "price": 376.25,
           "x": -2.3,
           "y": 6.61,
-          "expected_y": 4.86,
+          "expected_y": 4.87,
+          "residual": 1.74,
+          "studentized_residual": 0.38,
+          "is_outlier": false
+        },
+        {
+          "ticker": "KEI",
+          "name": "KEI Industries Ltd",
+          "sector": "Capital Goods & Engineering",
+          "price": 4010.0,
+          "x": -35.17,
+          "y": 3.93,
+          "expected_y": 2.19,
           "residual": 1.74,
           "studentized_residual": 0.38,
           "is_outlier": false
@@ -3952,8 +3952,8 @@
           "price": 451.0,
           "x": -11.13,
           "y": 5.75,
-          "expected_y": 4.14,
-          "residual": 1.61,
+          "expected_y": 4.15,
+          "residual": 1.6,
           "studentized_residual": 0.35,
           "is_outlier": false
         },
@@ -3965,7 +3965,7 @@
           "x": -7.17,
           "y": 5.95,
           "expected_y": 4.47,
-          "residual": 1.49,
+          "residual": 1.48,
           "studentized_residual": 0.32,
           "is_outlier": false
         },
@@ -3977,7 +3977,7 @@
           "x": -7.02,
           "y": 5.89,
           "expected_y": 4.48,
-          "residual": 1.41,
+          "residual": 1.4,
           "studentized_residual": 0.31,
           "is_outlier": false
         },
@@ -3988,8 +3988,8 @@
           "price": 94.0,
           "x": -11.26,
           "y": 5.58,
-          "expected_y": 4.13,
-          "residual": 1.45,
+          "expected_y": 4.14,
+          "residual": 1.44,
           "studentized_residual": 0.31,
           "is_outlier": false
         },
@@ -4000,7 +4000,7 @@
           "price": 1737.1,
           "x": -5.96,
           "y": 5.94,
-          "expected_y": 4.56,
+          "expected_y": 4.57,
           "residual": 1.37,
           "studentized_residual": 0.3,
           "is_outlier": false
@@ -4013,7 +4013,7 @@
           "x": -5.29,
           "y": 5.9,
           "expected_y": 4.62,
-          "residual": 1.28,
+          "residual": 1.27,
           "studentized_residual": 0.28,
           "is_outlier": false
         },
@@ -4036,7 +4036,7 @@
           "price": 2968.9,
           "x": -3.17,
           "y": 5.91,
-          "expected_y": 4.79,
+          "expected_y": 4.8,
           "residual": 1.12,
           "studentized_residual": 0.24,
           "is_outlier": false
@@ -4072,7 +4072,7 @@
           "price": 1804.0,
           "x": 10.63,
           "y": 6.9,
-          "expected_y": 5.91,
+          "expected_y": 5.92,
           "residual": 0.98,
           "studentized_residual": 0.21,
           "is_outlier": false
@@ -4085,7 +4085,7 @@
           "x": -6.99,
           "y": 5.38,
           "expected_y": 4.48,
-          "residual": 0.9,
+          "residual": 0.89,
           "studentized_residual": 0.19,
           "is_outlier": false
         },
@@ -4097,7 +4097,7 @@
           "x": 3.93,
           "y": 6.14,
           "expected_y": 5.37,
-          "residual": 0.77,
+          "residual": 0.76,
           "studentized_residual": 0.17,
           "is_outlier": false
         },
@@ -4145,7 +4145,7 @@
           "x": -1.23,
           "y": 5.63,
           "expected_y": 4.95,
-          "residual": 0.69,
+          "residual": 0.68,
           "studentized_residual": 0.15,
           "is_outlier": false
         },
@@ -4169,7 +4169,7 @@
           "x": 12.93,
           "y": 6.64,
           "expected_y": 6.1,
-          "residual": 0.54,
+          "residual": 0.53,
           "studentized_residual": 0.12,
           "is_outlier": false
         },
@@ -4192,20 +4192,8 @@
           "price": 417.2,
           "x": -1.07,
           "y": 5.48,
-          "expected_y": 4.96,
+          "expected_y": 4.97,
           "residual": 0.52,
-          "studentized_residual": 0.11,
-          "is_outlier": false
-        },
-        {
-          "ticker": "RVNL",
-          "name": "Rail Vikas Nigam Ltd",
-          "sector": "Infrastructure & Construction",
-          "price": 194.24,
-          "x": -15.43,
-          "y": 4.28,
-          "expected_y": 3.79,
-          "residual": 0.48,
           "studentized_residual": 0.11,
           "is_outlier": false
         },
@@ -4217,6 +4205,18 @@
           "x": -15.24,
           "y": 4.29,
           "expected_y": 3.81,
+          "residual": 0.47,
+          "studentized_residual": 0.1,
+          "is_outlier": false
+        },
+        {
+          "ticker": "RVNL",
+          "name": "Rail Vikas Nigam Ltd",
+          "sector": "Infrastructure & Construction",
+          "price": 194.24,
+          "x": -15.43,
+          "y": 4.28,
+          "expected_y": 3.8,
           "residual": 0.48,
           "studentized_residual": 0.1,
           "is_outlier": false
@@ -4228,8 +4228,8 @@
           "price": 1412.0,
           "x": -8.42,
           "y": 4.77,
-          "expected_y": 4.36,
-          "residual": 0.41,
+          "expected_y": 4.37,
+          "residual": 0.4,
           "studentized_residual": 0.09,
           "is_outlier": false
         },
@@ -4241,7 +4241,7 @@
           "x": -10.56,
           "y": 4.61,
           "expected_y": 4.19,
-          "residual": 0.42,
+          "residual": 0.41,
           "studentized_residual": 0.09,
           "is_outlier": false
         },
@@ -4265,7 +4265,7 @@
           "x": -15.14,
           "y": 4.09,
           "expected_y": 3.82,
-          "residual": 0.28,
+          "residual": 0.27,
           "studentized_residual": 0.06,
           "is_outlier": false
         },
@@ -4276,8 +4276,8 @@
           "price": 746.0,
           "x": 11.49,
           "y": 6.22,
-          "expected_y": 5.98,
-          "residual": 0.24,
+          "expected_y": 5.99,
+          "residual": 0.23,
           "studentized_residual": 0.05,
           "is_outlier": false
         },
@@ -4288,8 +4288,8 @@
           "price": 291.95,
           "x": -11.26,
           "y": 4.36,
-          "expected_y": 4.13,
-          "residual": 0.23,
+          "expected_y": 4.14,
+          "residual": 0.22,
           "studentized_residual": 0.05,
           "is_outlier": false
         },
@@ -4300,7 +4300,7 @@
           "price": 926.0,
           "x": -8.54,
           "y": 4.56,
-          "expected_y": 4.35,
+          "expected_y": 4.36,
           "residual": 0.2,
           "studentized_residual": 0.04,
           "is_outlier": false
@@ -4312,8 +4312,8 @@
           "price": 10136.5,
           "x": -15.43,
           "y": 3.95,
-          "expected_y": 3.79,
-          "residual": 0.16,
+          "expected_y": 3.8,
+          "residual": 0.15,
           "studentized_residual": 0.03,
           "is_outlier": false
         },
@@ -4325,7 +4325,7 @@
           "x": -10.56,
           "y": 4.33,
           "expected_y": 4.19,
-          "residual": 0.14,
+          "residual": 0.13,
           "studentized_residual": 0.03,
           "is_outlier": false
         },
@@ -4348,19 +4348,7 @@
           "price": 852.75,
           "x": -8.53,
           "y": 4.34,
-          "expected_y": 4.35,
-          "residual": -0.02,
-          "studentized_residual": -0.0,
-          "is_outlier": false
-        },
-        {
-          "ticker": "LGEINDIA",
-          "name": "LG Electronics India Ltd",
-          "sector": "Capital Goods & Engineering",
-          "price": 1772.2,
-          "x": 2.43,
-          "y": 5.22,
-          "expected_y": 5.25,
+          "expected_y": 4.36,
           "residual": -0.02,
           "studentized_residual": -0.0,
           "is_outlier": false
@@ -4372,8 +4360,20 @@
           "price": 71.0,
           "x": -15.94,
           "y": 3.7,
-          "expected_y": 3.75,
-          "residual": -0.05,
+          "expected_y": 3.76,
+          "residual": -0.06,
+          "studentized_residual": -0.01,
+          "is_outlier": false
+        },
+        {
+          "ticker": "LGEINDIA",
+          "name": "LG Electronics India Ltd",
+          "sector": "Capital Goods & Engineering",
+          "price": 1772.2,
+          "x": 2.43,
+          "y": 5.22,
+          "expected_y": 5.25,
+          "residual": -0.03,
           "studentized_residual": -0.01,
           "is_outlier": false
         },
@@ -4384,7 +4384,7 @@
           "price": 3207.2,
           "x": -1.29,
           "y": 4.79,
-          "expected_y": 4.94,
+          "expected_y": 4.95,
           "residual": -0.15,
           "studentized_residual": -0.03,
           "is_outlier": false
@@ -4397,20 +4397,8 @@
           "x": -1.0,
           "y": 4.82,
           "expected_y": 4.97,
-          "residual": -0.14,
+          "residual": -0.15,
           "studentized_residual": -0.03,
-          "is_outlier": false
-        },
-        {
-          "ticker": "TATACONSUM",
-          "name": "Tata Consumer Products Ltd",
-          "sector": "Consumer Goods & Retail",
-          "price": 1080.0,
-          "x": 0.05,
-          "y": 4.85,
-          "expected_y": 5.05,
-          "residual": -0.21,
-          "studentized_residual": -0.04,
           "is_outlier": false
         },
         {
@@ -4420,8 +4408,8 @@
           "price": 50800.0,
           "x": 7.56,
           "y": 5.46,
-          "expected_y": 5.66,
-          "residual": -0.2,
+          "expected_y": 5.67,
+          "residual": -0.21,
           "studentized_residual": -0.04,
           "is_outlier": false
         },
@@ -4432,9 +4420,21 @@
           "price": 3395.3,
           "x": -17.53,
           "y": 3.46,
-          "expected_y": 3.62,
-          "residual": -0.16,
+          "expected_y": 3.63,
+          "residual": -0.17,
           "studentized_residual": -0.04,
+          "is_outlier": false
+        },
+        {
+          "ticker": "TATACONSUM",
+          "name": "Tata Consumer Products Ltd",
+          "sector": "Consumer Goods & Retail",
+          "price": 1080.0,
+          "x": 0.05,
+          "y": 4.85,
+          "expected_y": 5.06,
+          "residual": -0.21,
+          "studentized_residual": -0.05,
           "is_outlier": false
         },
         {
@@ -4444,21 +4444,9 @@
           "price": 6859.5,
           "x": -10.89,
           "y": 3.86,
-          "expected_y": 4.16,
+          "expected_y": 4.17,
           "residual": -0.31,
           "studentized_residual": -0.07,
-          "is_outlier": false
-        },
-        {
-          "ticker": "ICICIGI",
-          "name": "ICICI Lombard General Insurance Company Ltd",
-          "sector": "Financial Services",
-          "price": 1633.6,
-          "x": 0.65,
-          "y": 4.71,
-          "expected_y": 5.1,
-          "residual": -0.39,
-          "studentized_residual": -0.08,
           "is_outlier": false
         },
         {
@@ -4469,7 +4457,7 @@
           "x": -11.79,
           "y": 3.73,
           "expected_y": 4.09,
-          "residual": -0.36,
+          "residual": -0.37,
           "studentized_residual": -0.08,
           "is_outlier": false
         },
@@ -4480,9 +4468,21 @@
           "price": 364.4,
           "x": 13.46,
           "y": 5.76,
-          "expected_y": 6.14,
-          "residual": -0.38,
+          "expected_y": 6.15,
+          "residual": -0.39,
           "studentized_residual": -0.08,
+          "is_outlier": false
+        },
+        {
+          "ticker": "ICICIGI",
+          "name": "ICICI Lombard General Insurance Company Ltd",
+          "sector": "Financial Services",
+          "price": 1633.6,
+          "x": 0.65,
+          "y": 4.71,
+          "expected_y": 5.11,
+          "residual": -0.39,
+          "studentized_residual": -0.09,
           "is_outlier": false
         },
         {
@@ -4504,7 +4504,7 @@
           "price": 2130.5,
           "x": 12.11,
           "y": 5.49,
-          "expected_y": 6.03,
+          "expected_y": 6.04,
           "residual": -0.54,
           "studentized_residual": -0.12,
           "is_outlier": false
@@ -4528,7 +4528,7 @@
           "price": 297.25,
           "x": -10.77,
           "y": 3.54,
-          "expected_y": 4.17,
+          "expected_y": 4.18,
           "residual": -0.63,
           "studentized_residual": -0.14,
           "is_outlier": false
@@ -4540,7 +4540,7 @@
           "price": 2085.5,
           "x": 4.58,
           "y": 4.69,
-          "expected_y": 5.42,
+          "expected_y": 5.43,
           "residual": -0.73,
           "studentized_residual": -0.16,
           "is_outlier": false
@@ -4552,8 +4552,8 @@
           "price": 4781.0,
           "x": -15.06,
           "y": 3.1,
-          "expected_y": 3.82,
-          "residual": -0.72,
+          "expected_y": 3.83,
+          "residual": -0.73,
           "studentized_residual": -0.16,
           "is_outlier": false
         },
@@ -4565,7 +4565,7 @@
           "x": -6.77,
           "y": 3.71,
           "expected_y": 4.5,
-          "residual": -0.79,
+          "residual": -0.8,
           "studentized_residual": -0.17,
           "is_outlier": false
         },
@@ -4576,7 +4576,7 @@
           "price": 1155.0,
           "x": 5.83,
           "y": 4.7,
-          "expected_y": 5.52,
+          "expected_y": 5.53,
           "residual": -0.83,
           "studentized_residual": -0.18,
           "is_outlier": false
@@ -4589,7 +4589,7 @@
           "x": -1.84,
           "y": 4.03,
           "expected_y": 4.9,
-          "residual": -0.87,
+          "residual": -0.88,
           "studentized_residual": -0.19,
           "is_outlier": false
         },
@@ -4600,7 +4600,7 @@
           "price": 4110.0,
           "x": 1.3,
           "y": 4.23,
-          "expected_y": 5.15,
+          "expected_y": 5.16,
           "residual": -0.93,
           "studentized_residual": -0.2,
           "is_outlier": false
@@ -4613,7 +4613,7 @@
           "x": -6.64,
           "y": 3.59,
           "expected_y": 4.51,
-          "residual": -0.91,
+          "residual": -0.92,
           "studentized_residual": -0.2,
           "is_outlier": false
         },
@@ -4625,7 +4625,7 @@
           "x": -11.84,
           "y": 3.02,
           "expected_y": 4.09,
-          "residual": -1.06,
+          "residual": -1.07,
           "studentized_residual": -0.23,
           "is_outlier": false
         },
@@ -4685,7 +4685,7 @@
           "x": -5.33,
           "y": 3.37,
           "expected_y": 4.62,
-          "residual": -1.24,
+          "residual": -1.25,
           "studentized_residual": -0.27,
           "is_outlier": false
         },
@@ -4696,9 +4696,21 @@
           "price": 78.25,
           "x": -12.35,
           "y": 2.75,
-          "expected_y": 4.04,
+          "expected_y": 4.05,
           "residual": -1.3,
           "studentized_residual": -0.28,
+          "is_outlier": false
+        },
+        {
+          "ticker": "DABUR",
+          "name": "Dabur India Ltd",
+          "sector": "Consumer Goods & Retail",
+          "price": 382.8,
+          "x": -4.77,
+          "y": 3.28,
+          "expected_y": 4.66,
+          "residual": -1.39,
+          "studentized_residual": -0.3,
           "is_outlier": false
         },
         {
@@ -4708,8 +4720,8 @@
           "price": 1056.5,
           "x": -22.3,
           "y": 1.88,
-          "expected_y": 3.23,
-          "residual": -1.35,
+          "expected_y": 3.24,
+          "residual": -1.36,
           "studentized_residual": -0.3,
           "is_outlier": false
         },
@@ -4720,7 +4732,7 @@
           "price": 7042.5,
           "x": -17.19,
           "y": 2.26,
-          "expected_y": 3.65,
+          "expected_y": 3.66,
           "residual": -1.39,
           "studentized_residual": -0.3,
           "is_outlier": false
@@ -4745,7 +4757,7 @@
           "x": -14.03,
           "y": 2.49,
           "expected_y": 3.91,
-          "residual": -1.42,
+          "residual": -1.43,
           "studentized_residual": -0.31,
           "is_outlier": false
         },
@@ -4757,7 +4769,7 @@
           "x": 6.3,
           "y": 4.02,
           "expected_y": 5.56,
-          "residual": -1.54,
+          "residual": -1.55,
           "studentized_residual": -0.34,
           "is_outlier": false
         },
@@ -4769,7 +4781,7 @@
           "x": -3.81,
           "y": 3.16,
           "expected_y": 4.74,
-          "residual": -1.58,
+          "residual": -1.59,
           "studentized_residual": -0.34,
           "is_outlier": false
         },
@@ -4828,8 +4840,8 @@
           "price": 543.9,
           "x": -12.12,
           "y": 2.22,
-          "expected_y": 4.06,
-          "residual": -1.84,
+          "expected_y": 4.07,
+          "residual": -1.85,
           "studentized_residual": -0.4,
           "is_outlier": false
         },
@@ -4842,7 +4854,7 @@
           "y": 2.04,
           "expected_y": 3.95,
           "residual": -1.91,
-          "studentized_residual": -0.41,
+          "studentized_residual": -0.42,
           "is_outlier": false
         },
         {
@@ -4852,7 +4864,7 @@
           "price": 773.65,
           "x": -18.3,
           "y": 1.58,
-          "expected_y": 3.56,
+          "expected_y": 3.57,
           "residual": -1.98,
           "studentized_residual": -0.43,
           "is_outlier": false
@@ -4864,8 +4876,8 @@
           "price": 480.5,
           "x": 20.57,
           "y": 4.72,
-          "expected_y": 6.72,
-          "residual": -2.0,
+          "expected_y": 6.73,
+          "residual": -2.01,
           "studentized_residual": -0.44,
           "is_outlier": false
         },
@@ -4888,8 +4900,8 @@
           "price": 5304.0,
           "x": -1.2,
           "y": 2.85,
-          "expected_y": 4.95,
-          "residual": -2.1,
+          "expected_y": 4.96,
+          "residual": -2.11,
           "studentized_residual": -0.46,
           "is_outlier": false
         },
@@ -4900,21 +4912,9 @@
           "price": 2470.0,
           "x": -5.36,
           "y": 2.5,
-          "expected_y": 4.61,
-          "residual": -2.11,
+          "expected_y": 4.62,
+          "residual": -2.12,
           "studentized_residual": -0.46,
-          "is_outlier": false
-        },
-        {
-          "ticker": "DABUR",
-          "name": "Dabur India Ltd",
-          "sector": "Consumer Goods & Retail",
-          "price": 382.8,
-          "x": -5.7,
-          "y": 2.35,
-          "expected_y": 4.59,
-          "residual": -2.23,
-          "studentized_residual": -0.49,
           "is_outlier": false
         },
         {
@@ -4924,9 +4924,9 @@
           "price": 4324.2,
           "x": -8.07,
           "y": 2.12,
-          "expected_y": 4.39,
-          "residual": -2.27,
-          "studentized_residual": -0.49,
+          "expected_y": 4.4,
+          "residual": -2.28,
+          "studentized_residual": -0.5,
           "is_outlier": false
         },
         {
@@ -4937,7 +4937,7 @@
           "x": -0.9,
           "y": 2.64,
           "expected_y": 4.98,
-          "residual": -2.33,
+          "residual": -2.34,
           "studentized_residual": -0.51,
           "is_outlier": false
         },
@@ -4948,21 +4948,9 @@
           "price": 1351.1,
           "x": 6.19,
           "y": 3.1,
-          "expected_y": 5.55,
+          "expected_y": 5.56,
           "residual": -2.46,
-          "studentized_residual": -0.53,
-          "is_outlier": false
-        },
-        {
-          "ticker": "HEIDELBERG",
-          "name": "HeidelbergCement India Ltd",
-          "sector": "Infrastructure & Construction",
-          "price": 121.85,
-          "x": -21.62,
-          "y": 0.66,
-          "expected_y": 3.29,
-          "residual": -2.63,
-          "studentized_residual": -0.57,
+          "studentized_residual": -0.54,
           "is_outlier": false
         },
         {
@@ -4978,13 +4966,25 @@
           "is_outlier": false
         },
         {
+          "ticker": "HEIDELBERG",
+          "name": "HeidelbergCement India Ltd",
+          "sector": "Infrastructure & Construction",
+          "price": 121.85,
+          "x": -21.62,
+          "y": 0.66,
+          "expected_y": 3.29,
+          "residual": -2.64,
+          "studentized_residual": -0.58,
+          "is_outlier": false
+        },
+        {
           "ticker": "LICI",
           "name": "Life Insurance Corporation of India",
           "sector": "Financial Services",
           "price": 396.85,
           "x": -4.11,
           "y": 2.0,
-          "expected_y": 4.71,
+          "expected_y": 4.72,
           "residual": -2.72,
           "studentized_residual": -0.59,
           "is_outlier": false
@@ -5021,20 +5021,8 @@
           "x": -12.68,
           "y": 0.73,
           "expected_y": 4.02,
-          "residual": -3.29,
+          "residual": -3.3,
           "studentized_residual": -0.72,
-          "is_outlier": false
-        },
-        {
-          "ticker": "TIINDIA",
-          "name": "Tube Investments of India Ltd",
-          "sector": "Auto & Ancillaries",
-          "price": 2175.4,
-          "x": -22.84,
-          "y": -0.17,
-          "expected_y": 3.19,
-          "residual": -3.36,
-          "studentized_residual": -0.73,
           "is_outlier": false
         },
         {
@@ -5044,8 +5032,20 @@
           "price": 1198.2,
           "x": -11.16,
           "y": 0.74,
-          "expected_y": 4.14,
+          "expected_y": 4.15,
           "residual": -3.4,
+          "studentized_residual": -0.74,
+          "is_outlier": false
+        },
+        {
+          "ticker": "TIINDIA",
+          "name": "Tube Investments of India Ltd",
+          "sector": "Auto & Ancillaries",
+          "price": 2175.4,
+          "x": -22.84,
+          "y": -0.17,
+          "expected_y": 3.2,
+          "residual": -3.36,
           "studentized_residual": -0.74,
           "is_outlier": false
         },
@@ -5080,7 +5080,7 @@
           "price": 125.55,
           "x": 6.2,
           "y": 2.0,
-          "expected_y": 5.55,
+          "expected_y": 5.56,
           "residual": -3.55,
           "studentized_residual": -0.77,
           "is_outlier": false
@@ -5092,7 +5092,7 @@
           "price": 1829.9,
           "x": 12.22,
           "y": 2.38,
-          "expected_y": 6.04,
+          "expected_y": 6.05,
           "residual": -3.67,
           "studentized_residual": -0.8,
           "is_outlier": false
@@ -5117,7 +5117,7 @@
           "x": -7.11,
           "y": 0.75,
           "expected_y": 4.47,
-          "residual": -3.72,
+          "residual": -3.73,
           "studentized_residual": -0.81,
           "is_outlier": false
         },
@@ -5142,7 +5142,7 @@
           "y": 0.86,
           "expected_y": 4.79,
           "residual": -3.93,
-          "studentized_residual": -0.85,
+          "studentized_residual": -0.86,
           "is_outlier": false
         },
         {
@@ -5176,7 +5176,7 @@
           "price": 1997.0,
           "x": -11.26,
           "y": 0.03,
-          "expected_y": 4.13,
+          "expected_y": 4.14,
           "residual": -4.11,
           "studentized_residual": -0.89,
           "is_outlier": false
@@ -5188,8 +5188,8 @@
           "price": 35760.0,
           "x": -2.18,
           "y": 0.73,
-          "expected_y": 4.87,
-          "residual": -4.14,
+          "expected_y": 4.88,
+          "residual": -4.15,
           "studentized_residual": -0.9,
           "is_outlier": false
         },
@@ -5225,7 +5225,7 @@
           "x": 2.29,
           "y": 0.81,
           "expected_y": 5.24,
-          "residual": -4.42,
+          "residual": -4.43,
           "studentized_residual": -0.96,
           "is_outlier": false
         },
@@ -5272,9 +5272,9 @@
           "price": 3301.9,
           "x": 4.0,
           "y": 0.76,
-          "expected_y": 5.37,
+          "expected_y": 5.38,
           "residual": -4.62,
-          "studentized_residual": -1.0,
+          "studentized_residual": -1.01,
           "is_outlier": false
         },
         {
@@ -5284,7 +5284,7 @@
           "price": 7839.0,
           "x": -16.44,
           "y": -1.03,
-          "expected_y": 3.71,
+          "expected_y": 3.72,
           "residual": -4.74,
           "studentized_residual": -1.03,
           "is_outlier": false
@@ -5296,7 +5296,7 @@
           "price": 186.55,
           "x": -0.44,
           "y": 0.3,
-          "expected_y": 5.01,
+          "expected_y": 5.02,
           "residual": -4.72,
           "studentized_residual": -1.03,
           "is_outlier": false
@@ -5309,7 +5309,7 @@
           "x": -5.66,
           "y": -0.34,
           "expected_y": 4.59,
-          "residual": -4.93,
+          "residual": -4.94,
           "studentized_residual": -1.07,
           "is_outlier": false
         },
@@ -5320,7 +5320,7 @@
           "price": 336.7,
           "x": -4.24,
           "y": -0.24,
-          "expected_y": 4.7,
+          "expected_y": 4.71,
           "residual": -4.94,
           "studentized_residual": -1.07,
           "is_outlier": false
@@ -5332,7 +5332,7 @@
           "price": 3057.5,
           "x": 2.63,
           "y": 0.36,
-          "expected_y": 5.26,
+          "expected_y": 5.27,
           "residual": -4.9,
           "studentized_residual": -1.07,
           "is_outlier": false
@@ -5345,7 +5345,7 @@
           "x": 7.11,
           "y": 0.58,
           "expected_y": 5.63,
-          "residual": -5.04,
+          "residual": -5.05,
           "studentized_residual": -1.1,
           "is_outlier": false
         },
@@ -5380,7 +5380,7 @@
           "price": 353.4,
           "x": -7.8,
           "y": -0.7,
-          "expected_y": 4.41,
+          "expected_y": 4.42,
           "residual": -5.12,
           "studentized_residual": -1.11,
           "is_outlier": false
@@ -5405,7 +5405,7 @@
           "x": -0.64,
           "y": -0.29,
           "expected_y": 5.0,
-          "residual": -5.28,
+          "residual": -5.29,
           "studentized_residual": -1.15,
           "is_outlier": false
         },
@@ -5416,9 +5416,9 @@
           "price": 2498.8,
           "x": 6.2,
           "y": -0.12,
-          "expected_y": 5.55,
+          "expected_y": 5.56,
           "residual": -5.67,
-          "studentized_residual": -1.23,
+          "studentized_residual": -1.24,
           "is_outlier": false
         },
         {
@@ -5429,7 +5429,7 @@
           "x": 13.72,
           "y": 0.28,
           "expected_y": 6.17,
-          "residual": -5.88,
+          "residual": -5.89,
           "studentized_residual": -1.29,
           "is_outlier": false
         },
@@ -5453,7 +5453,7 @@
           "x": -0.63,
           "y": -1.24,
           "expected_y": 5.0,
-          "residual": -6.24,
+          "residual": -6.25,
           "studentized_residual": -1.36,
           "is_outlier": false
         },
@@ -5488,8 +5488,8 @@
           "price": 2524.0,
           "x": -0.83,
           "y": -1.56,
-          "expected_y": 4.98,
-          "residual": -6.54,
+          "expected_y": 4.99,
+          "residual": -6.55,
           "studentized_residual": -1.42,
           "is_outlier": false
         },
@@ -5500,8 +5500,8 @@
           "price": 5716.5,
           "x": -2.92,
           "y": -1.93,
-          "expected_y": 4.81,
-          "residual": -6.74,
+          "expected_y": 4.82,
+          "residual": -6.75,
           "studentized_residual": -1.47,
           "is_outlier": false
         },
@@ -5525,8 +5525,8 @@
           "x": 13.41,
           "y": -1.29,
           "expected_y": 6.14,
-          "residual": -7.43,
-          "studentized_residual": -1.62,
+          "residual": -7.44,
+          "studentized_residual": -1.63,
           "is_outlier": false
         },
         {
@@ -5536,9 +5536,9 @@
           "price": 191.56,
           "x": 2.51,
           "y": -2.54,
-          "expected_y": 5.25,
-          "residual": -7.79,
-          "studentized_residual": -1.69,
+          "expected_y": 5.26,
+          "residual": -7.8,
+          "studentized_residual": -1.7,
           "is_outlier": false
         },
         {
@@ -5560,8 +5560,8 @@
           "price": 519.5,
           "x": -1.4,
           "y": -3.53,
-          "expected_y": 4.93,
-          "residual": -8.46,
+          "expected_y": 4.94,
+          "residual": -8.47,
           "studentized_residual": -1.84,
           "is_outlier": false
         },
@@ -5572,7 +5572,7 @@
           "price": 782.7,
           "x": -12.86,
           "y": -4.67,
-          "expected_y": 4.0,
+          "expected_y": 4.01,
           "residual": -8.67,
           "studentized_residual": -1.89,
           "is_outlier": false
@@ -5585,7 +5585,7 @@
           "x": -7.0,
           "y": -4.3,
           "expected_y": 4.48,
-          "residual": -8.78,
+          "residual": -8.79,
           "studentized_residual": -1.91,
           "is_outlier": false
         },
@@ -5608,9 +5608,9 @@
           "price": 1260.0,
           "x": -21.12,
           "y": -7.31,
-          "expected_y": 3.33,
-          "residual": -10.64,
-          "studentized_residual": -2.32,
+          "expected_y": 3.34,
+          "residual": -10.65,
+          "studentized_residual": -2.33,
           "is_outlier": true
         },
         {
@@ -5621,8 +5621,8 @@
           "x": -27.18,
           "y": -9.67,
           "expected_y": 2.84,
-          "residual": -12.51,
-          "studentized_residual": -2.74,
+          "residual": -12.52,
+          "studentized_residual": -2.75,
           "is_outlier": true
         },
         {
@@ -5632,9 +5632,9 @@
           "price": 1750.7,
           "x": -35.23,
           "y": -21.3,
-          "expected_y": 2.18,
+          "expected_y": 2.19,
           "residual": -23.48,
-          "studentized_residual": -5.19,
+          "studentized_residual": -5.2,
           "is_outlier": true
         }
       ]
@@ -5648,7 +5648,7 @@
         "std_v": 4.31,
         "mean_a": -0.17,
         "std_a": 1.49,
-        "rho": 0.224,
+        "rho": 0.2235,
         "q2_inflection_count": 3
       },
       "points": [
@@ -5661,7 +5661,7 @@
           "y": -2.51,
           "raw_v": -15.28,
           "raw_a": -3.9,
-          "mahalanobis_dist": 4.96,
+          "mahalanobis_dist": 4.97,
           "quadrant": 3,
           "is_inflection": false
         },
@@ -5684,7 +5684,7 @@
           "sector": "Oil, Gas & Energy",
           "price": 1324.0,
           "x": 0.44,
-          "y": -3.36,
+          "y": -3.37,
           "raw_v": 7.03,
           "raw_a": -5.18,
           "mahalanobis_dist": 3.58,
@@ -5749,10 +5749,10 @@
           "sector": "Capital Goods & Engineering",
           "price": 4115.0,
           "x": -3.01,
-          "y": -0.81,
+          "y": -0.82,
           "raw_v": -7.84,
           "raw_a": -1.38,
-          "mahalanobis_dist": 3.01,
+          "mahalanobis_dist": 3.02,
           "quadrant": 3,
           "is_inflection": false
         },
@@ -5762,10 +5762,10 @@
           "sector": "Financial Services",
           "price": 1144.0,
           "x": 2.39,
-          "y": 2.26,
+          "y": 2.27,
           "raw_v": 15.41,
           "raw_a": 3.21,
-          "mahalanobis_dist": 2.97,
+          "mahalanobis_dist": 2.98,
           "quadrant": 1,
           "is_inflection": false
         },
@@ -5788,7 +5788,7 @@
           "sector": "Infrastructure & Construction",
           "price": 78.25,
           "x": 0.42,
-          "y": -2.67,
+          "y": -2.68,
           "raw_v": 6.94,
           "raw_a": -4.16,
           "mahalanobis_dist": 2.87,
@@ -5853,10 +5853,10 @@
           "sector": "Oil, Gas & Energy",
           "price": 184.72,
           "x": 0.58,
-          "y": -2.07,
+          "y": -2.08,
           "raw_v": 7.62,
           "raw_a": -3.26,
-          "mahalanobis_dist": 2.33,
+          "mahalanobis_dist": 2.34,
           "quadrant": 4,
           "is_inflection": false
         },
@@ -5879,7 +5879,7 @@
           "sector": "Pharmaceuticals & Healthcare",
           "price": 3301.9,
           "x": -0.19,
-          "y": -2.27,
+          "y": -2.28,
           "raw_v": 4.32,
           "raw_a": -3.56,
           "mahalanobis_dist": 2.3,
@@ -6022,7 +6022,7 @@
           "sector": "Financial Services",
           "price": 1081.75,
           "x": 1.8,
-          "y": 0.04,
+          "y": 0.03,
           "raw_v": 12.87,
           "raw_a": -0.11,
           "mahalanobis_dist": 1.83,
@@ -6073,7 +6073,7 @@
           "name": "ICICI Bank Ltd",
           "sector": "Financial Services",
           "price": 1565.0,
-          "x": 1.32,
+          "x": 1.31,
           "y": 1.46,
           "raw_v": 10.8,
           "raw_a": 2.0,
@@ -6126,7 +6126,7 @@
           "sector": "Metals & Mining",
           "price": 519.5,
           "x": -1.59,
-          "y": -1.07,
+          "y": -1.08,
           "raw_v": -1.7,
           "raw_a": -1.77,
           "mahalanobis_dist": 1.75,
@@ -6217,7 +6217,7 @@
           "sector": "Infrastructure & Construction",
           "price": 121.85,
           "x": -1.25,
-          "y": 0.73,
+          "y": 0.72,
           "raw_v": -0.25,
           "raw_a": 0.91,
           "mahalanobis_dist": 1.62,
@@ -6243,7 +6243,7 @@
           "sector": "Metals & Mining",
           "price": 1351.1,
           "x": 0.11,
-          "y": -1.53,
+          "y": -1.54,
           "raw_v": 5.6,
           "raw_a": -2.45,
           "mahalanobis_dist": 1.6,
@@ -6334,7 +6334,7 @@
           "sector": "Renewable Energy & Utilities",
           "price": 353.4,
           "x": -0.82,
-          "y": -1.42,
+          "y": -1.43,
           "raw_v": 1.59,
           "raw_a": -2.29,
           "mahalanobis_dist": 1.52,
@@ -6425,7 +6425,7 @@
           "sector": "Financial Services",
           "price": 17.3,
           "x": 1.0,
-          "y": 1.24,
+          "y": 1.23,
           "raw_v": 9.44,
           "raw_a": 1.67,
           "mahalanobis_dist": 1.44,
@@ -6490,7 +6490,7 @@
           "sector": "Metals & Mining",
           "price": 1155.0,
           "x": 0.38,
-          "y": -1.21,
+          "y": -1.22,
           "raw_v": 6.79,
           "raw_a": -1.98,
           "mahalanobis_dist": 1.39,
@@ -6529,7 +6529,7 @@
           "sector": "Infrastructure & Construction",
           "price": 97.92,
           "x": 1.31,
-          "y": -0.09,
+          "y": -0.1,
           "raw_v": 10.76,
           "raw_a": -0.31,
           "mahalanobis_dist": 1.37,
@@ -6555,7 +6555,7 @@
           "sector": "Consumer Goods & Retail",
           "price": 4990.5,
           "x": 1.33,
-          "y": 0.53,
+          "y": 0.52,
           "raw_v": 10.87,
           "raw_a": 0.62,
           "mahalanobis_dist": 1.35,
@@ -6573,19 +6573,6 @@
           "raw_a": -1.91,
           "mahalanobis_dist": 1.32,
           "quadrant": 4,
-          "is_inflection": false
-        },
-        {
-          "ticker": "MANIPALHOS",
-          "name": "Manipal Health Enterprises Ltd",
-          "sector": "Pharmaceuticals & Healthcare",
-          "price": 658.4,
-          "x": -1.12,
-          "y": 0.4,
-          "raw_v": 0.31,
-          "raw_a": 0.44,
-          "mahalanobis_dist": 1.31,
-          "quadrant": 2,
           "is_inflection": false
         },
         {
@@ -6612,6 +6599,19 @@
           "raw_a": -1.94,
           "mahalanobis_dist": 1.3,
           "quadrant": 3,
+          "is_inflection": false
+        },
+        {
+          "ticker": "MANIPALHOS",
+          "name": "Manipal Health Enterprises Ltd",
+          "sector": "Pharmaceuticals & Healthcare",
+          "price": 658.4,
+          "x": -1.12,
+          "y": 0.4,
+          "raw_v": 0.31,
+          "raw_a": 0.44,
+          "mahalanobis_dist": 1.3,
+          "quadrant": 2,
           "is_inflection": false
         },
         {
@@ -6671,7 +6671,7 @@
           "name": "Tata Consultancy Services Ltd",
           "sector": "IT & Tech Services",
           "price": 2498.8,
-          "x": -1.21,
+          "x": -1.22,
           "y": 0.1,
           "raw_v": -0.1,
           "raw_a": -0.02,
@@ -6771,6 +6771,19 @@
           "is_inflection": false
         },
         {
+          "ticker": "BHARATFORG",
+          "name": "Bharat Forge Ltd",
+          "sector": "Auto & Ancillaries",
+          "price": 1738.8,
+          "x": -1.19,
+          "y": -0.46,
+          "raw_v": 0.01,
+          "raw_a": -0.85,
+          "mahalanobis_dist": 1.21,
+          "quadrant": 3,
+          "is_inflection": false
+        },
+        {
           "ticker": "HINDPETRO",
           "name": "Hindustan Petroleum Corporation Ltd",
           "sector": "Oil, Gas & Energy",
@@ -6797,25 +6810,12 @@
           "is_inflection": false
         },
         {
-          "ticker": "BHARATFORG",
-          "name": "Bharat Forge Ltd",
-          "sector": "Auto & Ancillaries",
-          "price": 1738.8,
-          "x": -1.19,
-          "y": -0.46,
-          "raw_v": 0.01,
-          "raw_a": -0.85,
-          "mahalanobis_dist": 1.2,
-          "quadrant": 3,
-          "is_inflection": false
-        },
-        {
           "ticker": "NYKAA",
           "name": "FSN E-Commerce Ventures Ltd (Nykaa)",
           "sector": "Consumer Goods & Retail",
           "price": 351.0,
           "x": -1.1,
-          "y": -0.65,
+          "y": -0.66,
           "raw_v": 0.39,
           "raw_a": -1.14,
           "mahalanobis_dist": 1.18,
@@ -6867,7 +6867,7 @@
           "sector": "Chemicals & Materials",
           "price": 3207.2,
           "x": 0.33,
-          "y": -1.0,
+          "y": -1.01,
           "raw_v": 6.58,
           "raw_a": -1.67,
           "mahalanobis_dist": 1.16,
@@ -6906,10 +6906,23 @@
           "sector": "IT & Tech Services",
           "price": 6022.0,
           "x": -1.02,
-          "y": -0.71,
+          "y": -0.72,
           "raw_v": 0.75,
           "raw_a": -1.23,
           "mahalanobis_dist": 1.13,
+          "quadrant": 3,
+          "is_inflection": false
+        },
+        {
+          "ticker": "APOLLOHOSP",
+          "name": "Apollo Hospitals Enterprise Ltd",
+          "sector": "Pharmaceuticals & Healthcare",
+          "price": 8430.0,
+          "x": -0.97,
+          "y": -0.75,
+          "raw_v": 0.94,
+          "raw_a": -1.28,
+          "mahalanobis_dist": 1.12,
           "quadrant": 3,
           "is_inflection": false
         },
@@ -6927,14 +6940,14 @@
           "is_inflection": false
         },
         {
-          "ticker": "APOLLOHOSP",
-          "name": "Apollo Hospitals Enterprise Ltd",
-          "sector": "Pharmaceuticals & Healthcare",
-          "price": 8430.0,
-          "x": -0.97,
-          "y": -0.75,
-          "raw_v": 0.94,
-          "raw_a": -1.28,
+          "ticker": "INDUSTOWER",
+          "name": "Indus Towers Ltd",
+          "sector": "Telecom & Media",
+          "price": 381.9,
+          "x": -1.1,
+          "y": -0.35,
+          "raw_v": 0.39,
+          "raw_a": -0.68,
           "mahalanobis_dist": 1.11,
           "quadrant": 3,
           "is_inflection": false
@@ -6966,15 +6979,15 @@
           "is_inflection": false
         },
         {
-          "ticker": "INDUSTOWER",
-          "name": "Indus Towers Ltd",
-          "sector": "Telecom & Media",
-          "price": 381.9,
-          "x": -1.1,
-          "y": -0.34,
-          "raw_v": 0.39,
-          "raw_a": -0.68,
-          "mahalanobis_dist": 1.1,
+          "ticker": "PAGEIND",
+          "name": "Page Industries Ltd",
+          "sector": "Consumer Goods & Retail",
+          "price": 35760.0,
+          "x": -0.64,
+          "y": -1.0,
+          "raw_v": 2.39,
+          "raw_a": -1.65,
+          "mahalanobis_dist": 1.09,
           "quadrant": 3,
           "is_inflection": false
         },
@@ -7002,19 +7015,6 @@
           "raw_a": -1.57,
           "mahalanobis_dist": 1.08,
           "quadrant": 4,
-          "is_inflection": false
-        },
-        {
-          "ticker": "PAGEIND",
-          "name": "Page Industries Ltd",
-          "sector": "Consumer Goods & Retail",
-          "price": 35760.0,
-          "x": -0.64,
-          "y": -1.0,
-          "raw_v": 2.39,
-          "raw_a": -1.65,
-          "mahalanobis_dist": 1.08,
-          "quadrant": 3,
           "is_inflection": false
         },
         {
@@ -7048,7 +7048,7 @@
           "name": "Varun Beverages Ltd",
           "sector": "Consumer Goods & Retail",
           "price": 435.0,
-          "x": 0.79,
+          "x": 0.78,
           "y": 0.88,
           "raw_v": 8.51,
           "raw_a": 1.15,
@@ -7213,6 +7213,19 @@
           "is_inflection": false
         },
         {
+          "ticker": "PREMIERENE",
+          "name": "Premier Energies Ltd",
+          "sector": "Renewable Energy & Utilities",
+          "price": 885.0,
+          "x": -0.87,
+          "y": -0.67,
+          "raw_v": 1.38,
+          "raw_a": -1.16,
+          "mahalanobis_dist": 1.0,
+          "quadrant": 3,
+          "is_inflection": false
+        },
+        {
           "ticker": "NATIONALUM",
           "name": "National Aluminium Company Ltd",
           "sector": "Metals & Mining",
@@ -7222,19 +7235,6 @@
           "raw_v": 2.18,
           "raw_a": -1.45,
           "mahalanobis_dist": 1.0,
-          "quadrant": 3,
-          "is_inflection": false
-        },
-        {
-          "ticker": "PREMIERENE",
-          "name": "Premier Energies Ltd",
-          "sector": "Renewable Energy & Utilities",
-          "price": 885.0,
-          "x": -0.87,
-          "y": -0.66,
-          "raw_v": 1.38,
-          "raw_a": -1.16,
-          "mahalanobis_dist": 0.99,
           "quadrant": 3,
           "is_inflection": false
         },
@@ -7304,6 +7304,19 @@
           "is_inflection": false
         },
         {
+          "ticker": "BANKBARODA",
+          "name": "Bank of Baroda",
+          "sector": "Financial Services",
+          "price": 248.9,
+          "x": -0.49,
+          "y": -0.9,
+          "raw_v": 3.03,
+          "raw_a": -1.51,
+          "mahalanobis_dist": 0.95,
+          "quadrant": 3,
+          "is_inflection": false
+        },
+        {
           "ticker": "BOSCHLTD",
           "name": "Bosch Ltd",
           "sector": "Auto & Ancillaries",
@@ -7314,19 +7327,6 @@
           "raw_a": -1.26,
           "mahalanobis_dist": 0.94,
           "quadrant": 4,
-          "is_inflection": false
-        },
-        {
-          "ticker": "BANKBARODA",
-          "name": "Bank of Baroda",
-          "sector": "Financial Services",
-          "price": 248.9,
-          "x": -0.49,
-          "y": -0.9,
-          "raw_v": 3.03,
-          "raw_a": -1.51,
-          "mahalanobis_dist": 0.94,
-          "quadrant": 3,
           "is_inflection": false
         },
         {
@@ -7503,7 +7503,7 @@
           "name": "Colgate-Palmolive (India) Ltd",
           "sector": "Consumer Goods & Retail",
           "price": 1692.8,
-          "x": 0.31,
+          "x": 0.3,
           "y": 0.8,
           "raw_v": 6.45,
           "raw_a": 1.03,
@@ -7568,7 +7568,7 @@
           "name": "Central Depository Services (India) Ltd",
           "sector": "Financial Services",
           "price": 1343.5,
-          "x": 0.29,
+          "x": 0.28,
           "y": 0.75,
           "raw_v": 6.36,
           "raw_a": 0.95,
@@ -7668,19 +7668,6 @@
           "is_inflection": false
         },
         {
-          "ticker": "DABUR",
-          "name": "Dabur India Ltd",
-          "sector": "Consumer Goods & Retail",
-          "price": 382.8,
-          "x": -0.36,
-          "y": -0.69,
-          "raw_v": 3.57,
-          "raw_a": -1.19,
-          "mahalanobis_dist": 0.72,
-          "quadrant": 3,
-          "is_inflection": false
-        },
-        {
           "ticker": "TORNTPHARM",
           "name": "Torrent Pharmaceuticals Ltd",
           "sector": "Pharmaceuticals & Healthcare",
@@ -7712,7 +7699,7 @@
           "sector": "Financial Services",
           "price": 125.55,
           "x": -0.7,
-          "y": 0.04,
+          "y": 0.03,
           "raw_v": 2.14,
           "raw_a": -0.11,
           "mahalanobis_dist": 0.72,
@@ -7725,7 +7712,7 @@
           "sector": "Real Estate & Realty",
           "price": 746.0,
           "x": 0.47,
-          "y": -0.39,
+          "y": -0.4,
           "raw_v": 7.17,
           "raw_a": -0.75,
           "mahalanobis_dist": 0.7,
@@ -7789,7 +7776,7 @@
           "name": "Pidilite Industries Ltd",
           "sector": "Chemicals & Materials",
           "price": 1578.2,
-          "x": 0.4,
+          "x": 0.39,
           "y": -0.41,
           "raw_v": 6.83,
           "raw_a": -0.77,
@@ -7816,7 +7803,7 @@
           "sector": "Consumer Goods & Retail",
           "price": 1997.0,
           "x": 0.23,
-          "y": -0.5,
+          "y": -0.51,
           "raw_v": 6.12,
           "raw_a": -0.92,
           "mahalanobis_dist": 0.61,
@@ -7855,7 +7842,7 @@
           "sector": "Metals & Mining",
           "price": 953.0,
           "x": 0.09,
-          "y": -0.53,
+          "y": -0.54,
           "raw_v": 5.53,
           "raw_a": -0.96,
           "mahalanobis_dist": 0.58,
@@ -7894,7 +7881,7 @@
           "sector": "Infrastructure & Construction",
           "price": 25000.0,
           "x": 0.36,
-          "y": -0.35,
+          "y": -0.36,
           "raw_v": 6.67,
           "raw_a": -0.69,
           "mahalanobis_dist": 0.57,
@@ -7907,7 +7894,7 @@
           "sector": "Financial Services",
           "price": 123.15,
           "x": -0.45,
-          "y": 0.23,
+          "y": 0.22,
           "raw_v": 3.2,
           "raw_a": 0.17,
           "mahalanobis_dist": 0.56,
@@ -7920,7 +7907,7 @@
           "sector": "Defense & Aerospace",
           "price": 4985.0,
           "x": -0.53,
-          "y": 0.01,
+          "y": 0.0,
           "raw_v": 2.84,
           "raw_a": -0.16,
           "mahalanobis_dist": 0.55,
@@ -7993,6 +7980,19 @@
           "is_inflection": false
         },
         {
+          "ticker": "RAINBOW",
+          "name": "Rainbow Childrens Medicare Ltd",
+          "sector": "Pharmaceuticals & Healthcare",
+          "price": 1270.4,
+          "x": -0.47,
+          "y": -0.28,
+          "raw_v": 3.11,
+          "raw_a": -0.59,
+          "mahalanobis_dist": 0.51,
+          "quadrant": 3,
+          "is_inflection": false
+        },
+        {
           "ticker": "BRITANNIA",
           "name": "Britannia Industries Ltd",
           "sector": "Consumer Goods & Retail",
@@ -8010,25 +8010,12 @@
           "name": "Indian Railway Catering and Tourism Corporation Ltd",
           "sector": "Logistics & Services",
           "price": 464.45,
-          "x": -0.36,
-          "y": 0.26,
+          "x": -0.37,
+          "y": 0.25,
           "raw_v": 3.56,
           "raw_a": 0.21,
           "mahalanobis_dist": 0.5,
           "quadrant": 2,
-          "is_inflection": false
-        },
-        {
-          "ticker": "RAINBOW",
-          "name": "Rainbow Childrens Medicare Ltd",
-          "sector": "Pharmaceuticals & Healthcare",
-          "price": 1270.4,
-          "x": -0.47,
-          "y": -0.28,
-          "raw_v": 3.11,
-          "raw_a": -0.59,
-          "mahalanobis_dist": 0.5,
-          "quadrant": 3,
           "is_inflection": false
         },
         {
@@ -8115,7 +8102,7 @@
           "sector": "Capital Goods & Engineering",
           "price": 1238.3,
           "x": 0.01,
-          "y": -0.44,
+          "y": -0.45,
           "raw_v": 5.19,
           "raw_a": -0.83,
           "mahalanobis_dist": 0.46,
@@ -8141,7 +8128,7 @@
           "sector": "Infrastructure & Construction",
           "price": 2731.0,
           "x": 0.02,
-          "y": -0.42,
+          "y": -0.43,
           "raw_v": 5.22,
           "raw_a": -0.8,
           "mahalanobis_dist": 0.44,
@@ -8201,6 +8188,19 @@
           "is_inflection": false
         },
         {
+          "ticker": "DABUR",
+          "name": "Dabur India Ltd",
+          "sector": "Consumer Goods & Retail",
+          "price": 382.8,
+          "x": -0.25,
+          "y": -0.37,
+          "raw_v": 4.05,
+          "raw_a": -0.72,
+          "mahalanobis_dist": 0.41,
+          "quadrant": 3,
+          "is_inflection": false
+        },
+        {
           "ticker": "TVSMOTOR",
           "name": "TVS Motor Company Ltd",
           "sector": "Auto & Ancillaries",
@@ -8232,7 +8232,7 @@
           "sector": "Financial Services",
           "price": 80.29,
           "x": 0.32,
-          "y": -0.15,
+          "y": -0.16,
           "raw_v": 6.53,
           "raw_a": -0.4,
           "mahalanobis_dist": 0.4,
@@ -8274,7 +8274,7 @@
           "y": 0.33,
           "raw_v": 5.93,
           "raw_a": 0.32,
-          "mahalanobis_dist": 0.35,
+          "mahalanobis_dist": 0.34,
           "quadrant": 1,
           "is_inflection": false
         },
@@ -8300,21 +8300,8 @@
           "y": -0.31,
           "raw_v": 4.29,
           "raw_a": -0.63,
-          "mahalanobis_dist": 0.33,
+          "mahalanobis_dist": 0.34,
           "quadrant": 3,
-          "is_inflection": false
-        },
-        {
-          "ticker": "OBEROIRLTY",
-          "name": "Oberoi Realty Ltd",
-          "sector": "Real Estate & Realty",
-          "price": 1737.1,
-          "x": 0.16,
-          "y": 0.3,
-          "raw_v": 5.83,
-          "raw_a": 0.28,
-          "mahalanobis_dist": 0.32,
-          "quadrant": 1,
           "is_inflection": false
         },
         {
@@ -8336,7 +8323,7 @@
           "sector": "Consumer Goods & Retail",
           "price": 283.45,
           "x": 0.25,
-          "y": 0.23,
+          "y": 0.22,
           "raw_v": 6.23,
           "raw_a": 0.17,
           "mahalanobis_dist": 0.31,
@@ -8354,6 +8341,19 @@
           "raw_a": -0.57,
           "mahalanobis_dist": 0.31,
           "quadrant": 4,
+          "is_inflection": false
+        },
+        {
+          "ticker": "OBEROIRLTY",
+          "name": "Oberoi Realty Ltd",
+          "sector": "Real Estate & Realty",
+          "price": 1737.1,
+          "x": 0.16,
+          "y": 0.3,
+          "raw_v": 5.83,
+          "raw_a": 0.28,
+          "mahalanobis_dist": 0.31,
+          "quadrant": 1,
           "is_inflection": false
         },
         {
@@ -8413,8 +8413,8 @@
           "name": "IDFC First Bank Ltd",
           "sector": "Financial Services",
           "price": 77.1,
-          "x": 0.01,
-          "y": -0.18,
+          "x": 0.0,
+          "y": -0.19,
           "raw_v": 5.16,
           "raw_a": -0.44,
           "mahalanobis_dist": 0.19,
@@ -8443,7 +8443,7 @@
           "y": 0.13,
           "raw_v": 5.61,
           "raw_a": 0.03,
-          "mahalanobis_dist": 0.16,
+          "mahalanobis_dist": 0.15,
           "quadrant": 1,
           "is_inflection": false
         },
@@ -8516,7 +8516,7 @@
           "y": -2.81,
           "half_life_days": 7.8,
           "spread_zscore": -2.81,
-          "ar1_b": 0.9154,
+          "ar1_b": 0.9155,
           "is_high_elasticity": true
         },
         {
@@ -8528,7 +8528,7 @@
           "y": -2.79,
           "half_life_days": 37.0,
           "spread_zscore": -2.79,
-          "ar1_b": 0.9814,
+          "ar1_b": 0.9815,
           "is_high_elasticity": false
         },
         {
@@ -8572,9 +8572,9 @@
           "name": "AU Small Finance Bank Ltd",
           "sector": "Financial Services",
           "price": 929.0,
-          "x": 10.3,
+          "x": 10.4,
           "y": -2.52,
-          "half_life_days": 10.3,
+          "half_life_days": 10.4,
           "spread_zscore": -2.52,
           "ar1_b": 0.9352,
           "is_high_elasticity": false
@@ -8596,9 +8596,9 @@
           "name": "Vinati Organics Ltd",
           "sector": "Chemicals & Materials",
           "price": 1071.55,
-          "x": 163.7,
+          "x": 164.4,
           "y": -2.41,
-          "half_life_days": 163.7,
+          "half_life_days": 164.4,
           "spread_zscore": -2.41,
           "ar1_b": 0.9958,
           "is_high_elasticity": false
@@ -8608,9 +8608,9 @@
           "name": "KEI Industries Ltd",
           "sector": "Capital Goods & Engineering",
           "price": 4010.0,
-          "x": 87.5,
+          "x": 87.6,
           "y": -2.25,
-          "half_life_days": 87.5,
+          "half_life_days": 87.6,
           "spread_zscore": -2.25,
           "ar1_b": 0.9921,
           "is_high_elasticity": false
@@ -8624,7 +8624,7 @@
           "y": -2.17,
           "half_life_days": 250.0,
           "spread_zscore": -2.17,
-          "ar1_b": 0.9984,
+          "ar1_b": 0.9985,
           "is_high_elasticity": false
         },
         {
@@ -8636,7 +8636,7 @@
           "y": -2.16,
           "half_life_days": 13.4,
           "spread_zscore": -2.16,
-          "ar1_b": 0.9494,
+          "ar1_b": 0.9495,
           "is_high_elasticity": false
         },
         {
@@ -8656,10 +8656,10 @@
           "name": "PB Fintech Ltd (Policybazaar)",
           "sector": "Financial Services",
           "price": 967.0,
-          "x": 65.9,
-          "y": -2.07,
-          "half_life_days": 65.9,
-          "spread_zscore": -2.07,
+          "x": 66.0,
+          "y": -2.08,
+          "half_life_days": 66.0,
+          "spread_zscore": -2.08,
           "ar1_b": 0.9895,
           "is_high_elasticity": false
         },
@@ -8684,7 +8684,7 @@
           "y": -1.96,
           "half_life_days": 250.0,
           "spread_zscore": -1.96,
-          "ar1_b": 1.0,
+          "ar1_b": 1.0001,
           "is_high_elasticity": false
         },
         {
@@ -8705,9 +8705,9 @@
           "sector": "Pharmaceuticals & Healthcare",
           "price": 1270.4,
           "x": 22.5,
-          "y": -1.93,
+          "y": -1.94,
           "half_life_days": 22.5,
-          "spread_zscore": -1.93,
+          "spread_zscore": -1.94,
           "ar1_b": 0.9696,
           "is_high_elasticity": false
         },
@@ -8716,9 +8716,9 @@
           "name": "NMDC Ltd",
           "sector": "Metals & Mining",
           "price": 71.0,
-          "x": 57.7,
+          "x": 57.8,
           "y": -1.92,
-          "half_life_days": 57.7,
+          "half_life_days": 57.8,
           "spread_zscore": -1.92,
           "ar1_b": 0.9881,
           "is_high_elasticity": false
@@ -8752,9 +8752,9 @@
           "name": "Bharat Dynamics Ltd",
           "sector": "Defense & Aerospace",
           "price": 1069.0,
-          "x": 36.6,
+          "x": 36.7,
           "y": -1.88,
-          "half_life_days": 36.6,
+          "half_life_days": 36.7,
           "spread_zscore": -1.88,
           "ar1_b": 0.9813,
           "is_high_elasticity": false
@@ -8764,11 +8764,11 @@
           "name": "Premier Energies Ltd",
           "sector": "Renewable Energy & Utilities",
           "price": 885.0,
-          "x": 29.8,
+          "x": 29.9,
           "y": -1.83,
-          "half_life_days": 29.8,
+          "half_life_days": 29.9,
           "spread_zscore": -1.83,
-          "ar1_b": 0.977,
+          "ar1_b": 0.9771,
           "is_high_elasticity": false
         },
         {
@@ -8789,9 +8789,9 @@
           "sector": "Infrastructure & Construction",
           "price": 2731.0,
           "x": 8.0,
-          "y": -1.78,
+          "y": -1.79,
           "half_life_days": 8.0,
-          "spread_zscore": -1.78,
+          "spread_zscore": -1.79,
           "ar1_b": 0.9168,
           "is_high_elasticity": false
         },
@@ -8852,7 +8852,7 @@
           "y": -1.71,
           "half_life_days": 8.0,
           "spread_zscore": -1.71,
-          "ar1_b": 0.9165,
+          "ar1_b": 0.9166,
           "is_high_elasticity": false
         },
         {
@@ -8860,23 +8860,11 @@
           "name": "Lupin Ltd",
           "sector": "Pharmaceuticals & Healthcare",
           "price": 1997.0,
-          "x": 77.1,
+          "x": 77.2,
           "y": -1.66,
-          "half_life_days": 77.1,
+          "half_life_days": 77.2,
           "spread_zscore": -1.66,
-          "ar1_b": 0.991,
-          "is_high_elasticity": false
-        },
-        {
-          "ticker": "VMM",
-          "name": "Vishal Mega Mart Ltd",
-          "sector": "Consumer Goods & Retail",
-          "price": 94.0,
-          "x": 34.9,
-          "y": -1.65,
-          "half_life_days": 34.9,
-          "spread_zscore": -1.65,
-          "ar1_b": 0.9804,
+          "ar1_b": 0.9911,
           "is_high_elasticity": false
         },
         {
@@ -8885,10 +8873,22 @@
           "sector": "Capital Goods & Engineering",
           "price": 1056.5,
           "x": 53.8,
-          "y": -1.64,
+          "y": -1.65,
           "half_life_days": 53.8,
-          "spread_zscore": -1.64,
+          "spread_zscore": -1.65,
           "ar1_b": 0.9872,
+          "is_high_elasticity": false
+        },
+        {
+          "ticker": "VMM",
+          "name": "Vishal Mega Mart Ltd",
+          "sector": "Consumer Goods & Retail",
+          "price": 94.0,
+          "x": 35.0,
+          "y": -1.65,
+          "half_life_days": 35.0,
+          "spread_zscore": -1.65,
+          "ar1_b": 0.9804,
           "is_high_elasticity": false
         },
         {
@@ -8896,9 +8896,9 @@
           "name": "Pfizer Ltd",
           "sector": "Pharmaceuticals & Healthcare",
           "price": 3903.8,
-          "x": 48.7,
+          "x": 48.8,
           "y": -1.63,
-          "half_life_days": 48.7,
+          "half_life_days": 48.8,
           "spread_zscore": -1.63,
           "ar1_b": 0.9859,
           "is_high_elasticity": false
@@ -8956,9 +8956,9 @@
           "name": "Suzlon Energy Ltd",
           "sector": "Renewable Energy & Utilities",
           "price": 39.0,
-          "x": 136.2,
+          "x": 136.3,
           "y": -1.41,
-          "half_life_days": 136.2,
+          "half_life_days": 136.3,
           "spread_zscore": -1.41,
           "ar1_b": 0.9949,
           "is_high_elasticity": false
@@ -9148,9 +9148,9 @@
           "name": "NBCC (India) Ltd",
           "sector": "Infrastructure & Construction",
           "price": 78.25,
-          "x": 126.4,
+          "x": 126.5,
           "y": -1.18,
-          "half_life_days": 126.4,
+          "half_life_days": 126.5,
           "spread_zscore": -1.18,
           "ar1_b": 0.9945,
           "is_high_elasticity": false
@@ -9204,18 +9204,6 @@
           "is_high_elasticity": false
         },
         {
-          "ticker": "DABUR",
-          "name": "Dabur India Ltd",
-          "sector": "Consumer Goods & Retail",
-          "price": 382.8,
-          "x": 16.6,
-          "y": -1.08,
-          "half_life_days": 16.6,
-          "spread_zscore": -1.08,
-          "ar1_b": 0.9592,
-          "is_high_elasticity": false
-        },
-        {
           "ticker": "LICI",
           "name": "Life Insurance Corporation of India",
           "sector": "Financial Services",
@@ -9245,9 +9233,9 @@
           "sector": "Capital Goods & Engineering",
           "price": 516.6,
           "x": 7.3,
-          "y": -0.99,
+          "y": -1.0,
           "half_life_days": 7.3,
-          "spread_zscore": -0.99,
+          "spread_zscore": -1.0,
           "ar1_b": 0.9093,
           "is_high_elasticity": false
         },
@@ -9276,6 +9264,18 @@
           "is_high_elasticity": false
         },
         {
+          "ticker": "DABUR",
+          "name": "Dabur India Ltd",
+          "sector": "Consumer Goods & Retail",
+          "price": 382.8,
+          "x": 15.9,
+          "y": -0.9,
+          "half_life_days": 15.9,
+          "spread_zscore": -0.9,
+          "ar1_b": 0.9574,
+          "is_high_elasticity": false
+        },
+        {
           "ticker": "CANBK",
           "name": "Canara Bank",
           "sector": "Financial Services",
@@ -9296,7 +9296,7 @@
           "y": -0.89,
           "half_life_days": 11.8,
           "spread_zscore": -0.89,
-          "ar1_b": 0.9427,
+          "ar1_b": 0.9428,
           "is_high_elasticity": false
         },
         {
@@ -9432,6 +9432,18 @@
           "is_high_elasticity": false
         },
         {
+          "ticker": "HINDALCO",
+          "name": "Hindalco Industries Ltd",
+          "sector": "Metals & Mining",
+          "price": 953.0,
+          "x": 13.7,
+          "y": -0.68,
+          "half_life_days": 13.7,
+          "spread_zscore": -0.68,
+          "ar1_b": 0.9505,
+          "is_high_elasticity": false
+        },
+        {
           "ticker": "MRF",
           "name": "MRF Ltd",
           "sector": "Auto & Ancillaries",
@@ -9456,26 +9468,14 @@
           "is_high_elasticity": false
         },
         {
-          "ticker": "HINDALCO",
-          "name": "Hindalco Industries Ltd",
-          "sector": "Metals & Mining",
-          "price": 953.0,
-          "x": 13.7,
-          "y": -0.67,
-          "half_life_days": 13.7,
-          "spread_zscore": -0.67,
-          "ar1_b": 0.9505,
-          "is_high_elasticity": false
-        },
-        {
           "ticker": "APOLLOHOSP",
           "name": "Apollo Hospitals Enterprise Ltd",
           "sector": "Pharmaceuticals & Healthcare",
           "price": 8430.0,
           "x": 4.4,
-          "y": -0.65,
+          "y": -0.66,
           "half_life_days": 4.4,
-          "spread_zscore": -0.65,
+          "spread_zscore": -0.66,
           "ar1_b": 0.8529,
           "is_high_elasticity": false
         },
@@ -10109,9 +10109,9 @@
           "sector": "Chemicals & Materials",
           "price": 191.56,
           "x": 37.6,
-          "y": 0.43,
+          "y": 0.42,
           "half_life_days": 37.6,
-          "spread_zscore": 0.43,
+          "spread_zscore": 0.42,
           "ar1_b": 0.9817,
           "is_high_elasticity": false
         },
@@ -10289,9 +10289,9 @@
           "sector": "Chemicals & Materials",
           "price": 3207.2,
           "x": 6.0,
-          "y": 0.84,
+          "y": 0.83,
           "half_life_days": 6.0,
-          "spread_zscore": 0.84,
+          "spread_zscore": 0.83,
           "ar1_b": 0.8914,
           "is_high_elasticity": false
         },
@@ -10304,7 +10304,7 @@
           "y": 0.84,
           "half_life_days": 8.6,
           "spread_zscore": 0.84,
-          "ar1_b": 0.9226,
+          "ar1_b": 0.9225,
           "is_high_elasticity": false
         },
         {
@@ -10364,7 +10364,7 @@
           "y": 0.94,
           "half_life_days": 13.3,
           "spread_zscore": 0.94,
-          "ar1_b": 0.9492,
+          "ar1_b": 0.9491,
           "is_high_elasticity": false
         },
         {
@@ -10432,11 +10432,23 @@
           "name": "HDFC Bank Ltd",
           "sector": "Financial Services",
           "price": 784.1,
-          "x": 17.3,
+          "x": 17.2,
           "y": 1.12,
-          "half_life_days": 17.3,
+          "half_life_days": 17.2,
           "spread_zscore": 1.12,
           "ar1_b": 0.9606,
+          "is_high_elasticity": false
+        },
+        {
+          "ticker": "SANOFI",
+          "name": "Sanofi India Ltd",
+          "sector": "Pharmaceuticals & Healthcare",
+          "price": 3301.9,
+          "x": 9.5,
+          "y": 1.13,
+          "half_life_days": 9.5,
+          "spread_zscore": 1.13,
+          "ar1_b": 0.9296,
           "is_high_elasticity": false
         },
         {
@@ -10449,18 +10461,6 @@
           "half_life_days": 13.0,
           "spread_zscore": 1.14,
           "ar1_b": 0.948,
-          "is_high_elasticity": false
-        },
-        {
-          "ticker": "SANOFI",
-          "name": "Sanofi India Ltd",
-          "sector": "Pharmaceuticals & Healthcare",
-          "price": 3301.9,
-          "x": 9.5,
-          "y": 1.14,
-          "half_life_days": 9.5,
-          "spread_zscore": 1.14,
-          "ar1_b": 0.9296,
           "is_high_elasticity": false
         },
         {
@@ -10496,7 +10496,7 @@
           "y": 1.21,
           "half_life_days": 3.7,
           "spread_zscore": 1.21,
-          "ar1_b": 0.8291,
+          "ar1_b": 0.829,
           "is_high_elasticity": false
         },
         {
@@ -10544,7 +10544,7 @@
           "y": 1.3,
           "half_life_days": 27.2,
           "spread_zscore": 1.3,
-          "ar1_b": 0.9749,
+          "ar1_b": 0.9748,
           "is_high_elasticity": false
         },
         {
@@ -10589,9 +10589,9 @@
           "sector": "Auto & Ancillaries",
           "price": 3267.8,
           "x": 10.4,
-          "y": 1.36,
+          "y": 1.35,
           "half_life_days": 10.4,
-          "spread_zscore": 1.36,
+          "spread_zscore": 1.35,
           "ar1_b": 0.9353,
           "is_high_elasticity": false
         },
@@ -10660,9 +10660,9 @@
           "name": "Tata Consultancy Services Ltd",
           "sector": "IT & Tech Services",
           "price": 2498.8,
-          "x": 19.1,
+          "x": 19.0,
           "y": 1.42,
-          "half_life_days": 19.1,
+          "half_life_days": 19.0,
           "spread_zscore": 1.42,
           "ar1_b": 0.9643,
           "is_high_elasticity": false
@@ -10673,10 +10673,10 @@
           "sector": "Auto & Ancillaries",
           "price": 50800.0,
           "x": 41.3,
-          "y": 1.48,
+          "y": 1.47,
           "half_life_days": 41.3,
-          "spread_zscore": 1.48,
-          "ar1_b": 0.9834,
+          "spread_zscore": 1.47,
+          "ar1_b": 0.9833,
           "is_high_elasticity": false
         },
         {
@@ -10744,9 +10744,9 @@
           "name": "HCL Technologies Ltd",
           "sector": "IT & Tech Services",
           "price": 1442.0,
-          "x": 42.8,
+          "x": 42.7,
           "y": 1.57,
-          "half_life_days": 42.8,
+          "half_life_days": 42.7,
           "spread_zscore": 1.57,
           "ar1_b": 0.9839,
           "is_high_elasticity": false
@@ -10784,7 +10784,7 @@
           "y": 1.7,
           "half_life_days": 9.9,
           "spread_zscore": 1.7,
-          "ar1_b": 0.9322,
+          "ar1_b": 0.9321,
           "is_high_elasticity": false
         },
         {
@@ -10792,9 +10792,9 @@
           "name": "Laurus Labs Ltd",
           "sector": "Pharmaceuticals & Healthcare",
           "price": 2370.0,
-          "x": 246.0,
+          "x": 245.7,
           "y": 1.72,
-          "half_life_days": 246.0,
+          "half_life_days": 245.7,
           "spread_zscore": 1.72,
           "ar1_b": 0.9972,
           "is_high_elasticity": false
@@ -10880,7 +10880,7 @@
           "y": 1.88,
           "half_life_days": 10.5,
           "spread_zscore": 1.88,
-          "ar1_b": 0.9361,
+          "ar1_b": 0.936,
           "is_high_elasticity": false
         },
         {
@@ -10901,9 +10901,9 @@
           "sector": "Oil, Gas & Energy",
           "price": 145.1,
           "x": 9.0,
-          "y": 2.04,
+          "y": 2.03,
           "half_life_days": 9.0,
-          "spread_zscore": 2.04,
+          "spread_zscore": 2.03,
           "ar1_b": 0.9261,
           "is_high_elasticity": false
         },
@@ -10948,9 +10948,9 @@
           "name": "Petronet LNG Ltd",
           "sector": "Oil, Gas & Energy",
           "price": 314.5,
-          "x": 74.4,
+          "x": 74.2,
           "y": 2.34,
-          "half_life_days": 74.4,
+          "half_life_days": 74.2,
           "spread_zscore": 2.34,
           "ar1_b": 0.9907,
           "is_high_elasticity": false
@@ -10961,10 +10961,10 @@
           "sector": "Oil, Gas & Energy",
           "price": 184.72,
           "x": 7.6,
-          "y": 2.39,
+          "y": 2.38,
           "half_life_days": 7.6,
-          "spread_zscore": 2.39,
-          "ar1_b": 0.913,
+          "spread_zscore": 2.38,
+          "ar1_b": 0.9129,
           "is_high_elasticity": false
         },
         {
@@ -10996,9 +10996,9 @@
           "name": "Corona Remedies Ltd",
           "sector": "Pharmaceuticals & Healthcare",
           "price": 2534.2,
-          "x": 61.1,
+          "x": 61.0,
           "y": 2.51,
-          "half_life_days": 61.1,
+          "half_life_days": 61.0,
           "spread_zscore": 2.51,
           "ar1_b": 0.9887,
           "is_high_elasticity": false
@@ -11009,9 +11009,9 @@
           "sector": "Auto & Ancillaries",
           "price": 1316.7,
           "x": 12.8,
-          "y": 2.62,
+          "y": 2.61,
           "half_life_days": 12.8,
-          "spread_zscore": 2.62,
+          "spread_zscore": 2.61,
           "ar1_b": 0.9473,
           "is_high_elasticity": false
         },
@@ -11032,11 +11032,11 @@
           "name": "ICICI Bank Ltd",
           "sector": "Financial Services",
           "price": 1565.0,
-          "x": 44.8,
+          "x": 44.7,
           "y": 2.86,
-          "half_life_days": 44.8,
+          "half_life_days": 44.7,
           "spread_zscore": 2.86,
-          "ar1_b": 0.9847,
+          "ar1_b": 0.9846,
           "is_high_elasticity": false
         },
         {
@@ -11045,10 +11045,10 @@
           "sector": "Consumer Goods & Retail",
           "price": 893.25,
           "x": 4.6,
-          "y": 3.03,
+          "y": 3.02,
           "half_life_days": 4.6,
-          "spread_zscore": 3.03,
-          "ar1_b": 0.8592,
+          "spread_zscore": 3.02,
+          "ar1_b": 0.8591,
           "is_high_elasticity": false
         },
         {
@@ -11056,11 +11056,11 @@
           "name": "UltraTech Cement Ltd",
           "sector": "Infrastructure & Construction",
           "price": 12499.0,
-          "x": 60.8,
+          "x": 60.5,
           "y": 3.48,
-          "half_life_days": 60.8,
+          "half_life_days": 60.5,
           "spread_zscore": 3.48,
-          "ar1_b": 0.9887,
+          "ar1_b": 0.9886,
           "is_high_elasticity": false
         }
       ]
@@ -12355,9 +12355,9 @@
           "sector": "Consumer Goods & Retail",
           "price": 382.8,
           "x": 0.612,
-          "y": 0.97,
+          "y": 1.89,
           "hurst_exponent": 0.612,
-          "dist_50_sma": 0.97,
+          "dist_50_sma": 1.89,
           "regime": "trending",
           "is_anti_fade": false,
           "is_persist_breakout": false

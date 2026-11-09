@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-08T15:36:22.026093Z",
-  "market_date": "08 Nov 2026, 09:06 PM IST",
+  "updated_at": "2026-11-09T03:32:07.271730Z",
+  "market_date": "09 Nov 2026, 09:02 AM IST",
   "macro_regime": {
     "name": "BULLISH EXPANSION",
     "description": "Broad-based institutional participation across constituents.",
@@ -2529,9 +2529,9 @@
       "name": "Nifty FMCG",
       "slug": "nifty_fmcg",
       "description": "Fast-moving consumer goods, foods, packaged beverages & personal care",
-      "return_1d": -0.08,
-      "return_1w": 7.12,
-      "return_1m": 2.74,
+      "return_1d": 0.01,
+      "return_1w": 7.22,
+      "return_1m": 2.84,
       "official_return_1d": null,
       "official_return_1w": null,
       "official_return_1m": null,
@@ -2615,6 +2615,14 @@
           "return_1m": 6.56
         },
         {
+          "ticker": "DABUR",
+          "name": "Dabur India Ltd",
+          "close": 382.8,
+          "return_1d": 1.58,
+          "return_1w": 5.68,
+          "return_1m": -0.09
+        },
+        {
           "ticker": "TATACONSUM",
           "name": "Tata Consumer Products",
           "close": 1080.0,
@@ -2631,14 +2639,6 @@
           "return_1m": -0.3
         },
         {
-          "ticker": "DABUR",
-          "name": "Dabur India Ltd",
-          "close": 382.8,
-          "return_1d": 0.64,
-          "return_1w": 4.7,
-          "return_1m": -1.01
-        },
-        {
           "ticker": "BRITANNIA",
           "name": "Britannia Industries",
           "close": 4781.0,
@@ -2649,8 +2649,8 @@
       ],
       "rank": 5,
       "rank_change_1w": 2,
-      "return_3m": 5.75,
-      "rrg_quadrant": "WEAKENING"
+      "return_3m": 5.96,
+      "rrg_quadrant": "LEADING"
     },
     {
       "name": "Nifty Energy",
