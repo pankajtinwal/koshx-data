@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-10T03:47:12.443906Z",
-  "market_date": "10 Nov 2026, 09:17 AM IST",
+  "updated_at": "2026-11-10T04:02:26.329140Z",
+  "market_date": "10 Nov 2026, 09:32 AM IST",
   "macro_regime": {
     "name": "BULLISH EXPANSION",
     "description": "Broad-based institutional participation across constituents.",
@@ -11,12 +11,12 @@
       "1d": {
         "name": "CONSOLIDATION",
         "description": "Selective stock-picking regime with sideways sector rotation.",
-        "cap_vs_equal_weight_divergence": 0.04,
-        "nifty_cap_weighted": 0.06,
+        "cap_vs_equal_weight_divergence": 0.21,
+        "nifty_cap_weighted": 0.23,
         "nifty_equal_weighted": 0.02,
         "quant_bullets": [
-          "Nifty 50 closed +0.06% with 21 advances vs 28 declines.",
-          "Cap-weighted divergence stands at +0.04%, indicating broad participation.",
+          "Nifty 50 closed +0.23% with 21 advances vs 28 declines.",
+          "Cap-weighted divergence stands at +0.21%, indicating broad participation.",
           "Constituent breadth: 90% of stocks trade above 50 DMA, indicating defensive regime."
         ]
       },
@@ -144,8 +144,8 @@
     "nifty_50": {
       "symbol": "^NSEI",
       "close": 25044.65,
-      "change_pts": 14.35,
-      "return_1d": 0.06,
+      "change_pts": 58.25,
+      "return_1d": 0.23,
       "return_1w": 6.84,
       "return_1m": 11.21,
       "high_1w": 25084.05,
@@ -215,7 +215,7 @@
   },
   "nifty_50_summary": {
     "close": 25044.65,
-    "return_1d": 0.06,
+    "return_1d": 0.23,
     "return_1w": 6.84,
     "return_1m": 11.21,
     "high_1w": 25084.05,
