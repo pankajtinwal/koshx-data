@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T17:42:31.115556Z",
+  "updated_at": "2026-11-10T18:15:48.555758Z",
   "total_stocks": 132,
   "total_indices": 14,
   "indices": [
@@ -2711,8 +2711,8 @@
       "type": "sector",
       "file": "data/sector_capital_goods_engineering.json",
       "current_value": 2732.33,
-      "prev_close": 2731.42,
-      "change_pts": 0.91,
+      "prev_close": 2731.41,
+      "change_pts": 0.92,
       "change_pct": 0.03,
       "day_open": 2734.69,
       "day_high": 2799.83,
@@ -3033,7 +3033,7 @@
       "day_open": 2805.53,
       "day_high": 2827.9,
       "day_low": 2733.98,
-      "high_52w": 3074.95,
+      "high_52w": 3074.94,
       "low_52w": 1847.17,
       "all_time_return_pct": 177.16,
       "returns": {
@@ -3668,9 +3668,9 @@
       "name": "Electronics & Consumer Durables",
       "type": "sector",
       "file": "data/sector_electronics_consumer_durables.json",
-      "current_value": 2425.98,
+      "current_value": 2425.99,
       "prev_close": 2511.08,
-      "change_pts": -85.1,
+      "change_pts": -85.09,
       "change_pct": -3.39,
       "day_open": 2513.07,
       "day_high": 2522.46,
