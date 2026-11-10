@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-10T18:16:53.552464Z",
-  "market_date": "10 Nov 2026, 11:46 PM IST",
+  "updated_at": "2026-11-10T18:39:48.203363Z",
+  "market_date": "11 Nov 2026, 12:09 AM IST",
   "macro_regime": {
     "name": "BULLISH EXPANSION",
     "description": "Broad-based institutional participation across constituents.",
@@ -2164,7 +2164,7 @@
       "name": "Nifty Auto",
       "slug": "nifty_auto",
       "description": "4-wheelers, 2-wheelers, commercial vehicles & tier-1 auto ancillaries",
-      "return_1d": -0.27,
+      "return_1d": -0.29,
       "return_1w": 7.54,
       "return_1m": 11.96,
       "official_return_1d": null,
@@ -2228,8 +2228,8 @@
         {
           "ticker": "BALKRISIND",
           "name": "Balkrishna Industries",
-          "close": 2343.6,
-          "return_1d": -1.8,
+          "close": 2339.6,
+          "return_1d": -1.97,
           "return_1w": 10.56,
           "return_1m": 16.58
         },
@@ -2664,7 +2664,7 @@
       "name": "Nifty Pharma",
       "slug": "nifty_pharma",
       "description": "Generic formulations, APIs, CDMO & domestic healthcare players",
-      "return_1d": 1.56,
+      "return_1d": 1.53,
       "return_1w": 5.85,
       "return_1m": 9.76,
       "official_return_1d": 3.42,
@@ -2720,8 +2720,8 @@
         {
           "ticker": "AUROPHARMA",
           "name": "Aurobindo Pharma",
-          "close": 1855.3,
-          "return_1d": 2.84,
+          "close": 1848.3,
+          "return_1d": 2.46,
           "return_1w": 10.19,
           "return_1m": 9.59
         },

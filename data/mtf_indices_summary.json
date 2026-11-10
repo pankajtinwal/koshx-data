@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T18:16:42.560002Z",
+  "updated_at": "2026-11-10T18:39:40.724810Z",
   "total_stocks": 216,
   "total_indices": 14,
   "indices": [
@@ -9,9 +9,9 @@
       "type": "master",
       "file": "data/mtf_master_index.json",
       "current_value": 1610.55,
-      "prev_close": 1602.77,
-      "change_pts": 7.78,
-      "change_pct": 0.49,
+      "prev_close": 1602.86,
+      "change_pts": 7.69,
+      "change_pct": 0.48,
       "day_open": 1605.18,
       "day_high": 1626.89,
       "day_low": 1581.95,
@@ -19,7 +19,7 @@
       "low_52w": 1385.51,
       "all_time_return_pct": 61.05,
       "returns": {
-        "1d": 0.49,
+        "1d": 0.48,
         "1w": 5.47,
         "1m": 5.71,
         "3m": -3.1,
@@ -336,24 +336,6 @@
           }
         },
         {
-          "ticker": "AUROPHARMA",
-          "name": "Aurobindo Pharma Ltd",
-          "exchange": "NSE",
-          "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 1855.3,
-          "change_pct": 2.84,
-          "weight_pct": 0.46,
-          "returns": {
-            "1d": 2.84,
-            "1w": 10.19,
-            "1m": 9.59,
-            "3m": 12.58,
-            "6m": 24.8,
-            "1y": 65.09,
-            "3y": 90.93
-          }
-        },
-        {
           "ticker": "UNOMINDA",
           "name": "Uno Minda Ltd",
           "exchange": "NSE",
@@ -369,24 +351,6 @@
             "6m": 15.58,
             "1y": 10.34,
             "3y": 115.45
-          }
-        },
-        {
-          "ticker": "NBCC",
-          "name": "NBCC (India) Ltd",
-          "exchange": "NSE",
-          "sector": "Infrastructure & Construction",
-          "latest_close": 80.4,
-          "change_pct": 2.75,
-          "weight_pct": 0.46,
-          "returns": {
-            "1d": 2.75,
-            "1w": 5.61,
-            "1m": 7.98,
-            "3m": -14.65,
-            "6m": -15.4,
-            "1y": -28.38,
-            "3y": 87.76
           }
         },
         {
@@ -477,6 +441,42 @@
             "6m": 33.1,
             "1y": 46.3,
             "3y": 139.96
+          }
+        },
+        {
+          "ticker": "AUROPHARMA",
+          "name": "Aurobindo Pharma Ltd",
+          "exchange": "NSE",
+          "sector": "Pharmaceuticals & Healthcare",
+          "latest_close": 1848.3,
+          "change_pct": 2.46,
+          "weight_pct": 0.46,
+          "returns": {
+            "1d": 2.46,
+            "1w": 10.19,
+            "1m": 9.59,
+            "3m": 12.58,
+            "6m": 24.8,
+            "1y": 65.09,
+            "3y": 90.93
+          }
+        },
+        {
+          "ticker": "NBCC",
+          "name": "NBCC (India) Ltd",
+          "exchange": "NSE",
+          "sector": "Infrastructure & Construction",
+          "latest_close": 80.15,
+          "change_pct": 2.43,
+          "weight_pct": 0.46,
+          "returns": {
+            "1d": 2.43,
+            "1w": 5.61,
+            "1m": 7.98,
+            "3m": -14.65,
+            "6m": -15.41,
+            "1y": -28.38,
+            "3y": 87.75
           }
         },
         {
@@ -1398,24 +1398,6 @@
           }
         },
         {
-          "ticker": "CONCOR",
-          "name": "Container Corporation of India Ltd",
-          "exchange": "NSE",
-          "sector": "Logistics & Services",
-          "latest_close": 446.0,
-          "change_pct": 1.0,
-          "weight_pct": 0.46,
-          "returns": {
-            "1d": 1.0,
-            "1w": 6.74,
-            "1m": 0.9,
-            "3m": -10.96,
-            "6m": -15.42,
-            "1y": -13.06,
-            "3y": -36.9
-          }
-        },
-        {
           "ticker": "IDFCFIRSTB",
           "name": "IDFC First Bank Ltd",
           "exchange": "NSE",
@@ -1791,6 +1773,24 @@
             "6m": 4.41,
             "1y": 24.99,
             "3y": 51.4
+          }
+        },
+        {
+          "ticker": "CONCOR",
+          "name": "Container Corporation of India Ltd",
+          "exchange": "NSE",
+          "sector": "Logistics & Services",
+          "latest_close": 444.1,
+          "change_pct": 0.57,
+          "weight_pct": 0.46,
+          "returns": {
+            "1d": 0.57,
+            "1w": 6.74,
+            "1m": 0.9,
+            "3m": -10.96,
+            "6m": -15.42,
+            "1y": -13.06,
+            "3y": -36.9
           }
         },
         {
@@ -2266,11 +2266,11 @@
           "name": "Premier Energies Ltd",
           "exchange": "NSE",
           "sector": "Renewable Energy & Utilities",
-          "latest_close": 886.0,
-          "change_pct": 0.11,
+          "latest_close": 885.5,
+          "change_pct": 0.06,
           "weight_pct": 0.46,
           "returns": {
-            "1d": 0.11,
+            "1d": 0.06,
             "1w": 0.34,
             "1m": -1.04,
             "3m": -15.14,
@@ -6577,17 +6577,17 @@
       "type": "sector",
       "file": "data/mtf_sector_infrastructure_construction.json",
       "current_value": 1348.51,
-      "prev_close": 1349.43,
-      "change_pts": -0.92,
-      "change_pct": -0.07,
-      "day_open": 1352.08,
-      "day_high": 1364.59,
-      "day_low": 1326.52,
-      "high_52w": 1569.88,
-      "low_52w": 1201.35,
+      "prev_close": 1349.83,
+      "change_pts": -1.32,
+      "change_pct": -0.1,
+      "day_open": 1352.1,
+      "day_high": 1364.6,
+      "day_low": 1326.53,
+      "high_52w": 1569.9,
+      "low_52w": 1201.36,
       "all_time_return_pct": 34.85,
       "returns": {
-        "1d": -0.07,
+        "1d": -0.1,
         "1w": 5.85,
         "1m": 8.08,
         "3m": -6.83,
@@ -6620,17 +6620,17 @@
           "name": "NBCC (India) Ltd",
           "exchange": "NSE",
           "sector": "Infrastructure & Construction",
-          "latest_close": 80.4,
-          "change_pct": 2.75,
+          "latest_close": 80.15,
+          "change_pct": 2.43,
           "weight_pct": 9.09,
           "returns": {
-            "1d": 2.75,
+            "1d": 2.43,
             "1w": 5.61,
             "1m": 7.98,
             "3m": -14.65,
-            "6m": -15.4,
+            "6m": -15.41,
             "1y": -28.38,
-            "3y": 87.76
+            "3y": 87.75
           }
         },
         {
@@ -6802,45 +6802,27 @@
       "name": "Logistics & Services",
       "type": "sector",
       "file": "data/mtf_sector_logistics_services.json",
-      "current_value": 1051.06,
-      "prev_close": 1056.43,
-      "change_pts": -5.37,
-      "change_pct": -0.51,
+      "current_value": 1051.05,
+      "prev_close": 1057.33,
+      "change_pts": -6.28,
+      "change_pct": -0.59,
       "day_open": 1057.85,
       "day_high": 1063.98,
       "day_low": 1038.48,
       "high_52w": 1258.63,
       "low_52w": 946.8,
-      "all_time_return_pct": 5.11,
+      "all_time_return_pct": 5.1,
       "returns": {
-        "1d": -0.51,
+        "1d": -0.59,
         "1w": 6.22,
-        "1m": 1.26,
+        "1m": 1.25,
         "3m": -9.34,
-        "6m": -6.47,
+        "6m": -6.48,
         "1y": -13.55,
         "3y": 5.71
       },
       "constituents_count": 5,
       "constituents": [
-        {
-          "ticker": "CONCOR",
-          "name": "Container Corporation of India Ltd",
-          "exchange": "NSE",
-          "sector": "Logistics & Services",
-          "latest_close": 446.0,
-          "change_pct": 1.0,
-          "weight_pct": 20.0,
-          "returns": {
-            "1d": 1.0,
-            "1w": 6.74,
-            "1m": 0.9,
-            "3m": -10.96,
-            "6m": -15.42,
-            "1y": -13.06,
-            "3y": -36.9
-          }
-        },
         {
           "ticker": "DELHIVERY",
           "name": "Delhivery Ltd",
@@ -6857,6 +6839,24 @@
             "6m": -9.6,
             "1y": 0.84,
             "3y": 6.13
+          }
+        },
+        {
+          "ticker": "CONCOR",
+          "name": "Container Corporation of India Ltd",
+          "exchange": "NSE",
+          "sector": "Logistics & Services",
+          "latest_close": 444.1,
+          "change_pct": 0.57,
+          "weight_pct": 20.0,
+          "returns": {
+            "1d": 0.57,
+            "1w": 6.74,
+            "1m": 0.9,
+            "3m": -10.96,
+            "6m": -15.42,
+            "1y": -13.06,
+            "3y": -36.9
           }
         },
         {
@@ -6926,7 +6926,7 @@
       "change_pct": 0.02,
       "day_open": 2040.0,
       "day_high": 2060.48,
-      "day_low": 2007.02,
+      "day_low": 2007.03,
       "high_52w": 2265.72,
       "low_52w": 1654.99,
       "all_time_return_pct": 103.4,
@@ -7300,18 +7300,18 @@
       "name": "Pharmaceuticals & Healthcare",
       "type": "sector",
       "file": "data/mtf_sector_pharmaceuticals_healthcare.json",
-      "current_value": 1857.46,
-      "prev_close": 1838.07,
-      "change_pts": 19.39,
-      "change_pct": 1.05,
+      "current_value": 1857.45,
+      "prev_close": 1838.34,
+      "change_pts": 19.11,
+      "change_pct": 1.04,
       "day_open": 1839.47,
-      "day_high": 1885.78,
-      "day_low": 1825.4,
-      "high_52w": 1885.78,
+      "day_high": 1885.77,
+      "day_low": 1825.39,
+      "high_52w": 1885.77,
       "low_52w": 1459.91,
       "all_time_return_pct": 85.75,
       "returns": {
-        "1d": 1.05,
+        "1d": 1.04,
         "1w": 5.53,
         "1m": 9.04,
         "3m": 1.51,
@@ -7398,11 +7398,11 @@
           "name": "Aurobindo Pharma Ltd",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 1855.3,
-          "change_pct": 2.84,
+          "latest_close": 1848.3,
+          "change_pct": 2.46,
           "weight_pct": 4.0,
           "returns": {
-            "1d": 2.84,
+            "1d": 2.46,
             "1w": 10.19,
             "1m": 9.59,
             "3m": 12.58,
@@ -7914,10 +7914,10 @@
       "name": "Renewable Energy & Utilities",
       "type": "sector",
       "file": "data/mtf_sector_renewable_energy_utilities.json",
-      "current_value": 1609.48,
-      "prev_close": 1601.99,
-      "change_pts": 7.49,
-      "change_pct": 0.47,
+      "current_value": 1609.47,
+      "prev_close": 1602.1,
+      "change_pts": 7.37,
+      "change_pct": 0.46,
       "day_open": 1609.24,
       "day_high": 1621.59,
       "day_low": 1583.72,
@@ -7925,7 +7925,7 @@
       "low_52w": 1441.63,
       "all_time_return_pct": 60.95,
       "returns": {
-        "1d": 0.47,
+        "1d": 0.46,
         "1w": 2.52,
         "1m": 4.74,
         "3m": -4.68,
@@ -7994,11 +7994,11 @@
           "name": "Premier Energies Ltd",
           "exchange": "NSE",
           "sector": "Renewable Energy & Utilities",
-          "latest_close": 886.0,
-          "change_pct": 0.11,
+          "latest_close": 885.5,
+          "change_pct": 0.06,
           "weight_pct": 12.5,
           "returns": {
-            "1d": 0.11,
+            "1d": 0.06,
             "1w": 0.34,
             "1m": -1.04,
             "3m": -15.14,

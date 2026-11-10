@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T18:16:42.566790Z",
+  "updated_at": "2026-11-10T18:39:40.733965Z",
   "timeframes": [
     "1D",
     "1W",
@@ -1474,7 +1474,7 @@
       "index_id": "mtf_sector_pharmaceuticals_healthcare",
       "constituents_count": 25,
       "returns": {
-        "1d": 1.06,
+        "1d": 1.04,
         "1w": 5.54,
         "1m": 8.98,
         "3m": 1.89,
@@ -1650,11 +1650,11 @@
           "name": "Aurobindo Pharma Ltd",
           "exchange": "NSE",
           "sector": "Pharmaceuticals & Healthcare",
-          "latest_close": 1855.3,
-          "change_pct": 2.84,
+          "latest_close": 1848.3,
+          "change_pct": 2.46,
           "weight_pct": 4.0,
           "returns": {
-            "1d": 2.84,
+            "1d": 2.46,
             "1w": 10.19,
             "1m": 9.59,
             "3m": 12.58,
@@ -3071,7 +3071,7 @@
       "index_id": "mtf_sector_infrastructure_construction",
       "constituents_count": 11,
       "returns": {
-        "1d": -0.07,
+        "1d": -0.1,
         "1w": 5.83,
         "1m": 7.94,
         "3m": -6.94,
@@ -3175,17 +3175,17 @@
           "name": "NBCC (India) Ltd",
           "exchange": "NSE",
           "sector": "Infrastructure & Construction",
-          "latest_close": 80.4,
-          "change_pct": 2.75,
+          "latest_close": 80.15,
+          "change_pct": 2.43,
           "weight_pct": 9.09,
           "returns": {
-            "1d": 2.75,
+            "1d": 2.43,
             "1w": 5.61,
             "1m": 7.98,
             "3m": -14.65,
-            "6m": -15.4,
+            "6m": -15.41,
             "1y": -28.38,
-            "3y": 87.76
+            "3y": 87.75
           }
         },
         {
@@ -3644,7 +3644,7 @@
       "index_id": "mtf_sector_renewable_energy_utilities",
       "constituents_count": 8,
       "returns": {
-        "1d": 0.47,
+        "1d": 0.46,
         "1w": 2.5,
         "1m": 4.6,
         "3m": -4.92,
@@ -3748,11 +3748,11 @@
           "name": "Premier Energies Ltd",
           "exchange": "NSE",
           "sector": "Renewable Energy & Utilities",
-          "latest_close": 886.0,
-          "change_pct": 0.11,
+          "latest_close": 885.5,
+          "change_pct": 0.06,
           "weight_pct": 12.5,
           "returns": {
-            "1d": 0.11,
+            "1d": 0.06,
             "1w": 0.34,
             "1m": -1.04,
             "3m": -15.14,
@@ -3930,7 +3930,7 @@
       "index_id": "mtf_sector_logistics_services",
       "constituents_count": 5,
       "returns": {
-        "1d": -0.51,
+        "1d": -0.6,
         "1w": 6.21,
         "1m": 1.45,
         "3m": -9.56,
@@ -3944,11 +3944,11 @@
           "name": "Container Corporation of India Ltd",
           "exchange": "NSE",
           "sector": "Logistics & Services",
-          "latest_close": 446.0,
-          "change_pct": 1.0,
+          "latest_close": 444.1,
+          "change_pct": 0.57,
           "weight_pct": 20.0,
           "returns": {
-            "1d": 1.0,
+            "1d": 0.57,
             "1w": 6.74,
             "1m": 0.9,
             "3m": -10.96,

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T18:16:42.827735Z",
+  "updated_at": "2026-11-10T18:39:41.102928Z",
   "total_stocks": 216,
   "models": {
     "ema": {
@@ -212,12 +212,12 @@
           "ticker": "AUROPHARMA",
           "name": "Aurobindo Pharma Ltd",
           "sector": "Pharmaceuticals & Healthcare",
-          "price": 1855.3,
-          "x": 10.69,
-          "y": 8.41,
-          "ema_20": 1711.42,
-          "ema_50": 1676.17,
-          "ema_200": 1518.81,
+          "price": 1848.3,
+          "x": 10.67,
+          "y": 8.37,
+          "ema_20": 1705.55,
+          "ema_50": 1670.1,
+          "ema_200": 1513.14,
           "is_bull": true,
           "quadrant": 1,
           "is_pullback_buy": false
@@ -1696,12 +1696,12 @@
           "ticker": "NBCC",
           "name": "NBCC (India) Ltd",
           "sector": "Infrastructure & Construction",
-          "price": 80.4,
-          "x": 1.97,
-          "y": 5.94,
-          "ema_20": 75.89,
-          "ema_50": 78.85,
-          "ema_200": 89.8,
+          "price": 80.15,
+          "x": 1.95,
+          "y": 5.91,
+          "ema_20": 75.68,
+          "ema_50": 78.61,
+          "ema_200": 89.52,
           "is_bull": false,
           "quadrant": 1,
           "is_pullback_buy": false
@@ -2407,20 +2407,6 @@
           "is_pullback_buy": false
         },
         {
-          "ticker": "CONCOR",
-          "name": "Container Corporation of India Ltd",
-          "sector": "Logistics & Services",
-          "price": 446.0,
-          "x": -1.1,
-          "y": 2.65,
-          "ema_20": 434.48,
-          "ema_50": 450.96,
-          "ema_200": 484.07,
-          "is_bull": false,
-          "quadrant": 2,
-          "is_pullback_buy": false
-        },
-        {
           "ticker": "DABUR",
           "name": "Dabur India Ltd",
           "sector": "Consumer Goods & Retail",
@@ -2430,6 +2416,20 @@
           "ema_20": 374.48,
           "ema_50": 379.45,
           "ema_200": 416.64,
+          "is_bull": false,
+          "quadrant": 2,
+          "is_pullback_buy": false
+        },
+        {
+          "ticker": "CONCOR",
+          "name": "Container Corporation of India Ltd",
+          "sector": "Logistics & Services",
+          "price": 444.1,
+          "x": -1.11,
+          "y": 2.61,
+          "ema_20": 432.79,
+          "ema_50": 449.11,
+          "ema_200": 482.03,
           "is_bull": false,
           "quadrant": 2,
           "is_pullback_buy": false
@@ -2662,12 +2662,12 @@
           "ticker": "PREMIERENE",
           "name": "Premier Energies Ltd",
           "sector": "Renewable Energy & Utilities",
-          "price": 886.0,
+          "price": 885.5,
           "x": -2.95,
-          "y": 0.05,
-          "ema_20": 885.56,
-          "ema_50": 912.9,
-          "ema_200": 954.98,
+          "y": 0.04,
+          "ema_20": 885.11,
+          "ema_50": 912.4,
+          "ema_200": 954.44,
           "is_bull": false,
           "quadrant": 2,
           "is_pullback_buy": false
@@ -3051,7 +3051,7 @@
         "x_min": -0.5943,
         "x_max": 0.3862,
         "x_mean": -0.0363,
-        "ss_xx": 3.006172
+        "ss_xx": 3.006185
       },
       "stats": {
         "outlier_count": 7
@@ -3625,7 +3625,7 @@
           "ticker": "AUROPHARMA",
           "name": "Aurobindo Pharma Ltd",
           "sector": "Pharmaceuticals & Healthcare",
-          "price": 1855.3,
+          "price": 1848.3,
           "x": 13.12,
           "y": 9.07,
           "expected_y": 5.78,
@@ -3661,7 +3661,7 @@
           "ticker": "CONCOR",
           "name": "Container Corporation of India Ltd",
           "sector": "Logistics & Services",
-          "price": 446.0,
+          "price": 444.1,
           "x": -16.01,
           "y": 6.21,
           "expected_y": 3.05,
@@ -3673,12 +3673,12 @@
           "ticker": "NBCC",
           "name": "NBCC (India) Ltd",
           "sector": "Infrastructure & Construction",
-          "price": 80.4,
+          "price": 80.15,
           "x": -10.48,
-          "y": 6.61,
+          "y": 6.6,
           "expected_y": 3.57,
-          "residual": 3.04,
-          "studentized_residual": 0.69,
+          "residual": 3.03,
+          "studentized_residual": 0.68,
           "is_outlier": false
         },
         {
@@ -5185,7 +5185,7 @@
           "ticker": "PREMIERENE",
           "name": "Premier Energies Ltd",
           "sector": "Renewable Energy & Utilities",
-          "price": 886.0,
+          "price": 885.5,
           "x": -13.64,
           "y": -0.45,
           "expected_y": 3.27,
@@ -5648,7 +5648,7 @@
         "std_v": 4.26,
         "mean_a": -0.36,
         "std_a": 1.43,
-        "rho": 0.1337,
+        "rho": 0.1336,
         "q2_inflection_count": 2
       },
       "points": [
@@ -5697,7 +5697,7 @@
           "sector": "Capital Goods & Engineering",
           "price": 4135.2,
           "x": -3.34,
-          "y": -0.88,
+          "y": -0.87,
           "raw_v": -9.46,
           "raw_a": -1.62,
           "mahalanobis_dist": 3.37,
@@ -5718,6 +5718,19 @@
           "is_inflection": false
         },
         {
+          "ticker": "DIVISLAB",
+          "name": "Divis Laboratories Ltd",
+          "sector": "Pharmaceuticals & Healthcare",
+          "price": 11565.5,
+          "x": 1.63,
+          "y": 2.48,
+          "raw_v": 11.73,
+          "raw_a": 3.19,
+          "mahalanobis_dist": 2.81,
+          "quadrant": 1,
+          "is_inflection": false
+        },
+        {
           "ticker": "ASHOKLEY",
           "name": "Ashok Leyland Ltd",
           "sector": "Auto & Ancillaries",
@@ -5731,25 +5744,12 @@
           "is_inflection": false
         },
         {
-          "ticker": "DIVISLAB",
-          "name": "Divis Laboratories Ltd",
-          "sector": "Pharmaceuticals & Healthcare",
-          "price": 11565.5,
-          "x": 1.63,
-          "y": 2.48,
-          "raw_v": 11.73,
-          "raw_a": 3.19,
-          "mahalanobis_dist": 2.8,
-          "quadrant": 1,
-          "is_inflection": false
-        },
-        {
           "ticker": "UNIONBANK",
           "name": "Union Bank of India",
           "sector": "Financial Services",
           "price": 197.0,
           "x": -0.18,
-          "y": 2.71,
+          "y": 2.72,
           "raw_v": 4.01,
           "raw_a": 3.53,
           "mahalanobis_dist": 2.77,
@@ -5853,10 +5853,10 @@
           "sector": "Financial Services",
           "price": 128.1,
           "x": 0.31,
-          "y": 2.28,
+          "y": 2.29,
           "raw_v": 6.11,
           "raw_a": 2.91,
-          "mahalanobis_dist": 2.28,
+          "mahalanobis_dist": 2.29,
           "quadrant": 1,
           "is_inflection": false
         },
@@ -5918,7 +5918,7 @@
           "sector": "Real Estate & Realty",
           "price": 1195.0,
           "x": 2.06,
-          "y": -0.39,
+          "y": -0.38,
           "raw_v": 13.56,
           "raw_a": -0.91,
           "mahalanobis_dist": 2.17,
@@ -5960,7 +5960,7 @@
           "y": -1.19,
           "raw_v": 11.16,
           "raw_a": -2.07,
-          "mahalanobis_dist": 2.06,
+          "mahalanobis_dist": 2.05,
           "quadrant": 4,
           "is_inflection": false
         },
@@ -6061,7 +6061,7 @@
           "sector": "Financial Services",
           "price": 1064.85,
           "x": 1.54,
-          "y": -0.83,
+          "y": -0.82,
           "raw_v": 11.32,
           "raw_a": -1.54,
           "mahalanobis_dist": 1.86,
@@ -6087,7 +6087,7 @@
           "sector": "Capital Goods & Engineering",
           "price": 19024.0,
           "x": -1.82,
-          "y": 0.09,
+          "y": 0.1,
           "raw_v": -2.98,
           "raw_a": -0.23,
           "mahalanobis_dist": 1.85,
@@ -6112,7 +6112,7 @@
           "name": "REC Ltd",
           "sector": "Financial Services",
           "price": 305.15,
-          "x": 0.07,
+          "x": 0.06,
           "y": 1.79,
           "raw_v": 5.05,
           "raw_a": 2.2,
@@ -6160,6 +6160,19 @@
           "is_inflection": false
         },
         {
+          "ticker": "BIOCON",
+          "name": "Biocon Ltd",
+          "sector": "Pharmaceuticals & Healthcare",
+          "price": 368.5,
+          "x": 0.14,
+          "y": 1.7,
+          "raw_v": 5.36,
+          "raw_a": 2.08,
+          "mahalanobis_dist": 1.71,
+          "quadrant": 1,
+          "is_inflection": false
+        },
+        {
           "ticker": "LCL",
           "name": "Lohia Corp Ltd",
           "sector": "Capital Goods & Engineering",
@@ -6170,19 +6183,6 @@
           "raw_a": -1.1,
           "mahalanobis_dist": 1.71,
           "quadrant": 3,
-          "is_inflection": false
-        },
-        {
-          "ticker": "BIOCON",
-          "name": "Biocon Ltd",
-          "sector": "Pharmaceuticals & Healthcare",
-          "price": 368.5,
-          "x": 0.14,
-          "y": 1.7,
-          "raw_v": 5.36,
-          "raw_a": 2.08,
-          "mahalanobis_dist": 1.7,
-          "quadrant": 1,
           "is_inflection": false
         },
         {
@@ -6373,24 +6373,11 @@
           "sector": "IT & Tech Services",
           "price": 542.35,
           "x": -0.49,
-          "y": 1.39,
+          "y": 1.4,
           "raw_v": 2.7,
           "raw_a": 1.64,
           "mahalanobis_dist": 1.55,
           "quadrant": 2,
-          "is_inflection": false
-        },
-        {
-          "ticker": "ICICIBANK",
-          "name": "ICICI Bank Ltd",
-          "sector": "Financial Services",
-          "price": 1589.0,
-          "x": 1.5,
-          "y": 0.51,
-          "raw_v": 11.17,
-          "raw_a": 0.38,
-          "mahalanobis_dist": 1.54,
-          "quadrant": 1,
           "is_inflection": false
         },
         {
@@ -6404,6 +6391,19 @@
           "raw_a": -2.41,
           "mahalanobis_dist": 1.53,
           "quadrant": 3,
+          "is_inflection": false
+        },
+        {
+          "ticker": "ICICIBANK",
+          "name": "ICICI Bank Ltd",
+          "sector": "Financial Services",
+          "price": 1589.0,
+          "x": 1.5,
+          "y": 0.52,
+          "raw_v": 11.17,
+          "raw_a": 0.38,
+          "mahalanobis_dist": 1.53,
+          "quadrant": 1,
           "is_inflection": false
         },
         {
@@ -6490,7 +6490,7 @@
           "sector": "Pharmaceuticals & Healthcare",
           "price": 292.2,
           "x": 1.44,
-          "y": 0.41,
+          "y": 0.42,
           "raw_v": 10.91,
           "raw_a": 0.23,
           "mahalanobis_dist": 1.46,
@@ -6541,7 +6541,7 @@
           "name": "Jubilant FoodWorks Ltd",
           "sector": "Consumer Goods & Retail",
           "price": 428.5,
-          "x": -0.2,
+          "x": -0.21,
           "y": -1.4,
           "raw_v": 3.9,
           "raw_a": -2.36,
@@ -6602,25 +6602,12 @@
           "is_inflection": false
         },
         {
-          "ticker": "AUROPHARMA",
-          "name": "Aurobindo Pharma Ltd",
-          "sector": "Pharmaceuticals & Healthcare",
-          "price": 1855.3,
-          "x": 0.79,
-          "y": 1.19,
-          "raw_v": 8.14,
-          "raw_a": 1.35,
-          "mahalanobis_dist": 1.35,
-          "quadrant": 1,
-          "is_inflection": false
-        },
-        {
           "ticker": "TATACONSUM",
           "name": "Tata Consumer Products Ltd",
           "sector": "Consumer Goods & Retail",
           "price": 1083.9,
           "x": -0.35,
-          "y": -1.33,
+          "y": -1.32,
           "raw_v": 3.28,
           "raw_a": -2.26,
           "mahalanobis_dist": 1.34,
@@ -6632,12 +6619,25 @@
           "name": "Titan Company Ltd",
           "sector": "Consumer Goods & Retail",
           "price": 5005.0,
-          "x": 1.3,
+          "x": 1.29,
           "y": -0.15,
           "raw_v": 10.29,
           "raw_a": -0.58,
           "mahalanobis_dist": 1.34,
           "quadrant": 4,
+          "is_inflection": false
+        },
+        {
+          "ticker": "HAVELLS",
+          "name": "Havells India Ltd",
+          "sector": "Capital Goods & Engineering",
+          "price": 1159.5,
+          "x": 1.07,
+          "y": 0.92,
+          "raw_v": 9.33,
+          "raw_a": 0.95,
+          "mahalanobis_dist": 1.33,
+          "quadrant": 1,
           "is_inflection": false
         },
         {
@@ -6658,7 +6658,7 @@
           "name": "HeidelbergCement India Ltd",
           "sector": "Infrastructure & Construction",
           "price": 120.77,
-          "x": -1.03,
+          "x": -1.04,
           "y": 0.69,
           "raw_v": 0.37,
           "raw_a": 0.62,
@@ -6671,25 +6671,12 @@
           "name": "National Aluminium Company Ltd",
           "sector": "Metals & Mining",
           "price": 329.0,
-          "x": -0.27,
+          "x": -0.28,
           "y": 1.25,
           "raw_v": 3.61,
           "raw_a": 1.43,
           "mahalanobis_dist": 1.33,
           "quadrant": 2,
-          "is_inflection": false
-        },
-        {
-          "ticker": "HAVELLS",
-          "name": "Havells India Ltd",
-          "sector": "Capital Goods & Engineering",
-          "price": 1159.5,
-          "x": 1.07,
-          "y": 0.92,
-          "raw_v": 9.33,
-          "raw_a": 0.95,
-          "mahalanobis_dist": 1.32,
-          "quadrant": 1,
           "is_inflection": false
         },
         {
@@ -6703,6 +6690,19 @@
           "raw_a": 1.43,
           "mahalanobis_dist": 1.32,
           "quadrant": 2,
+          "is_inflection": false
+        },
+        {
+          "ticker": "AUROPHARMA",
+          "name": "Aurobindo Pharma Ltd",
+          "sector": "Pharmaceuticals & Healthcare",
+          "price": 1848.3,
+          "x": 0.81,
+          "y": 1.12,
+          "raw_v": 8.24,
+          "raw_a": 1.25,
+          "mahalanobis_dist": 1.31,
+          "quadrant": 1,
           "is_inflection": false
         },
         {
@@ -6784,12 +6784,25 @@
           "is_inflection": false
         },
         {
+          "ticker": "TATAELXSI",
+          "name": "Tata Elxsi Ltd",
+          "sector": "IT & Tech Services",
+          "price": 3889.9,
+          "x": -0.34,
+          "y": 1.17,
+          "raw_v": 3.35,
+          "raw_a": 1.31,
+          "mahalanobis_dist": 1.27,
+          "quadrant": 2,
+          "is_inflection": false
+        },
+        {
           "ticker": "LICHSGFIN",
           "name": "LIC Housing Finance Ltd",
           "sector": "Financial Services",
           "price": 551.9,
           "x": 0.78,
-          "y": 1.08,
+          "y": 1.09,
           "raw_v": 8.1,
           "raw_a": 1.19,
           "mahalanobis_dist": 1.26,
@@ -6797,24 +6810,11 @@
           "is_inflection": false
         },
         {
-          "ticker": "TATAELXSI",
-          "name": "Tata Elxsi Ltd",
-          "sector": "IT & Tech Services",
-          "price": 3889.9,
-          "x": -0.33,
-          "y": 1.16,
-          "raw_v": 3.35,
-          "raw_a": 1.31,
-          "mahalanobis_dist": 1.26,
-          "quadrant": 2,
-          "is_inflection": false
-        },
-        {
           "ticker": "TCS",
           "name": "Tata Consultancy Services Ltd",
           "sector": "IT & Tech Services",
           "price": 2475.4,
-          "x": -1.24,
+          "x": -1.25,
           "y": -0.04,
           "raw_v": -0.52,
           "raw_a": -0.42,
@@ -6867,7 +6867,7 @@
           "sector": "Financial Services",
           "price": 338.3,
           "x": 0.05,
-          "y": 1.23,
+          "y": 1.24,
           "raw_v": 4.98,
           "raw_a": 1.41,
           "mahalanobis_dist": 1.24,
@@ -6918,7 +6918,7 @@
           "name": "SBI Cards and Payment Services Ltd",
           "sector": "Financial Services",
           "price": 590.15,
-          "x": 1.08,
+          "x": 1.07,
           "y": 0.62,
           "raw_v": 9.36,
           "raw_a": 0.53,
@@ -6935,21 +6935,8 @@
           "y": -0.88,
           "raw_v": 7.52,
           "raw_a": -1.62,
-          "mahalanobis_dist": 1.17,
+          "mahalanobis_dist": 1.16,
           "quadrant": 4,
-          "is_inflection": false
-        },
-        {
-          "ticker": "HINDZINC",
-          "name": "Hindustan Zinc Ltd",
-          "sector": "Metals & Mining",
-          "price": 575.95,
-          "x": 1.16,
-          "y": 0.03,
-          "raw_v": 9.71,
-          "raw_a": -0.32,
-          "mahalanobis_dist": 1.17,
-          "quadrant": 1,
           "is_inflection": false
         },
         {
@@ -6963,6 +6950,19 @@
           "raw_a": -0.84,
           "mahalanobis_dist": 1.16,
           "quadrant": 3,
+          "is_inflection": false
+        },
+        {
+          "ticker": "HINDZINC",
+          "name": "Hindustan Zinc Ltd",
+          "sector": "Metals & Mining",
+          "price": 575.95,
+          "x": 1.16,
+          "y": 0.03,
+          "raw_v": 9.71,
+          "raw_a": -0.32,
+          "mahalanobis_dist": 1.16,
+          "quadrant": 1,
           "is_inflection": false
         },
         {
@@ -7088,10 +7088,10 @@
           "sector": "Financial Services",
           "price": 379.0,
           "x": 0.56,
-          "y": 0.99,
+          "y": 1.0,
           "raw_v": 7.16,
           "raw_a": 1.06,
-          "mahalanobis_dist": 1.08,
+          "mahalanobis_dist": 1.09,
           "quadrant": 1,
           "is_inflection": false
         },
@@ -7114,7 +7114,7 @@
           "sector": "Auto & Ancillaries",
           "price": 12928.0,
           "x": 1.06,
-          "y": 0.0,
+          "y": 0.01,
           "raw_v": 9.28,
           "raw_a": -0.36,
           "mahalanobis_dist": 1.07,
@@ -7138,11 +7138,11 @@
           "ticker": "PREMIERENE",
           "name": "Premier Energies Ltd",
           "sector": "Renewable Energy & Utilities",
-          "price": 886.0,
+          "price": 885.5,
           "x": -1.01,
-          "y": -0.39,
-          "raw_v": 0.47,
-          "raw_a": -0.92,
+          "y": -0.4,
+          "raw_v": 0.48,
+          "raw_a": -0.93,
           "mahalanobis_dist": 1.04,
           "quadrant": 3,
           "is_inflection": false
@@ -7204,7 +7204,7 @@
           "name": "Suzlon Energy Ltd",
           "sector": "Renewable Energy & Utilities",
           "price": 38.91,
-          "x": 1.01,
+          "x": 1.0,
           "y": 0.1,
           "raw_v": 9.06,
           "raw_a": -0.22,
@@ -7252,19 +7252,6 @@
           "is_inflection": false
         },
         {
-          "ticker": "BPCL",
-          "name": "Bharat Petroleum Corporation Ltd",
-          "sector": "Oil, Gas & Energy",
-          "price": 316.0,
-          "x": 0.68,
-          "y": -0.6,
-          "raw_v": 7.66,
-          "raw_a": -1.23,
-          "mahalanobis_dist": 0.98,
-          "quadrant": 4,
-          "is_inflection": false
-        },
-        {
           "ticker": "HEROMOTOCO",
           "name": "Hero MotoCorp Ltd",
           "sector": "Auto & Ancillaries",
@@ -7275,6 +7262,19 @@
           "raw_a": -1.75,
           "mahalanobis_dist": 0.97,
           "quadrant": 3,
+          "is_inflection": false
+        },
+        {
+          "ticker": "BPCL",
+          "name": "Bharat Petroleum Corporation Ltd",
+          "sector": "Oil, Gas & Energy",
+          "price": 316.0,
+          "x": 0.68,
+          "y": -0.6,
+          "raw_v": 7.66,
+          "raw_a": -1.23,
+          "mahalanobis_dist": 0.97,
+          "quadrant": 4,
           "is_inflection": false
         },
         {
@@ -7343,19 +7343,6 @@
           "is_inflection": false
         },
         {
-          "ticker": "DMART",
-          "name": "Avenue Supermarts Ltd (DMart)",
-          "sector": "Consumer Goods & Retail",
-          "price": 3466.9,
-          "x": 0.02,
-          "y": -0.89,
-          "raw_v": 4.86,
-          "raw_a": -1.64,
-          "mahalanobis_dist": 0.91,
-          "quadrant": 4,
-          "is_inflection": false
-        },
-        {
           "ticker": "WIPRO",
           "name": "Wipro Ltd",
           "sector": "IT & Tech Services",
@@ -7366,6 +7353,19 @@
           "raw_a": -0.46,
           "mahalanobis_dist": 0.9,
           "quadrant": 3,
+          "is_inflection": false
+        },
+        {
+          "ticker": "DMART",
+          "name": "Avenue Supermarts Ltd (DMart)",
+          "sector": "Consumer Goods & Retail",
+          "price": 3466.9,
+          "x": 0.02,
+          "y": -0.89,
+          "raw_v": 4.86,
+          "raw_a": -1.64,
+          "mahalanobis_dist": 0.9,
+          "quadrant": 4,
           "is_inflection": false
         },
         {
@@ -7452,24 +7452,11 @@
           "sector": "Auto & Ancillaries",
           "price": 7629.0,
           "x": -0.16,
-          "y": -0.85,
+          "y": -0.84,
           "raw_v": 4.11,
           "raw_a": -1.57,
           "mahalanobis_dist": 0.85,
           "quadrant": 3,
-          "is_inflection": false
-        },
-        {
-          "ticker": "TMPV",
-          "name": "Tata Motors Passenger Vehicles Ltd",
-          "sector": "Auto & Ancillaries",
-          "price": 295.0,
-          "x": 0.66,
-          "y": -0.43,
-          "raw_v": 7.6,
-          "raw_a": -0.98,
-          "mahalanobis_dist": 0.85,
-          "quadrant": 4,
           "is_inflection": false
         },
         {
@@ -7504,7 +7491,7 @@
           "sector": "Financial Services",
           "price": 2970.8,
           "x": 0.06,
-          "y": -0.84,
+          "y": -0.83,
           "raw_v": 5.02,
           "raw_a": -1.56,
           "mahalanobis_dist": 0.85,
@@ -7522,6 +7509,19 @@
           "raw_a": -0.77,
           "mahalanobis_dist": 0.84,
           "quadrant": 3,
+          "is_inflection": false
+        },
+        {
+          "ticker": "TMPV",
+          "name": "Tata Motors Passenger Vehicles Ltd",
+          "sector": "Auto & Ancillaries",
+          "price": 295.0,
+          "x": 0.66,
+          "y": -0.43,
+          "raw_v": 7.6,
+          "raw_a": -0.98,
+          "mahalanobis_dist": 0.84,
+          "quadrant": 4,
           "is_inflection": false
         },
         {
@@ -7543,7 +7543,7 @@
           "sector": "Renewable Energy & Utilities",
           "price": 360.0,
           "x": -0.82,
-          "y": 0.03,
+          "y": 0.04,
           "raw_v": 1.28,
           "raw_a": -0.31,
           "mahalanobis_dist": 0.83,
@@ -7608,7 +7608,7 @@
           "sector": "Auto & Ancillaries",
           "price": 2209.5,
           "x": -0.81,
-          "y": -0.06,
+          "y": -0.05,
           "raw_v": 1.33,
           "raw_a": -0.44,
           "mahalanobis_dist": 0.81,
@@ -7759,19 +7759,6 @@
           "is_inflection": false
         },
         {
-          "ticker": "CONCOR",
-          "name": "Container Corporation of India Ltd",
-          "sector": "Logistics & Services",
-          "price": 446.0,
-          "x": 0.23,
-          "y": 0.72,
-          "raw_v": 5.74,
-          "raw_a": 0.67,
-          "mahalanobis_dist": 0.73,
-          "quadrant": 1,
-          "is_inflection": false
-        },
-        {
           "ticker": "UNITDSPR",
           "name": "United Spirits Ltd",
           "sector": "Consumer Goods & Retail",
@@ -7782,6 +7769,19 @@
           "raw_a": -1.36,
           "mahalanobis_dist": 0.72,
           "quadrant": 4,
+          "is_inflection": false
+        },
+        {
+          "ticker": "IDFCFIRSTB",
+          "name": "IDFC First Bank Ltd",
+          "sector": "Financial Services",
+          "price": 77.87,
+          "x": 0.23,
+          "y": 0.68,
+          "raw_v": 5.77,
+          "raw_a": 0.61,
+          "mahalanobis_dist": 0.7,
+          "quadrant": 1,
           "is_inflection": false
         },
         {
@@ -7798,19 +7798,6 @@
           "is_inflection": false
         },
         {
-          "ticker": "IDFCFIRSTB",
-          "name": "IDFC First Bank Ltd",
-          "sector": "Financial Services",
-          "price": 77.87,
-          "x": 0.23,
-          "y": 0.68,
-          "raw_v": 5.77,
-          "raw_a": 0.61,
-          "mahalanobis_dist": 0.69,
-          "quadrant": 1,
-          "is_inflection": false
-        },
-        {
           "ticker": "STARHEALTH",
           "name": "Star Health and Allied Insurance Company Ltd",
           "sector": "Financial Services",
@@ -7824,12 +7811,25 @@
           "is_inflection": false
         },
         {
+          "ticker": "LEAPIND",
+          "name": "LEAP India Ltd",
+          "sector": "Logistics & Services",
+          "price": 119.75,
+          "x": 0.16,
+          "y": 0.67,
+          "raw_v": 5.45,
+          "raw_a": 0.6,
+          "mahalanobis_dist": 0.68,
+          "quadrant": 1,
+          "is_inflection": false
+        },
+        {
           "ticker": "LGEINDIA",
           "name": "LG Electronics India Ltd",
           "sector": "Capital Goods & Engineering",
           "price": 1793.8,
           "x": 0.17,
-          "y": 0.67,
+          "y": 0.68,
           "raw_v": 5.52,
           "raw_a": 0.61,
           "mahalanobis_dist": 0.68,
@@ -7863,15 +7863,15 @@
           "is_inflection": false
         },
         {
-          "ticker": "LEAPIND",
-          "name": "LEAP India Ltd",
+          "ticker": "CONCOR",
+          "name": "Container Corporation of India Ltd",
           "sector": "Logistics & Services",
-          "price": 119.75,
-          "x": 0.16,
-          "y": 0.67,
-          "raw_v": 5.45,
-          "raw_a": 0.6,
-          "mahalanobis_dist": 0.67,
+          "price": 444.1,
+          "x": 0.25,
+          "y": 0.64,
+          "raw_v": 5.85,
+          "raw_a": 0.55,
+          "mahalanobis_dist": 0.66,
           "quadrant": 1,
           "is_inflection": false
         },
@@ -7893,7 +7893,7 @@
           "name": "ACC Ltd",
           "sector": "Infrastructure & Construction",
           "price": 1234.9,
-          "x": 0.42,
+          "x": 0.41,
           "y": -0.45,
           "raw_v": 6.54,
           "raw_a": -1.01,
@@ -8006,6 +8006,19 @@
           "is_inflection": false
         },
         {
+          "ticker": "ICRA",
+          "name": "ICRA Ltd",
+          "sector": "Financial Services",
+          "price": 4463.7,
+          "x": -0.48,
+          "y": 0.19,
+          "raw_v": 2.72,
+          "raw_a": -0.1,
+          "mahalanobis_dist": 0.55,
+          "quadrant": 2,
+          "is_inflection": false
+        },
+        {
           "ticker": "ALKEM",
           "name": "Alkem Laboratories Ltd",
           "sector": "Pharmaceuticals & Healthcare",
@@ -8019,15 +8032,15 @@
           "is_inflection": false
         },
         {
-          "ticker": "ICRA",
-          "name": "ICRA Ltd",
-          "sector": "Financial Services",
-          "price": 4463.7,
-          "x": -0.48,
-          "y": 0.18,
-          "raw_v": 2.72,
-          "raw_a": -0.1,
-          "mahalanobis_dist": 0.54,
+          "ticker": "LTIM",
+          "name": "LTIMindtree Ltd",
+          "sector": "IT & Tech Services",
+          "price": 4318.2,
+          "x": -0.49,
+          "y": 0.11,
+          "raw_v": 2.71,
+          "raw_a": -0.21,
+          "mahalanobis_dist": 0.52,
           "quadrant": 2,
           "is_inflection": false
         },
@@ -8035,26 +8048,13 @@
           "ticker": "NBCC",
           "name": "NBCC (India) Ltd",
           "sector": "Infrastructure & Construction",
-          "price": 80.4,
-          "x": 0.5,
-          "y": 0.21,
-          "raw_v": 6.89,
-          "raw_a": -0.06,
+          "price": 80.15,
+          "x": 0.51,
+          "y": 0.15,
+          "raw_v": 6.96,
+          "raw_a": -0.14,
           "mahalanobis_dist": 0.52,
           "quadrant": 1,
-          "is_inflection": false
-        },
-        {
-          "ticker": "LTIM",
-          "name": "LTIMindtree Ltd",
-          "sector": "IT & Tech Services",
-          "price": 4318.2,
-          "x": -0.49,
-          "y": 0.1,
-          "raw_v": 2.71,
-          "raw_a": -0.21,
-          "mahalanobis_dist": 0.51,
-          "quadrant": 2,
           "is_inflection": false
         },
         {
@@ -8110,25 +8110,12 @@
           "is_inflection": false
         },
         {
-          "ticker": "DLF",
-          "name": "DLF Ltd",
-          "sector": "Real Estate & Realty",
-          "price": 755.0,
-          "x": 0.48,
-          "y": 0.01,
-          "raw_v": 6.83,
-          "raw_a": -0.34,
-          "mahalanobis_dist": 0.49,
-          "quadrant": 1,
-          "is_inflection": false
-        },
-        {
           "ticker": "RAINBOW",
           "name": "Rainbow Childrens Medicare Ltd",
           "sector": "Pharmaceuticals & Healthcare",
           "price": 1275.2,
           "x": -0.49,
-          "y": -0.03,
+          "y": -0.02,
           "raw_v": 2.71,
           "raw_a": -0.4,
           "mahalanobis_dist": 0.49,
@@ -8146,6 +8133,19 @@
           "raw_a": -1.03,
           "mahalanobis_dist": 0.48,
           "quadrant": 4,
+          "is_inflection": false
+        },
+        {
+          "ticker": "DLF",
+          "name": "DLF Ltd",
+          "sector": "Real Estate & Realty",
+          "price": 755.0,
+          "x": 0.48,
+          "y": 0.01,
+          "raw_v": 6.83,
+          "raw_a": -0.34,
+          "mahalanobis_dist": 0.48,
+          "quadrant": 1,
           "is_inflection": false
         },
         {
@@ -8218,7 +8218,7 @@
           "name": "AU Small Finance Bank Ltd",
           "sector": "Financial Services",
           "price": 929.0,
-          "x": 0.15,
+          "x": 0.14,
           "y": 0.37,
           "raw_v": 5.39,
           "raw_a": 0.17,
@@ -8391,7 +8391,7 @@
           "y": 0.17,
           "raw_v": 4.33,
           "raw_a": -0.12,
-          "mahalanobis_dist": 0.21,
+          "mahalanobis_dist": 0.22,
           "quadrant": 2,
           "is_inflection": false
         },
@@ -8404,7 +8404,7 @@
           "y": 0.06,
           "raw_v": 4.25,
           "raw_a": -0.28,
-          "mahalanobis_dist": 0.14,
+          "mahalanobis_dist": 0.15,
           "quadrant": 2,
           "is_inflection": false
         },
@@ -8728,9 +8728,9 @@
           "name": "IndiaMART InterMESH Ltd",
           "sector": "IT & Tech Services",
           "price": 1542.9,
-          "x": 58.9,
+          "x": 59.0,
           "y": -1.86,
-          "half_life_days": 58.9,
+          "half_life_days": 59.0,
           "spread_zscore": -1.86,
           "ar1_b": 0.9883,
           "is_high_elasticity": false
@@ -8763,7 +8763,7 @@
           "ticker": "PREMIERENE",
           "name": "Premier Energies Ltd",
           "sector": "Renewable Energy & Utilities",
-          "price": 886.0,
+          "price": 885.5,
           "x": 32.0,
           "y": -1.84,
           "half_life_days": 32.0,
@@ -8871,12 +8871,12 @@
           "ticker": "CONCOR",
           "name": "Container Corporation of India Ltd",
           "sector": "Logistics & Services",
-          "price": 446.0,
+          "price": 444.1,
           "x": 12.2,
           "y": -1.59,
           "half_life_days": 12.2,
           "spread_zscore": -1.59,
-          "ar1_b": 0.9447,
+          "ar1_b": 0.9446,
           "is_high_elasticity": false
         },
         {
@@ -8980,9 +8980,9 @@
           "name": "Suzlon Energy Ltd",
           "sector": "Renewable Energy & Utilities",
           "price": 38.91,
-          "x": 126.2,
+          "x": 126.3,
           "y": -1.44,
-          "half_life_days": 126.2,
+          "half_life_days": 126.3,
           "spread_zscore": -1.44,
           "ar1_b": 0.9945,
           "is_high_elasticity": false
@@ -9267,10 +9267,10 @@
           "ticker": "NBCC",
           "name": "NBCC (India) Ltd",
           "sector": "Infrastructure & Construction",
-          "price": 80.4,
-          "x": 99.6,
+          "price": 80.15,
+          "x": 100.1,
           "y": -0.97,
-          "half_life_days": 99.6,
+          "half_life_days": 100.1,
           "spread_zscore": -0.97,
           "ar1_b": 0.9931,
           "is_high_elasticity": false
@@ -9548,7 +9548,7 @@
           "y": -0.62,
           "half_life_days": 12.3,
           "spread_zscore": -0.62,
-          "ar1_b": 0.9454,
+          "ar1_b": 0.9453,
           "is_high_elasticity": false
         },
         {
@@ -9572,7 +9572,7 @@
           "y": -0.6,
           "half_life_days": 6.4,
           "spread_zscore": -0.6,
-          "ar1_b": 0.8969,
+          "ar1_b": 0.897,
           "is_high_elasticity": false
         },
         {
@@ -9704,7 +9704,7 @@
           "y": -0.3,
           "half_life_days": 24.2,
           "spread_zscore": -0.3,
-          "ar1_b": 0.9718,
+          "ar1_b": 0.9717,
           "is_high_elasticity": false
         },
         {
@@ -10064,7 +10064,7 @@
           "y": 0.4,
           "half_life_days": 9.3,
           "spread_zscore": 0.4,
-          "ar1_b": 0.9279,
+          "ar1_b": 0.9278,
           "is_high_elasticity": false
         },
         {
@@ -10272,18 +10272,6 @@
           "is_high_elasticity": false
         },
         {
-          "ticker": "BANKBARODA",
-          "name": "Bank of Baroda",
-          "sector": "Financial Services",
-          "price": 260.01,
-          "x": 22.2,
-          "y": 0.68,
-          "half_life_days": 22.2,
-          "spread_zscore": 0.68,
-          "ar1_b": 0.9693,
-          "is_high_elasticity": false
-        },
-        {
           "ticker": "PRESTIGE",
           "name": "Prestige Estates Projects Ltd",
           "sector": "Real Estate & Realty",
@@ -10293,6 +10281,18 @@
           "half_life_days": 9.4,
           "spread_zscore": 0.68,
           "ar1_b": 0.9291,
+          "is_high_elasticity": false
+        },
+        {
+          "ticker": "BANKBARODA",
+          "name": "Bank of Baroda",
+          "sector": "Financial Services",
+          "price": 260.01,
+          "x": 22.2,
+          "y": 0.69,
+          "half_life_days": 22.2,
+          "spread_zscore": 0.69,
+          "ar1_b": 0.9693,
           "is_high_elasticity": false
         },
         {
@@ -10432,9 +10432,9 @@
           "name": "Reliance Industries Ltd",
           "sector": "Oil, Gas & Energy",
           "price": 1324.4,
-          "x": 4.4,
+          "x": 4.3,
           "y": 1.06,
-          "half_life_days": 4.4,
+          "half_life_days": 4.3,
           "spread_zscore": 1.06,
           "ar1_b": 0.8527,
           "is_high_elasticity": false
@@ -10496,7 +10496,7 @@
           "y": 1.2,
           "half_life_days": 4.4,
           "spread_zscore": 1.2,
-          "ar1_b": 0.8543,
+          "ar1_b": 0.8542,
           "is_high_elasticity": false
         },
         {
@@ -10556,7 +10556,7 @@
           "y": 1.24,
           "half_life_days": 2.9,
           "spread_zscore": 1.24,
-          "ar1_b": 0.7859,
+          "ar1_b": 0.7858,
           "is_high_elasticity": false
         },
         {
@@ -10652,7 +10652,7 @@
           "y": 1.4,
           "half_life_days": 10.7,
           "spread_zscore": 1.4,
-          "ar1_b": 0.9371,
+          "ar1_b": 0.937,
           "is_high_elasticity": false
         },
         {
@@ -10784,7 +10784,7 @@
           "y": 1.67,
           "half_life_days": 17.7,
           "spread_zscore": 1.67,
-          "ar1_b": 0.9617,
+          "ar1_b": 0.9616,
           "is_high_elasticity": false
         },
         {
@@ -10820,7 +10820,7 @@
           "y": 1.88,
           "half_life_days": 25.7,
           "spread_zscore": 1.88,
-          "ar1_b": 0.9734,
+          "ar1_b": 0.9733,
           "is_high_elasticity": false
         },
         {
@@ -10860,15 +10860,27 @@
           "is_high_elasticity": false
         },
         {
+          "ticker": "AUROPHARMA",
+          "name": "Aurobindo Pharma Ltd",
+          "sector": "Pharmaceuticals & Healthcare",
+          "price": 1848.3,
+          "x": 39.7,
+          "y": 2.03,
+          "half_life_days": 39.7,
+          "spread_zscore": 2.03,
+          "ar1_b": 0.9827,
+          "is_high_elasticity": false
+        },
+        {
           "ticker": "UNIONBANK",
           "name": "Union Bank of India",
           "sector": "Financial Services",
           "price": 197.0,
-          "x": 21.0,
+          "x": 20.9,
           "y": 2.03,
-          "half_life_days": 21.0,
+          "half_life_days": 20.9,
           "spread_zscore": 2.03,
-          "ar1_b": 0.9675,
+          "ar1_b": 0.9674,
           "is_high_elasticity": false
         },
         {
@@ -10881,18 +10893,6 @@
           "half_life_days": 250.0,
           "spread_zscore": 2.04,
           "ar1_b": 1.0074,
-          "is_high_elasticity": false
-        },
-        {
-          "ticker": "AUROPHARMA",
-          "name": "Aurobindo Pharma Ltd",
-          "sector": "Pharmaceuticals & Healthcare",
-          "price": 1855.3,
-          "x": 39.3,
-          "y": 2.04,
-          "half_life_days": 39.3,
-          "spread_zscore": 2.04,
-          "ar1_b": 0.9825,
           "is_high_elasticity": false
         },
         {
@@ -10924,9 +10924,9 @@
           "name": "Punjab National Bank",
           "sector": "Financial Services",
           "price": 132.17,
-          "x": 83.4,
+          "x": 83.3,
           "y": 2.19,
-          "half_life_days": 83.4,
+          "half_life_days": 83.3,
           "spread_zscore": 2.19,
           "ar1_b": 0.9917,
           "is_high_elasticity": false
@@ -10940,7 +10940,7 @@
           "y": 2.29,
           "half_life_days": 10.9,
           "spread_zscore": 2.29,
-          "ar1_b": 0.9384,
+          "ar1_b": 0.9383,
           "is_high_elasticity": false
         },
         {
@@ -10972,9 +10972,9 @@
           "name": "Petronet LNG Ltd",
           "sector": "Oil, Gas & Energy",
           "price": 320.45,
-          "x": 157.4,
+          "x": 157.1,
           "y": 2.52,
-          "half_life_days": 157.4,
+          "half_life_days": 157.1,
           "spread_zscore": 2.52,
           "ar1_b": 0.9956,
           "is_high_elasticity": false
@@ -11012,7 +11012,7 @@
           "y": 2.68,
           "half_life_days": 53.6,
           "spread_zscore": 2.68,
-          "ar1_b": 0.9872,
+          "ar1_b": 0.9871,
           "is_high_elasticity": false
         },
         {
@@ -12379,11 +12379,11 @@
           "ticker": "AUROPHARMA",
           "name": "Aurobindo Pharma Ltd",
           "sector": "Pharmaceuticals & Healthcare",
-          "price": 1855.3,
+          "price": 1848.3,
           "x": 0.603,
-          "y": 10.29,
+          "y": 10.28,
           "hurst_exponent": 0.603,
-          "dist_50_sma": 10.29,
+          "dist_50_sma": 10.28,
           "regime": "trending",
           "is_anti_fade": false,
           "is_persist_breakout": true
@@ -12444,11 +12444,11 @@
           "ticker": "CONCOR",
           "name": "Container Corporation of India Ltd",
           "sector": "Logistics & Services",
-          "price": 446.0,
+          "price": 444.1,
           "x": 0.596,
-          "y": -2.37,
+          "y": -2.38,
           "hurst_exponent": 0.596,
-          "dist_50_sma": -2.37,
+          "dist_50_sma": -2.38,
           "regime": "trending",
           "is_anti_fade": false,
           "is_persist_breakout": false
@@ -12483,11 +12483,11 @@
           "ticker": "NBCC",
           "name": "NBCC (India) Ltd",
           "sector": "Infrastructure & Construction",
-          "price": 80.4,
+          "price": 80.15,
           "x": 0.594,
-          "y": 2.55,
+          "y": 2.54,
           "hurst_exponent": 0.594,
-          "dist_50_sma": 2.55,
+          "dist_50_sma": 2.54,
           "regime": "trending",
           "is_anti_fade": false,
           "is_persist_breakout": false
@@ -13120,11 +13120,11 @@
           "ticker": "PREMIERENE",
           "name": "Premier Energies Ltd",
           "sector": "Renewable Energy & Utilities",
-          "price": 886.0,
+          "price": 885.5,
           "x": 0.536,
-          "y": -2.65,
+          "y": -2.66,
           "hurst_exponent": 0.536,
-          "dist_50_sma": -2.65,
+          "dist_50_sma": -2.66,
           "regime": "random_walk",
           "is_anti_fade": false,
           "is_persist_breakout": false
