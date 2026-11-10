@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T08:01:27.084370Z",
+  "updated_at": "2026-11-10T08:16:13.538263Z",
   "total_stocks": 132,
   "models": {
     "ema": {
@@ -5284,9 +5284,9 @@
           "name": "Safari Industries (India)",
           "sector": "Consumer Goods & Retail",
           "price": 1231.1,
-          "x": 109.6,
+          "x": 109.7,
           "y": -1.86,
-          "half_life_days": 109.6,
+          "half_life_days": 109.7,
           "spread_zscore": -1.86,
           "ar1_b": 0.9937,
           "is_high_elasticity": false
