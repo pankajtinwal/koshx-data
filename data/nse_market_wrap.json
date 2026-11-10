@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-10T04:02:26.329140Z",
-  "market_date": "10 Nov 2026, 09:32 AM IST",
+  "updated_at": "2026-11-10T04:16:59.345290Z",
+  "market_date": "10 Nov 2026, 09:46 AM IST",
   "macro_regime": {
     "name": "BULLISH EXPANSION",
     "description": "Broad-based institutional participation across constituents.",
@@ -11,12 +11,12 @@
       "1d": {
         "name": "CONSOLIDATION",
         "description": "Selective stock-picking regime with sideways sector rotation.",
-        "cap_vs_equal_weight_divergence": 0.21,
-        "nifty_cap_weighted": 0.23,
+        "cap_vs_equal_weight_divergence": 0.04,
+        "nifty_cap_weighted": 0.06,
         "nifty_equal_weighted": 0.02,
         "quant_bullets": [
-          "Nifty 50 closed +0.23% with 21 advances vs 28 declines.",
-          "Cap-weighted divergence stands at +0.21%, indicating broad participation.",
+          "Nifty 50 closed +0.06% with 21 advances vs 28 declines.",
+          "Cap-weighted divergence stands at +0.04%, indicating broad participation.",
           "Constituent breadth: 90% of stocks trade above 50 DMA, indicating defensive regime."
         ]
       },
@@ -144,8 +144,8 @@
     "nifty_50": {
       "symbol": "^NSEI",
       "close": 25044.65,
-      "change_pts": 58.25,
-      "return_1d": 0.23,
+      "change_pts": 14.35,
+      "return_1d": 0.06,
       "return_1w": 6.84,
       "return_1m": 11.21,
       "high_1w": 25084.05,
@@ -167,8 +167,8 @@
     "bank_nifty": {
       "symbol": "^NSEBANK",
       "close": 59741.25,
-      "change_pts": 890.65,
-      "return_1d": 1.51,
+      "change_pts": 655.25,
+      "return_1d": 1.11,
       "return_1w": 8.62,
       "return_1m": 8.12,
       "high_1w": 59741.25,
@@ -178,8 +178,8 @@
     "nifty_midcap": {
       "symbol": "^NSMIDCP",
       "close": 72789.45,
-      "change_pts": 797.75,
-      "return_1d": 1.11,
+      "change_pts": 1131.65,
+      "return_1d": 1.58,
       "return_1w": 5.55,
       "return_1m": 6.78,
       "high_1w": 72802.5,
@@ -189,8 +189,8 @@
     "nifty_it": {
       "symbol": "^CNXIT",
       "close": 32468.95,
-      "change_pts": -400.65,
-      "return_1d": -1.22,
+      "change_pts": -508.95,
+      "return_1d": -1.54,
       "return_1w": 0.08,
       "return_1m": 13.63,
       "high_1w": 33616.2,
@@ -200,8 +200,8 @@
     "nifty_pharma": {
       "symbol": "^CNXPHARMA",
       "close": 28896.1,
-      "change_pts": 468.3,
-      "return_1d": 1.65,
+      "change_pts": 955.7,
+      "return_1d": 3.42,
       "return_1w": 6.61,
       "return_1m": 11.3,
       "high_1w": 29224.85,
@@ -215,7 +215,7 @@
   },
   "nifty_50_summary": {
     "close": 25044.65,
-    "return_1d": 0.23,
+    "return_1d": 0.06,
     "return_1w": 6.84,
     "return_1m": 11.21,
     "high_1w": 25084.05,
@@ -1924,7 +1924,7 @@
   },
   "bank_nifty_summary": {
     "close": 59741.25,
-    "return_1d": 1.51,
+    "return_1d": 1.11,
     "return_1w": 8.62,
     "return_1m": 8.12,
     "high_1w": 59741.25,
@@ -2294,7 +2294,7 @@
       "return_1d": 1.61,
       "return_1w": 7.34,
       "return_1m": 6.91,
-      "official_return_1d": 1.51,
+      "official_return_1d": 1.11,
       "official_return_1w": 8.62,
       "official_return_1m": 8.12,
       "advances": 12,
@@ -2667,7 +2667,7 @@
       "return_1d": 1.56,
       "return_1w": 5.85,
       "return_1m": 9.76,
-      "official_return_1d": 1.65,
+      "official_return_1d": 3.42,
       "official_return_1w": 6.61,
       "official_return_1m": 11.3,
       "advances": 11,
@@ -3175,7 +3175,7 @@
       "return_1d": -1.18,
       "return_1w": -0.71,
       "return_1m": 15.28,
-      "official_return_1d": -1.22,
+      "official_return_1d": -1.54,
       "official_return_1w": 0.08,
       "official_return_1m": 13.63,
       "advances": 3,
