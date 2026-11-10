@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T08:31:16.453938Z",
+  "updated_at": "2026-11-10T08:46:15.152299Z",
   "total_stocks": 132,
   "total_indices": 14,
   "indices": [
@@ -8,24 +8,24 @@
       "name": "Master Composite Index",
       "type": "master",
       "file": "data/master_index.json",
-      "current_value": 2075.56,
-      "prev_close": 2082.1,
-      "change_pts": -6.54,
-      "change_pct": -0.31,
-      "day_open": 2084.14,
-      "day_high": 2118.55,
-      "day_low": 2039.84,
+      "current_value": 2077.85,
+      "prev_close": 2089.85,
+      "change_pts": -12.0,
+      "change_pct": -0.57,
+      "day_open": 2086.33,
+      "day_high": 2120.82,
+      "day_low": 2042.15,
       "high_52w": 2246.5,
       "low_52w": 1525.75,
-      "all_time_return_pct": 107.56,
+      "all_time_return_pct": 107.78,
       "returns": {
-        "1d": -0.31,
-        "1w": 3.13,
-        "1m": -1.01,
-        "3m": -4.13,
-        "6m": 4.52,
-        "1y": 10.03,
-        "3y": 106.3
+        "1d": -0.57,
+        "1w": 3.25,
+        "1m": -0.9,
+        "3m": -4.02,
+        "6m": 4.64,
+        "1y": 10.16,
+        "3y": 106.53
       },
       "constituents_count": 132,
       "constituents": [
@@ -837,24 +837,6 @@
             "6m": -17.04,
             "1y": -42.67,
             "3y": -69.61
-          }
-        },
-        {
-          "ticker": "FELIX",
-          "name": "Felix Industries",
-          "exchange": "NSE",
-          "sector": "Infrastructure & Construction",
-          "latest_close": 181.9,
-          "change_pct": 0.25,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": 0.25,
-            "1w": 4.75,
-            "1m": -4.11,
-            "3m": 0.33,
-            "6m": -15.34,
-            "1y": 5.48,
-            "3y": 51.58
           }
         },
         {
@@ -2404,6 +2386,24 @@
             "1y": 103.47,
             "3y": 111.67
           }
+        },
+        {
+          "ticker": "FELIX",
+          "name": "Felix Industries",
+          "exchange": "NSE",
+          "sector": "Infrastructure & Construction",
+          "latest_close": 179.95,
+          "change_pct": -34.71,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": -34.71,
+            "1w": -1.02,
+            "1m": -5.54,
+            "3m": -2.01,
+            "6m": -17.57,
+            "1y": 4.23,
+            "3y": 63.67
+          }
         }
       ]
     },
@@ -2711,8 +2711,8 @@
       "type": "sector",
       "file": "data/sector_capital_goods_engineering.json",
       "current_value": 2732.33,
-      "prev_close": 2731.42,
-      "change_pts": 0.91,
+      "prev_close": 2731.41,
+      "change_pts": 0.92,
       "change_pct": 0.03,
       "day_open": 2734.69,
       "day_high": 2799.83,
@@ -3026,15 +3026,15 @@
       "name": "Chemicals & Materials",
       "type": "sector",
       "file": "data/sector_chemicals_materials.json",
-      "current_value": 2771.62,
+      "current_value": 2771.63,
       "prev_close": 2802.87,
-      "change_pts": -31.25,
+      "change_pts": -31.24,
       "change_pct": -1.11,
       "day_open": 2805.53,
       "day_high": 2827.9,
       "day_low": 2733.98,
       "high_52w": 3074.95,
-      "low_52w": 1847.17,
+      "low_52w": 1847.18,
       "all_time_return_pct": 177.16,
       "returns": {
         "1d": -1.11,
@@ -4274,24 +4274,24 @@
       "name": "Infrastructure & Construction",
       "type": "sector",
       "file": "data/sector_infrastructure_construction.json",
-      "current_value": 1498.67,
-      "prev_close": 1518.51,
-      "change_pts": -19.84,
-      "change_pct": -1.31,
-      "day_open": 1515.32,
-      "day_high": 1527.51,
-      "day_low": 1479.93,
+      "current_value": 1519.04,
+      "prev_close": 1599.29,
+      "change_pts": -80.25,
+      "change_pct": -5.02,
+      "day_open": 1534.05,
+      "day_high": 1547.82,
+      "day_low": 1500.25,
       "high_52w": 1957.68,
       "low_52w": 1260.69,
-      "all_time_return_pct": 49.87,
+      "all_time_return_pct": 51.9,
       "returns": {
-        "1d": -1.31,
-        "1w": 3.47,
-        "1m": -4.31,
-        "3m": -20.01,
-        "6m": -13.73,
-        "1y": -20.71,
-        "3y": 52.32
+        "1d": -5.02,
+        "1w": 4.88,
+        "1m": -3.01,
+        "3m": -18.92,
+        "6m": -12.56,
+        "1y": -19.63,
+        "3y": 54.39
       },
       "constituents_count": 9,
       "constituents": [
@@ -4311,24 +4311,6 @@
             "6m": -21.89,
             "1y": -31.14,
             "3y": 74.8
-          }
-        },
-        {
-          "ticker": "FELIX",
-          "name": "Felix Industries",
-          "exchange": "NSE",
-          "sector": "Infrastructure & Construction",
-          "latest_close": 181.9,
-          "change_pct": 0.25,
-          "weight_pct": 11.11,
-          "returns": {
-            "1d": 0.25,
-            "1w": 4.75,
-            "1m": -4.11,
-            "3m": 0.33,
-            "6m": -15.34,
-            "1y": 5.48,
-            "3y": 51.58
           }
         },
         {
@@ -4455,6 +4437,24 @@
             "6m": -38.85,
             "1y": -43.4,
             "3y": -25.96
+          }
+        },
+        {
+          "ticker": "FELIX",
+          "name": "Felix Industries",
+          "exchange": "NSE",
+          "sector": "Infrastructure & Construction",
+          "latest_close": 179.95,
+          "change_pct": -34.71,
+          "weight_pct": 11.11,
+          "returns": {
+            "1d": -34.71,
+            "1w": -1.02,
+            "1m": -5.54,
+            "3m": -2.01,
+            "6m": -17.57,
+            "1y": 4.23,
+            "3y": 63.67
           }
         }
       ]

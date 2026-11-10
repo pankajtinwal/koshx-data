@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T08:32:05.856675Z",
+  "updated_at": "2026-11-10T08:47:13.398870Z",
   "total_stocks": 216,
   "total_indices": 14,
   "indices": [
@@ -8,24 +8,24 @@
       "name": "MTF Core 216 Index",
       "type": "master",
       "file": "data/mtf_master_index.json",
-      "current_value": 1610.61,
-      "prev_close": 1602.92,
-      "change_pts": 7.69,
-      "change_pct": 0.48,
+      "current_value": 1610.55,
+      "prev_close": 1602.77,
+      "change_pts": 7.78,
+      "change_pct": 0.49,
       "day_open": 1605.18,
-      "day_high": 1626.98,
-      "day_low": 1582.06,
+      "day_high": 1626.89,
+      "day_low": 1581.95,
       "high_52w": 1686.58,
       "low_52w": 1385.51,
-      "all_time_return_pct": 61.06,
+      "all_time_return_pct": 61.05,
       "returns": {
-        "1d": 0.48,
-        "1w": 5.48,
+        "1d": 0.49,
+        "1w": 5.47,
         "1m": 5.71,
-        "3m": -3.09,
+        "3m": -3.1,
         "6m": 1.55,
-        "1y": 1.18,
-        "3y": 60.5
+        "1y": 1.17,
+        "3y": 60.49
       },
       "constituents_count": 216,
       "constituents": [
@@ -405,24 +405,6 @@
             "6m": -10.75,
             "1y": -12.14,
             "3y": 8.12
-          }
-        },
-        {
-          "ticker": "ICICIPRULI",
-          "name": "ICICI Prudential Life Insurance Company Ltd",
-          "exchange": "NSE",
-          "sector": "Financial Services",
-          "latest_close": 438.9,
-          "change_pct": 2.63,
-          "weight_pct": 0.46,
-          "returns": {
-            "1d": 2.63,
-            "1w": 7.05,
-            "1m": -4.07,
-            "3m": -12.4,
-            "6m": -11.72,
-            "1y": -11.72,
-            "3y": -11.72
           }
         },
         {
@@ -891,6 +873,24 @@
             "6m": -12.38,
             "1y": -16.59,
             "3y": -8.88
+          }
+        },
+        {
+          "ticker": "ICICIPRULI",
+          "name": "ICICI Prudential Life Insurance Company Ltd",
+          "exchange": "NSE",
+          "sector": "Financial Services",
+          "latest_close": 438.4,
+          "change_pct": 1.72,
+          "weight_pct": 0.46,
+          "returns": {
+            "1d": 1.72,
+            "1w": 7.71,
+            "1m": -4.81,
+            "3m": -12.28,
+            "6m": -11.82,
+            "1y": -11.82,
+            "3y": -11.82
           }
         },
         {
@@ -1411,7 +1411,7 @@
             "1m": 0.9,
             "3m": -10.96,
             "6m": -15.42,
-            "1y": -13.07,
+            "1y": -13.06,
             "3y": -36.9
           }
         },
@@ -5314,24 +5314,24 @@
       "name": "Financial Services",
       "type": "sector",
       "file": "data/mtf_sector_financial_services.json",
-      "current_value": 1665.5,
-      "prev_close": 1650.26,
-      "change_pts": 15.24,
-      "change_pct": 0.92,
-      "day_open": 1654.73,
-      "day_high": 1680.93,
-      "day_low": 1633.83,
+      "current_value": 1665.21,
+      "prev_close": 1649.72,
+      "change_pts": 15.49,
+      "change_pct": 0.94,
+      "day_open": 1654.8,
+      "day_high": 1680.52,
+      "day_low": 1633.36,
       "high_52w": 1767.32,
       "low_52w": 1443.02,
-      "all_time_return_pct": 66.55,
+      "all_time_return_pct": 66.52,
       "returns": {
-        "1d": 0.92,
-        "1w": 8.02,
-        "1m": 4.63,
-        "3m": -3.14,
-        "6m": 0.65,
-        "1y": -0.26,
-        "3y": 65.65
+        "1d": 0.94,
+        "1w": 8.0,
+        "1m": 4.61,
+        "3m": -3.16,
+        "6m": 0.63,
+        "1y": -0.28,
+        "3y": 65.62
       },
       "constituents_count": 53,
       "constituents": [
@@ -5498,24 +5498,6 @@
           }
         },
         {
-          "ticker": "ICICIPRULI",
-          "name": "ICICI Prudential Life Insurance Company Ltd",
-          "exchange": "NSE",
-          "sector": "Financial Services",
-          "latest_close": 438.9,
-          "change_pct": 2.63,
-          "weight_pct": 1.89,
-          "returns": {
-            "1d": 2.63,
-            "1w": 7.05,
-            "1m": -4.07,
-            "3m": -12.4,
-            "6m": -11.72,
-            "1y": -11.72,
-            "3y": -11.72
-          }
-        },
-        {
           "ticker": "LICHSGFIN",
           "name": "LIC Housing Finance Ltd",
           "exchange": "NSE",
@@ -5639,6 +5621,24 @@
             "6m": -12.38,
             "1y": -16.59,
             "3y": -8.88
+          }
+        },
+        {
+          "ticker": "ICICIPRULI",
+          "name": "ICICI Prudential Life Insurance Company Ltd",
+          "exchange": "NSE",
+          "sector": "Financial Services",
+          "latest_close": 438.4,
+          "change_pct": 1.72,
+          "weight_pct": 1.89,
+          "returns": {
+            "1d": 1.72,
+            "1w": 7.71,
+            "1m": -4.81,
+            "3m": -12.28,
+            "6m": -11.82,
+            "1y": -11.82,
+            "3y": -11.82
           }
         },
         {
@@ -6808,7 +6808,7 @@
       "change_pct": -0.51,
       "day_open": 1057.85,
       "day_high": 1063.98,
-      "day_low": 1038.49,
+      "day_low": 1038.48,
       "high_52w": 1258.63,
       "low_52w": 946.8,
       "all_time_return_pct": 5.11,
@@ -6837,7 +6837,7 @@
             "1m": 0.9,
             "3m": -10.96,
             "6m": -15.42,
-            "1y": -13.07,
+            "1y": -13.06,
             "3y": -36.9
           }
         },
@@ -7914,9 +7914,9 @@
       "name": "Renewable Energy & Utilities",
       "type": "sector",
       "file": "data/mtf_sector_renewable_energy_utilities.json",
-      "current_value": 1609.48,
+      "current_value": 1609.47,
       "prev_close": 1601.99,
-      "change_pts": 7.49,
+      "change_pts": 7.48,
       "change_pct": 0.47,
       "day_open": 1609.24,
       "day_high": 1621.59,

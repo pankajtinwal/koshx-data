@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T08:32:05.866594Z",
+  "updated_at": "2026-11-10T08:47:13.410036Z",
   "timeframes": [
     "1D",
     "1W",
@@ -18,12 +18,12 @@
       "index_id": "mtf_sector_financial_services",
       "constituents_count": 53,
       "returns": {
-        "1d": 0.96,
-        "1w": 7.96,
-        "1m": 4.54,
+        "1d": 0.94,
+        "1w": 7.97,
+        "1m": 4.52,
         "3m": -3.34,
         "6m": 0.2,
-        "1y": -1.13,
+        "1y": -1.14,
         "3y": 50.32
       },
       "stocks": [
@@ -302,17 +302,17 @@
           "name": "ICICI Prudential Life Insurance Company Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 438.9,
-          "change_pct": 2.63,
+          "latest_close": 438.4,
+          "change_pct": 1.72,
           "weight_pct": 1.89,
           "returns": {
-            "1d": 2.63,
-            "1w": 7.05,
-            "1m": -4.07,
-            "3m": -12.4,
-            "6m": -11.72,
-            "1y": -11.72,
-            "3y": -11.72
+            "1d": 1.72,
+            "1w": 7.71,
+            "1m": -4.81,
+            "3m": -12.28,
+            "6m": -11.82,
+            "1y": -11.82,
+            "3y": -11.82
           }
         },
         {
@@ -3953,7 +3953,7 @@
             "1m": 0.9,
             "3m": -10.96,
             "6m": -15.42,
-            "1y": -13.07,
+            "1y": -13.06,
             "3y": -36.9
           }
         },
