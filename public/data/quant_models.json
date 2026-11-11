@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T10:16:15.891847Z",
+  "updated_at": "2026-11-11T11:27:41.455464Z",
   "total_stocks": 132,
   "models": {
     "ema": {
@@ -69,20 +69,6 @@
           "is_pullback_buy": false
         },
         {
-          "ticker": "KPGEL",
-          "name": "KP Green Engineering",
-          "sector": "Capital Goods & Engineering",
-          "price": 329.35,
-          "x": 14.68,
-          "y": 15.49,
-          "ema_20": 285.18,
-          "ema_50": 287.2,
-          "ema_200": 344.35,
-          "is_bull": false,
-          "quadrant": 1,
-          "is_pullback_buy": false
-        },
-        {
           "ticker": "KRISHANA",
           "name": "Krishana Phoschem",
           "sector": "Chemicals & Materials",
@@ -107,6 +93,20 @@
           "ema_50": 427.86,
           "ema_200": 411.6,
           "is_bull": true,
+          "quadrant": 1,
+          "is_pullback_buy": false
+        },
+        {
+          "ticker": "KPGEL",
+          "name": "KP Green Engineering",
+          "sector": "Capital Goods & Engineering",
+          "price": 328.75,
+          "x": 14.48,
+          "y": 15.3,
+          "ema_20": 285.12,
+          "ema_50": 287.18,
+          "ema_200": 344.34,
+          "is_bull": false,
           "quadrant": 1,
           "is_pullback_buy": false
         },
@@ -1867,15 +1867,15 @@
       "x_label": "60-Day Log Return (%)",
       "y_label": "5-Day Log Return (%)",
       "regression": {
-        "alpha": 0.0276,
-        "beta": 0.1184,
-        "r_squared": 0.0983,
+        "alpha": 0.0275,
+        "beta": 0.1181,
+        "r_squared": 0.0981,
         "std_err": 0.056,
         "n": 131,
         "x_min": -0.3808,
         "x_max": 0.4403,
         "x_mean": -0.0367,
-        "ss_xx": 3.154404
+        "ss_xx": 3.153409
       },
       "stats": {
         "outlier_count": 9
@@ -1888,7 +1888,7 @@
           "price": 395.1,
           "x": 12.92,
           "y": 18.55,
-          "expected_y": 4.29,
+          "expected_y": 4.28,
           "residual": 14.27,
           "studentized_residual": 2.57,
           "is_outlier": true
@@ -1897,12 +1897,12 @@
           "ticker": "KPGEL",
           "name": "KP Green Engineering",
           "sector": "Capital Goods & Engineering",
-          "price": 329.35,
-          "x": 23.71,
-          "y": 19.68,
-          "expected_y": 5.56,
-          "residual": 14.12,
-          "studentized_residual": 2.56,
+          "price": 328.75,
+          "x": 23.52,
+          "y": 19.5,
+          "expected_y": 5.53,
+          "residual": 13.97,
+          "studentized_residual": 2.53,
           "is_outlier": true
         },
         {
@@ -1925,7 +1925,7 @@
           "x": -30.75,
           "y": 10.48,
           "expected_y": -0.88,
-          "residual": 11.37,
+          "residual": 11.36,
           "studentized_residual": 2.06,
           "is_outlier": true
         },
@@ -2033,7 +2033,7 @@
           "x": 14.08,
           "y": 11.13,
           "expected_y": 4.42,
-          "residual": 6.71,
+          "residual": 6.72,
           "studentized_residual": 1.21,
           "is_outlier": false
         },
@@ -2092,7 +2092,7 @@
           "price": 229.05,
           "x": -15.39,
           "y": 5.53,
-          "expected_y": 0.93,
+          "expected_y": 0.94,
           "residual": 4.59,
           "studentized_residual": 0.82,
           "is_outlier": false
@@ -2140,8 +2140,8 @@
           "price": 2293.2,
           "x": 12.95,
           "y": 8.79,
-          "expected_y": 4.29,
-          "residual": 4.5,
+          "expected_y": 4.28,
+          "residual": 4.51,
           "studentized_residual": 0.81,
           "is_outlier": false
         },
@@ -2152,7 +2152,7 @@
           "price": 216.24,
           "x": -16.57,
           "y": 4.99,
-          "expected_y": 0.79,
+          "expected_y": 0.8,
           "residual": 4.19,
           "studentized_residual": 0.75,
           "is_outlier": false
@@ -2224,7 +2224,7 @@
           "price": 142.81,
           "x": -2.79,
           "y": 5.74,
-          "expected_y": 2.43,
+          "expected_y": 2.42,
           "residual": 3.31,
           "studentized_residual": 0.59,
           "is_outlier": false
@@ -2236,8 +2236,8 @@
           "price": 1827.5,
           "x": 10.9,
           "y": 7.32,
-          "expected_y": 4.05,
-          "residual": 3.27,
+          "expected_y": 4.04,
+          "residual": 3.28,
           "studentized_residual": 0.59,
           "is_outlier": false
         },
@@ -2284,7 +2284,7 @@
           "price": 138.62,
           "x": -24.5,
           "y": 2.68,
-          "expected_y": -0.15,
+          "expected_y": -0.14,
           "residual": 2.82,
           "studentized_residual": 0.51,
           "is_outlier": false
@@ -2320,7 +2320,7 @@
           "price": 29.9,
           "x": -18.26,
           "y": 3.4,
-          "expected_y": 0.59,
+          "expected_y": 0.6,
           "residual": 2.81,
           "studentized_residual": 0.5,
           "is_outlier": false
@@ -2332,8 +2332,8 @@
           "price": 840.85,
           "x": 26.49,
           "y": 8.45,
-          "expected_y": 5.89,
-          "residual": 2.56,
+          "expected_y": 5.88,
+          "residual": 2.57,
           "studentized_residual": 0.47,
           "is_outlier": false
         },
@@ -2344,7 +2344,7 @@
           "price": 1419.8,
           "x": -25.12,
           "y": 2.39,
-          "expected_y": -0.22,
+          "expected_y": -0.21,
           "residual": 2.61,
           "studentized_residual": 0.47,
           "is_outlier": false
@@ -2357,7 +2357,7 @@
           "x": -17.35,
           "y": 3.2,
           "expected_y": 0.7,
-          "residual": 2.5,
+          "residual": 2.49,
           "studentized_residual": 0.45,
           "is_outlier": false
         },
@@ -2369,7 +2369,7 @@
           "x": 17.13,
           "y": 7.22,
           "expected_y": 4.78,
-          "residual": 2.44,
+          "residual": 2.45,
           "studentized_residual": 0.44,
           "is_outlier": false
         },
@@ -2405,7 +2405,7 @@
           "x": -14.56,
           "y": 3.16,
           "expected_y": 1.03,
-          "residual": 2.13,
+          "residual": 2.12,
           "studentized_residual": 0.38,
           "is_outlier": false
         },
@@ -2417,7 +2417,7 @@
           "x": 4.59,
           "y": 5.36,
           "expected_y": 3.3,
-          "residual": 2.06,
+          "residual": 2.07,
           "studentized_residual": 0.37,
           "is_outlier": false
         },
@@ -2440,8 +2440,8 @@
           "price": 496.65,
           "x": -24.19,
           "y": 1.81,
-          "expected_y": -0.11,
-          "residual": 1.92,
+          "expected_y": -0.1,
+          "residual": 1.91,
           "studentized_residual": 0.35,
           "is_outlier": false
         },
@@ -2464,7 +2464,7 @@
           "price": 2035.0,
           "x": 6.85,
           "y": 5.46,
-          "expected_y": 3.57,
+          "expected_y": 3.56,
           "residual": 1.9,
           "studentized_residual": 0.34,
           "is_outlier": false
@@ -2573,7 +2573,7 @@
           "x": 18.31,
           "y": 5.76,
           "expected_y": 4.92,
-          "residual": 0.84,
+          "residual": 0.85,
           "studentized_residual": 0.15,
           "is_outlier": false
         },
@@ -2596,8 +2596,8 @@
           "price": 458.7,
           "x": -31.26,
           "y": -0.37,
-          "expected_y": -0.95,
-          "residual": 0.58,
+          "expected_y": -0.94,
+          "residual": 0.57,
           "studentized_residual": 0.1,
           "is_outlier": false
         },
@@ -2633,7 +2633,7 @@
           "x": -13.81,
           "y": 1.51,
           "expected_y": 1.12,
-          "residual": 0.39,
+          "residual": 0.38,
           "studentized_residual": 0.07,
           "is_outlier": false
         },
@@ -2668,8 +2668,8 @@
           "price": 694.5,
           "x": 19.54,
           "y": 5.23,
-          "expected_y": 5.07,
-          "residual": 0.16,
+          "expected_y": 5.06,
+          "residual": 0.17,
           "studentized_residual": 0.03,
           "is_outlier": false
         },
@@ -2704,8 +2704,8 @@
           "price": 2294.9,
           "x": 14.66,
           "y": 4.04,
-          "expected_y": 4.49,
-          "residual": -0.45,
+          "expected_y": 4.48,
+          "residual": -0.44,
           "studentized_residual": -0.08,
           "is_outlier": false
         },
@@ -2740,7 +2740,7 @@
           "price": 704.1,
           "x": -20.71,
           "y": -0.35,
-          "expected_y": 0.3,
+          "expected_y": 0.31,
           "residual": -0.65,
           "studentized_residual": -0.12,
           "is_outlier": false
@@ -2764,8 +2764,8 @@
           "price": 3916.9,
           "x": 14.48,
           "y": 3.63,
-          "expected_y": 4.47,
-          "residual": -0.84,
+          "expected_y": 4.46,
+          "residual": -0.83,
           "studentized_residual": -0.15,
           "is_outlier": false
         },
@@ -2812,7 +2812,7 @@
           "price": 1408.4,
           "x": -3.96,
           "y": 1.35,
-          "expected_y": 2.29,
+          "expected_y": 2.28,
           "residual": -0.93,
           "studentized_residual": -0.17,
           "is_outlier": false
@@ -2824,8 +2824,8 @@
           "price": 1062.15,
           "x": 2.62,
           "y": 2.07,
-          "expected_y": 3.07,
-          "residual": -1.0,
+          "expected_y": 3.06,
+          "residual": -0.99,
           "studentized_residual": -0.18,
           "is_outlier": false
         },
@@ -2837,7 +2837,7 @@
           "x": 11.7,
           "y": 3.09,
           "expected_y": 4.14,
-          "residual": -1.05,
+          "residual": -1.04,
           "studentized_residual": -0.19,
           "is_outlier": false
         },
@@ -2873,7 +2873,7 @@
           "x": -12.9,
           "y": -0.16,
           "expected_y": 1.23,
-          "residual": -1.38,
+          "residual": -1.39,
           "studentized_residual": -0.25,
           "is_outlier": false
         },
@@ -2896,8 +2896,8 @@
           "price": 518.7,
           "x": -30.95,
           "y": -2.4,
-          "expected_y": -0.91,
-          "residual": -1.49,
+          "expected_y": -0.9,
+          "residual": -1.5,
           "studentized_residual": -0.27,
           "is_outlier": false
         },
@@ -2908,7 +2908,7 @@
           "price": 1491.0,
           "x": 11.86,
           "y": 2.62,
-          "expected_y": 4.16,
+          "expected_y": 4.15,
           "residual": -1.54,
           "studentized_residual": -0.28,
           "is_outlier": false
@@ -2956,7 +2956,7 @@
           "price": 399.0,
           "x": -3.21,
           "y": 0.25,
-          "expected_y": 2.38,
+          "expected_y": 2.37,
           "residual": -2.12,
           "studentized_residual": -0.38,
           "is_outlier": false
@@ -2980,8 +2980,8 @@
           "price": 178.18,
           "x": 28.06,
           "y": 3.89,
-          "expected_y": 6.08,
-          "residual": -2.19,
+          "expected_y": 6.07,
+          "residual": -2.18,
           "studentized_residual": -0.4,
           "is_outlier": false
         },
@@ -2993,7 +2993,7 @@
           "x": 8.83,
           "y": 1.58,
           "expected_y": 3.8,
-          "residual": -2.22,
+          "residual": -2.21,
           "studentized_residual": -0.4,
           "is_outlier": false
         },
@@ -3016,7 +3016,7 @@
           "price": 8604.0,
           "x": -2.45,
           "y": 0.05,
-          "expected_y": 2.47,
+          "expected_y": 2.46,
           "residual": -2.41,
           "studentized_residual": -0.43,
           "is_outlier": false
@@ -3028,7 +3028,7 @@
           "price": 295.25,
           "x": 11.24,
           "y": 1.66,
-          "expected_y": 4.09,
+          "expected_y": 4.08,
           "residual": -2.43,
           "studentized_residual": -0.44,
           "is_outlier": false
@@ -3052,7 +3052,7 @@
           "price": 43.95,
           "x": 4.49,
           "y": 0.82,
-          "expected_y": 3.29,
+          "expected_y": 3.28,
           "residual": -2.46,
           "studentized_residual": -0.44,
           "is_outlier": false
@@ -3076,8 +3076,8 @@
           "price": 1286.7,
           "x": 30.05,
           "y": 3.69,
-          "expected_y": 6.31,
-          "residual": -2.62,
+          "expected_y": 6.3,
+          "residual": -2.61,
           "studentized_residual": -0.48,
           "is_outlier": false
         },
@@ -3149,8 +3149,8 @@
           "x": -22.05,
           "y": -3.38,
           "expected_y": 0.15,
-          "residual": -3.52,
-          "studentized_residual": -0.63,
+          "residual": -3.53,
+          "studentized_residual": -0.64,
           "is_outlier": false
         },
         {
@@ -3161,7 +3161,7 @@
           "x": -1.63,
           "y": -1.02,
           "expected_y": 2.56,
-          "residual": -3.59,
+          "residual": -3.58,
           "studentized_residual": -0.64,
           "is_outlier": false
         },
@@ -3173,7 +3173,7 @@
           "x": 10.7,
           "y": 0.37,
           "expected_y": 4.02,
-          "residual": -3.66,
+          "residual": -3.65,
           "studentized_residual": -0.66,
           "is_outlier": false
         },
@@ -3184,7 +3184,7 @@
           "price": 77.92,
           "x": 14.37,
           "y": 0.72,
-          "expected_y": 4.46,
+          "expected_y": 4.45,
           "residual": -3.73,
           "studentized_residual": -0.67,
           "is_outlier": false
@@ -3196,8 +3196,8 @@
           "price": 1042.7,
           "x": 19.96,
           "y": 1.43,
-          "expected_y": 5.12,
-          "residual": -3.69,
+          "expected_y": 5.11,
+          "residual": -3.68,
           "studentized_residual": -0.67,
           "is_outlier": false
         },
@@ -3280,7 +3280,7 @@
           "price": 91.34,
           "x": 10.4,
           "y": -1.76,
-          "expected_y": 3.99,
+          "expected_y": 3.98,
           "residual": -5.74,
           "studentized_residual": -1.03,
           "is_outlier": false
@@ -3293,7 +3293,7 @@
           "x": 12.92,
           "y": -2.08,
           "expected_y": 4.28,
-          "residual": -6.37,
+          "residual": -6.36,
           "studentized_residual": -1.15,
           "is_outlier": false
         },
@@ -3316,8 +3316,8 @@
           "price": 236.76,
           "x": 21.98,
           "y": -1.48,
-          "expected_y": 5.36,
-          "residual": -6.84,
+          "expected_y": 5.35,
+          "residual": -6.83,
           "studentized_residual": -1.24,
           "is_outlier": false
         },
@@ -3341,7 +3341,7 @@
           "x": 18.65,
           "y": -3.67,
           "expected_y": 4.96,
-          "residual": -8.63,
+          "residual": -8.62,
           "studentized_residual": -1.56,
           "is_outlier": false
         },
@@ -3353,7 +3353,7 @@
           "x": 28.37,
           "y": -2.84,
           "expected_y": 6.11,
-          "residual": -8.96,
+          "residual": -8.95,
           "studentized_residual": -1.63,
           "is_outlier": false
         },
@@ -3365,7 +3365,7 @@
           "x": 12.08,
           "y": -5.21,
           "expected_y": 4.18,
-          "residual": -9.4,
+          "residual": -9.39,
           "studentized_residual": -1.69,
           "is_outlier": false
         },
@@ -3376,7 +3376,7 @@
           "price": 344.8,
           "x": 5.51,
           "y": -6.17,
-          "expected_y": 3.41,
+          "expected_y": 3.4,
           "residual": -9.58,
           "studentized_residual": -1.72,
           "is_outlier": false
@@ -3388,8 +3388,8 @@
           "price": 583.0,
           "x": 44.03,
           "y": -2.0,
-          "expected_y": 7.97,
-          "residual": -9.96,
+          "expected_y": 7.96,
+          "residual": -9.95,
           "studentized_residual": -1.85,
           "is_outlier": false
         },
@@ -3412,7 +3412,7 @@
           "price": 686.95,
           "x": -30.93,
           "y": -14.63,
-          "expected_y": -0.91,
+          "expected_y": -0.9,
           "residual": -13.73,
           "studentized_residual": -2.49,
           "is_outlier": true
@@ -3425,7 +3425,7 @@
           "x": -38.08,
           "y": -16.09,
           "expected_y": -1.75,
-          "residual": -14.34,
+          "residual": -14.35,
           "studentized_residual": -2.62,
           "is_outlier": true
         },
@@ -3436,7 +3436,7 @@
           "price": 609.9,
           "x": -26.29,
           "y": -17.76,
-          "expected_y": -0.36,
+          "expected_y": -0.35,
           "residual": -17.4,
           "studentized_residual": -3.14,
           "is_outlier": true
@@ -3448,9 +3448,9 @@
           "price": 691.15,
           "x": -21.99,
           "y": -19.91,
-          "expected_y": 0.15,
+          "expected_y": 0.16,
           "residual": -20.07,
-          "studentized_residual": -3.61,
+          "studentized_residual": -3.62,
           "is_outlier": true
         }
       ]
@@ -3463,8 +3463,8 @@
         "mean_v": 2.53,
         "std_v": 5.06,
         "mean_a": -0.03,
-        "std_a": 1.98,
-        "rho": 0.2858,
+        "std_a": 1.97,
+        "rho": 0.2847,
         "q2_inflection_count": 4
       },
       "points": [
@@ -3490,7 +3490,7 @@
           "y": -2.01,
           "raw_v": -14.06,
           "raw_a": -3.99,
-          "mahalanobis_dist": 3.46,
+          "mahalanobis_dist": 3.47,
           "quadrant": 3,
           "is_inflection": false
         },
@@ -3498,12 +3498,12 @@
           "ticker": "KPGEL",
           "name": "KP Green Engineering",
           "sector": "Capital Goods & Engineering",
-          "price": 329.35,
-          "x": 2.81,
-          "y": 2.55,
-          "raw_v": 16.75,
-          "raw_a": 5.01,
-          "mahalanobis_dist": 3.35,
+          "price": 328.75,
+          "x": 2.79,
+          "y": 2.5,
+          "raw_v": 16.64,
+          "raw_a": 4.9,
+          "mahalanobis_dist": 3.31,
           "quadrant": 1,
           "is_inflection": false
         },
@@ -3516,7 +3516,7 @@
           "y": 3.12,
           "raw_v": 9.29,
           "raw_a": 6.13,
-          "mahalanobis_dist": 3.15,
+          "mahalanobis_dist": 3.16,
           "quadrant": 1,
           "is_inflection": false
         },
@@ -3539,7 +3539,7 @@
           "sector": "Financial Services",
           "price": 395.1,
           "x": 2.82,
-          "y": 1.82,
+          "y": 1.83,
           "raw_v": 16.81,
           "raw_a": 3.57,
           "mahalanobis_dist": 3.02,
@@ -3568,7 +3568,7 @@
           "y": -2.57,
           "raw_v": 1.51,
           "raw_a": -5.1,
-          "mahalanobis_dist": 2.62,
+          "mahalanobis_dist": 2.63,
           "quadrant": 3,
           "is_inflection": false
         },
@@ -3604,7 +3604,7 @@
           "sector": "Electronics & Consumer Durables",
           "price": 2039.9,
           "x": -1.12,
-          "y": 1.58,
+          "y": 1.59,
           "raw_v": -3.15,
           "raw_a": 3.1,
           "mahalanobis_dist": 2.28,
@@ -3630,10 +3630,10 @@
           "sector": "Auto & Ancillaries",
           "price": 431.7,
           "x": -2.1,
-          "y": -1.13,
+          "y": -1.14,
           "raw_v": -8.1,
           "raw_a": -2.27,
-          "mahalanobis_dist": 2.17,
+          "mahalanobis_dist": 2.18,
           "quadrant": 3,
           "is_inflection": false
         },
@@ -3646,7 +3646,7 @@
           "y": 0.85,
           "raw_v": 13.46,
           "raw_a": 1.65,
-          "mahalanobis_dist": 2.17,
+          "mahalanobis_dist": 2.18,
           "quadrant": 1,
           "is_inflection": false
         },
@@ -3664,6 +3664,19 @@
           "is_inflection": false
         },
         {
+          "ticker": "WINDLAS",
+          "name": "Windlas Biotech",
+          "sector": "Pharmaceuticals & Healthcare",
+          "price": 998.35,
+          "x": 1.84,
+          "y": 1.27,
+          "raw_v": 11.83,
+          "raw_a": 2.47,
+          "mahalanobis_dist": 2.0,
+          "quadrant": 1,
+          "is_inflection": false
+        },
+        {
           "ticker": "NGLFINE",
           "name": "NGL Fine-Chem",
           "sector": "Pharmaceuticals & Healthcare",
@@ -3674,19 +3687,6 @@
           "raw_a": -0.85,
           "mahalanobis_dist": 2.0,
           "quadrant": 4,
-          "is_inflection": false
-        },
-        {
-          "ticker": "WINDLAS",
-          "name": "Windlas Biotech",
-          "sector": "Pharmaceuticals & Healthcare",
-          "price": 998.35,
-          "x": 1.84,
-          "y": 1.27,
-          "raw_v": 11.83,
-          "raw_a": 2.47,
-          "mahalanobis_dist": 1.99,
-          "quadrant": 1,
           "is_inflection": false
         },
         {
@@ -3724,7 +3724,7 @@
           "y": 1.62,
           "raw_v": 10.17,
           "raw_a": 3.17,
-          "mahalanobis_dist": 1.95,
+          "mahalanobis_dist": 1.96,
           "quadrant": 1,
           "is_inflection": false
         },
@@ -3734,10 +3734,10 @@
           "sector": "Financial Services",
           "price": 275.0,
           "x": 1.2,
-          "y": 1.78,
+          "y": 1.79,
           "raw_v": 8.58,
           "raw_a": 3.49,
-          "mahalanobis_dist": 1.92,
+          "mahalanobis_dist": 1.93,
           "quadrant": 1,
           "is_inflection": false
         },
@@ -3750,7 +3750,7 @@
           "y": -1.86,
           "raw_v": 2.24,
           "raw_a": -3.71,
-          "mahalanobis_dist": 1.92,
+          "mahalanobis_dist": 1.93,
           "quadrant": 3,
           "is_inflection": false
         },
@@ -3773,7 +3773,7 @@
           "sector": "Pharmaceuticals & Healthcare",
           "price": 1866.4,
           "x": -0.42,
-          "y": -1.89,
+          "y": -1.9,
           "raw_v": 0.41,
           "raw_a": -3.78,
           "mahalanobis_dist": 1.9,
@@ -3785,7 +3785,7 @@
           "name": "Sri Lotus Developers And Realty",
           "sector": "Real Estate & Realty",
           "price": 224.72,
-          "x": -1.37,
+          "x": -1.38,
           "y": 0.84,
           "raw_v": -4.42,
           "raw_a": 1.62,
@@ -3825,7 +3825,7 @@
           "sector": "Renewable Energy & Utilities",
           "price": 138.62,
           "x": 0.59,
-          "y": -1.41,
+          "y": -1.42,
           "raw_v": 5.54,
           "raw_a": -2.83,
           "mahalanobis_dist": 1.76,
@@ -3863,8 +3863,8 @@
           "name": "Karur Vysya Bank",
           "sector": "Financial Services",
           "price": 384.4,
-          "x": 1.39,
-          "y": 1.12,
+          "x": 1.4,
+          "y": 1.13,
           "raw_v": 9.59,
           "raw_a": 2.19,
           "mahalanobis_dist": 1.59,
@@ -3902,7 +3902,7 @@
           "name": "Shree Pushkar Chemicals & Fertilisers",
           "sector": "Chemicals & Materials",
           "price": 583.0,
-          "x": -1.14,
+          "x": -1.15,
           "y": 0.67,
           "raw_v": -3.26,
           "raw_a": 1.28,
@@ -3916,7 +3916,7 @@
           "sector": "Chemicals & Materials",
           "price": 3916.9,
           "x": -0.29,
-          "y": 1.34,
+          "y": 1.35,
           "raw_v": 1.07,
           "raw_a": 2.62,
           "mahalanobis_dist": 1.52,
@@ -4114,7 +4114,7 @@
           "y": 1.01,
           "raw_v": 7.36,
           "raw_a": 1.96,
-          "mahalanobis_dist": 1.22,
+          "mahalanobis_dist": 1.23,
           "quadrant": 1,
           "is_inflection": false
         },
@@ -4201,7 +4201,7 @@
           "name": "Pricol",
           "sector": "Auto & Ancillaries",
           "price": 720.4,
-          "x": 0.93,
+          "x": 0.94,
           "y": -0.38,
           "raw_v": 7.26,
           "raw_a": -0.79,
@@ -4280,10 +4280,10 @@
           "sector": "Infrastructure & Construction",
           "price": 447.15,
           "x": 0.31,
-          "y": 1.08,
+          "y": 1.09,
           "raw_v": 4.1,
           "raw_a": 2.11,
-          "mahalanobis_dist": 1.08,
+          "mahalanobis_dist": 1.09,
           "quadrant": 1,
           "is_inflection": false
         },
@@ -4617,12 +4617,25 @@
           "name": "Minda Corporation",
           "sector": "Auto & Ancillaries",
           "price": 714.8,
-          "x": 0.63,
+          "x": 0.64,
           "y": -0.19,
           "raw_v": 5.75,
           "raw_a": -0.4,
           "mahalanobis_dist": 0.74,
           "quadrant": 4,
+          "is_inflection": false
+        },
+        {
+          "ticker": "BLS",
+          "name": "BLS International Services",
+          "sector": "Logistics & Services",
+          "price": 229.05,
+          "x": 0.35,
+          "y": 0.71,
+          "raw_v": 4.32,
+          "raw_a": 1.36,
+          "mahalanobis_dist": 0.73,
+          "quadrant": 1,
           "is_inflection": false
         },
         {
@@ -4649,19 +4662,6 @@
           "raw_a": 1.2,
           "mahalanobis_dist": 0.72,
           "quadrant": 2,
-          "is_inflection": false
-        },
-        {
-          "ticker": "BLS",
-          "name": "BLS International Services",
-          "sector": "Logistics & Services",
-          "price": 229.05,
-          "x": 0.35,
-          "y": 0.71,
-          "raw_v": 4.32,
-          "raw_a": 1.36,
-          "mahalanobis_dist": 0.72,
-          "quadrant": 1,
           "is_inflection": false
         },
         {
@@ -4735,7 +4735,7 @@
           "sector": "Consumer Goods & Retail",
           "price": 29.9,
           "x": -0.05,
-          "y": 0.6,
+          "y": 0.61,
           "raw_v": 2.3,
           "raw_a": 1.16,
           "mahalanobis_dist": 0.65,
@@ -4800,7 +4800,7 @@
           "sector": "Financial Services",
           "price": 513.1,
           "x": 0.43,
-          "y": 0.52,
+          "y": 0.53,
           "raw_v": 4.73,
           "raw_a": 1.0,
           "mahalanobis_dist": 0.6,
@@ -5272,9 +5272,9 @@
           "name": "Subros",
           "sector": "Auto & Ancillaries",
           "price": 606.3,
-          "x": 146.3,
+          "x": 146.2,
           "y": -1.93,
-          "half_life_days": 146.3,
+          "half_life_days": 146.2,
           "spread_zscore": -1.93,
           "ar1_b": 0.9953,
           "is_high_elasticity": false
@@ -5320,9 +5320,9 @@
           "name": "KEI Industries",
           "sector": "Capital Goods & Engineering",
           "price": 4006.4,
-          "x": 58.5,
+          "x": 58.4,
           "y": -1.84,
-          "half_life_days": 58.5,
+          "half_life_days": 58.4,
           "spread_zscore": -1.84,
           "ar1_b": 0.9882,
           "is_high_elasticity": false
@@ -5452,9 +5452,9 @@
           "name": "Olectra Greentech",
           "sector": "Auto & Ancillaries",
           "price": 1053.5,
-          "x": 176.6,
+          "x": 176.5,
           "y": -1.42,
-          "half_life_days": 176.6,
+          "half_life_days": 176.5,
           "spread_zscore": -1.42,
           "ar1_b": 0.9961,
           "is_high_elasticity": false
@@ -5492,7 +5492,7 @@
           "y": -1.4,
           "half_life_days": 52.8,
           "spread_zscore": -1.4,
-          "ar1_b": 0.987,
+          "ar1_b": 0.9869,
           "is_high_elasticity": false
         },
         {
@@ -6159,11 +6159,11 @@
           "ticker": "KPGEL",
           "name": "KP Green Engineering",
           "sector": "Capital Goods & Engineering",
-          "price": 329.35,
+          "price": 328.75,
           "x": 24.2,
-          "y": 0.25,
+          "y": 0.24,
           "half_life_days": 24.2,
-          "spread_zscore": 0.25,
+          "spread_zscore": 0.24,
           "ar1_b": 0.9718,
           "is_high_elasticity": false
         },
@@ -6248,7 +6248,7 @@
           "y": 0.48,
           "half_life_days": 8.0,
           "spread_zscore": 0.48,
-          "ar1_b": 0.9169,
+          "ar1_b": 0.917,
           "is_high_elasticity": false
         },
         {
@@ -6676,9 +6676,9 @@
           "name": "Krishana Phoschem",
           "sector": "Chemicals & Materials",
           "price": 236.76,
-          "x": 213.0,
+          "x": 213.1,
           "y": 1.77,
-          "half_life_days": 213.0,
+          "half_life_days": 213.1,
           "spread_zscore": 1.77,
           "ar1_b": 0.9968,
           "is_high_elasticity": false
@@ -7185,11 +7185,11 @@
           "ticker": "KPGEL",
           "name": "KP Green Engineering",
           "sector": "Capital Goods & Engineering",
-          "price": 329.35,
+          "price": 328.75,
           "x": 0.675,
-          "y": 16.85,
+          "y": 16.65,
           "hurst_exponent": 0.675,
-          "dist_50_sma": 16.85,
+          "dist_50_sma": 16.65,
           "regime": "trending",
           "is_anti_fade": false,
           "is_persist_breakout": true

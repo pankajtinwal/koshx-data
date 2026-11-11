@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T10:17:04.395845Z",
+  "updated_at": "2026-11-11T11:28:28.510627Z",
   "total_stocks": 216,
   "total_indices": 14,
   "indices": [
@@ -4240,9 +4240,9 @@
       "name": "Capital Goods & Engineering",
       "type": "sector",
       "file": "data/mtf_sector_capital_goods_engineering.json",
-      "current_value": 1963.71,
+      "current_value": 1963.7,
       "prev_close": 1944.29,
-      "change_pts": 19.42,
+      "change_pts": 19.41,
       "change_pct": 1.0,
       "day_open": 1961.34,
       "day_high": 1986.48,
@@ -5321,7 +5321,7 @@
       "day_open": 1640.41,
       "day_high": 1681.47,
       "day_low": 1627.03,
-      "high_52w": 1725.47,
+      "high_52w": 1725.48,
       "low_52w": 1408.85,
       "all_time_return_pct": 65.49,
       "returns": {
