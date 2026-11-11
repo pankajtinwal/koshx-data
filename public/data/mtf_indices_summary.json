@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T11:28:28.510627Z",
+  "updated_at": "2026-11-11T11:51:03.174305Z",
   "total_stocks": 216,
   "total_indices": 14,
   "indices": [
@@ -7308,7 +7308,7 @@
       "day_high": 1881.47,
       "day_low": 1830.88,
       "high_52w": 1887.68,
-      "low_52w": 1461.13,
+      "low_52w": 1461.14,
       "all_time_return_pct": 85.07,
       "returns": {
         "1d": -0.45,
