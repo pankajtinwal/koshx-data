@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T18:38:49.384127Z",
+  "updated_at": "2026-11-11T03:31:32.002819Z",
   "total_stocks": 132,
   "total_indices": 14,
   "indices": [
@@ -2711,8 +2711,8 @@
       "type": "sector",
       "file": "data/sector_capital_goods_engineering.json",
       "current_value": 2732.33,
-      "prev_close": 2731.41,
-      "change_pts": 0.92,
+      "prev_close": 2731.42,
+      "change_pts": 0.91,
       "change_pct": 0.03,
       "day_open": 2734.69,
       "day_high": 2799.83,
