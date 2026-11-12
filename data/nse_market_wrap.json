@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-12T10:02:15.143507Z",
-  "market_date": "12 Nov 2026, 03:32 PM IST",
+  "updated_at": "2026-11-12T10:16:56.774317Z",
+  "market_date": "12 Nov 2026, 03:46 PM IST",
   "macro_regime": {
     "name": "BULLISH EXPANSION",
     "description": "Broad-based institutional participation across constituents.",
@@ -59,9 +59,9 @@
     "volatility": {
       "realized_vol_20d_pct": 15.1,
       "realized_vol_percentile_1y": 78.0,
-      "india_vix": 16.58,
+      "india_vix": 16.62,
       "india_vix_percentile_1y": 74.8,
-      "vix_minus_rv_spread": 1.49,
+      "vix_minus_rv_spread": 1.53,
       "vol_environment": "CONTAINED VOLATILITY (NORMAL RISK PREMIUM)"
     },
     "conditional_stats": {
@@ -209,7 +209,7 @@
       "candles_count": 63
     },
     "india_vix_meta": {
-      "level": 16.58,
+      "level": 16.62,
       "percentile_1y": 74.8
     }
   },

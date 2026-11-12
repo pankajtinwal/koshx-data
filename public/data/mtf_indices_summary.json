@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T10:02:08.420625Z",
+  "updated_at": "2026-11-12T10:16:50.623537Z",
   "total_stocks": 216,
   "total_indices": 14,
   "indices": [
@@ -4241,12 +4241,12 @@
       "type": "sector",
       "file": "data/mtf_sector_capital_goods_engineering.json",
       "current_value": 1969.7,
-      "prev_close": 1963.71,
-      "change_pts": 5.99,
+      "prev_close": 1963.7,
+      "change_pts": 6.0,
       "change_pct": 0.31,
       "day_open": 1969.54,
       "day_high": 2001.78,
-      "day_low": 1946.8,
+      "day_low": 1946.73,
       "high_52w": 2112.45,
       "low_52w": 1534.91,
       "all_time_return_pct": 96.97,
