@@ -1,38 +1,38 @@
 {
-  "updated_at": "2026-11-11T11:51:19.097780Z",
-  "market_date": "09-Nov-2026",
+  "updated_at": "2026-11-12T00:44:09.538578Z",
+  "market_date": "11-Nov-2026",
   "today": {
-    "date": "09-Nov-2026",
+    "date": "11-Nov-2026",
     "fii": {
-      "buy": 20310.99,
-      "sell": 13098.77,
-      "net": 7212.22
+      "buy": 30087.21,
+      "sell": 17523.88,
+      "net": 12563.33
     },
     "dii": {
-      "buy": 12764.97,
-      "sell": 19937.5,
-      "net": -7172.53
+      "buy": 19704.39,
+      "sell": 28138.92,
+      "net": -8434.53
     },
-    "combined_net_cr": 39.69,
+    "combined_net_cr": 4128.8,
     "absorption_ratio_pct": 100.0,
     "active_regime": "Foreign Momentum / DII Profit Booking",
     "regime_description": "Foreign capital driving large-caps while domestic institutions book profits to rebalance cash.",
-    "fii_index_futures_long_pct": 26.8,
-    "fii_index_futures_short_pct": 73.2,
+    "fii_index_futures_long_pct": 31.0,
+    "fii_index_futures_short_pct": 69.0,
     "fii_fno_sentiment": "Bearish Leaning / Moderate Short Bias",
-    "client_retail_long_pct": 64.2,
-    "pro_desk_long_pct": 36.9,
-    "dii_fno_long_pct": 69.0,
-    "z_score_fii": 3.51,
+    "client_retail_long_pct": 62.1,
+    "pro_desk_long_pct": 34.5,
+    "dii_fno_long_pct": 66.6,
+    "z_score_fii": 5.73,
     "flow_classification": "STATISTICAL OUTLIER (-3.4\u03c3)"
   },
   "summary_stats_3y": {
-    "total_fii_net_cr": -297828.57,
-    "total_dii_net_cr": 853642.1,
-    "cumulative_absorption_ratio": 286.6,
+    "total_fii_net_cr": -285265.24,
+    "total_dii_net_cr": 845207.57,
+    "cumulative_absorption_ratio": 296.3,
     "nifty_3y_return_pct": 28.5,
-    "avg_daily_fii_flow": -404.1,
-    "avg_daily_dii_flow": 1158.3
+    "avg_daily_fii_flow": -386.5,
+    "avg_daily_dii_flow": 1145.3
   },
   "daily_history_3y": [
     {
@@ -11826,6 +11826,22 @@
       "cum_dii": 1239042.1,
       "fii_long_ratio": 26.8,
       "absorption_ratio": 100.0
+    },
+    {
+      "date": "2026-11-11",
+      "nifty_open": 25076.4,
+      "nifty_high": 25084.05,
+      "nifty_low": 24838.75,
+      "nifty_close": 25044.65,
+      "nifty_change": 14.3,
+      "nifty_change_pct": 0.06,
+      "fii_net": 12563.33,
+      "dii_net": -8434.53,
+      "combined_net": 4128.8,
+      "cum_fii": -469465.24,
+      "cum_dii": 1230607.57,
+      "fii_long_ratio": 31.0,
+      "absorption_ratio": 100.0
     }
   ],
   "regimes_matrix": [
@@ -12241,8 +12257,8 @@
         "nifty_ret": 2.26
       },
       "Nov": {
-        "fii": 53172,
-        "dii": -31369,
+        "fii": 65736,
+        "dii": -39804,
         "nifty_ret": 7.85
       }
     }

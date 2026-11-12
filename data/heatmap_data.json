@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T11:50:10.303212Z",
+  "updated_at": "2026-11-12T00:42:52.179139Z",
   "timeframes": [
     "1D",
     "1W",
@@ -1811,13 +1811,13 @@
       "index_id": "sector_infrastructure_construction",
       "constituents_count": 9,
       "returns": {
-        "1d": 2.98,
-        "1w": 3.71,
-        "1m": -1.29,
-        "3m": -15.72,
-        "6m": -7.67,
-        "1y": -17.02,
-        "3y": 54.39
+        "1d": 8.88,
+        "1w": 9.65,
+        "1m": 4.36,
+        "3m": -10.89,
+        "6m": -2.38,
+        "1y": -12.27,
+        "3y": 63.22
       },
       "stocks": [
         {
@@ -1897,17 +1897,17 @@
           "name": "Felix Industries",
           "exchange": "NSE",
           "sector": "Infrastructure & Construction",
-          "latest_close": 179.95,
-          "change_pct": -1.07,
+          "latest_close": 280.8,
+          "change_pct": 56.04,
           "weight_pct": 11.11,
           "returns": {
-            "1d": -1.07,
-            "1w": -1.02,
-            "1m": -5.54,
-            "3m": -2.01,
-            "6m": -17.57,
-            "1y": 4.23,
-            "3y": 66.31
+            "1d": 56.04,
+            "1w": 54.37,
+            "1m": 47.67,
+            "3m": 49.56,
+            "6m": 30.36,
+            "1y": 63.26,
+            "3y": 159.52
           }
         },
         {
