@@ -30,6 +30,17 @@ PUBLIC_STOCKS_OUTPUT_DIR = os.path.join(PUBLIC_DATA_DIR, "stocks")
 os.makedirs(STOCKS_OUTPUT_DIR, exist_ok=True)
 os.makedirs(PUBLIC_STOCKS_OUTPUT_DIR, exist_ok=True)
 
+# Curated ticker symbol overrides matching build_indices.py
+SYMBOL_OVERRIDES = {
+    "TRIL": "TARIL.NS",
+    "INDEGENE": "INDGN.NS",
+    "PRICOL": "PRICOLLTD.NS",
+    "ARVINDSMART": "ARVSMART.NS",
+    "EMS": "EMSLIMITED.NS",
+    "KPGEL": "KPGEL.BO",
+    "LTIM": "LTM.NS",
+}
+
 # Curated high-conviction official domains for major Indian corporations
 KNOWN_WEBSITES = {
     "RELIANCE": "https://www.ril.com",
@@ -209,7 +220,8 @@ def main():
         slug = clean_slug(ticker)
 
         # Lookup candle data
-        candidates = [f"{ticker}.NS", f"{ticker}.BO", ticker, f"{ticker.replace('-', '_')}.NS"]
+        override_sym = SYMBOL_OVERRIDES.get(ticker)
+        candidates = ([override_sym] if override_sym else []) + [f"{ticker}.NS", f"{ticker}.BO", ticker, f"{ticker.replace('-', '_')}.NS"]
         candles = None
         for c in candidates:
             if c in history and history[c]:

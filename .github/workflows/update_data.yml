@@ -47,14 +47,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Restore Price History Delta Cache
-        uses: actions/cache@v4
-        with:
-          path: data/history.json
-          key: stock-history-${{ runner.os }}-${{ github.run_id }}
-          restore-keys: |
-            stock-history-${{ runner.os }}-
-
       - name: Execute Institutional FII & DII Extraction
         run: |
           python scripts/build_fii_dii_data.py

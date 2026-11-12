@@ -255,7 +255,7 @@ def repair_cache_trading_day_gaps(cache: dict) -> dict:
                     by_date[prev_market_date]["high"] = max(by_date[prev_market_date].get("high", official_pc), official_pc)
                     by_date[prev_market_date]["low"] = min(by_date[prev_market_date].get("low", official_pc), official_pc)
 
-        relevant_market_days = [d for d in market_dates if first_date <= d <= last_date]
+        relevant_market_days = [d for d in market_dates if first_date <= d <= latest_market_date]
         missing_days = [d for d in relevant_market_days if d not in by_date]
 
         if not missing_days:
@@ -386,6 +386,25 @@ def ingest_data(stocks: list, force_refresh: bool = False, batch_size: int = 18)
                         print(f"[WARN] 'Close' column missing for {sym}")
                         continue
 
+                    # Resilient handling for active / unfinalized trading sessions:
+                    # Yahoo Finance chart API sets Close: None / NaN for the ongoing day or recent close
+                    # before late-night Bhavcopy settlement. We MUST NOT discard the session.
+                    if not sym_df.empty and sym_df["Close"].isna().any():
+                        last_idx = sym_df.index[-1]
+                        if pd.isna(sym_df.loc[last_idx, "Close"]):
+                            live_close = None
+                            try:
+                                t = yf.Ticker(sym)
+                                fi = t.fast_info
+                                live_close = getattr(fi, "last_price", None) or getattr(fi, "regular_market_previous_close", None)
+                            except Exception:
+                                pass
+
+                            if live_close is not None and float(live_close) > 0:
+                                sym_df.loc[last_idx, "Close"] = float(live_close)
+                            elif "Open" in sym_df.columns and not pd.isna(sym_df.loc[last_idx, "Open"]) and float(sym_df.loc[last_idx, "Open"]) > 0:
+                                sym_df.loc[last_idx, "Close"] = float(sym_df.loc[last_idx, "Open"])
+
                     sym_df = sym_df.dropna(subset=["Close"])
                     if sym_df.empty:
                         print(f"[WARN] Empty dataframe returned for {sym}")
@@ -394,13 +413,17 @@ def ingest_data(stocks: list, force_refresh: bool = False, batch_size: int = 18)
                     new_records = []
                     for idx, row in sym_df.iterrows():
                         date_str = idx.strftime("%Y-%m-%d") if hasattr(idx, 'strftime') else str(idx)[:10]
-                        o = float(row.get("Open", row["Close"]))
-                        h = float(row.get("High", row["Close"]))
-                        l = float(row.get("Low", row["Close"]))
                         c = float(row["Close"])
+                        o = float(row.get("Open", c)) if not pd.isna(row.get("Open")) and float(row.get("Open", 0)) > 0 else c
+                        h = float(row.get("High", c)) if not pd.isna(row.get("High")) and float(row.get("High", 0)) > 0 else max(o, c)
+                        l = float(row.get("Low", c)) if not pd.isna(row.get("Low")) and float(row.get("Low", 0)) > 0 else min(o, c)
+                        
+                        # Strict mathematical consistency: High must be >= max(Open, Close), Low <= min(Open, Close)
+                        h = max(h, o, c)
+                        l = min(l, o, c)
                         v = int(row.get("Volume", 0)) if not pd.isna(row.get("Volume", 0)) else 0
                         
-                        if pd.isna(o) or pd.isna(h) or pd.isna(l) or pd.isna(c) or c <= 0:
+                        if c <= 0:
                             continue
                         
                         new_records.append({
