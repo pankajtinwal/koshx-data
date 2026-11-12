@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T00:43:59.206687Z",
+  "updated_at": "2026-11-12T03:32:09.869408Z",
   "timeframes": [
     "1D",
     "1W",
@@ -18,13 +18,13 @@
       "index_id": "mtf_sector_financial_services",
       "constituents_count": 53,
       "returns": {
-        "1d": 1.73,
-        "1w": 6.94,
-        "1m": 6.11,
-        "3m": -2.08,
-        "6m": 4.29,
-        "1y": 0.57,
-        "3y": 50.32
+        "1d": 1.81,
+        "1w": 7.02,
+        "1m": 6.19,
+        "3m": -2.01,
+        "6m": 4.37,
+        "1y": 0.65,
+        "3y": 50.39
       },
       "stocks": [
         {
@@ -302,17 +302,17 @@
           "name": "ICICI Prudential Life Insurance Company Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 431.0,
-          "change_pct": -1.69,
+          "latest_close": 450.0,
+          "change_pct": 2.65,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -1.69,
-            "1w": 1.88,
-            "1m": -6.99,
-            "3m": -14.89,
-            "6m": -13.31,
-            "1y": -13.31,
-            "3y": -13.31
+            "1d": 2.65,
+            "1w": 6.37,
+            "1m": -2.89,
+            "3m": -11.14,
+            "6m": -9.48,
+            "1y": -9.48,
+            "3y": -9.48
           }
         },
         {
@@ -1093,7 +1093,7 @@
           "name": "Hindustan Unilever Ltd",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 2022.4,
+          "latest_close": 2003.4,
           "change_pct": 1.61,
           "weight_pct": 3.85,
           "returns": {
@@ -3014,7 +3014,7 @@
           "name": "Bayer CropScience Ltd",
           "exchange": "NSE",
           "sector": "Chemicals & Materials",
-          "latest_close": 3603.8,
+          "latest_close": 3513.8,
           "change_pct": 3.45,
           "weight_pct": 9.09,
           "returns": {
@@ -3515,12 +3515,12 @@
           "name": "Oil and Natural Gas Corporation Ltd",
           "exchange": "NSE",
           "sector": "Oil, Gas & Energy",
-          "latest_close": 234.8,
+          "latest_close": 226.8,
           "change_pct": 0.56,
           "weight_pct": 12.5,
           "returns": {
             "1d": 0.56,
-            "1w": -0.09,
+            "1w": -0.08,
             "1m": 6.73,
             "3m": -1.36,
             "6m": -20.65,
