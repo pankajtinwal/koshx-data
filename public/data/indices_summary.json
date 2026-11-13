@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T17:40:11.694185Z",
+  "updated_at": "2026-11-13T18:03:58.779832Z",
   "total_stocks": 132,
   "total_indices": 14,
   "indices": [
@@ -4049,8 +4049,8 @@
       "type": "sector",
       "file": "data/sector_it_tech_services.json",
       "current_value": 1900.94,
-      "prev_close": 1899.73,
-      "change_pts": 1.21,
+      "prev_close": 1899.72,
+      "change_pts": 1.22,
       "change_pct": 0.06,
       "day_open": 1899.2,
       "day_high": 1926.14,

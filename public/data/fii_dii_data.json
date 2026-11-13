@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T17:41:12.019458Z",
+  "updated_at": "2026-11-13T18:04:53.659296Z",
   "market_date": "13-Nov-2026",
   "today": {
     "date": "13-Nov-2026",
@@ -11863,7 +11863,7 @@
       "date": "2026-11-13",
       "nifty_open": 25209.85,
       "nifty_high": 25246.35,
-      "nifty_low": 25054.6,
+      "nifty_low": 25054.4,
       "nifty_close": 25144.3,
       "nifty_change": -155.05,
       "nifty_change_pct": -0.61,
