@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T18:51:29.343379Z",
+  "updated_at": "2026-11-13T03:31:25.854566Z",
   "timeframes": [
     "1D",
     "1W",
@@ -899,11 +899,11 @@
       "returns": {
         "1d": -0.24,
         "1w": 3.33,
-        "1m": 1.08,
+        "1m": 1.07,
         "3m": -1.6,
         "6m": 6.03,
         "1y": 2.47,
-        "3y": 73.68
+        "3y": 73.67
       },
       "stocks": [
         {
@@ -929,14 +929,14 @@
           "name": "Aptus Value Housing Finance",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 176.15,
+          "latest_close": 174.15,
           "change_pct": 0.3,
           "weight_pct": 7.69,
           "returns": {
             "1d": 0.3,
             "1w": -2.1,
             "1m": -21.13,
-            "3m": -30.59,
+            "3m": -30.6,
             "6m": -34.1,
             "1y": -37.16,
             "3y": -38.23
@@ -965,11 +965,11 @@
           "name": "Repco Home Finance",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 389.55,
-          "change_pct": -1.4,
+          "latest_close": 384.55,
+          "change_pct": -1.41,
           "weight_pct": 7.69,
           "returns": {
-            "1d": -1.4,
+            "1d": -1.41,
             "1w": 19.33,
             "1m": 17.55,
             "3m": 8.48,
