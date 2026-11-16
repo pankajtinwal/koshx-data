@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-11-16T12:04:41.692900Z",
-  "market_date": "13-Nov-2026",
+  "updated_at": "2026-11-16T12:41:41.826838Z",
+  "market_date": "16-Nov-2026",
   "today": {
-    "date": "13-Nov-2026",
+    "date": "16-Nov-2026",
     "fii": {
-      "buy": 18339.57,
-      "sell": 12603.02,
-      "net": 5736.55
+      "buy": 15636.88,
+      "sell": 10772.2,
+      "net": 4864.68
     },
     "dii": {
-      "buy": 11745.95,
-      "sell": 13999.53,
-      "net": -2253.58
+      "buy": 11752.03,
+      "sell": 15271.08,
+      "net": -3519.05
     },
-    "combined_net_cr": 3482.97,
+    "combined_net_cr": 1345.63,
     "absorption_ratio_pct": 100.0,
     "active_regime": "Foreign Momentum / DII Profit Booking",
     "regime_description": "Foreign capital driving large-caps while domestic institutions book profits to rebalance cash.",
@@ -23,16 +23,16 @@
     "client_retail_long_pct": 61.0,
     "pro_desk_long_pct": 30.2,
     "dii_fno_long_pct": 65.9,
-    "z_score_fii": 2.89,
+    "z_score_fii": 2.53,
     "flow_classification": "ELEVATED FLOW"
   },
   "summary_stats_3y": {
-    "total_fii_net_cr": -270901.37,
-    "total_dii_net_cr": 837211.65,
-    "cumulative_absorption_ratio": 309.0,
-    "nifty_3y_return_pct": 27.8,
-    "avg_daily_fii_flow": -367.1,
-    "avg_daily_dii_flow": 1134.4
+    "total_fii_net_cr": -266036.69,
+    "total_dii_net_cr": 833692.6,
+    "cumulative_absorption_ratio": 313.4,
+    "nifty_3y_return_pct": 28.5,
+    "avg_daily_fii_flow": -360.0,
+    "avg_daily_dii_flow": 1128.1
   },
   "daily_history_3y": [
     {
@@ -11842,6 +11842,22 @@
       "cum_dii": 1222611.65,
       "fii_long_ratio": 34.6,
       "absorption_ratio": 100.0
+    },
+    {
+      "date": "2026-11-16",
+      "nifty_open": 25206.15,
+      "nifty_high": 25337.6,
+      "nifty_low": 25172.1,
+      "nifty_close": 25291.1,
+      "nifty_change": 146.8,
+      "nifty_change_pct": 0.58,
+      "fii_net": 4864.68,
+      "dii_net": -3519.05,
+      "combined_net": 1345.63,
+      "cum_fii": -450236.69,
+      "cum_dii": 1219092.6,
+      "fii_long_ratio": 34.6,
+      "absorption_ratio": 100.0
     }
   ],
   "regimes_matrix": [
@@ -12257,9 +12273,9 @@
         "nifty_ret": 2.26
       },
       "Nov": {
-        "fii": 79303,
-        "dii": -48388,
-        "nifty_ret": 8.28
+        "fii": 84167,
+        "dii": -51907,
+        "nifty_ret": 8.91
       }
     }
   }
