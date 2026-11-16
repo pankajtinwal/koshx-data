@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-16T10:02:02.255427Z",
-  "market_date": "16 Nov 2026, 03:32 PM IST",
+  "updated_at": "2026-11-16T10:17:04.606584Z",
+  "market_date": "16 Nov 2026, 03:47 PM IST",
   "macro_regime": {
     "name": "NARROW HEAVYWEIGHT LIFT",
     "description": "A handful of mega-caps are propping up the index while broader breadth is negative.",
@@ -59,9 +59,9 @@
     "volatility": {
       "realized_vol_20d_pct": 14.7,
       "realized_vol_percentile_1y": 74.0,
-      "india_vix": 15.73,
-      "india_vix_percentile_1y": 70.6,
-      "vix_minus_rv_spread": 1.05,
+      "india_vix": 15.68,
+      "india_vix_percentile_1y": 69.8,
+      "vix_minus_rv_spread": 1.0,
       "vol_environment": "CONTAINED VOLATILITY (NORMAL RISK PREMIUM)"
     },
     "conditional_stats": {
@@ -209,8 +209,8 @@
       "candles_count": 62
     },
     "india_vix_meta": {
-      "level": 15.73,
-      "percentile_1y": 70.6
+      "level": 15.68,
+      "percentile_1y": 69.8
     }
   },
   "nifty_50_summary": {
