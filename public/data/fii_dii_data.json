@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T12:41:41.826838Z",
+  "updated_at": "2026-11-16T20:22:21.303873Z",
   "market_date": "16-Nov-2026",
   "today": {
     "date": "16-Nov-2026",
@@ -17,12 +17,12 @@
     "absorption_ratio_pct": 100.0,
     "active_regime": "Foreign Momentum / DII Profit Booking",
     "regime_description": "Foreign capital driving large-caps while domestic institutions book profits to rebalance cash.",
-    "fii_index_futures_long_pct": 34.6,
-    "fii_index_futures_short_pct": 65.4,
+    "fii_index_futures_long_pct": 34.1,
+    "fii_index_futures_short_pct": 65.9,
     "fii_fno_sentiment": "Bearish Leaning / Moderate Short Bias",
-    "client_retail_long_pct": 61.0,
-    "pro_desk_long_pct": 30.2,
-    "dii_fno_long_pct": 65.9,
+    "client_retail_long_pct": 60.3,
+    "pro_desk_long_pct": 33.8,
+    "dii_fno_long_pct": 63.5,
     "z_score_fii": 2.53,
     "flow_classification": "ELEVATED FLOW"
   },
@@ -30,7 +30,7 @@
     "total_fii_net_cr": -266036.69,
     "total_dii_net_cr": 833692.6,
     "cumulative_absorption_ratio": 313.4,
-    "nifty_3y_return_pct": 28.5,
+    "nifty_3y_return_pct": 27.8,
     "avg_daily_fii_flow": -360.0,
     "avg_daily_dii_flow": 1128.1
   },
@@ -11845,18 +11845,18 @@
     },
     {
       "date": "2026-11-16",
-      "nifty_open": 25206.15,
-      "nifty_high": 25337.6,
-      "nifty_low": 25172.1,
-      "nifty_close": 25291.1,
-      "nifty_change": 146.8,
-      "nifty_change_pct": 0.58,
+      "nifty_open": 25209.85,
+      "nifty_high": 25246.35,
+      "nifty_low": 25054.4,
+      "nifty_close": 25144.3,
+      "nifty_change": -155.05,
+      "nifty_change_pct": -0.61,
       "fii_net": 4864.68,
       "dii_net": -3519.05,
       "combined_net": 1345.63,
       "cum_fii": -450236.69,
       "cum_dii": 1219092.6,
-      "fii_long_ratio": 34.6,
+      "fii_long_ratio": 34.1,
       "absorption_ratio": 100.0
     }
   ],
@@ -12275,7 +12275,7 @@
       "Nov": {
         "fii": 84167,
         "dii": -51907,
-        "nifty_ret": 8.91
+        "nifty_ret": 8.28
       }
     }
   }
