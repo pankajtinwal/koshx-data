@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T10:16:56.470408Z",
+  "updated_at": "2026-11-16T12:04:31.210371Z",
   "total_stocks": 216,
   "total_indices": 14,
   "indices": [
@@ -3590,7 +3590,7 @@
             "3m": -17.29,
             "6m": -28.44,
             "1y": -46.05,
-            "3y": -60.72
+            "3y": -60.73
           }
         },
         {
@@ -5304,7 +5304,7 @@
             "3m": -17.29,
             "6m": -28.44,
             "1y": -46.05,
-            "3y": -60.72
+            "3y": -60.73
           }
         }
       ]
@@ -6920,9 +6920,9 @@
       "name": "Metals & Mining",
       "type": "sector",
       "file": "data/mtf_sector_metals_mining.json",
-      "current_value": 1934.05,
+      "current_value": 1934.04,
       "prev_close": 1960.3,
-      "change_pts": -26.25,
+      "change_pts": -26.26,
       "change_pct": -1.34,
       "day_open": 1954.79,
       "day_high": 1980.29,
