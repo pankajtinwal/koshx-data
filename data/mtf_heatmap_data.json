@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T20:58:39.619683Z",
+  "updated_at": "2026-11-17T03:32:19.222707Z",
   "timeframes": [
     "1D",
     "1W",
@@ -20,7 +20,7 @@
       "returns": {
         "1d": 0.04,
         "1w": 2.95,
-        "1m": 7.26,
+        "1m": 7.27,
         "3m": -0.73,
         "6m": 6.14,
         "1y": 1.03,
@@ -428,13 +428,13 @@
           "name": "Power Finance Corporation Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 332.8,
+          "latest_close": 328.7,
           "change_pct": -0.43,
           "weight_pct": 1.89,
           "returns": {
             "1d": -0.43,
             "1w": -1.63,
-            "1m": -0.14,
+            "1m": -0.13,
             "3m": -10.15,
             "6m": -21.0,
             "1y": -6.79,
