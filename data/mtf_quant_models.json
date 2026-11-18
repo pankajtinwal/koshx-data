@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T19:04:21.206694Z",
+  "updated_at": "2026-11-18T19:25:09.075953Z",
   "total_stocks": 216,
   "models": {
     "ema": {
@@ -8512,9 +8512,9 @@
           "name": "Cummins India Ltd",
           "sector": "Capital Goods & Engineering",
           "price": 4005.0,
-          "x": 202.2,
+          "x": 202.3,
           "y": -2.81,
-          "half_life_days": 202.2,
+          "half_life_days": 202.3,
           "spread_zscore": -2.81,
           "ar1_b": 0.9966,
           "is_high_elasticity": false
@@ -9356,7 +9356,7 @@
           "y": -0.97,
           "half_life_days": 9.3,
           "spread_zscore": -0.97,
-          "ar1_b": 0.9279,
+          "ar1_b": 0.928,
           "is_high_elasticity": false
         },
         {
@@ -11060,7 +11060,7 @@
           "y": 3.59,
           "half_life_days": 7.6,
           "spread_zscore": 3.59,
-          "ar1_b": 0.913,
+          "ar1_b": 0.9131,
           "is_high_elasticity": false
         },
         {

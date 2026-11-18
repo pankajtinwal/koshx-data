@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T19:03:20.017511Z",
+  "updated_at": "2026-11-18T19:23:51.502369Z",
   "total_stocks": 132,
   "models": {
     "ema": {
@@ -5224,9 +5224,9 @@
           "name": "Anant Raj",
           "sector": "Real Estate & Realty",
           "price": 455.0,
-          "x": 236.5,
+          "x": 236.6,
           "y": -2.19,
-          "half_life_days": 236.5,
+          "half_life_days": 236.6,
           "spread_zscore": -2.19,
           "ar1_b": 0.9971,
           "is_high_elasticity": false
@@ -5236,9 +5236,9 @@
           "name": "KEI Industries",
           "sector": "Capital Goods & Engineering",
           "price": 3725.0,
-          "x": 177.1,
+          "x": 177.2,
           "y": -2.14,
-          "half_life_days": 177.1,
+          "half_life_days": 177.2,
           "spread_zscore": -2.14,
           "ar1_b": 0.9961,
           "is_high_elasticity": false
