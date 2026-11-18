@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T10:16:08.785435Z",
+  "updated_at": "2026-11-18T12:15:16.508716Z",
   "timeframes": [
     "1D",
     "1W",
@@ -18,13 +18,13 @@
       "index_id": "sector_capital_goods_engineering",
       "constituents_count": 16,
       "returns": {
-        "1d": -1.16,
-        "1w": -2.82,
-        "1m": -1.78,
-        "3m": -0.36,
-        "6m": 4.03,
-        "1y": 17.76,
-        "3y": 153.2
+        "1d": -1.2,
+        "1w": -2.86,
+        "1m": -1.82,
+        "3m": -0.4,
+        "6m": 3.98,
+        "1y": 17.7,
+        "3y": 153.08
       },
       "stocks": [
         {
@@ -176,17 +176,17 @@
           "name": "KP Green Engineering",
           "exchange": "BSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 235.0,
-          "change_pct": -0.97,
+          "latest_close": 233.35,
+          "change_pct": -1.66,
           "weight_pct": 6.25,
           "returns": {
-            "1d": -0.97,
-            "1w": -28.52,
-            "1m": -21.81,
-            "3m": -9.19,
-            "6m": -43.92,
-            "1y": -54.33,
-            "3y": 12.16
+            "1d": -1.66,
+            "1w": -29.02,
+            "1m": -22.36,
+            "3m": -9.83,
+            "6m": -44.32,
+            "1y": -54.65,
+            "3y": 11.37
           }
         },
         {

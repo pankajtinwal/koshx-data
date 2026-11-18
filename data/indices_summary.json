@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T10:16:08.780048Z",
+  "updated_at": "2026-11-18T12:15:16.502290Z",
   "total_stocks": 132,
   "total_indices": 14,
   "indices": [
@@ -8,24 +8,24 @@
       "name": "Master Composite Index",
       "type": "master",
       "file": "data/master_index.json",
-      "current_value": 1973.92,
+      "current_value": 1973.81,
       "prev_close": 1981.83,
-      "change_pts": -7.91,
+      "change_pts": -8.02,
       "change_pct": -0.4,
       "day_open": 1989.67,
       "day_high": 2016.49,
       "day_low": 1949.73,
       "high_52w": 2129.21,
       "low_52w": 1446.1,
-      "all_time_return_pct": 97.39,
+      "all_time_return_pct": 97.38,
       "returns": {
         "1d": -0.4,
         "1w": -1.38,
         "1m": 0.49,
         "3m": -3.57,
         "6m": 8.57,
-        "1y": 9.93,
-        "3y": 97.39
+        "1y": 9.92,
+        "3y": 97.38
       },
       "constituents_count": 132,
       "constituents": [
@@ -1056,24 +1056,6 @@
           }
         },
         {
-          "ticker": "KPGEL",
-          "name": "KP Green Engineering",
-          "exchange": "BSE",
-          "sector": "Capital Goods & Engineering",
-          "latest_close": 235.0,
-          "change_pct": -0.97,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": -0.97,
-            "1w": -28.52,
-            "1m": -21.81,
-            "3m": -9.19,
-            "6m": -43.92,
-            "1y": -54.33,
-            "3y": 12.16
-          }
-        },
-        {
           "ticker": "RBZJEWEL",
           "name": "RBZ Jewellers",
           "exchange": "NSE",
@@ -1593,6 +1575,24 @@
             "6m": 28.93,
             "1y": 40.49,
             "3y": 180.47
+          }
+        },
+        {
+          "ticker": "KPGEL",
+          "name": "KP Green Engineering",
+          "exchange": "BSE",
+          "sector": "Capital Goods & Engineering",
+          "latest_close": 233.35,
+          "change_pct": -1.66,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": -1.66,
+            "1w": -29.02,
+            "1m": -22.36,
+            "3m": -9.83,
+            "6m": -44.32,
+            "1y": -54.65,
+            "3y": 11.37
           }
         },
         {
@@ -2710,24 +2710,24 @@
       "name": "Capital Goods & Engineering",
       "type": "sector",
       "file": "data/sector_capital_goods_engineering.json",
-      "current_value": 2531.96,
+      "current_value": 2530.85,
       "prev_close": 2561.6,
-      "change_pts": -29.64,
-      "change_pct": -1.16,
+      "change_pts": -30.75,
+      "change_pct": -1.2,
       "day_open": 2551.04,
       "day_high": 2587.97,
       "day_low": 2501.93,
       "high_52w": 2816.76,
       "low_52w": 1733.07,
-      "all_time_return_pct": 153.2,
+      "all_time_return_pct": 153.08,
       "returns": {
-        "1d": -1.16,
-        "1w": -2.82,
-        "1m": -1.78,
-        "3m": -0.36,
-        "6m": 4.03,
-        "1y": 17.76,
-        "3y": 153.2
+        "1d": -1.2,
+        "1w": -2.86,
+        "1m": -1.82,
+        "3m": -0.4,
+        "6m": 3.98,
+        "1y": 17.7,
+        "3y": 153.08
       },
       "constituents_count": 16,
       "constituents": [
@@ -2876,24 +2876,6 @@
           }
         },
         {
-          "ticker": "KPGEL",
-          "name": "KP Green Engineering",
-          "exchange": "BSE",
-          "sector": "Capital Goods & Engineering",
-          "latest_close": 235.0,
-          "change_pct": -0.97,
-          "weight_pct": 6.25,
-          "returns": {
-            "1d": -0.97,
-            "1w": -28.52,
-            "1m": -21.81,
-            "3m": -9.19,
-            "6m": -43.92,
-            "1y": -54.33,
-            "3y": 12.16
-          }
-        },
-        {
           "ticker": "TEXRAIL",
           "name": "Texmaco Rail & Engineering",
           "exchange": "NSE",
@@ -2909,6 +2891,24 @@
             "6m": 1.01,
             "1y": -17.84,
             "3y": -24.5
+          }
+        },
+        {
+          "ticker": "KPGEL",
+          "name": "KP Green Engineering",
+          "exchange": "BSE",
+          "sector": "Capital Goods & Engineering",
+          "latest_close": 233.35,
+          "change_pct": -1.66,
+          "weight_pct": 6.25,
+          "returns": {
+            "1d": -1.66,
+            "1w": -29.02,
+            "1m": -22.36,
+            "3m": -9.83,
+            "6m": -44.32,
+            "1y": -54.65,
+            "3y": 11.37
           }
         },
         {
@@ -3791,7 +3791,7 @@
       "change_pts": -21.83,
       "change_pct": -1.26,
       "day_open": 1733.93,
-      "day_high": 1745.23,
+      "day_high": 1745.24,
       "day_low": 1698.6,
       "high_52w": 1866.95,
       "low_52w": 1395.43,
@@ -4049,8 +4049,8 @@
       "type": "sector",
       "file": "data/sector_it_tech_services.json",
       "current_value": 1776.57,
-      "prev_close": 1788.58,
-      "change_pts": -12.01,
+      "prev_close": 1788.59,
+      "change_pts": -12.02,
       "change_pct": -0.67,
       "day_open": 1788.93,
       "day_high": 1809.95,
