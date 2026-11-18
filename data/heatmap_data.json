@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T19:47:34.775486Z",
+  "updated_at": "2026-11-18T03:31:15.754983Z",
   "timeframes": [
     "1D",
     "1W",
@@ -140,7 +140,7 @@
           "name": "TD Power Systems",
           "exchange": "NSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 620.9,
+          "latest_close": 620.25,
           "change_pct": -2.29,
           "weight_pct": 6.25,
           "returns": {
@@ -150,7 +150,7 @@
             "3m": -21.73,
             "6m": -1.06,
             "1y": 58.43,
-            "3y": 367.93
+            "3y": 367.9
           }
         },
         {

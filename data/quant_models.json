@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T19:47:35.113933Z",
+  "updated_at": "2026-11-18T03:31:16.014254Z",
   "total_stocks": 132,
   "models": {
     "ema": {
@@ -1696,12 +1696,12 @@
           "ticker": "TDPOWERSYS",
           "name": "TD Power Systems",
           "sector": "Capital Goods & Engineering",
-          "price": 620.9,
+          "price": 620.25,
           "x": -10.44,
           "y": -6.05,
-          "ema_20": 660.89,
-          "ema_50": 693.28,
-          "ema_200": 606.15,
+          "ema_20": 660.19,
+          "ema_50": 692.55,
+          "ema_200": 605.51,
           "is_bull": true,
           "quadrant": 3,
           "is_pullback_buy": false
@@ -1875,7 +1875,7 @@
         "x_min": -0.3553,
         "x_max": 0.4394,
         "x_mean": -0.0444,
-        "ss_xx": 3.003153
+        "ss_xx": 3.003152
       },
       "stats": {
         "outlier_count": 3
@@ -1945,8 +1945,8 @@
           "ticker": "TDPOWERSYS",
           "name": "TD Power Systems",
           "sector": "Capital Goods & Engineering",
-          "price": 620.9,
-          "x": -22.83,
+          "price": 620.25,
+          "x": -22.82,
           "y": 8.26,
           "expected_y": -1.7,
           "residual": 9.97,
@@ -4044,7 +4044,7 @@
           "ticker": "TDPOWERSYS",
           "name": "TD Power Systems",
           "sector": "Capital Goods & Engineering",
-          "price": 620.9,
+          "price": 620.25,
           "x": 0.91,
           "y": 0.76,
           "raw_v": 6.73,
@@ -5432,7 +5432,7 @@
           "y": -1.6,
           "half_life_days": 89.1,
           "spread_zscore": -1.6,
-          "ar1_b": 0.9922,
+          "ar1_b": 0.9923,
           "is_high_elasticity": false
         },
         {
@@ -5823,7 +5823,7 @@
           "ticker": "TDPOWERSYS",
           "name": "TD Power Systems",
           "sector": "Capital Goods & Engineering",
-          "price": 620.9,
+          "price": 620.25,
           "x": 14.3,
           "y": -0.61,
           "half_life_days": 14.3,
@@ -6152,7 +6152,7 @@
           "y": 0.19,
           "half_life_days": 4.3,
           "spread_zscore": 0.19,
-          "ar1_b": 0.8516,
+          "ar1_b": 0.8515,
           "is_high_elasticity": false
         },
         {
@@ -7432,7 +7432,7 @@
           "ticker": "TDPOWERSYS",
           "name": "TD Power Systems",
           "sector": "Capital Goods & Engineering",
-          "price": 620.9,
+          "price": 620.25,
           "x": 0.617,
           "y": -14.47,
           "hurst_exponent": 0.617,

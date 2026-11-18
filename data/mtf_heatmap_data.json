@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T19:48:45.282605Z",
+  "updated_at": "2026-11-18T03:32:02.106219Z",
   "timeframes": [
     "1D",
     "1W",
@@ -18,13 +18,13 @@
       "index_id": "mtf_sector_financial_services",
       "constituents_count": 53,
       "returns": {
-        "1d": 0.53,
-        "1w": 3.62,
-        "1m": 8.01,
-        "3m": 0.6,
-        "6m": 6.45,
-        "1y": 1.07,
-        "3y": 52.08
+        "1d": 0.63,
+        "1w": 3.71,
+        "1m": 8.1,
+        "3m": 0.69,
+        "6m": 6.54,
+        "1y": 1.15,
+        "3y": 52.16
       },
       "stocks": [
         {
@@ -302,17 +302,17 @@
           "name": "ICICI Prudential Life Insurance Company Ltd",
           "exchange": "NSE",
           "sector": "Financial Services",
-          "latest_close": 431.0,
-          "change_pct": -6.53,
+          "latest_close": 453.2,
+          "change_pct": -1.71,
           "weight_pct": 1.89,
           "returns": {
-            "1d": -6.53,
-            "1w": -1.69,
-            "1m": -3.15,
-            "3m": -13.49,
-            "6m": -13.31,
-            "1y": -13.31,
-            "3y": -13.31
+            "1d": -1.71,
+            "1w": 3.38,
+            "1m": 1.84,
+            "3m": -9.03,
+            "6m": -8.84,
+            "1y": -8.84,
+            "3y": -8.84
           }
         },
         {
@@ -1183,7 +1183,7 @@
           "name": "Page Industries Ltd",
           "exchange": "NSE",
           "sector": "Consumer Goods & Retail",
-          "latest_close": 31105.0,
+          "latest_close": 30955.0,
           "change_pct": -1.14,
           "weight_pct": 3.85,
           "returns": {
