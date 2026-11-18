@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T18:48:28.185404Z",
+  "updated_at": "2026-11-18T19:03:20.017511Z",
   "total_stocks": 132,
   "models": {
     "ema": {
@@ -5224,9 +5224,9 @@
           "name": "Anant Raj",
           "sector": "Real Estate & Realty",
           "price": 455.0,
-          "x": 236.6,
+          "x": 236.5,
           "y": -2.19,
-          "half_life_days": 236.6,
+          "half_life_days": 236.5,
           "spread_zscore": -2.19,
           "ar1_b": 0.9971,
           "is_high_elasticity": false
