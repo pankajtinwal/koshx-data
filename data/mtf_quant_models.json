@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T10:02:09.898517Z",
+  "updated_at": "2026-11-18T10:16:58.095880Z",
   "total_stocks": 216,
   "models": {
     "ema": {
@@ -10448,7 +10448,7 @@
           "y": 1.11,
           "half_life_days": 8.4,
           "spread_zscore": 1.11,
-          "ar1_b": 0.9208,
+          "ar1_b": 0.9207,
           "is_high_elasticity": false
         },
         {
@@ -10876,9 +10876,9 @@
           "name": "Glenmark Pharmaceuticals Ltd",
           "sector": "Pharmaceuticals & Healthcare",
           "price": 2646.1,
-          "x": 51.1,
+          "x": 51.2,
           "y": 2.22,
-          "half_life_days": 51.1,
+          "half_life_days": 51.2,
           "spread_zscore": 2.22,
           "ar1_b": 0.9865,
           "is_high_elasticity": false
@@ -11060,7 +11060,7 @@
           "y": 3.59,
           "half_life_days": 7.6,
           "spread_zscore": 3.59,
-          "ar1_b": 0.9131,
+          "ar1_b": 0.913,
           "is_high_elasticity": false
         },
         {
