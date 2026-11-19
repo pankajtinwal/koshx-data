@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T10:17:06.585768Z",
+  "updated_at": "2026-11-19T12:10:20.696180Z",
   "total_stocks": 216,
   "models": {
     "ema": {
@@ -9640,9 +9640,9 @@
           "name": "Manipal Health Enterprises Ltd",
           "sector": "Pharmaceuticals & Healthcare",
           "price": 696.45,
-          "x": 5.2,
+          "x": 5.1,
           "y": -0.4,
-          "half_life_days": 5.2,
+          "half_life_days": 5.1,
           "spread_zscore": -0.4,
           "ar1_b": 0.8741,
           "is_high_elasticity": false
