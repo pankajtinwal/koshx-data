@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T12:56:55.611577Z",
+  "updated_at": "2026-11-19T18:59:43.182154Z",
   "market_date": "19-Nov-2026",
   "today": {
     "date": "19-Nov-2026",
@@ -17,11 +17,11 @@
     "absorption_ratio_pct": 100.0,
     "active_regime": "Foreign Momentum / DII Profit Booking",
     "regime_description": "Foreign capital driving large-caps while domestic institutions book profits to rebalance cash.",
-    "fii_index_futures_long_pct": 32.5,
-    "fii_index_futures_short_pct": 67.5,
+    "fii_index_futures_long_pct": 34.1,
+    "fii_index_futures_short_pct": 65.9,
     "fii_fno_sentiment": "Bearish Leaning / Moderate Short Bias",
-    "client_retail_long_pct": 60.5,
-    "pro_desk_long_pct": 42.1,
+    "client_retail_long_pct": 59.2,
+    "pro_desk_long_pct": 46.6,
     "dii_fno_long_pct": 63.8,
     "z_score_fii": 3.59,
     "flow_classification": "STATISTICAL OUTLIER (-3.4\u03c3)"
@@ -30,7 +30,7 @@
     "total_fii_net_cr": -246065.11,
     "total_dii_net_cr": 825947.71,
     "cumulative_absorption_ratio": 335.7,
-    "nifty_3y_return_pct": 29.3,
+    "nifty_3y_return_pct": 27.9,
     "avg_daily_fii_flow": -332.5,
     "avg_daily_dii_flow": 1116.1
   },
@@ -11861,18 +11861,18 @@
     },
     {
       "date": "2026-11-19",
-      "nifty_open": 25186.8,
-      "nifty_high": 25514.3,
-      "nifty_low": 25104.8,
-      "nifty_close": 25514.3,
-      "nifty_change": 286.35,
-      "nifty_change_pct": 1.14,
+      "nifty_open": 25323.15,
+      "nifty_high": 25390.8,
+      "nifty_low": 25141.8,
+      "nifty_close": 25227.95,
+      "nifty_change": -159.45,
+      "nifty_change_pct": -0.63,
       "fii_net": 7411.41,
       "dii_net": -1356.57,
       "combined_net": 6054.84,
       "cum_fii": -430265.11,
       "cum_dii": 1211347.71,
-      "fii_long_ratio": 32.5,
+      "fii_long_ratio": 34.1,
       "absorption_ratio": 100.0
     }
   ],
@@ -12291,7 +12291,7 @@
       "Nov": {
         "fii": 101641,
         "dii": -56227,
-        "nifty_ret": 9.87
+        "nifty_ret": 8.64
       }
     }
   }
