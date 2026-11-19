@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T10:02:25.781776Z",
+  "updated_at": "2026-11-19T10:17:06.585768Z",
   "total_stocks": 216,
   "models": {
     "ema": {
@@ -8528,7 +8528,7 @@
           "y": -2.5,
           "half_life_days": 57.2,
           "spread_zscore": -2.5,
-          "ar1_b": 0.9879,
+          "ar1_b": 0.988,
           "is_high_elasticity": false
         },
         {
@@ -8872,9 +8872,9 @@
           "name": "Pfizer Ltd",
           "sector": "Pharmaceuticals & Healthcare",
           "price": 3850.3,
-          "x": 97.5,
+          "x": 97.6,
           "y": -1.68,
-          "half_life_days": 97.5,
+          "half_life_days": 97.6,
           "spread_zscore": -1.68,
           "ar1_b": 0.9929,
           "is_high_elasticity": false
@@ -9620,7 +9620,7 @@
           "y": -0.45,
           "half_life_days": 11.1,
           "spread_zscore": -0.45,
-          "ar1_b": 0.9394,
+          "ar1_b": 0.9395,
           "is_high_elasticity": false
         },
         {
@@ -9640,9 +9640,9 @@
           "name": "Manipal Health Enterprises Ltd",
           "sector": "Pharmaceuticals & Healthcare",
           "price": 696.45,
-          "x": 5.1,
+          "x": 5.2,
           "y": -0.4,
-          "half_life_days": 5.1,
+          "half_life_days": 5.2,
           "spread_zscore": -0.4,
           "ar1_b": 0.8741,
           "is_high_elasticity": false
@@ -9956,7 +9956,7 @@
           "y": 0.14,
           "half_life_days": 3.7,
           "spread_zscore": 0.14,
-          "ar1_b": 0.8307,
+          "ar1_b": 0.8306,
           "is_high_elasticity": false
         },
         {
@@ -10648,9 +10648,9 @@
           "name": "Divis Laboratories Ltd",
           "sector": "Pharmaceuticals & Healthcare",
           "price": 11178.0,
-          "x": 243.6,
+          "x": 243.7,
           "y": 1.56,
-          "half_life_days": 243.6,
+          "half_life_days": 243.7,
           "spread_zscore": 1.56,
           "ar1_b": 0.9972,
           "is_high_elasticity": false
@@ -10712,7 +10712,7 @@
           "y": 1.68,
           "half_life_days": 4.2,
           "spread_zscore": 1.68,
-          "ar1_b": 0.8471,
+          "ar1_b": 0.847,
           "is_high_elasticity": false
         },
         {

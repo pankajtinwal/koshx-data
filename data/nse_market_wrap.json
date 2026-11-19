@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-19T10:02:31.222648Z",
-  "market_date": "19 Nov 2026, 03:32 PM IST",
+  "updated_at": "2026-11-19T10:17:16.171440Z",
+  "market_date": "19 Nov 2026, 03:47 PM IST",
   "macro_regime": {
     "name": "CONSOLIDATION",
     "description": "Selective stock-picking regime with sideways sector rotation.",
@@ -59,9 +59,9 @@
     "volatility": {
       "realized_vol_20d_pct": 13.9,
       "realized_vol_percentile_1y": 67.6,
-      "india_vix": 15.99,
+      "india_vix": 16.11,
       "india_vix_percentile_1y": 72.0,
-      "vix_minus_rv_spread": 2.11,
+      "vix_minus_rv_spread": 2.23,
       "vol_environment": "CONTAINED VOLATILITY (NORMAL RISK PREMIUM)"
     },
     "conditional_stats": {
@@ -209,7 +209,7 @@
       "candles_count": 63
     },
     "india_vix_meta": {
-      "level": 15.99,
+      "level": 16.11,
       "percentile_1y": 72.0
     }
   },
