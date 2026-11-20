@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T18:33:01.316496Z",
+  "updated_at": "2026-11-20T18:50:18.363717Z",
   "total_stocks": 132,
   "total_indices": 14,
   "indices": [
@@ -2711,8 +2711,8 @@
       "type": "sector",
       "file": "data/sector_capital_goods_engineering.json",
       "current_value": 2520.21,
-      "prev_close": 2559.05,
-      "change_pts": -38.84,
+      "prev_close": 2559.06,
+      "change_pts": -38.85,
       "change_pct": -1.52,
       "day_open": 2520.21,
       "day_high": 2520.21,
@@ -4282,7 +4282,7 @@
       "day_high": 1526.57,
       "day_low": 1526.57,
       "high_52w": 1837.83,
-      "low_52w": 1187.6,
+      "low_52w": 1187.59,
       "all_time_return_pct": 52.66,
       "returns": {
         "1d": 7.04,
@@ -4888,7 +4888,7 @@
       "day_high": 1583.24,
       "day_low": 1583.24,
       "high_52w": 1765.57,
-      "low_52w": 1234.93,
+      "low_52w": 1234.94,
       "all_time_return_pct": 58.32,
       "returns": {
         "1d": -0.26,
