@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T12:12:31.375847Z",
+  "updated_at": "2026-11-20T12:48:34.308824Z",
   "total_stocks": 216,
   "models": {
     "ema": {
@@ -9308,7 +9308,7 @@
           "y": -1.16,
           "half_life_days": 8.0,
           "spread_zscore": -1.16,
-          "ar1_b": 0.9174,
+          "ar1_b": 0.9173,
           "is_high_elasticity": false
         },
         {
@@ -9416,7 +9416,7 @@
           "y": -0.93,
           "half_life_days": 10.8,
           "spread_zscore": -0.93,
-          "ar1_b": 0.9379,
+          "ar1_b": 0.938,
           "is_high_elasticity": false
         },
         {
@@ -9737,9 +9737,9 @@
           "sector": "Telecom & Media",
           "price": 387.0,
           "x": 7.4,
-          "y": -0.22,
+          "y": -0.23,
           "half_life_days": 7.4,
-          "spread_zscore": -0.22,
+          "spread_zscore": -0.23,
           "ar1_b": 0.9105,
           "is_high_elasticity": false
         },
@@ -9752,7 +9752,7 @@
           "y": -0.19,
           "half_life_days": 25.6,
           "spread_zscore": -0.19,
-          "ar1_b": 0.9733,
+          "ar1_b": 0.9732,
           "is_high_elasticity": false
         },
         {
