@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-20T10:16:58.663650Z",
-  "market_date": "20 Nov 2026, 03:46 PM IST",
+  "updated_at": "2026-11-20T12:12:35.695516Z",
+  "market_date": "20 Nov 2026, 05:42 PM IST",
   "macro_regime": {
     "name": "BULLISH EXPANSION",
     "description": "Broad-based institutional participation across constituents.",
@@ -59,9 +59,9 @@
     "volatility": {
       "realized_vol_20d_pct": 13.4,
       "realized_vol_percentile_1y": 60.4,
-      "india_vix": 17.32,
-      "india_vix_percentile_1y": 78.5,
-      "vix_minus_rv_spread": 3.95,
+      "india_vix": 16.11,
+      "india_vix_percentile_1y": 71.8,
+      "vix_minus_rv_spread": 2.74,
       "vol_environment": "CONTAINED VOLATILITY (NORMAL RISK PREMIUM)"
     },
     "conditional_stats": {
@@ -199,18 +199,18 @@
     },
     "nifty_pharma": {
       "symbol": "^CNXPHARMA",
-      "close": 28386.9,
-      "change_pts": 15.1,
-      "return_1d": 0.05,
-      "return_1w": -0.52,
-      "return_1m": 11.03,
+      "close": 28371.8,
+      "change_pts": 171.3,
+      "return_1d": 0.61,
+      "return_1w": -1.06,
+      "return_1m": 10.76,
       "high_1w": 28902.45,
       "low_1w": 27987.5,
-      "candles_count": 63
+      "candles_count": 62
     },
     "india_vix_meta": {
-      "level": 17.32,
-      "percentile_1y": 78.5
+      "level": 16.11,
+      "percentile_1y": 71.8
     }
   },
   "nifty_50_summary": {
@@ -2913,9 +2913,9 @@
       "return_1d": 0.33,
       "return_1w": 0.4,
       "return_1m": 10.49,
-      "official_return_1d": 0.05,
-      "official_return_1w": -0.52,
-      "official_return_1m": 11.03,
+      "official_return_1d": 0.61,
+      "official_return_1w": -1.06,
+      "official_return_1m": 10.76,
       "advances": 10,
       "declines": 2,
       "advances_1d": 6,
