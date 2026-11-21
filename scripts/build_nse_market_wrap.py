@@ -284,12 +284,13 @@ def fetch_index_data():
                 c = float(h["Close"].iloc[-1])
                 prev_1d = float(h["Close"].iloc[-2]) if len(h) >= 2 else c
                 
-                # Check official previousClose from quote summary to reconcile against special/Muhurat trading sessions
+                # Check fast_info or official exchange previous close
                 try:
-                    info = t.info
-                    pc = info.get("previousClose") or info.get("regularMarketPreviousClose")
-                    if pc and float(pc) > 0:
-                        prev_1d = float(pc)
+                    fi_pc = getattr(t.fast_info, 'previous_close', None)
+                    if fi_pc and float(fi_pc) > 0:
+                        # Only accept if within 5% of iloc[-2] to guard against stale interval lookback bugs on index symbols
+                        if len(h) < 2 or abs(float(fi_pc) - float(h["Close"].iloc[-2])) / float(h["Close"].iloc[-2]) < 0.05:
+                            prev_1d = float(fi_pc)
                 except Exception:
                     pass
                 
