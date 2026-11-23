@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T10:01:59.904942Z",
+  "updated_at": "2026-11-23T10:17:01.759973Z",
   "total_stocks": 216,
   "total_indices": 14,
   "indices": [
@@ -8,9 +8,9 @@
       "name": "MTF Core 216 Index",
       "type": "master",
       "file": "data/mtf_master_index.json",
-      "current_value": 1560.81,
+      "current_value": 1560.79,
       "prev_close": 1577.99,
-      "change_pts": -17.18,
+      "change_pts": -17.2,
       "change_pct": -1.09,
       "day_open": 1582.89,
       "day_high": 1596.83,
@@ -22,7 +22,7 @@
         "1d": -1.09,
         "1w": 0.02,
         "1m": 9.72,
-        "3m": -2.43,
+        "3m": -2.44,
         "6m": 1.38,
         "1y": 1.26,
         "3y": 56.0
@@ -1722,24 +1722,6 @@
           }
         },
         {
-          "ticker": "MRF",
-          "name": "MRF Ltd",
-          "exchange": "NSE",
-          "sector": "Auto & Ancillaries",
-          "latest_close": 129800.0,
-          "change_pct": -0.83,
-          "weight_pct": 0.46,
-          "returns": {
-            "1d": -0.83,
-            "1w": 1.34,
-            "1m": 10.08,
-            "3m": -3.4,
-            "6m": 1.07,
-            "1y": -14.7,
-            "3y": 17.03
-          }
-        },
-        {
           "ticker": "CMLL",
           "name": "Caliber Mining and Logistics Ltd",
           "exchange": "NSE",
@@ -1917,6 +1899,24 @@
             "6m": -10.99,
             "1y": 15.71,
             "3y": 15.71
+          }
+        },
+        {
+          "ticker": "MRF",
+          "name": "MRF Ltd",
+          "exchange": "NSE",
+          "sector": "Auto & Ancillaries",
+          "latest_close": 129605.0,
+          "change_pct": -0.98,
+          "weight_pct": 0.46,
+          "returns": {
+            "1d": -0.98,
+            "1w": 1.19,
+            "1m": 9.92,
+            "3m": -3.54,
+            "6m": 0.92,
+            "1y": -14.82,
+            "3y": 16.85
           }
         },
         {
@@ -3924,24 +3924,24 @@
       "name": "Auto & Ancillaries",
       "type": "sector",
       "file": "data/mtf_sector_auto_ancillaries.json",
-      "current_value": 1747.72,
+      "current_value": 1747.55,
       "prev_close": 1768.68,
-      "change_pts": -20.96,
+      "change_pts": -21.13,
       "change_pct": -1.19,
       "day_open": 1776.69,
       "day_high": 1786.36,
-      "day_low": 1740.72,
+      "day_low": 1740.6,
       "high_52w": 1849.33,
       "low_52w": 1390.94,
-      "all_time_return_pct": 74.77,
+      "all_time_return_pct": 74.75,
       "returns": {
         "1d": -1.19,
-        "1w": 1.64,
-        "1m": 12.47,
-        "3m": -3.31,
-        "6m": 8.91,
-        "1y": 10.55,
-        "3y": 74.82
+        "1w": 1.63,
+        "1m": 12.46,
+        "3m": -3.32,
+        "6m": 8.9,
+        "1y": 10.54,
+        "3y": 74.81
       },
       "constituents_count": 16,
       "constituents": [
@@ -4058,17 +4058,17 @@
           "name": "MRF Ltd",
           "exchange": "NSE",
           "sector": "Auto & Ancillaries",
-          "latest_close": 129800.0,
-          "change_pct": -0.83,
+          "latest_close": 129605.0,
+          "change_pct": -0.98,
           "weight_pct": 6.25,
           "returns": {
-            "1d": -0.83,
-            "1w": 1.34,
-            "1m": 10.08,
-            "3m": -3.4,
-            "6m": 1.07,
-            "1y": -14.7,
-            "3y": 17.03
+            "1d": -0.98,
+            "1w": 1.19,
+            "1m": 9.92,
+            "3m": -3.54,
+            "6m": 0.92,
+            "1y": -14.82,
+            "3y": 16.85
           }
         },
         {

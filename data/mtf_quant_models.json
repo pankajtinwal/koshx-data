@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T10:02:00.241052Z",
+  "updated_at": "2026-11-23T10:17:02.291702Z",
   "total_stocks": 216,
   "models": {
     "ema": {
@@ -1315,20 +1315,6 @@
           "is_pullback_buy": false
         },
         {
-          "ticker": "MRF",
-          "name": "MRF Ltd",
-          "sector": "Auto & Ancillaries",
-          "price": 129800.0,
-          "x": 3.65,
-          "y": 2.99,
-          "ema_20": 126028.37,
-          "ema_50": 125226.82,
-          "ema_200": 130216.9,
-          "is_bull": false,
-          "quadrant": 1,
-          "is_pullback_buy": false
-        },
-        {
           "ticker": "HDFCLIFE",
           "name": "HDFC Life Insurance Company Ltd",
           "sector": "Financial Services",
@@ -1381,6 +1367,20 @@
           "ema_50": 344.68,
           "ema_200": 308.73,
           "is_bull": true,
+          "quadrant": 1,
+          "is_pullback_buy": false
+        },
+        {
+          "ticker": "MRF",
+          "name": "MRF Ltd",
+          "sector": "Auto & Ancillaries",
+          "price": 129605.0,
+          "x": 3.5,
+          "y": 2.85,
+          "ema_20": 126009.8,
+          "ema_50": 125219.17,
+          "ema_200": 130214.96,
+          "is_bull": false,
           "quadrant": 1,
           "is_pullback_buy": false
         },
@@ -3045,13 +3045,13 @@
       "regression": {
         "alpha": 0.0047,
         "beta": 0.16,
-        "r_squared": 0.2625,
+        "r_squared": 0.2624,
         "std_err": 0.0338,
         "n": 216,
         "x_min": -0.5088,
         "x_max": 0.3895,
         "x_mean": -0.0331,
-        "ss_xx": 3.399196
+        "ss_xx": 3.399151
       },
       "stats": {
         "outlier_count": 7
@@ -3125,7 +3125,7 @@
           "x": -10.84,
           "y": 4.82,
           "expected_y": -1.27,
-          "residual": 6.08,
+          "residual": 6.09,
           "studentized_residual": 1.81,
           "is_outlier": false
         },
@@ -3365,7 +3365,7 @@
           "x": -12.87,
           "y": 1.49,
           "expected_y": -1.59,
-          "residual": 3.08,
+          "residual": 3.09,
           "studentized_residual": 0.92,
           "is_outlier": false
         },
@@ -3389,7 +3389,7 @@
           "x": -2.19,
           "y": 3.08,
           "expected_y": 0.12,
-          "residual": 2.96,
+          "residual": 2.97,
           "studentized_residual": 0.88,
           "is_outlier": false
         },
@@ -3508,7 +3508,7 @@
           "price": 995.9,
           "x": -7.96,
           "y": 1.77,
-          "expected_y": -0.8,
+          "expected_y": -0.81,
           "residual": 2.58,
           "studentized_residual": 0.76,
           "is_outlier": false
@@ -3593,7 +3593,7 @@
           "x": -24.68,
           "y": -1.27,
           "expected_y": -3.48,
-          "residual": 2.21,
+          "residual": 2.22,
           "studentized_residual": 0.66,
           "is_outlier": false
         },
@@ -3808,7 +3808,7 @@
           "price": 4215.0,
           "x": -9.77,
           "y": 0.36,
-          "expected_y": -1.09,
+          "expected_y": -1.1,
           "residual": 1.46,
           "studentized_residual": 0.43,
           "is_outlier": false
@@ -3821,7 +3821,7 @@
           "x": -22.03,
           "y": -1.62,
           "expected_y": -3.06,
-          "residual": 1.43,
+          "residual": 1.44,
           "studentized_residual": 0.43,
           "is_outlier": false
         },
@@ -3934,18 +3934,6 @@
           "is_outlier": false
         },
         {
-          "ticker": "MRF",
-          "name": "MRF Ltd",
-          "sector": "Auto & Ancillaries",
-          "price": 129800.0,
-          "x": -1.74,
-          "y": 1.33,
-          "expected_y": 0.19,
-          "residual": 1.14,
-          "studentized_residual": 0.34,
-          "is_outlier": false
-        },
-        {
           "ticker": "BAJAJHLDNG",
           "name": "Bajaj Holdings & Investment Ltd",
           "sector": "Financial Services",
@@ -3979,6 +3967,18 @@
           "expected_y": -0.05,
           "residual": 1.07,
           "studentized_residual": 0.32,
+          "is_outlier": false
+        },
+        {
+          "ticker": "MRF",
+          "name": "MRF Ltd",
+          "sector": "Auto & Ancillaries",
+          "price": 129605.0,
+          "x": -1.89,
+          "y": 1.18,
+          "expected_y": 0.17,
+          "residual": 1.02,
+          "studentized_residual": 0.3,
           "is_outlier": false
         },
         {
@@ -4229,8 +4229,8 @@
           "x": -1.67,
           "y": 0.39,
           "expected_y": 0.2,
-          "residual": 0.18,
-          "studentized_residual": 0.05,
+          "residual": 0.19,
+          "studentized_residual": 0.06,
           "is_outlier": false
         },
         {
@@ -4445,7 +4445,7 @@
           "x": 11.37,
           "y": 1.92,
           "expected_y": 2.29,
-          "residual": -0.37,
+          "residual": -0.36,
           "studentized_residual": -0.11,
           "is_outlier": false
         },
@@ -4468,7 +4468,7 @@
           "price": 421.0,
           "x": -15.27,
           "y": -2.36,
-          "expected_y": -1.97,
+          "expected_y": -1.98,
           "residual": -0.38,
           "studentized_residual": -0.11,
           "is_outlier": false
@@ -4528,7 +4528,7 @@
           "price": 1131.3,
           "x": -4.15,
           "y": -0.68,
-          "expected_y": -0.19,
+          "expected_y": -0.2,
           "residual": -0.48,
           "studentized_residual": -0.14,
           "is_outlier": false
@@ -4564,7 +4564,7 @@
           "price": 275.58,
           "x": 13.04,
           "y": 1.97,
-          "expected_y": 2.56,
+          "expected_y": 2.55,
           "residual": -0.58,
           "studentized_residual": -0.17,
           "is_outlier": false
@@ -4612,7 +4612,7 @@
           "price": 145.0,
           "x": 5.6,
           "y": 0.67,
-          "expected_y": 1.37,
+          "expected_y": 1.36,
           "residual": -0.69,
           "studentized_residual": -0.21,
           "is_outlier": false
@@ -4780,7 +4780,7 @@
           "price": 929.75,
           "x": -2.15,
           "y": -0.92,
-          "expected_y": 0.13,
+          "expected_y": 0.12,
           "residual": -1.04,
           "studentized_residual": -0.31,
           "is_outlier": false
@@ -4925,7 +4925,7 @@
           "x": -6.31,
           "y": -2.11,
           "expected_y": -0.54,
-          "residual": -1.57,
+          "residual": -1.56,
           "studentized_residual": -0.46,
           "is_outlier": false
         },
@@ -4973,7 +4973,7 @@
           "x": -2.26,
           "y": -1.61,
           "expected_y": 0.11,
-          "residual": -1.72,
+          "residual": -1.71,
           "studentized_residual": -0.51,
           "is_outlier": false
         },
@@ -5008,7 +5008,7 @@
           "price": 1235.0,
           "x": 17.35,
           "y": 1.47,
-          "expected_y": 3.25,
+          "expected_y": 3.24,
           "residual": -1.78,
           "studentized_residual": -0.53,
           "is_outlier": false
@@ -5050,6 +5050,18 @@
           "is_outlier": false
         },
         {
+          "ticker": "JSWSTEEL",
+          "name": "JSW Steel Ltd",
+          "sector": "Metals & Mining",
+          "price": 1311.9,
+          "x": -1.74,
+          "y": -1.72,
+          "expected_y": 0.19,
+          "residual": -1.91,
+          "studentized_residual": -0.56,
+          "is_outlier": false
+        },
+        {
           "ticker": "HINDPETRO",
           "name": "Hindustan Petroleum Corporation Ltd",
           "sector": "Oil, Gas & Energy",
@@ -5059,18 +5071,6 @@
           "expected_y": 1.37,
           "residual": -1.87,
           "studentized_residual": -0.56,
-          "is_outlier": false
-        },
-        {
-          "ticker": "JSWSTEEL",
-          "name": "JSW Steel Ltd",
-          "sector": "Metals & Mining",
-          "price": 1311.9,
-          "x": -1.74,
-          "y": -1.72,
-          "expected_y": 0.19,
-          "residual": -1.91,
-          "studentized_residual": -0.57,
           "is_outlier": false
         },
         {
@@ -5092,7 +5092,7 @@
           "price": 3208.0,
           "x": 10.16,
           "y": 0.13,
-          "expected_y": 2.1,
+          "expected_y": 2.09,
           "residual": -1.96,
           "studentized_residual": -0.58,
           "is_outlier": false
@@ -5320,7 +5320,7 @@
           "price": 298.65,
           "x": -26.58,
           "y": -6.58,
-          "expected_y": -3.78,
+          "expected_y": -3.79,
           "residual": -2.79,
           "studentized_residual": -0.83,
           "is_outlier": false
@@ -5404,7 +5404,7 @@
           "price": 2128.5,
           "x": 12.29,
           "y": -1.17,
-          "expected_y": 2.44,
+          "expected_y": 2.43,
           "residual": -3.6,
           "studentized_residual": -1.07,
           "is_outlier": false
@@ -5417,7 +5417,7 @@
           "x": -9.94,
           "y": -4.8,
           "expected_y": -1.12,
-          "residual": -3.68,
+          "residual": -3.67,
           "studentized_residual": -1.09,
           "is_outlier": false
         },
@@ -5476,7 +5476,7 @@
           "price": 7430.0,
           "x": -20.14,
           "y": -6.83,
-          "expected_y": -2.75,
+          "expected_y": -2.76,
           "residual": -4.08,
           "studentized_residual": -1.21,
           "is_outlier": false
@@ -5634,7 +5634,7 @@
           "y": -11.17,
           "expected_y": -1.69,
           "residual": -9.48,
-          "studentized_residual": -2.81,
+          "studentized_residual": -2.82,
           "is_outlier": true
         },
         {
@@ -5660,7 +5660,7 @@
         "std_v": 3.27,
         "mean_a": -0.11,
         "std_a": 1.54,
-        "rho": 0.139,
+        "rho": 0.1389,
         "q2_inflection_count": 6
       },
       "points": [
@@ -5761,7 +5761,7 @@
           "sector": "Metals & Mining",
           "price": 163.0,
           "x": -2.27,
-          "y": -2.05,
+          "y": -2.04,
           "raw_v": -7.31,
           "raw_a": -3.25,
           "mahalanobis_dist": 2.87,
@@ -5917,7 +5917,7 @@
           "sector": "Financial Services",
           "price": 85.4,
           "x": 1.88,
-          "y": -0.74,
+          "y": -0.73,
           "raw_v": 6.29,
           "raw_a": -1.24,
           "mahalanobis_dist": 2.13,
@@ -6398,7 +6398,7 @@
           "sector": "Consumer Goods & Retail",
           "price": 4680.0,
           "x": -1.43,
-          "y": -0.02,
+          "y": -0.01,
           "raw_v": -4.55,
           "raw_a": -0.14,
           "mahalanobis_dist": 1.44,
@@ -7269,7 +7269,7 @@
           "sector": "Real Estate & Realty",
           "price": 1219.0,
           "x": 0.29,
-          "y": 0.8,
+          "y": 0.81,
           "raw_v": 1.07,
           "raw_a": 1.12,
           "mahalanobis_dist": 0.82,
@@ -7450,7 +7450,7 @@
           "name": "United Spirits Ltd",
           "sector": "Consumer Goods & Retail",
           "price": 1478.0,
-          "x": 0.72,
+          "x": 0.73,
           "y": -0.11,
           "raw_v": 2.5,
           "raw_a": -0.29,
@@ -7776,7 +7776,7 @@
           "sector": "Capital Goods & Engineering",
           "price": 4099.9,
           "x": -0.03,
-          "y": -0.57,
+          "y": -0.56,
           "raw_v": 0.01,
           "raw_a": -0.98,
           "mahalanobis_dist": 0.57,
@@ -7857,7 +7857,7 @@
           "y": 0.51,
           "raw_v": 0.7,
           "raw_a": 0.68,
-          "mahalanobis_dist": 0.52,
+          "mahalanobis_dist": 0.53,
           "quadrant": 1,
           "is_inflection": false
         },
@@ -7971,7 +7971,7 @@
           "sector": "Metals & Mining",
           "price": 1311.9,
           "x": -0.47,
-          "y": -0.11,
+          "y": -0.1,
           "raw_v": -1.43,
           "raw_a": -0.27,
           "mahalanobis_dist": 0.48,
@@ -7997,7 +7997,7 @@
           "sector": "Auto & Ancillaries",
           "price": 10643.0,
           "x": -0.37,
-          "y": 0.23,
+          "y": 0.24,
           "raw_v": -1.1,
           "raw_a": 0.25,
           "mahalanobis_dist": 0.47,
@@ -8034,12 +8034,12 @@
           "ticker": "MRF",
           "name": "MRF Ltd",
           "sector": "Auto & Ancillaries",
-          "price": 129800.0,
-          "x": 0.44,
-          "y": -0.07,
-          "raw_v": 1.57,
-          "raw_a": -0.23,
-          "mahalanobis_dist": 0.46,
+          "price": 129605.0,
+          "x": 0.42,
+          "y": -0.12,
+          "raw_v": 1.49,
+          "raw_a": -0.3,
+          "mahalanobis_dist": 0.45,
           "quadrant": 4,
           "is_inflection": false
         },
@@ -8100,7 +8100,7 @@
           "name": "HDFC Asset Management Company Ltd",
           "sector": "Financial Services",
           "price": 2682.0,
-          "x": 0.18,
+          "x": 0.19,
           "y": 0.38,
           "raw_v": 0.73,
           "raw_a": 0.48,
@@ -8572,9 +8572,9 @@
           "name": "Cummins India Ltd",
           "sector": "Capital Goods & Engineering",
           "price": 4052.8,
-          "x": 97.8,
+          "x": 97.7,
           "y": -2.53,
-          "half_life_days": 97.8,
+          "half_life_days": 97.7,
           "spread_zscore": -2.53,
           "ar1_b": 0.9929,
           "is_high_elasticity": false
@@ -8596,9 +8596,9 @@
           "name": "NMDC Ltd",
           "sector": "Metals & Mining",
           "price": 67.4,
-          "x": 103.3,
+          "x": 103.2,
           "y": -2.35,
-          "half_life_days": 103.3,
+          "half_life_days": 103.2,
           "spread_zscore": -2.35,
           "ar1_b": 0.9933,
           "is_high_elasticity": false
@@ -8644,9 +8644,9 @@
           "name": "Bharat Forge Ltd",
           "sector": "Auto & Ancillaries",
           "price": 1722.0,
-          "x": 105.6,
+          "x": 105.5,
           "y": -2.22,
-          "half_life_days": 105.6,
+          "half_life_days": 105.5,
           "spread_zscore": -2.22,
           "ar1_b": 0.9935,
           "is_high_elasticity": false
@@ -8668,9 +8668,9 @@
           "name": "Alkem Laboratories Ltd",
           "sector": "Pharmaceuticals & Healthcare",
           "price": 5067.0,
-          "x": 8.5,
+          "x": 8.4,
           "y": -2.2,
-          "half_life_days": 8.5,
+          "half_life_days": 8.4,
           "spread_zscore": -2.2,
           "ar1_b": 0.9212,
           "is_high_elasticity": true
@@ -8728,9 +8728,9 @@
           "name": "Rail Vikas Nigam Ltd",
           "sector": "Infrastructure & Construction",
           "price": 185.1,
-          "x": 80.5,
+          "x": 80.4,
           "y": -2.16,
-          "half_life_days": 80.5,
+          "half_life_days": 80.4,
           "spread_zscore": -2.16,
           "ar1_b": 0.9914,
           "is_high_elasticity": false
@@ -8884,9 +8884,9 @@
           "name": "Suzlon Energy Ltd",
           "sector": "Renewable Energy & Utilities",
           "price": 35.86,
-          "x": 180.8,
+          "x": 180.7,
           "y": -1.76,
-          "half_life_days": 180.8,
+          "half_life_days": 180.7,
           "spread_zscore": -1.76,
           "ar1_b": 0.9962,
           "is_high_elasticity": false
@@ -8964,18 +8964,6 @@
           "is_high_elasticity": false
         },
         {
-          "ticker": "RECLTD",
-          "name": "REC Ltd",
-          "sector": "Financial Services",
-          "price": 292.95,
-          "x": 37.4,
-          "y": -1.63,
-          "half_life_days": 37.4,
-          "spread_zscore": -1.63,
-          "ar1_b": 0.9817,
-          "is_high_elasticity": false
-        },
-        {
           "ticker": "DMART",
           "name": "Avenue Supermarts Ltd (DMart)",
           "sector": "Consumer Goods & Retail",
@@ -8988,6 +8976,18 @@
           "is_high_elasticity": false
         },
         {
+          "ticker": "RECLTD",
+          "name": "REC Ltd",
+          "sector": "Financial Services",
+          "price": 292.95,
+          "x": 37.4,
+          "y": -1.62,
+          "half_life_days": 37.4,
+          "spread_zscore": -1.62,
+          "ar1_b": 0.9817,
+          "is_high_elasticity": false
+        },
+        {
           "ticker": "GILLETTE",
           "name": "Gillette India Ltd",
           "sector": "Consumer Goods & Retail",
@@ -8996,7 +8996,7 @@
           "y": -1.6,
           "half_life_days": 8.8,
           "spread_zscore": -1.6,
-          "ar1_b": 0.9246,
+          "ar1_b": 0.9245,
           "is_high_elasticity": false
         },
         {
@@ -9008,7 +9008,7 @@
           "y": -1.6,
           "half_life_days": 69.3,
           "spread_zscore": -1.6,
-          "ar1_b": 0.9901,
+          "ar1_b": 0.99,
           "is_high_elasticity": false
         },
         {
@@ -9212,7 +9212,7 @@
           "y": -1.2,
           "half_life_days": 10.3,
           "spread_zscore": -1.2,
-          "ar1_b": 0.9352,
+          "ar1_b": 0.9351,
           "is_high_elasticity": false
         },
         {
@@ -9276,18 +9276,6 @@
           "is_high_elasticity": false
         },
         {
-          "ticker": "AUBANK",
-          "name": "AU Small Finance Bank Ltd",
-          "sector": "Financial Services",
-          "price": 983.5,
-          "x": 9.0,
-          "y": -1.06,
-          "half_life_days": 9.0,
-          "spread_zscore": -1.06,
-          "ar1_b": 0.926,
-          "is_high_elasticity": false
-        },
-        {
           "ticker": "OIL",
           "name": "Oil India Ltd",
           "sector": "Oil, Gas & Energy",
@@ -9312,6 +9300,18 @@
           "is_high_elasticity": false
         },
         {
+          "ticker": "AUBANK",
+          "name": "AU Small Finance Bank Ltd",
+          "sector": "Financial Services",
+          "price": 983.5,
+          "x": 9.0,
+          "y": -1.05,
+          "half_life_days": 9.0,
+          "spread_zscore": -1.05,
+          "ar1_b": 0.926,
+          "is_high_elasticity": false
+        },
+        {
           "ticker": "SIEMENS",
           "name": "Siemens Ltd",
           "sector": "Capital Goods & Engineering",
@@ -9320,7 +9320,7 @@
           "y": -1.04,
           "half_life_days": 12.2,
           "spread_zscore": -1.04,
-          "ar1_b": 0.9448,
+          "ar1_b": 0.9447,
           "is_high_elasticity": false
         },
         {
@@ -9876,6 +9876,18 @@
           "is_high_elasticity": false
         },
         {
+          "ticker": "MRF",
+          "name": "MRF Ltd",
+          "sector": "Auto & Ancillaries",
+          "price": 129605.0,
+          "x": 3.5,
+          "y": 0.12,
+          "half_life_days": 3.5,
+          "spread_zscore": 0.12,
+          "ar1_b": 0.8226,
+          "is_high_elasticity": false
+        },
+        {
           "ticker": "CASTROLIND",
           "name": "Castrol India Ltd",
           "sector": "Chemicals & Materials",
@@ -9921,18 +9933,6 @@
           "half_life_days": 9.0,
           "spread_zscore": 0.19,
           "ar1_b": 0.9262,
-          "is_high_elasticity": false
-        },
-        {
-          "ticker": "MRF",
-          "name": "MRF Ltd",
-          "sector": "Auto & Ancillaries",
-          "price": 129800.0,
-          "x": 3.5,
-          "y": 0.2,
-          "half_life_days": 3.5,
-          "spread_zscore": 0.2,
-          "ar1_b": 0.8226,
           "is_high_elasticity": false
         },
         {
@@ -10217,9 +10217,9 @@
           "sector": "Auto & Ancillaries",
           "price": 2155.0,
           "x": 12.0,
-          "y": 0.85,
+          "y": 0.86,
           "half_life_days": 12.0,
-          "spread_zscore": 0.85,
+          "spread_zscore": 0.86,
           "ar1_b": 0.9438,
           "is_high_elasticity": false
         },
@@ -10336,9 +10336,9 @@
           "name": "Tata Consultancy Services Ltd",
           "sector": "IT & Tech Services",
           "price": 2460.0,
-          "x": 21.5,
+          "x": 21.6,
           "y": 1.03,
-          "half_life_days": 21.5,
+          "half_life_days": 21.6,
           "spread_zscore": 1.03,
           "ar1_b": 0.9683,
           "is_high_elasticity": false
@@ -10504,9 +10504,9 @@
           "name": "Eternal Ltd",
           "sector": "Consumer Goods & Retail",
           "price": 362.1,
-          "x": 43.3,
+          "x": 43.4,
           "y": 1.29,
-          "half_life_days": 43.3,
+          "half_life_days": 43.4,
           "spread_zscore": 1.29,
           "ar1_b": 0.9841,
           "is_high_elasticity": false
@@ -10604,19 +10604,7 @@
           "y": 1.42,
           "half_life_days": 39.6,
           "spread_zscore": 1.42,
-          "ar1_b": 0.9826,
-          "is_high_elasticity": false
-        },
-        {
-          "ticker": "IOC",
-          "name": "Indian Oil Corporation Ltd",
-          "sector": "Oil, Gas & Energy",
-          "price": 145.0,
-          "x": 11.2,
-          "y": 1.44,
-          "half_life_days": 11.2,
-          "spread_zscore": 1.44,
-          "ar1_b": 0.94,
+          "ar1_b": 0.9827,
           "is_high_elasticity": false
         },
         {
@@ -10629,6 +10617,18 @@
           "half_life_days": 21.0,
           "spread_zscore": 1.45,
           "ar1_b": 0.9676,
+          "is_high_elasticity": false
+        },
+        {
+          "ticker": "IOC",
+          "name": "Indian Oil Corporation Ltd",
+          "sector": "Oil, Gas & Energy",
+          "price": 145.0,
+          "x": 11.2,
+          "y": 1.45,
+          "half_life_days": 11.2,
+          "spread_zscore": 1.45,
+          "ar1_b": 0.94,
           "is_high_elasticity": false
         },
         {
@@ -10712,7 +10712,7 @@
           "y": 1.6,
           "half_life_days": 10.9,
           "spread_zscore": 1.6,
-          "ar1_b": 0.9381,
+          "ar1_b": 0.9382,
           "is_high_elasticity": false
         },
         {
@@ -10796,7 +10796,7 @@
           "y": 1.93,
           "half_life_days": 28.5,
           "spread_zscore": 1.93,
-          "ar1_b": 0.9759,
+          "ar1_b": 0.976,
           "is_high_elasticity": false
         },
         {
@@ -10820,7 +10820,7 @@
           "y": 1.96,
           "half_life_days": 14.1,
           "spread_zscore": 1.96,
-          "ar1_b": 0.952,
+          "ar1_b": 0.9521,
           "is_high_elasticity": false
         },
         {
@@ -10960,9 +10960,9 @@
           "name": "The Phoenix Mills Ltd",
           "sector": "Real Estate & Realty",
           "price": 2276.2,
-          "x": 45.8,
+          "x": 45.9,
           "y": 2.36,
-          "half_life_days": 45.8,
+          "half_life_days": 45.9,
           "spread_zscore": 2.36,
           "ar1_b": 0.985,
           "is_high_elasticity": false
@@ -13015,11 +13015,11 @@
           "ticker": "MRF",
           "name": "MRF Ltd",
           "sector": "Auto & Ancillaries",
-          "price": 129800.0,
+          "price": 129605.0,
           "x": 0.502,
-          "y": 5.03,
+          "y": 4.87,
           "hurst_exponent": 0.502,
-          "dist_50_sma": 5.03,
+          "dist_50_sma": 4.87,
           "regime": "random_walk",
           "is_anti_fade": false,
           "is_persist_breakout": false
