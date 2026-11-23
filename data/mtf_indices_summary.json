@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T22:01:53.908901Z",
+  "updated_at": "2026-11-23T22:15:40.706423Z",
   "total_stocks": 216,
   "total_indices": 14,
   "indices": [
@@ -4593,8 +4593,8 @@
       "type": "sector",
       "file": "data/mtf_sector_chemicals_materials.json",
       "current_value": 1018.5,
-      "prev_close": 1031.48,
-      "change_pts": -12.98,
+      "prev_close": 1031.49,
+      "change_pts": -12.99,
       "change_pct": -1.26,
       "day_open": 1018.5,
       "day_high": 1018.5,
