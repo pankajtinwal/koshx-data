@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T10:16:14.083841Z",
+  "updated_at": "2026-11-23T13:40:02.125404Z",
   "total_stocks": 132,
   "total_indices": 14,
   "indices": [
@@ -8,9 +8,9 @@
       "name": "Master Composite Index",
       "type": "master",
       "file": "data/master_index.json",
-      "current_value": 1948.13,
+      "current_value": 1948.15,
       "prev_close": 1956.74,
-      "change_pts": -8.61,
+      "change_pts": -8.59,
       "change_pct": -0.44,
       "day_open": 1972.28,
       "day_high": 1998.13,
@@ -21,9 +21,9 @@
       "returns": {
         "1d": -0.44,
         "1w": -1.27,
-        "1m": 6.55,
+        "1m": 6.56,
         "3m": -4.87,
-        "6m": 4.78,
+        "6m": 4.79,
         "1y": 11.11,
         "3y": 94.14
       },
@@ -1992,6 +1992,24 @@
           }
         },
         {
+          "ticker": "KPGEL",
+          "name": "KP Green Engineering",
+          "exchange": "BSE",
+          "sector": "Capital Goods & Engineering",
+          "latest_close": 228.45,
+          "change_pct": -2.5,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": -2.5,
+            "1w": 1.8,
+            "1m": -13.82,
+            "3m": -8.38,
+            "6m": -44.44,
+            "1y": -52.64,
+            "3y": 9.03
+          }
+        },
+        {
           "ticker": "HOMEFIRST",
           "name": "Home First Finance Company",
           "exchange": "NSE",
@@ -2025,24 +2043,6 @@
             "6m": -7.74,
             "1y": -4.93,
             "3y": 198.37
-          }
-        },
-        {
-          "ticker": "KPGEL",
-          "name": "KP Green Engineering",
-          "exchange": "BSE",
-          "sector": "Capital Goods & Engineering",
-          "latest_close": 228.1,
-          "change_pct": -2.65,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": -2.65,
-            "1w": 1.65,
-            "1m": -13.96,
-            "3m": -8.52,
-            "6m": -44.53,
-            "1y": -52.71,
-            "3y": 8.86
           }
         },
         {
@@ -2710,24 +2710,24 @@
       "name": "Capital Goods & Engineering",
       "type": "sector",
       "file": "data/sector_capital_goods_engineering.json",
-      "current_value": 2453.54,
+      "current_value": 2453.77,
       "prev_close": 2502.41,
-      "change_pts": -48.87,
-      "change_pct": -1.95,
+      "change_pts": -48.64,
+      "change_pct": -1.94,
       "day_open": 2505.31,
       "day_high": 2529.96,
       "day_low": 2413.63,
       "high_52w": 2796.87,
       "low_52w": 1720.83,
-      "all_time_return_pct": 145.35,
+      "all_time_return_pct": 145.38,
       "returns": {
-        "1d": -1.95,
-        "1w": -3.78,
-        "1m": 5.24,
-        "3m": -3.21,
-        "6m": 0.15,
-        "1y": 19.51,
-        "3y": 144.9
+        "1d": -1.94,
+        "1w": -3.77,
+        "1m": 5.25,
+        "3m": -3.2,
+        "6m": 0.16,
+        "1y": 19.52,
+        "3y": 144.93
       },
       "constituents_count": 16,
       "constituents": [
@@ -2912,6 +2912,24 @@
           }
         },
         {
+          "ticker": "KPGEL",
+          "name": "KP Green Engineering",
+          "exchange": "BSE",
+          "sector": "Capital Goods & Engineering",
+          "latest_close": 228.45,
+          "change_pct": -2.5,
+          "weight_pct": 6.25,
+          "returns": {
+            "1d": -2.5,
+            "1w": 1.8,
+            "1m": -13.82,
+            "3m": -8.38,
+            "6m": -44.44,
+            "1y": -52.64,
+            "3y": 9.03
+          }
+        },
+        {
           "ticker": "TRIL",
           "name": "Transformers & Rectifiers (India)",
           "exchange": "NSE",
@@ -2927,24 +2945,6 @@
             "6m": -7.74,
             "1y": -4.93,
             "3y": 198.37
-          }
-        },
-        {
-          "ticker": "KPGEL",
-          "name": "KP Green Engineering",
-          "exchange": "BSE",
-          "sector": "Capital Goods & Engineering",
-          "latest_close": 228.1,
-          "change_pct": -2.65,
-          "weight_pct": 6.25,
-          "returns": {
-            "1d": -2.65,
-            "1w": 1.65,
-            "1m": -13.96,
-            "3m": -8.52,
-            "6m": -44.53,
-            "1y": -52.71,
-            "3y": 8.86
           }
         },
         {
