@@ -1,43 +1,43 @@
 {
-  "updated_at": "2026-11-24T08:32:20.979546Z",
-  "market_date": "24 Nov 2026, 02:02 PM IST",
+  "updated_at": "2026-11-24T08:47:04.518114Z",
+  "market_date": "24 Nov 2026, 02:17 PM IST",
   "macro_regime": {
     "name": "CONSOLIDATION",
     "description": "Selective stock-picking regime with sideways sector rotation.",
-    "cap_vs_equal_weight_divergence": -0.58,
+    "cap_vs_equal_weight_divergence": -0.15,
     "nifty_cap_weighted_1w": 0.23,
-    "nifty_equal_weighted_1w": 0.81,
+    "nifty_equal_weighted_1w": 0.38,
     "timeframes": {
       "1d": {
         "name": "CORRECTIVE DISTRIBUTION",
         "description": "Selling pressure dominant across index constituents.",
-        "cap_vs_equal_weight_divergence": -0.76,
+        "cap_vs_equal_weight_divergence": -0.49,
         "nifty_cap_weighted": -1.75,
-        "nifty_equal_weighted": -0.99,
+        "nifty_equal_weighted": -1.26,
         "quant_bullets": [
-          "Nifty 50 closed -1.75% with 12 advances vs 28 declines.",
-          "Cap-weighted divergence stands at -0.76%, indicating broad participation.",
+          "Nifty 50 closed -1.75% with 12 advances vs 36 declines.",
+          "Cap-weighted divergence stands at -0.49%, indicating broad participation.",
           "Constituent breadth: 86% of stocks trade above 50 DMA, indicating defensive regime."
         ]
       },
       "1w": {
         "name": "CONSOLIDATION",
         "description": "Selective stock-picking regime with sideways sector rotation.",
-        "cap_vs_equal_weight_divergence": -0.58,
+        "cap_vs_equal_weight_divergence": -0.15,
         "nifty_cap_weighted": 0.23,
-        "nifty_equal_weighted": 0.81,
+        "nifty_equal_weighted": 0.38,
         "quant_bullets": [
           "Nifty 50 delivered +0.23% over the past 5 sessions under CONSOLIDATION.",
           "Index sits +7.78% below 50 DMA (23520) and +5.63% below 200 DMA (23997).",
-          "Top sector rotation led by Nifty Auto (+2.73%), lagging sector Nifty Metal (-4.31%)."
+          "Top sector rotation led by Nifty Realty (+3.78%), lagging sector Nifty Metal (-4.31%)."
         ]
       },
       "1m": {
         "name": "BULLISH EXPANSION",
         "description": "Broad-based institutional participation across constituents.",
-        "cap_vs_equal_weight_divergence": 1.79,
+        "cap_vs_equal_weight_divergence": 1.94,
         "nifty_cap_weighted": 12.17,
-        "nifty_equal_weighted": 10.38,
+        "nifty_equal_weighted": 10.23,
         "quant_bullets": [
           "Month-to-date Nifty 50 return stands at +12.17%.",
           "Current drawdown from 52W ATH (26373) is -3.88% over 217 sessions.",
@@ -79,17 +79,17 @@
   "breadth_suite": {
     "pct_above_20_dma": 72.0,
     "pct_above_50_dma": 86.0,
-    "pct_above_200_dma": 72.0,
-    "highs_52w": 6,
+    "pct_above_200_dma": 70.0,
+    "highs_52w": 4,
     "lows_52w": 1,
-    "net_52w_high_low": 5,
+    "net_52w_high_low": 3,
     "divergence_flag": {
       "flagged": false,
       "title": "Healthy Structural Convergence",
       "description": "Index trajectory and constituent moving averages in alignment."
     },
     "dispersion": {
-      "cross_sectional_dispersion_pct": 1.95,
+      "cross_sectional_dispersion_pct": 1.92,
       "pairwise_correlation": 0.38,
       "regime_classification": "STOCK-PICKER REGIME (LOW CORRELATION)",
       "description": "Low pairwise correlation indicates single-stock idiosyncratic alpha is outperforming index beta."
@@ -100,7 +100,7 @@
     "drawdown_pct": -3.88,
     "days_in_drawdown": 217,
     "pct_stocks_in_10pct_drawdown": 56.0,
-    "pct_stocks_in_20pct_drawdown": 22.0,
+    "pct_stocks_in_20pct_drawdown": 24.0,
     "historical_severity_rank": "Cyclical Correction (-3.9% pullback from ATH 26373)"
   },
   "koshx_model_consensus": {
@@ -220,20 +220,20 @@
     "return_1m": 12.17,
     "high_1w": 25992.6,
     "low_1w": 25104.8,
-    "advances": 32,
-    "declines": 17,
-    "unchanged": 1,
-    "breadth_pct": 64.0,
+    "advances": 29,
+    "declines": 19,
+    "unchanged": 2,
+    "breadth_pct": 58.0,
     "breadth": {
       "1d": {
         "advances": 12,
-        "declines": 28,
+        "declines": 36,
         "breadth_pct": 24.0
       },
       "1w": {
-        "advances": 32,
-        "declines": 17,
-        "breadth_pct": 64.0
+        "advances": 29,
+        "declines": 19,
+        "breadth_pct": 58.0
       },
       "1m": {
         "advances": 42,
@@ -273,36 +273,6 @@
         "point_impact_1m": 39.7
       },
       {
-        "ticker": "ULTRACEMCO",
-        "name": "UltraTech Cement Ltd",
-        "sector": "Construction Materials",
-        "weight": 1.3,
-        "close": 12939.0,
-        "change_pts": 0.0,
-        "return_1d": 0.0,
-        "return_1w": 6.93,
-        "return_1m": 19.26,
-        "point_impact": 22.84,
-        "point_impact_1d": 0.0,
-        "point_impact_1w": 22.84,
-        "point_impact_1m": 63.47
-      },
-      {
-        "ticker": "M&M",
-        "name": "Mahindra & Mahindra",
-        "sector": "Automobile",
-        "weight": 2.6,
-        "close": 3545.0,
-        "change_pts": 0.0,
-        "return_1d": 0.0,
-        "return_1w": 6.36,
-        "return_1m": 22.71,
-        "point_impact": 41.92,
-        "point_impact_1d": 0.0,
-        "point_impact_1w": 41.92,
-        "point_impact_1m": 149.68
-      },
-      {
         "ticker": "APOLLOHOSP",
         "name": "Apollo Hospitals Enterprise",
         "sector": "Pharma & Healthcare",
@@ -333,34 +303,19 @@
         "point_impact_1m": 31.09
       },
       {
-        "ticker": "NESTLEIND",
-        "name": "Nestle India Ltd",
-        "sector": "FMCG & Consumer",
-        "weight": 0.9,
-        "close": 1325.0,
-        "change_pts": 0.0,
-        "return_1d": 0.0,
-        "return_1w": 4.89,
-        "return_1m": 8.26,
-        "point_impact": 11.16,
-        "point_impact_1d": 0.0,
-        "point_impact_1w": 11.16,
-        "point_impact_1m": 18.84
-      },
-      {
-        "ticker": "BPCL",
-        "name": "Bharat Petroleum Corp",
-        "sector": "Energy & Oil/Gas",
-        "weight": 0.9,
-        "close": 314.1,
-        "change_pts": 0.0,
-        "return_1d": 0.0,
-        "return_1w": 4.01,
-        "return_1m": 9.06,
-        "point_impact": 9.15,
-        "point_impact_1d": 0.0,
-        "point_impact_1w": 9.15,
-        "point_impact_1m": 20.67
+        "ticker": "M&M",
+        "name": "Mahindra & Mahindra",
+        "sector": "Automobile",
+        "weight": 2.6,
+        "close": 3487.4,
+        "change_pts": -57.6,
+        "return_1d": -1.62,
+        "return_1w": 4.44,
+        "return_1m": 21.89,
+        "point_impact": 29.26,
+        "point_impact_1d": -10.68,
+        "point_impact_1w": 29.26,
+        "point_impact_1m": 144.27
       },
       {
         "ticker": "SBIN",
@@ -391,6 +346,51 @@
         "point_impact_1d": -32.2,
         "point_impact_1w": 27.9,
         "point_impact_1m": 113.97
+      },
+      {
+        "ticker": "HEROMOTOCO",
+        "name": "Hero MotoCorp Ltd",
+        "sector": "Automobile",
+        "weight": 0.7,
+        "close": 5535.0,
+        "change_pts": -1.0,
+        "return_1d": -0.02,
+        "return_1w": 3.27,
+        "return_1m": 9.67,
+        "point_impact": 5.8,
+        "point_impact_1d": -0.04,
+        "point_impact_1w": 5.8,
+        "point_impact_1m": 17.16
+      },
+      {
+        "ticker": "ULTRACEMCO",
+        "name": "UltraTech Cement Ltd",
+        "sector": "Construction Materials",
+        "weight": 1.3,
+        "close": 12650.0,
+        "change_pts": -289.0,
+        "return_1d": -2.23,
+        "return_1w": 3.1,
+        "return_1m": 14.48,
+        "point_impact": 10.22,
+        "point_impact_1d": -7.35,
+        "point_impact_1w": 10.22,
+        "point_impact_1m": 47.72
+      },
+      {
+        "ticker": "TCS",
+        "name": "Tata Consultancy Services",
+        "sector": "Information Technology",
+        "weight": 3.9,
+        "close": 2460.0,
+        "change_pts": 83.8,
+        "return_1d": 3.53,
+        "return_1w": 2.29,
+        "return_1m": -2.77,
+        "point_impact": 22.64,
+        "point_impact_1d": 34.9,
+        "point_impact_1w": 22.64,
+        "point_impact_1m": -27.39
       }
     ],
     "top_losers": [
@@ -562,21 +562,6 @@
         "point_impact_1m": 125.53
       },
       {
-        "ticker": "M&M",
-        "name": "Mahindra & Mahindra",
-        "sector": "Automobile",
-        "weight": 2.6,
-        "close": 3545.0,
-        "change_pts": 0.0,
-        "return_1d": 0.0,
-        "return_1w": 6.36,
-        "return_1m": 22.71,
-        "point_impact": 41.92,
-        "point_impact_1d": 0.0,
-        "point_impact_1w": 41.92,
-        "point_impact_1m": 149.68
-      },
-      {
         "ticker": "SBIN",
         "name": "State Bank of India",
         "sector": "Banking & Financials",
@@ -590,6 +575,21 @@
         "point_impact_1d": -21.22,
         "point_impact_1w": 29.43,
         "point_impact_1m": 138.1
+      },
+      {
+        "ticker": "M&M",
+        "name": "Mahindra & Mahindra",
+        "sector": "Automobile",
+        "weight": 2.6,
+        "close": 3487.4,
+        "change_pts": -57.6,
+        "return_1d": -1.62,
+        "return_1w": 4.44,
+        "return_1m": 21.89,
+        "point_impact": 29.26,
+        "point_impact_1d": -10.68,
+        "point_impact_1w": 29.26,
+        "point_impact_1m": 144.27
       },
       {
         "ticker": "AXISBANK",
@@ -607,19 +607,19 @@
         "point_impact_1m": 113.97
       },
       {
-        "ticker": "BHARTIARTL",
-        "name": "Bharti Airtel Ltd",
-        "sector": "Telecommunications",
-        "weight": 3.6,
-        "close": 2161.7,
-        "change_pts": -0.0,
-        "return_1d": -0.0,
-        "return_1w": 2.64,
-        "return_1m": 14.27,
-        "point_impact": 24.09,
-        "point_impact_1d": -0.0,
-        "point_impact_1w": 24.09,
-        "point_impact_1m": 130.23
+        "ticker": "TCS",
+        "name": "Tata Consultancy Services",
+        "sector": "Information Technology",
+        "weight": 3.9,
+        "close": 2460.0,
+        "change_pts": 83.8,
+        "return_1d": 3.53,
+        "return_1w": 2.29,
+        "return_1m": -2.77,
+        "point_impact": 22.64,
+        "point_impact_1d": 34.9,
+        "point_impact_1w": 22.64,
+        "point_impact_1m": -27.39
       }
     ],
     "top_draggers": [
@@ -684,19 +684,19 @@
         "point_impact_1m": -4.29
       },
       {
-        "ticker": "LT",
-        "name": "Larsen & Toubro Ltd",
-        "sector": "Infrastructure & Capital Goods",
-        "weight": 3.8,
-        "close": 4099.9,
-        "change_pts": -109.2,
-        "return_1d": -2.59,
-        "return_1w": -0.97,
-        "return_1m": 12.42,
-        "point_impact": -9.34,
-        "point_impact_1d": -24.95,
-        "point_impact_1w": -9.34,
-        "point_impact_1m": 119.64
+        "ticker": "BHARTIARTL",
+        "name": "Bharti Airtel Ltd",
+        "sector": "Telecommunications",
+        "weight": 3.6,
+        "close": 2128.5,
+        "change_pts": -33.2,
+        "return_1d": -1.54,
+        "return_1w": -1.16,
+        "return_1m": 12.49,
+        "point_impact": -10.59,
+        "point_impact_1d": -14.05,
+        "point_impact_1w": -10.59,
+        "point_impact_1m": 113.98
       }
     ],
     "pullers_draggers": {
@@ -874,21 +874,6 @@
             "point_impact_1m": 125.53
           },
           {
-            "ticker": "M&M",
-            "name": "Mahindra & Mahindra",
-            "sector": "Automobile",
-            "weight": 2.6,
-            "close": 3545.0,
-            "change_pts": 0.0,
-            "return_1d": 0.0,
-            "return_1w": 6.36,
-            "return_1m": 22.71,
-            "point_impact": 41.92,
-            "point_impact_1d": 0.0,
-            "point_impact_1w": 41.92,
-            "point_impact_1m": 149.68
-          },
-          {
             "ticker": "SBIN",
             "name": "State Bank of India",
             "sector": "Banking & Financials",
@@ -902,6 +887,21 @@
             "point_impact_1d": -21.22,
             "point_impact_1w": 29.43,
             "point_impact_1m": 138.1
+          },
+          {
+            "ticker": "M&M",
+            "name": "Mahindra & Mahindra",
+            "sector": "Automobile",
+            "weight": 2.6,
+            "close": 3487.4,
+            "change_pts": -57.6,
+            "return_1d": -1.62,
+            "return_1w": 4.44,
+            "return_1m": 21.89,
+            "point_impact": 29.26,
+            "point_impact_1d": -10.68,
+            "point_impact_1w": 29.26,
+            "point_impact_1m": 144.27
           },
           {
             "ticker": "AXISBANK",
@@ -919,19 +919,19 @@
             "point_impact_1m": 113.97
           },
           {
-            "ticker": "BHARTIARTL",
-            "name": "Bharti Airtel Ltd",
-            "sector": "Telecommunications",
-            "weight": 3.6,
-            "close": 2161.7,
-            "change_pts": -0.0,
-            "return_1d": -0.0,
-            "return_1w": 2.64,
-            "return_1m": 14.27,
-            "point_impact": 24.09,
-            "point_impact_1d": -0.0,
-            "point_impact_1w": 24.09,
-            "point_impact_1m": 130.23
+            "ticker": "TCS",
+            "name": "Tata Consultancy Services",
+            "sector": "Information Technology",
+            "weight": 3.9,
+            "close": 2460.0,
+            "change_pts": 83.8,
+            "return_1d": 3.53,
+            "return_1w": 2.29,
+            "return_1m": -2.77,
+            "point_impact": 22.64,
+            "point_impact_1d": 34.9,
+            "point_impact_1w": 22.64,
+            "point_impact_1m": -27.39
           }
         ],
         "top_draggers": [
@@ -996,19 +996,19 @@
             "point_impact_1m": -4.29
           },
           {
-            "ticker": "LT",
-            "name": "Larsen & Toubro Ltd",
-            "sector": "Infrastructure & Capital Goods",
-            "weight": 3.8,
-            "close": 4099.9,
-            "change_pts": -109.2,
-            "return_1d": -2.59,
-            "return_1w": -0.97,
-            "return_1m": 12.42,
-            "point_impact": -9.34,
-            "point_impact_1d": -24.95,
-            "point_impact_1w": -9.34,
-            "point_impact_1m": 119.64
+            "ticker": "BHARTIARTL",
+            "name": "Bharti Airtel Ltd",
+            "sector": "Telecommunications",
+            "weight": 3.6,
+            "close": 2128.5,
+            "change_pts": -33.2,
+            "return_1d": -1.54,
+            "return_1w": -1.16,
+            "return_1m": 12.49,
+            "point_impact": -10.59,
+            "point_impact_1d": -14.05,
+            "point_impact_1w": -10.59,
+            "point_impact_1m": 113.98
           }
         ]
       },
@@ -1079,15 +1079,15 @@
             "name": "Mahindra & Mahindra",
             "sector": "Automobile",
             "weight": 2.6,
-            "close": 3545.0,
-            "change_pts": 0.0,
-            "return_1d": 0.0,
-            "return_1w": 6.36,
-            "return_1m": 22.71,
-            "point_impact": 41.92,
-            "point_impact_1d": 0.0,
-            "point_impact_1w": 41.92,
-            "point_impact_1m": 149.68
+            "close": 3487.4,
+            "change_pts": -57.6,
+            "return_1d": -1.62,
+            "return_1w": 4.44,
+            "return_1m": 21.89,
+            "point_impact": 29.26,
+            "point_impact_1d": -10.68,
+            "point_impact_1w": 29.26,
+            "point_impact_1m": 144.27
           }
         ],
         "top_draggers": [
@@ -1201,36 +1201,6 @@
         "point_impact_1m": 39.7
       },
       {
-        "ticker": "ULTRACEMCO",
-        "name": "UltraTech Cement Ltd",
-        "sector": "Construction Materials",
-        "weight": 1.3,
-        "close": 12939.0,
-        "change_pts": 0.0,
-        "return_1d": 0.0,
-        "return_1w": 6.93,
-        "return_1m": 19.26,
-        "point_impact": 22.84,
-        "point_impact_1d": 0.0,
-        "point_impact_1w": 22.84,
-        "point_impact_1m": 63.47
-      },
-      {
-        "ticker": "M&M",
-        "name": "Mahindra & Mahindra",
-        "sector": "Automobile",
-        "weight": 2.6,
-        "close": 3545.0,
-        "change_pts": 0.0,
-        "return_1d": 0.0,
-        "return_1w": 6.36,
-        "return_1m": 22.71,
-        "point_impact": 41.92,
-        "point_impact_1d": 0.0,
-        "point_impact_1w": 41.92,
-        "point_impact_1m": 149.68
-      },
-      {
         "ticker": "APOLLOHOSP",
         "name": "Apollo Hospitals Enterprise",
         "sector": "Pharma & Healthcare",
@@ -1261,34 +1231,19 @@
         "point_impact_1m": 31.09
       },
       {
-        "ticker": "NESTLEIND",
-        "name": "Nestle India Ltd",
-        "sector": "FMCG & Consumer",
-        "weight": 0.9,
-        "close": 1325.0,
-        "change_pts": 0.0,
-        "return_1d": 0.0,
-        "return_1w": 4.89,
-        "return_1m": 8.26,
-        "point_impact": 11.16,
-        "point_impact_1d": 0.0,
-        "point_impact_1w": 11.16,
-        "point_impact_1m": 18.84
-      },
-      {
-        "ticker": "BPCL",
-        "name": "Bharat Petroleum Corp",
-        "sector": "Energy & Oil/Gas",
-        "weight": 0.9,
-        "close": 314.1,
-        "change_pts": 0.0,
-        "return_1d": 0.0,
-        "return_1w": 4.01,
-        "return_1m": 9.06,
-        "point_impact": 9.15,
-        "point_impact_1d": 0.0,
-        "point_impact_1w": 9.15,
-        "point_impact_1m": 20.67
+        "ticker": "M&M",
+        "name": "Mahindra & Mahindra",
+        "sector": "Automobile",
+        "weight": 2.6,
+        "close": 3487.4,
+        "change_pts": -57.6,
+        "return_1d": -1.62,
+        "return_1w": 4.44,
+        "return_1m": 21.89,
+        "point_impact": 29.26,
+        "point_impact_1d": -10.68,
+        "point_impact_1w": 29.26,
+        "point_impact_1m": 144.27
       },
       {
         "ticker": "SBIN",
@@ -1321,49 +1276,34 @@
         "point_impact_1m": 113.97
       },
       {
-        "ticker": "HINDUNILVR",
-        "name": "Hindustan Unilever Ltd",
-        "sector": "FMCG & Consumer",
-        "weight": 2.5,
-        "close": 2052.5,
-        "change_pts": 0.0,
-        "return_1d": 0.0,
-        "return_1w": 2.99,
-        "return_1m": 11.99,
-        "point_impact": 18.95,
-        "point_impact_1d": 0.0,
-        "point_impact_1w": 18.95,
-        "point_impact_1m": 75.99
-      },
-      {
         "ticker": "HEROMOTOCO",
         "name": "Hero MotoCorp Ltd",
         "sector": "Automobile",
         "weight": 0.7,
-        "close": 5536.0,
-        "change_pts": 0.0,
-        "return_1d": 0.0,
-        "return_1w": 2.8,
-        "return_1m": 7.42,
-        "point_impact": 4.97,
-        "point_impact_1d": 0.0,
-        "point_impact_1w": 4.97,
-        "point_impact_1m": 13.17
+        "close": 5535.0,
+        "change_pts": -1.0,
+        "return_1d": -0.02,
+        "return_1w": 3.27,
+        "return_1m": 9.67,
+        "point_impact": 5.8,
+        "point_impact_1d": -0.04,
+        "point_impact_1w": 5.8,
+        "point_impact_1m": 17.16
       },
       {
-        "ticker": "BHARTIARTL",
-        "name": "Bharti Airtel Ltd",
-        "sector": "Telecommunications",
-        "weight": 3.6,
-        "close": 2161.7,
-        "change_pts": -0.0,
-        "return_1d": -0.0,
-        "return_1w": 2.64,
-        "return_1m": 14.27,
-        "point_impact": 24.09,
-        "point_impact_1d": -0.0,
-        "point_impact_1w": 24.09,
-        "point_impact_1m": 130.23
+        "ticker": "ULTRACEMCO",
+        "name": "UltraTech Cement Ltd",
+        "sector": "Construction Materials",
+        "weight": 1.3,
+        "close": 12650.0,
+        "change_pts": -289.0,
+        "return_1d": -2.23,
+        "return_1w": 3.1,
+        "return_1m": 14.48,
+        "point_impact": 10.22,
+        "point_impact_1d": -7.35,
+        "point_impact_1w": 10.22,
+        "point_impact_1m": 47.72
       },
       {
         "ticker": "TCS",
@@ -1441,21 +1381,6 @@
         "point_impact_1m": 37.92
       },
       {
-        "ticker": "CIPLA",
-        "name": "Cipla Ltd",
-        "sector": "Pharma & Healthcare",
-        "weight": 0.9,
-        "close": 1415.0,
-        "change_pts": 0.0,
-        "return_1d": 0.0,
-        "return_1w": 1.67,
-        "return_1m": 7.69,
-        "point_impact": 3.81,
-        "point_impact_1d": 0.0,
-        "point_impact_1w": 3.81,
-        "point_impact_1m": 17.54
-      },
-      {
         "ticker": "BRITANNIA",
         "name": "Britannia Industries",
         "sector": "FMCG & Consumer",
@@ -1531,6 +1456,21 @@
         "point_impact_1m": 29.46
       },
       {
+        "ticker": "HINDUNILVR",
+        "name": "Hindustan Unilever Ltd",
+        "sector": "FMCG & Consumer",
+        "weight": 2.5,
+        "close": 2019.1,
+        "change_pts": -33.4,
+        "return_1d": -1.63,
+        "return_1w": 0.94,
+        "return_1m": 12.32,
+        "point_impact": 5.96,
+        "point_impact_1d": -10.33,
+        "point_impact_1w": 5.96,
+        "point_impact_1m": 78.08
+      },
+      {
         "ticker": "ADANIENT",
         "name": "Adani Enterprises Ltd",
         "sector": "Metals & Mining",
@@ -1544,6 +1484,21 @@
         "point_impact_1d": -3.21,
         "point_impact_1w": 1.98,
         "point_impact_1m": 22.61
+      },
+      {
+        "ticker": "NESTLEIND",
+        "name": "Nestle India Ltd",
+        "sector": "FMCG & Consumer",
+        "weight": 0.9,
+        "close": 1305.9,
+        "change_pts": -19.1,
+        "return_1d": -1.44,
+        "return_1w": 0.69,
+        "return_1m": 11.14,
+        "point_impact": 1.57,
+        "point_impact_1d": -3.29,
+        "point_impact_1w": 1.57,
+        "point_impact_1m": 25.42
       },
       {
         "ticker": "RELIANCE",
@@ -1561,6 +1516,21 @@
         "point_impact_1m": 315.54
       },
       {
+        "ticker": "CIPLA",
+        "name": "Cipla Ltd",
+        "sector": "Pharma & Healthcare",
+        "weight": 0.9,
+        "close": 1399.9,
+        "change_pts": -15.1,
+        "return_1d": -1.07,
+        "return_1w": 0.39,
+        "return_1m": 4.63,
+        "point_impact": 0.89,
+        "point_impact_1d": -2.44,
+        "point_impact_1w": 0.89,
+        "point_impact_1m": 10.56
+      },
+      {
         "ticker": "ASIANPAINT",
         "name": "Asian Paints Ltd",
         "sector": "Consumer Goods",
@@ -1574,21 +1544,6 @@
         "point_impact_1d": -3.25,
         "point_impact_1w": 0.88,
         "point_impact_1m": 36.87
-      },
-      {
-        "ticker": "SUNPHARMA",
-        "name": "Sun Pharmaceutical Ind",
-        "sector": "Pharma & Healthcare",
-        "weight": 2.2,
-        "close": 1884.9,
-        "change_pts": 0.0,
-        "return_1d": 0.0,
-        "return_1w": 0.26,
-        "return_1m": 8.01,
-        "point_impact": 1.45,
-        "point_impact_1d": 0.0,
-        "point_impact_1w": 1.45,
-        "point_impact_1m": 44.67
       },
       {
         "ticker": "HDFCBANK",
@@ -1666,6 +1621,21 @@
         "point_impact_1m": 281.72
       },
       {
+        "ticker": "BPCL",
+        "name": "Bharat Petroleum Corp",
+        "sector": "Energy & Oil/Gas",
+        "weight": 0.9,
+        "close": 305.35,
+        "change_pts": -8.75,
+        "return_1d": -2.79,
+        "return_1w": 0.02,
+        "return_1m": 8.3,
+        "point_impact": 0.05,
+        "point_impact_1d": -6.37,
+        "point_impact_1w": 0.05,
+        "point_impact_1m": 18.94
+      },
+      {
         "ticker": "GRASIM",
         "name": "Grasim Industries Ltd",
         "sector": "Materials",
@@ -1679,6 +1649,21 @@
         "point_impact_1d": -2.1,
         "point_impact_1w": -0.68,
         "point_impact_1m": 14.28
+      },
+      {
+        "ticker": "SUNPHARMA",
+        "name": "Sun Pharmaceutical Ind",
+        "sector": "Pharma & Healthcare",
+        "weight": 2.2,
+        "close": 1860.0,
+        "change_pts": -24.9,
+        "return_1d": -1.32,
+        "return_1w": -0.4,
+        "return_1m": 6.41,
+        "point_impact": -2.23,
+        "point_impact_1d": -7.36,
+        "point_impact_1w": -2.23,
+        "point_impact_1m": 35.75
       },
       {
         "ticker": "BAJAJ-AUTO",
@@ -1709,6 +1694,21 @@
         "point_impact_1d": -24.95,
         "point_impact_1w": -9.34,
         "point_impact_1m": 119.64
+      },
+      {
+        "ticker": "BHARTIARTL",
+        "name": "Bharti Airtel Ltd",
+        "sector": "Telecommunications",
+        "weight": 3.6,
+        "close": 2128.5,
+        "change_pts": -33.2,
+        "return_1d": -1.54,
+        "return_1w": -1.16,
+        "return_1m": 12.49,
+        "point_impact": -10.59,
+        "point_impact_1d": -14.05,
+        "point_impact_1w": -10.59,
+        "point_impact_1m": 113.98
       },
       {
         "ticker": "BAJFINANCE",
@@ -1935,7 +1935,7 @@
     "breadth": {
       "1d": {
         "advances": 0,
-        "declines": 10
+        "declines": 11
       },
       "1w": {
         "advances": 9,
@@ -2002,15 +2002,6 @@
         "return_1m": 19.35
       },
       {
-        "ticker": "AUBANK",
-        "name": "AU Small Finance Bank",
-        "weight": 1.8,
-        "close": 984.9,
-        "return_1d": 0.0,
-        "return_1w": 1.85,
-        "return_1m": 3.24
-      },
-      {
         "ticker": "KOTAKBANK",
         "name": "Kotak Mahindra Bank",
         "weight": 8.7,
@@ -2018,6 +2009,15 @@
         "return_1d": -2.51,
         "return_1w": 1.75,
         "return_1m": 16.81
+      },
+      {
+        "ticker": "AUBANK",
+        "name": "AU Small Finance Bank",
+        "weight": 1.8,
+        "close": 983.5,
+        "return_1d": -0.14,
+        "return_1w": 1.25,
+        "return_1m": 5.42
       },
       {
         "ticker": "HDFCBANK",
@@ -2050,28 +2050,139 @@
   },
   "sector_leaderboard": [
     {
-      "name": "Nifty Auto",
-      "slug": "nifty_auto",
-      "description": "4-wheelers, 2-wheelers, commercial vehicles & tier-1 auto ancillaries",
-      "return_1d": -0.62,
-      "return_1w": 2.73,
-      "return_1m": 12.75,
+      "name": "Nifty Realty",
+      "slug": "nifty_realty",
+      "description": "Residential developers, commercial REITs & urban infrastructure",
+      "return_1d": 0.18,
+      "return_1w": 3.78,
+      "return_1m": 18.36,
       "official_return_1d": null,
       "official_return_1w": null,
       "official_return_1m": null,
-      "advances": 6,
+      "advances": 7,
+      "declines": 0,
+      "advances_1d": 4,
+      "declines_1d": 3,
+      "advances_1w": 7,
+      "declines_1w": 0,
+      "advances_1m": 8,
+      "declines_1m": 0,
+      "total_constituents": 8,
+      "breadth_pct": 87.5,
+      "breadth_pct_1d": 50.0,
+      "breadth_pct_1w": 87.5,
+      "breadth_pct_1m": 100.0,
+      "status": "STRONG INFLOW",
+      "top_stock": {
+        "ticker": "BRIGADE",
+        "name": "Brigade Enterprises",
+        "close": 581.65,
+        "return_1d": 0.57,
+        "return_1w": 7.27,
+        "return_1m": 6.22
+      },
+      "bottom_stock": {
+        "ticker": "SOBHA",
+        "name": "Sobha Ltd",
+        "close": 1251.1,
+        "return_1d": -0.9,
+        "return_1w": -0.02,
+        "return_1m": 6.62
+      },
+      "stocks": [
+        {
+          "ticker": "BRIGADE",
+          "name": "Brigade Enterprises",
+          "close": 581.65,
+          "return_1d": 0.57,
+          "return_1w": 7.27,
+          "return_1m": 6.22
+        },
+        {
+          "ticker": "DLF",
+          "name": "DLF Ltd",
+          "close": 794.1,
+          "return_1d": 1.16,
+          "return_1w": 5.21,
+          "return_1m": 20.87
+        },
+        {
+          "ticker": "OBEROIRLTY",
+          "name": "Oberoi Realty",
+          "close": 1860.0,
+          "return_1d": 0.92,
+          "return_1w": 4.87,
+          "return_1m": 15.33
+        },
+        {
+          "ticker": "GODREJPROP",
+          "name": "Godrej Properties",
+          "close": 1923.0,
+          "return_1d": -0.37,
+          "return_1w": 4.41,
+          "return_1m": 28.5
+        },
+        {
+          "ticker": "PHOENIXLTD",
+          "name": "Phoenix Mills",
+          "close": 2276.2,
+          "return_1d": -0.4,
+          "return_1w": 3.37,
+          "return_1m": 21.57
+        },
+        {
+          "ticker": "PRESTIGE",
+          "name": "Prestige Estates",
+          "close": 1687.0,
+          "return_1d": 0.42,
+          "return_1w": 2.94,
+          "return_1m": 21.15
+        },
+        {
+          "ticker": "LODHA",
+          "name": "Macrotech Developers",
+          "close": 1219.0,
+          "return_1d": 0.02,
+          "return_1w": 2.2,
+          "return_1m": 26.58
+        },
+        {
+          "ticker": "SOBHA",
+          "name": "Sobha Ltd",
+          "close": 1251.1,
+          "return_1d": -0.9,
+          "return_1w": -0.02,
+          "return_1m": 6.62
+        }
+      ],
+      "rank": 1,
+      "rank_change_1w": -1,
+      "return_3m": 38.56,
+      "rrg_quadrant": "LEADING"
+    },
+    {
+      "name": "Nifty Auto",
+      "slug": "nifty_auto",
+      "description": "4-wheelers, 2-wheelers, commercial vehicles & tier-1 auto ancillaries",
+      "return_1d": -1.02,
+      "return_1w": 2.42,
+      "return_1m": 12.39,
+      "official_return_1d": null,
+      "official_return_1w": null,
+      "official_return_1m": null,
+      "advances": 7,
       "declines": 2,
       "advances_1d": 1,
-      "declines_1d": 5,
-      "advances_1w": 6,
+      "declines_1d": 8,
+      "advances_1w": 7,
       "declines_1w": 2,
-      "advances_1m": 9,
-      "declines_1m": 1,
+      "advances_1m": 10,
+      "declines_1m": 0,
       "total_constituents": 10,
-      "breadth_pct": 60.0,
+      "breadth_pct": 70.0,
       "breadth_pct_1d": 10.0,
-      "breadth_pct_1w": 60.0,
-      "breadth_pct_1m": 90.0,
+      "breadth_pct_1w": 70.0,
+      "breadth_pct_1m": 100.0,
       "status": "STRONG INFLOW",
       "top_stock": {
         "ticker": "MARUTI",
@@ -2109,18 +2220,18 @@
         {
           "ticker": "M&M",
           "name": "Mahindra & Mahindra",
-          "close": 3545.0,
-          "return_1d": 0.0,
-          "return_1w": 6.36,
-          "return_1m": 22.71
+          "close": 3487.4,
+          "return_1d": -1.62,
+          "return_1w": 4.44,
+          "return_1m": 21.89
         },
         {
           "ticker": "BALKRISIND",
           "name": "Balkrishna Industries",
-          "close": 2363.8,
-          "return_1d": 0.0,
-          "return_1w": 4.07,
-          "return_1m": 16.09
+          "close": 2345.3,
+          "return_1d": -0.78,
+          "return_1w": 2.5,
+          "return_1m": 11.35
         },
         {
           "ticker": "MOTHERSON",
@@ -2139,20 +2250,20 @@
           "return_1m": 13.77
         },
         {
+          "ticker": "BHARATFORG",
+          "name": "Bharat Forge Ltd",
+          "close": 1722.0,
+          "return_1d": -1.6,
+          "return_1w": 0.41,
+          "return_1m": 0.63
+        },
+        {
           "ticker": "BOSCHLTD",
           "name": "Bosch Ltd",
           "close": 48800.0,
           "return_1d": -1.13,
           "return_1w": 0.01,
           "return_1m": 10.7
-        },
-        {
-          "ticker": "BHARATFORG",
-          "name": "Bharat Forge Ltd",
-          "close": 1750.0,
-          "return_1d": 0.0,
-          "return_1w": -0.03,
-          "return_1m": -1.35
         },
         {
           "ticker": "BAJAJ-AUTO",
@@ -2171,263 +2282,9 @@
           "return_1m": 10.15
         }
       ],
-      "rank": 1,
-      "rank_change_1w": 0,
-      "return_3m": 26.78,
-      "rrg_quadrant": "WEAKENING"
-    },
-    {
-      "name": "Nifty Realty",
-      "slug": "nifty_realty",
-      "description": "Residential developers, commercial REITs & urban infrastructure",
-      "return_1d": 0.15,
-      "return_1w": 2.72,
-      "return_1m": 15.83,
-      "official_return_1d": null,
-      "official_return_1w": null,
-      "official_return_1m": null,
-      "advances": 7,
-      "declines": 1,
-      "advances_1d": 1,
-      "declines_1d": 0,
-      "advances_1w": 7,
-      "declines_1w": 1,
-      "advances_1m": 8,
-      "declines_1m": 0,
-      "total_constituents": 8,
-      "breadth_pct": 87.5,
-      "breadth_pct_1d": 12.5,
-      "breadth_pct_1w": 87.5,
-      "breadth_pct_1m": 100.0,
-      "status": "STRONG INFLOW",
-      "top_stock": {
-        "ticker": "BRIGADE",
-        "name": "Brigade Enterprises",
-        "close": 578.35,
-        "return_1d": -0.0,
-        "return_1w": 5.32,
-        "return_1m": 1.43
-      },
-      "bottom_stock": {
-        "ticker": "SOBHA",
-        "name": "Sobha Ltd",
-        "close": 1262.4,
-        "return_1d": 0.0,
-        "return_1w": -0.7,
-        "return_1m": 4.17
-      },
-      "stocks": [
-        {
-          "ticker": "BRIGADE",
-          "name": "Brigade Enterprises",
-          "close": 578.35,
-          "return_1d": -0.0,
-          "return_1w": 5.32,
-          "return_1m": 1.43
-        },
-        {
-          "ticker": "DLF",
-          "name": "DLF Ltd",
-          "close": 794.1,
-          "return_1d": 1.16,
-          "return_1w": 5.21,
-          "return_1m": 20.87
-        },
-        {
-          "ticker": "GODREJPROP",
-          "name": "Godrej Properties",
-          "close": 1930.2,
-          "return_1d": -0.0,
-          "return_1w": 4.06,
-          "return_1m": 23.39
-        },
-        {
-          "ticker": "OBEROIRLTY",
-          "name": "Oberoi Realty",
-          "close": 1843.0,
-          "return_1d": 0.0,
-          "return_1w": 2.53,
-          "return_1m": 12.01
-        },
-        {
-          "ticker": "LODHA",
-          "name": "Macrotech Developers",
-          "close": 1219.0,
-          "return_1d": 0.02,
-          "return_1w": 2.2,
-          "return_1m": 26.58
-        },
-        {
-          "ticker": "PRESTIGE",
-          "name": "Prestige Estates",
-          "close": 1680.0,
-          "return_1d": 0.0,
-          "return_1w": 1.82,
-          "return_1m": 16.26
-        },
-        {
-          "ticker": "PHOENIXLTD",
-          "name": "Phoenix Mills",
-          "close": 2285.3,
-          "return_1d": 0.0,
-          "return_1w": 1.34,
-          "return_1m": 21.92
-        },
-        {
-          "ticker": "SOBHA",
-          "name": "Sobha Ltd",
-          "close": 1262.4,
-          "return_1d": 0.0,
-          "return_1w": -0.7,
-          "return_1m": 4.17
-        }
-      ],
       "rank": 2,
       "rank_change_1w": -1,
-      "return_3m": 33.24,
-      "rrg_quadrant": "LEADING"
-    },
-    {
-      "name": "Nifty Bank",
-      "slug": "nifty_bank",
-      "description": "12 largest private & PSU commercial lenders",
-      "return_1d": -2.77,
-      "return_1w": 2.31,
-      "return_1m": 14.73,
-      "official_return_1d": -3.17,
-      "official_return_1w": 1.64,
-      "official_return_1m": 15.29,
-      "advances": 10,
-      "declines": 1,
-      "advances_1d": 0,
-      "declines_1d": 10,
-      "advances_1w": 10,
-      "declines_1w": 1,
-      "advances_1m": 12,
-      "declines_1m": 0,
-      "total_constituents": 12,
-      "breadth_pct": 83.3,
-      "breadth_pct_1d": 0.0,
-      "breadth_pct_1w": 83.3,
-      "breadth_pct_1m": 100.0,
-      "status": "STRONG INFLOW",
-      "top_stock": {
-        "ticker": "INDUSINDBK",
-        "name": "IndusInd Bank Ltd",
-        "close": 963.0,
-        "return_1d": -3.99,
-        "return_1w": 5.3,
-        "return_1m": 15.33
-      },
-      "bottom_stock": {
-        "ticker": "FEDERALBNK",
-        "name": "Federal Bank Ltd",
-        "close": 359.8,
-        "return_1d": -3.67,
-        "return_1w": -0.61,
-        "return_1m": 5.54
-      },
-      "stocks": [
-        {
-          "ticker": "INDUSINDBK",
-          "name": "IndusInd Bank Ltd",
-          "close": 963.0,
-          "return_1d": -3.99,
-          "return_1w": 5.3,
-          "return_1m": 15.33
-        },
-        {
-          "ticker": "IDFCFIRSTB",
-          "name": "IDFC First Bank",
-          "close": 85.4,
-          "return_1d": -2.13,
-          "return_1w": 5.04,
-          "return_1m": 18.12
-        },
-        {
-          "ticker": "SBIN",
-          "name": "State Bank of India",
-          "close": 1132.65,
-          "return_1d": -2.79,
-          "return_1w": 3.87,
-          "return_1m": 18.16
-        },
-        {
-          "ticker": "PNB",
-          "name": "Punjab National Bank",
-          "close": 149.75,
-          "return_1d": -3.59,
-          "return_1w": 3.57,
-          "return_1m": 24.41
-        },
-        {
-          "ticker": "AXISBANK",
-          "name": "Axis Bank Ltd",
-          "close": 1388.6,
-          "return_1d": -3.97,
-          "return_1w": 3.44,
-          "return_1m": 14.05
-        },
-        {
-          "ticker": "BANKBARODA",
-          "name": "Bank of Baroda",
-          "close": 275.58,
-          "return_1d": -3.98,
-          "return_1w": 1.99,
-          "return_1m": 19.35
-        },
-        {
-          "ticker": "AUBANK",
-          "name": "AU Small Finance Bank",
-          "close": 984.9,
-          "return_1d": 0.0,
-          "return_1w": 1.85,
-          "return_1m": 3.24
-        },
-        {
-          "ticker": "KOTAKBANK",
-          "name": "Kotak Mahindra Bank",
-          "close": 502.85,
-          "return_1d": -2.51,
-          "return_1w": 1.75,
-          "return_1m": 16.81
-        },
-        {
-          "ticker": "BANDHANBNK",
-          "name": "BANDHANBNK",
-          "close": 175.07,
-          "return_1d": 0.0,
-          "return_1w": 1.27,
-          "return_1m": 10.04
-        },
-        {
-          "ticker": "HDFCBANK",
-          "name": "HDFC Bank Ltd",
-          "close": 817.8,
-          "return_1d": -3.33,
-          "return_1w": 0.16,
-          "return_1m": 18.04
-        },
-        {
-          "ticker": "ICICIBANK",
-          "name": "ICICI Bank Ltd",
-          "close": 1585.5,
-          "return_1d": -3.32,
-          "return_1w": 0.03,
-          "return_1m": 13.72
-        },
-        {
-          "ticker": "FEDERALBNK",
-          "name": "Federal Bank Ltd",
-          "close": 359.8,
-          "return_1d": -3.67,
-          "return_1w": -0.61,
-          "return_1m": 5.54
-        }
-      ],
-      "rank": 3,
-      "rank_change_1w": -1,
-      "return_3m": 30.93,
+      "return_3m": 26.02,
       "rrg_quadrant": "WEAKENING"
     },
     {
@@ -2528,25 +2385,168 @@
           "return_1m": 11.45
         }
       ],
-      "rank": 4,
+      "rank": 3,
       "rank_change_1w": -2,
       "return_3m": 37.88,
+      "rrg_quadrant": "WEAKENING"
+    },
+    {
+      "name": "Nifty Bank",
+      "slug": "nifty_bank",
+      "description": "12 largest private & PSU commercial lenders",
+      "return_1d": -2.91,
+      "return_1w": 2.12,
+      "return_1m": 15.33,
+      "official_return_1d": -3.17,
+      "official_return_1w": 1.64,
+      "official_return_1m": 15.29,
+      "advances": 9,
+      "declines": 2,
+      "advances_1d": 0,
+      "declines_1d": 12,
+      "advances_1w": 9,
+      "declines_1w": 2,
+      "advances_1m": 12,
+      "declines_1m": 0,
+      "total_constituents": 12,
+      "breadth_pct": 75.0,
+      "breadth_pct_1d": 0.0,
+      "breadth_pct_1w": 75.0,
+      "breadth_pct_1m": 100.0,
+      "status": "STRONG INFLOW",
+      "top_stock": {
+        "ticker": "INDUSINDBK",
+        "name": "IndusInd Bank Ltd",
+        "close": 963.0,
+        "return_1d": -3.99,
+        "return_1w": 5.3,
+        "return_1m": 15.33
+      },
+      "bottom_stock": {
+        "ticker": "FEDERALBNK",
+        "name": "Federal Bank Ltd",
+        "close": 359.8,
+        "return_1d": -3.67,
+        "return_1w": -0.61,
+        "return_1m": 5.54
+      },
+      "stocks": [
+        {
+          "ticker": "INDUSINDBK",
+          "name": "IndusInd Bank Ltd",
+          "close": 963.0,
+          "return_1d": -3.99,
+          "return_1w": 5.3,
+          "return_1m": 15.33
+        },
+        {
+          "ticker": "IDFCFIRSTB",
+          "name": "IDFC First Bank",
+          "close": 85.4,
+          "return_1d": -2.13,
+          "return_1w": 5.04,
+          "return_1m": 18.12
+        },
+        {
+          "ticker": "SBIN",
+          "name": "State Bank of India",
+          "close": 1132.65,
+          "return_1d": -2.79,
+          "return_1w": 3.87,
+          "return_1m": 18.16
+        },
+        {
+          "ticker": "PNB",
+          "name": "Punjab National Bank",
+          "close": 149.75,
+          "return_1d": -3.59,
+          "return_1w": 3.57,
+          "return_1m": 24.41
+        },
+        {
+          "ticker": "AXISBANK",
+          "name": "Axis Bank Ltd",
+          "close": 1388.6,
+          "return_1d": -3.97,
+          "return_1w": 3.44,
+          "return_1m": 14.05
+        },
+        {
+          "ticker": "BANKBARODA",
+          "name": "Bank of Baroda",
+          "close": 275.58,
+          "return_1d": -3.98,
+          "return_1w": 1.99,
+          "return_1m": 19.35
+        },
+        {
+          "ticker": "KOTAKBANK",
+          "name": "Kotak Mahindra Bank",
+          "close": 502.85,
+          "return_1d": -2.51,
+          "return_1w": 1.75,
+          "return_1m": 16.81
+        },
+        {
+          "ticker": "AUBANK",
+          "name": "AU Small Finance Bank",
+          "close": 983.5,
+          "return_1d": -0.14,
+          "return_1w": 1.25,
+          "return_1m": 5.42
+        },
+        {
+          "ticker": "HDFCBANK",
+          "name": "HDFC Bank Ltd",
+          "close": 817.8,
+          "return_1d": -3.33,
+          "return_1w": 0.16,
+          "return_1m": 18.04
+        },
+        {
+          "ticker": "ICICIBANK",
+          "name": "ICICI Bank Ltd",
+          "close": 1585.5,
+          "return_1d": -3.32,
+          "return_1w": 0.03,
+          "return_1m": 13.72
+        },
+        {
+          "ticker": "BANDHANBNK",
+          "name": "BANDHANBNK",
+          "close": 172.4,
+          "return_1d": -1.53,
+          "return_1w": -0.29,
+          "return_1m": 15.02
+        },
+        {
+          "ticker": "FEDERALBNK",
+          "name": "Federal Bank Ltd",
+          "close": 359.8,
+          "return_1d": -3.67,
+          "return_1w": -0.61,
+          "return_1m": 5.54
+        }
+      ],
+      "rank": 4,
+      "rank_change_1w": -2,
+      "return_3m": 32.19,
       "rrg_quadrant": "WEAKENING"
     },
     {
       "name": "Nifty FMCG",
       "slug": "nifty_fmcg",
       "description": "Fast-moving consumer goods, foods, packaged beverages & personal care",
-      "return_1d": -0.2,
-      "return_1w": 2.2,
-      "return_1m": 11.49,
+      "return_1d": -0.52,
+      "return_1w": 1.47,
+      "return_1m": 12.15,
       "official_return_1d": null,
       "official_return_1w": null,
       "official_return_1m": null,
       "advances": 9,
       "declines": 1,
       "advances_1d": 3,
-      "declines_1d": 4,
+      "declines_1d": 7,
       "advances_1w": 9,
       "declines_1w": 1,
       "advances_1m": 10,
@@ -2556,32 +2556,24 @@
       "breadth_pct_1d": 30.0,
       "breadth_pct_1w": 90.0,
       "breadth_pct_1m": 100.0,
-      "status": "STRONG INFLOW",
+      "status": "IMPROVING",
       "top_stock": {
-        "ticker": "NESTLEIND",
-        "name": "Nestle India Ltd",
-        "close": 1325.0,
-        "return_1d": 0.0,
-        "return_1w": 4.89,
-        "return_1m": 8.26
+        "ticker": "DABUR",
+        "name": "Dabur India Ltd",
+        "close": 399.0,
+        "return_1d": 1.5,
+        "return_1w": 4.48,
+        "return_1m": 10.94
       },
       "bottom_stock": {
         "ticker": "VBL",
         "name": "Varun Beverages",
-        "close": 427.5,
-        "return_1d": 0.0,
-        "return_1w": -1.22,
-        "return_1m": 4.8
+        "close": 427.15,
+        "return_1d": -0.08,
+        "return_1w": -2.25,
+        "return_1m": 8.24
       },
       "stocks": [
-        {
-          "ticker": "NESTLEIND",
-          "name": "Nestle India Ltd",
-          "close": 1325.0,
-          "return_1d": 0.0,
-          "return_1w": 4.89,
-          "return_1m": 8.26
-        },
         {
           "ticker": "DABUR",
           "name": "Dabur India Ltd",
@@ -2597,14 +2589,6 @@
           "return_1d": -0.26,
           "return_1w": 3.03,
           "return_1m": 11.05
-        },
-        {
-          "ticker": "HINDUNILVR",
-          "name": "Hindustan Unilever Ltd",
-          "close": 2052.5,
-          "return_1d": 0.0,
-          "return_1w": 2.99,
-          "return_1m": 11.99
         },
         {
           "ticker": "GODREJCP",
@@ -2639,6 +2623,22 @@
           "return_1m": 17.54
         },
         {
+          "ticker": "HINDUNILVR",
+          "name": "Hindustan Unilever Ltd",
+          "close": 2019.1,
+          "return_1d": -1.63,
+          "return_1w": 0.94,
+          "return_1m": 12.32
+        },
+        {
+          "ticker": "NESTLEIND",
+          "name": "Nestle India Ltd",
+          "close": 1305.9,
+          "return_1d": -1.44,
+          "return_1w": 0.69,
+          "return_1m": 11.14
+        },
+        {
           "ticker": "MARICO",
           "name": "Marico Ltd",
           "close": 919.5,
@@ -2649,134 +2649,15 @@
         {
           "ticker": "VBL",
           "name": "Varun Beverages",
-          "close": 427.5,
-          "return_1d": 0.0,
-          "return_1w": -1.22,
-          "return_1m": 4.8
+          "close": 427.15,
+          "return_1d": -0.08,
+          "return_1w": -2.25,
+          "return_1m": 8.24
         }
       ],
       "rank": 5,
-      "rank_change_1w": -1,
-      "return_3m": 24.13,
-      "rrg_quadrant": "WEAKENING"
-    },
-    {
-      "name": "Nifty Infra",
-      "slug": "nifty_infra",
-      "description": "Heavy engineering EPC, telecom, cement, ports & logistics",
-      "return_1d": -0.98,
-      "return_1w": 1.28,
-      "return_1m": 12.19,
-      "official_return_1d": null,
-      "official_return_1w": null,
-      "official_return_1m": null,
-      "advances": 5,
-      "declines": 3,
-      "advances_1d": 1,
-      "declines_1d": 5,
-      "advances_1w": 5,
-      "declines_1w": 3,
-      "advances_1m": 9,
-      "declines_1m": 0,
-      "total_constituents": 9,
-      "breadth_pct": 55.6,
-      "breadth_pct_1d": 11.1,
-      "breadth_pct_1w": 55.6,
-      "breadth_pct_1m": 100.0,
-      "status": "IMPROVING",
-      "top_stock": {
-        "ticker": "ULTRACEMCO",
-        "name": "UltraTech Cement Ltd",
-        "close": 12939.0,
-        "return_1d": 0.0,
-        "return_1w": 6.93,
-        "return_1m": 19.26
-      },
-      "bottom_stock": {
-        "ticker": "NTPC",
-        "name": "NTPC Ltd",
-        "close": 315.45,
-        "return_1d": -1.88,
-        "return_1w": -1.81,
-        "return_1m": 6.87
-      },
-      "stocks": [
-        {
-          "ticker": "ULTRACEMCO",
-          "name": "UltraTech Cement Ltd",
-          "close": 12939.0,
-          "return_1d": 0.0,
-          "return_1w": 6.93,
-          "return_1m": 19.26
-        },
-        {
-          "ticker": "BHARTIARTL",
-          "name": "Bharti Airtel Ltd",
-          "close": 2161.7,
-          "return_1d": -0.0,
-          "return_1w": 2.64,
-          "return_1m": 14.27
-        },
-        {
-          "ticker": "AMBUJACEM",
-          "name": "AMBUJACEM",
-          "close": 391.95,
-          "return_1d": -2.01,
-          "return_1w": 2.6,
-          "return_1m": 9.21
-        },
-        {
-          "ticker": "ADANIPORTS",
-          "name": "Adani Ports & SEZ",
-          "close": 1919.0,
-          "return_1d": 0.1,
-          "return_1w": 1.37,
-          "return_1m": 12.7
-        },
-        {
-          "ticker": "POWERGRID",
-          "name": "Power Grid Corporation",
-          "close": 264.85,
-          "return_1d": -1.54,
-          "return_1w": 1.01,
-          "return_1m": 8.3
-        },
-        {
-          "ticker": "INDIGO",
-          "name": "INDIGO",
-          "close": 5587.6,
-          "return_1d": 0.0,
-          "return_1w": 0.01,
-          "return_1m": 20.38
-        },
-        {
-          "ticker": "GRASIM",
-          "name": "Grasim Industries Ltd",
-          "close": 3075.2,
-          "return_1d": -0.92,
-          "return_1w": -0.3,
-          "return_1m": 6.26
-        },
-        {
-          "ticker": "LT",
-          "name": "Larsen & Toubro Ltd",
-          "close": 4099.9,
-          "return_1d": -2.59,
-          "return_1w": -0.97,
-          "return_1m": 12.42
-        },
-        {
-          "ticker": "NTPC",
-          "name": "NTPC Ltd",
-          "close": 315.45,
-          "return_1d": -1.88,
-          "return_1w": -1.81,
-          "return_1m": 6.87
-        }
-      ],
-      "rank": 6,
       "rank_change_1w": -2,
-      "return_3m": 25.6,
+      "return_3m": 25.52,
       "rrg_quadrant": "WEAKENING"
     },
     {
@@ -2893,42 +2774,161 @@
           "return_1m": -2.18
         }
       ],
-      "rank": 7,
+      "rank": 6,
       "rank_change_1w": 0,
       "return_3m": 4.54,
       "rrg_quadrant": "LEADING"
     },
     {
+      "name": "Nifty Infra",
+      "slug": "nifty_infra",
+      "description": "Heavy engineering EPC, telecom, cement, ports & logistics",
+      "return_1d": -1.53,
+      "return_1w": 0.38,
+      "return_1m": 11.57,
+      "official_return_1d": null,
+      "official_return_1w": null,
+      "official_return_1m": null,
+      "advances": 4,
+      "declines": 5,
+      "advances_1d": 1,
+      "declines_1d": 8,
+      "advances_1w": 4,
+      "declines_1w": 5,
+      "advances_1m": 9,
+      "declines_1m": 0,
+      "total_constituents": 9,
+      "breadth_pct": 44.4,
+      "breadth_pct_1d": 11.1,
+      "breadth_pct_1w": 44.4,
+      "breadth_pct_1m": 100.0,
+      "status": "CONSOLIDATION",
+      "top_stock": {
+        "ticker": "ULTRACEMCO",
+        "name": "UltraTech Cement Ltd",
+        "close": 12650.0,
+        "return_1d": -2.23,
+        "return_1w": 3.1,
+        "return_1m": 14.48
+      },
+      "bottom_stock": {
+        "ticker": "NTPC",
+        "name": "NTPC Ltd",
+        "close": 315.45,
+        "return_1d": -1.88,
+        "return_1w": -1.81,
+        "return_1m": 6.87
+      },
+      "stocks": [
+        {
+          "ticker": "ULTRACEMCO",
+          "name": "UltraTech Cement Ltd",
+          "close": 12650.0,
+          "return_1d": -2.23,
+          "return_1w": 3.1,
+          "return_1m": 14.48
+        },
+        {
+          "ticker": "AMBUJACEM",
+          "name": "AMBUJACEM",
+          "close": 391.95,
+          "return_1d": -2.01,
+          "return_1w": 2.6,
+          "return_1m": 9.21
+        },
+        {
+          "ticker": "ADANIPORTS",
+          "name": "Adani Ports & SEZ",
+          "close": 1919.0,
+          "return_1d": 0.1,
+          "return_1w": 1.37,
+          "return_1m": 12.7
+        },
+        {
+          "ticker": "POWERGRID",
+          "name": "Power Grid Corporation",
+          "close": 264.85,
+          "return_1d": -1.54,
+          "return_1w": 1.01,
+          "return_1m": 8.3
+        },
+        {
+          "ticker": "GRASIM",
+          "name": "Grasim Industries Ltd",
+          "close": 3075.2,
+          "return_1d": -0.92,
+          "return_1w": -0.3,
+          "return_1m": 6.26
+        },
+        {
+          "ticker": "INDIGO",
+          "name": "INDIGO",
+          "close": 5523.0,
+          "return_1d": -1.16,
+          "return_1w": -0.38,
+          "return_1m": 21.41
+        },
+        {
+          "ticker": "LT",
+          "name": "Larsen & Toubro Ltd",
+          "close": 4099.9,
+          "return_1d": -2.59,
+          "return_1w": -0.97,
+          "return_1m": 12.42
+        },
+        {
+          "ticker": "BHARTIARTL",
+          "name": "Bharti Airtel Ltd",
+          "close": 2128.5,
+          "return_1d": -1.54,
+          "return_1w": -1.16,
+          "return_1m": 12.49
+        },
+        {
+          "ticker": "NTPC",
+          "name": "NTPC Ltd",
+          "close": 315.45,
+          "return_1d": -1.88,
+          "return_1w": -1.81,
+          "return_1m": 6.87
+        }
+      ],
+      "rank": 7,
+      "rank_change_1w": -2,
+      "return_3m": 24.3,
+      "rrg_quadrant": "WEAKENING"
+    },
+    {
       "name": "Nifty Pharma",
       "slug": "nifty_pharma",
       "description": "Generic formulations, APIs, CDMO & domestic healthcare players",
-      "return_1d": -0.41,
-      "return_1w": 0.25,
-      "return_1m": 11.11,
+      "return_1d": -0.78,
+      "return_1w": 0.09,
+      "return_1m": 10.89,
       "official_return_1d": -0.33,
       "official_return_1w": 0.68,
       "official_return_1m": 11.68,
-      "advances": 8,
-      "declines": 4,
+      "advances": 7,
+      "declines": 5,
       "advances_1d": 3,
-      "declines_1d": 4,
-      "advances_1w": 8,
-      "declines_1w": 4,
+      "declines_1d": 8,
+      "advances_1w": 7,
+      "declines_1w": 5,
       "advances_1m": 12,
       "declines_1m": 0,
       "total_constituents": 12,
-      "breadth_pct": 66.7,
+      "breadth_pct": 58.3,
       "breadth_pct_1d": 25.0,
-      "breadth_pct_1w": 66.7,
+      "breadth_pct_1w": 58.3,
       "breadth_pct_1m": 100.0,
       "status": "IMPROVING",
       "top_stock": {
-        "ticker": "CIPLA",
-        "name": "Cipla Ltd",
-        "close": 1415.0,
-        "return_1d": 0.0,
-        "return_1w": 1.67,
-        "return_1m": 7.69
+        "ticker": "TORNTPHARM",
+        "name": "Torrent Pharmaceuticals",
+        "close": 4763.7,
+        "return_1d": 1.58,
+        "return_1w": 1.55,
+        "return_1m": 5.29
       },
       "bottom_stock": {
         "ticker": "BIOCON",
@@ -2939,14 +2939,6 @@
         "return_1m": 10.26
       },
       "stocks": [
-        {
-          "ticker": "CIPLA",
-          "name": "Cipla Ltd",
-          "close": 1415.0,
-          "return_1d": 0.0,
-          "return_1w": 1.67,
-          "return_1m": 7.69
-        },
         {
           "ticker": "TORNTPHARM",
           "name": "Torrent Pharmaceuticals",
@@ -2962,14 +2954,6 @@
           "return_1d": 0.2,
           "return_1w": 1.11,
           "return_1m": 25.17
-        },
-        {
-          "ticker": "MANKIND",
-          "name": "Mankind Pharma",
-          "close": 2665.0,
-          "return_1d": 0.0,
-          "return_1w": 0.95,
-          "return_1m": 16.6
         },
         {
           "ticker": "GLENMARK",
@@ -2988,12 +2972,12 @@
           "return_1m": 6.21
         },
         {
-          "ticker": "SUNPHARMA",
-          "name": "Sun Pharmaceutical Ind",
-          "close": 1884.9,
-          "return_1d": 0.0,
-          "return_1w": 0.26,
-          "return_1m": 8.01
+          "ticker": "CIPLA",
+          "name": "Cipla Ltd",
+          "close": 1399.9,
+          "return_1d": -1.07,
+          "return_1w": 0.39,
+          "return_1m": 4.63
         },
         {
           "ticker": "DRREDDY",
@@ -3004,6 +2988,14 @@
           "return_1m": 12.25
         },
         {
+          "ticker": "AUROPHARMA",
+          "name": "Aurobindo Pharma",
+          "close": 1796.5,
+          "return_1d": -0.14,
+          "return_1w": 0.14,
+          "return_1m": 14.74
+        },
+        {
           "ticker": "LUPIN",
           "name": "Lupin Ltd",
           "close": 1975.6,
@@ -3012,12 +3004,20 @@
           "return_1m": 2.42
         },
         {
-          "ticker": "AUROPHARMA",
-          "name": "Aurobindo Pharma",
-          "close": 1799.0,
-          "return_1d": 0.0,
-          "return_1w": -1.33,
-          "return_1m": 14.38
+          "ticker": "SUNPHARMA",
+          "name": "Sun Pharmaceutical Ind",
+          "close": 1860.0,
+          "return_1d": -1.32,
+          "return_1w": -0.4,
+          "return_1m": 6.41
+        },
+        {
+          "ticker": "MANKIND",
+          "name": "Mankind Pharma",
+          "close": 2615.1,
+          "return_1d": -1.87,
+          "return_1w": -0.44,
+          "return_1m": 18.19
         },
         {
           "ticker": "ALKEM",
@@ -3038,40 +3038,40 @@
       ],
       "rank": 8,
       "rank_change_1w": -2,
-      "return_3m": 23.33,
+      "return_3m": 22.87,
       "rrg_quadrant": "WEAKENING"
     },
     {
       "name": "Nifty Energy",
       "slug": "nifty_energy",
       "description": "Integrated refining, power generation, solar/green utilities & gas transmission",
-      "return_1d": -2.09,
-      "return_1w": -0.65,
-      "return_1m": 8.83,
+      "return_1d": -2.37,
+      "return_1w": -1.05,
+      "return_1m": 8.76,
       "official_return_1d": null,
       "official_return_1w": null,
       "official_return_1m": null,
-      "advances": 4,
+      "advances": 3,
       "declines": 6,
       "advances_1d": 0,
-      "declines_1d": 9,
-      "advances_1w": 4,
+      "declines_1d": 10,
+      "advances_1w": 3,
       "declines_1w": 6,
       "advances_1m": 9,
       "declines_1m": 1,
       "total_constituents": 10,
-      "breadth_pct": 40.0,
+      "breadth_pct": 30.0,
       "breadth_pct_1d": 0.0,
-      "breadth_pct_1w": 40.0,
+      "breadth_pct_1w": 30.0,
       "breadth_pct_1m": 90.0,
-      "status": "CONSOLIDATION",
+      "status": "DISTRIBUTION",
       "top_stock": {
-        "ticker": "BPCL",
-        "name": "Bharat Petroleum Corp",
-        "close": 314.1,
-        "return_1d": 0.0,
-        "return_1w": 4.01,
-        "return_1m": 9.06
+        "ticker": "POWERGRID",
+        "name": "Power Grid Corporation",
+        "close": 264.85,
+        "return_1d": -1.54,
+        "return_1w": 1.01,
+        "return_1m": 8.3
       },
       "bottom_stock": {
         "ticker": "TATAPOWER",
@@ -3082,14 +3082,6 @@
         "return_1m": -5.77
       },
       "stocks": [
-        {
-          "ticker": "BPCL",
-          "name": "Bharat Petroleum Corp",
-          "close": 314.1,
-          "return_1d": 0.0,
-          "return_1w": 4.01,
-          "return_1m": 9.06
-        },
         {
           "ticker": "POWERGRID",
           "name": "Power Grid Corporation",
@@ -3113,6 +3105,14 @@
           "return_1d": -1.92,
           "return_1w": 0.46,
           "return_1m": 13.53
+        },
+        {
+          "ticker": "BPCL",
+          "name": "Bharat Petroleum Corp",
+          "close": 305.35,
+          "return_1d": -2.79,
+          "return_1w": 0.02,
+          "return_1m": 8.3
         },
         {
           "ticker": "GAIL",
@@ -3165,7 +3165,7 @@
       ],
       "rank": 9,
       "rank_change_1w": -2,
-      "return_3m": 18.54,
+      "return_3m": 18.4,
       "rrg_quadrant": "LAGGING"
     },
     {
