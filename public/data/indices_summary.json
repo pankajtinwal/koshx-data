@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T07:01:29.836950Z",
+  "updated_at": "2026-11-24T07:16:23.374207Z",
   "total_stocks": 132,
   "total_indices": 14,
   "indices": [
@@ -3033,7 +3033,7 @@
       "day_open": 2596.97,
       "day_high": 2642.44,
       "day_low": 2566.86,
-      "high_52w": 3016.35,
+      "high_52w": 3016.36,
       "low_52w": 1811.98,
       "all_time_return_pct": 160.4,
       "returns": {
@@ -3537,7 +3537,7 @@
       "change_pts": -25.69,
       "change_pct": -1.1,
       "day_open": 2348.98,
-      "day_high": 2375.63,
+      "day_high": 2375.62,
       "day_low": 2292.37,
       "high_52w": 2776.06,
       "low_52w": 1655.12,
