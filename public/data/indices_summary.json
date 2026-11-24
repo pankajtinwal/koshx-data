@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T05:01:36.817858Z",
+  "updated_at": "2026-11-24T05:16:18.986531Z",
   "total_stocks": 132,
   "total_indices": 14,
   "indices": [
@@ -3668,9 +3668,9 @@
       "name": "Electronics & Consumer Durables",
       "type": "sector",
       "file": "data/sector_electronics_consumer_durables.json",
-      "current_value": 2363.31,
+      "current_value": 2363.32,
       "prev_close": 2422.61,
-      "change_pts": -59.3,
+      "change_pts": -59.29,
       "change_pct": -2.45,
       "day_open": 2405.31,
       "day_high": 2408.98,
@@ -3792,7 +3792,7 @@
       "change_pct": -1.01,
       "day_open": 1768.89,
       "day_high": 1775.65,
-      "day_low": 1742.89,
+      "day_low": 1742.9,
       "high_52w": 1914.73,
       "low_52w": 1431.14,
       "all_time_return_pct": 74.88,
