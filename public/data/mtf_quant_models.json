@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T10:17:04.080220Z",
+  "updated_at": "2026-11-24T14:18:07.494725Z",
   "total_stocks": 216,
   "models": {
     "ema": {
@@ -8644,9 +8644,9 @@
           "name": "Bharat Forge Ltd",
           "sector": "Auto & Ancillaries",
           "price": 1722.0,
-          "x": 107.1,
+          "x": 107.2,
           "y": -2.22,
-          "half_life_days": 107.1,
+          "half_life_days": 107.2,
           "spread_zscore": -2.22,
           "ar1_b": 0.9936,
           "is_high_elasticity": false
@@ -8752,9 +8752,9 @@
           "name": "APL Apollo Tubes Ltd",
           "sector": "Metals & Mining",
           "price": 1670.0,
-          "x": 30.8,
+          "x": 30.7,
           "y": -2.09,
-          "half_life_days": 30.8,
+          "half_life_days": 30.7,
           "spread_zscore": -2.09,
           "ar1_b": 0.9777,
           "is_high_elasticity": false
@@ -9440,7 +9440,7 @@
           "y": -0.8,
           "half_life_days": 12.6,
           "spread_zscore": -0.8,
-          "ar1_b": 0.9465,
+          "ar1_b": 0.9466,
           "is_high_elasticity": false
         },
         {
@@ -10361,9 +10361,9 @@
           "sector": "Financial Services",
           "price": 85.4,
           "x": 8.5,
-          "y": 1.09,
+          "y": 1.1,
           "half_life_days": 8.5,
-          "spread_zscore": 1.09,
+          "spread_zscore": 1.1,
           "ar1_b": 0.9218,
           "is_high_elasticity": false
         },
@@ -10612,9 +10612,9 @@
           "name": "Indian Oil Corporation Ltd",
           "sector": "Oil, Gas & Energy",
           "price": 145.0,
-          "x": 11.1,
+          "x": 11.2,
           "y": 1.43,
-          "half_life_days": 11.1,
+          "half_life_days": 11.2,
           "spread_zscore": 1.43,
           "ar1_b": 0.9397,
           "is_high_elasticity": false
@@ -10964,7 +10964,7 @@
           "y": 2.36,
           "half_life_days": 4.3,
           "spread_zscore": 2.36,
-          "ar1_b": 0.8501,
+          "ar1_b": 0.8502,
           "is_high_elasticity": false
         },
         {
