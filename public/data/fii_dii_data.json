@@ -1,38 +1,38 @@
 {
-  "updated_at": "2026-11-25T10:16:58.749955Z",
-  "market_date": "23-Nov-2026",
+  "updated_at": "2026-11-25T13:31:31.810793Z",
+  "market_date": "25-Nov-2026",
   "today": {
-    "date": "23-Nov-2026",
+    "date": "25-Nov-2026",
     "fii": {
-      "buy": 23473.67,
-      "sell": 17800.68,
-      "net": 5672.99
+      "buy": 24309.87,
+      "sell": 19830.79,
+      "net": 4479.08
     },
     "dii": {
-      "buy": 16505.75,
-      "sell": 19265.87,
-      "net": -2760.12
+      "buy": 22379.82,
+      "sell": 18361.1,
+      "net": 4018.72
     },
-    "combined_net_cr": 2912.87,
-    "absorption_ratio_pct": 100.0,
-    "active_regime": "Foreign Momentum / DII Profit Booking",
-    "regime_description": "Foreign capital driving large-caps while domestic institutions book profits to rebalance cash.",
-    "fii_index_futures_long_pct": 20.1,
-    "fii_index_futures_short_pct": 79.9,
+    "combined_net_cr": 8497.8,
+    "absorption_ratio_pct": 200.0,
+    "active_regime": "Double Inflow (Maximum Liquidity)",
+    "regime_description": "Both foreign and domestic institutions are net buyers. Strongest historical trend continuation win rate (72.4%).",
+    "fii_index_futures_long_pct": 23.8,
+    "fii_index_futures_short_pct": 76.2,
     "fii_fno_sentiment": "Bearish Leaning / Moderate Short Bias",
-    "client_retail_long_pct": 70.2,
-    "pro_desk_long_pct": 30.2,
-    "dii_fno_long_pct": 61.5,
-    "z_score_fii": 2.86,
+    "client_retail_long_pct": 65.6,
+    "pro_desk_long_pct": 50.3,
+    "dii_fno_long_pct": 57.9,
+    "z_score_fii": 2.37,
     "flow_classification": "ELEVATED FLOW"
   },
   "summary_stats_3y": {
-    "total_fii_net_cr": -229318.31,
-    "total_dii_net_cr": 813602.79,
-    "cumulative_absorption_ratio": 354.8,
-    "nifty_3y_return_pct": 27.7,
-    "avg_daily_fii_flow": -311.2,
-    "avg_daily_dii_flow": 1103.9
+    "total_fii_net_cr": -224839.23,
+    "total_dii_net_cr": 817621.51,
+    "cumulative_absorption_ratio": 363.6,
+    "nifty_3y_return_pct": 30.1,
+    "avg_daily_fii_flow": -304.7,
+    "avg_daily_dii_flow": 1107.9
   },
   "daily_history_3y": [
     {
@@ -11826,6 +11826,22 @@
       "cum_dii": 1199002.79,
       "fii_long_ratio": 20.1,
       "absorption_ratio": 100.0
+    },
+    {
+      "date": "2026-11-25",
+      "nifty_open": 25658.35,
+      "nifty_high": 25951.65,
+      "nifty_low": 25619.0,
+      "nifty_close": 25819.25,
+      "nifty_change": 469.6,
+      "nifty_change_pct": 1.85,
+      "fii_net": 4479.08,
+      "dii_net": 4018.72,
+      "combined_net": 8497.8,
+      "cum_fii": -409039.23,
+      "cum_dii": 1203021.51,
+      "fii_long_ratio": 23.8,
+      "absorption_ratio": 200.0
     }
   ],
   "regimes_matrix": [
@@ -11839,7 +11855,7 @@
       "win_rate_pct": 72.4,
       "badge_color": "emerald",
       "description": "Broad-based institutional liquidity expansion. Large-cap momentum trend continuation is strongest.",
-      "is_active": false
+      "is_active": true
     },
     {
       "id": "domestic_absorption",
@@ -11863,7 +11879,7 @@
       "win_rate_pct": 59.1,
       "badge_color": "amber",
       "description": "Foreign buyers drive mega-caps while domestic institutions book profits to rebalance portfolio cash.",
-      "is_active": true
+      "is_active": false
     },
     {
       "id": "liquidity_drain",
@@ -12241,9 +12257,9 @@
         "nifty_ret": 2.26
       },
       "Nov": {
-        "fii": 117622,
-        "dii": -63847,
-        "nifty_ret": 9.16
+        "fii": 122101,
+        "dii": -59828,
+        "nifty_ret": 11.18
       }
     }
   }

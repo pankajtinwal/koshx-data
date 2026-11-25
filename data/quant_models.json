@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T10:16:02.038848Z",
+  "updated_at": "2026-11-25T13:30:37.765633Z",
   "total_stocks": 132,
   "models": {
     "ema": {
@@ -1850,11 +1850,11 @@
           "ticker": "KPGEL",
           "name": "KP Green Engineering",
           "sector": "Capital Goods & Engineering",
-          "price": 225.0,
-          "x": -17.9,
-          "y": -13.07,
-          "ema_20": 258.83,
-          "ema_50": 274.04,
+          "price": 225.2,
+          "x": -17.82,
+          "y": -13.0,
+          "ema_20": 258.85,
+          "ema_50": 274.05,
           "ema_200": 335.82,
           "is_bull": false,
           "quadrant": 3,
@@ -1869,13 +1869,13 @@
       "regression": {
         "alpha": -0.0057,
         "beta": 0.1838,
-        "r_squared": 0.2098,
+        "r_squared": 0.2097,
         "std_err": 0.0545,
         "n": 131,
         "x_min": -0.4522,
         "x_max": 0.4858,
         "x_mean": -0.0706,
-        "ss_xx": 3.008872
+        "ss_xx": 3.008629
       },
       "stats": {
         "outlier_count": 5
@@ -1912,7 +1912,7 @@
           "price": 1537.8,
           "x": 1.91,
           "y": 9.22,
-          "expected_y": -0.22,
+          "expected_y": -0.21,
           "residual": 9.43,
           "studentized_residual": 1.74,
           "is_outlier": false
@@ -1948,7 +1948,7 @@
           "price": 637.75,
           "x": -11.36,
           "y": 3.97,
-          "expected_y": -2.66,
+          "expected_y": -2.65,
           "residual": 6.62,
           "studentized_residual": 1.22,
           "is_outlier": false
@@ -2032,7 +2032,7 @@
           "price": 188.16,
           "x": -26.81,
           "y": -0.22,
-          "expected_y": -5.5,
+          "expected_y": -5.49,
           "residual": 5.27,
           "studentized_residual": 0.98,
           "is_outlier": false
@@ -2068,7 +2068,7 @@
           "price": 705.6,
           "x": -11.96,
           "y": 2.29,
-          "expected_y": -2.77,
+          "expected_y": -2.76,
           "residual": 5.06,
           "studentized_residual": 0.93,
           "is_outlier": false
@@ -2141,7 +2141,7 @@
           "x": -19.33,
           "y": 0.03,
           "expected_y": -4.12,
-          "residual": 4.15,
+          "residual": 4.14,
           "studentized_residual": 0.77,
           "is_outlier": false
         },
@@ -2166,7 +2166,7 @@
           "y": -5.31,
           "expected_y": -8.88,
           "residual": 3.57,
-          "studentized_residual": 0.68,
+          "studentized_residual": 0.67,
           "is_outlier": false
         },
         {
@@ -2188,7 +2188,7 @@
           "price": 2098.0,
           "x": -17.07,
           "y": -0.22,
-          "expected_y": -3.71,
+          "expected_y": -3.7,
           "residual": 3.49,
           "studentized_residual": 0.64,
           "is_outlier": false
@@ -2226,7 +2226,7 @@
           "y": -2.92,
           "expected_y": -5.48,
           "residual": 2.56,
-          "studentized_residual": 0.48,
+          "studentized_residual": 0.47,
           "is_outlier": false
         },
         {
@@ -2285,7 +2285,7 @@
           "x": -30.68,
           "y": -4.24,
           "expected_y": -6.21,
-          "residual": 1.97,
+          "residual": 1.96,
           "studentized_residual": 0.37,
           "is_outlier": false
         },
@@ -2296,7 +2296,7 @@
           "price": 433.3,
           "x": -4.18,
           "y": 0.67,
-          "expected_y": -1.34,
+          "expected_y": -1.33,
           "residual": 2.01,
           "studentized_residual": 0.37,
           "is_outlier": false
@@ -2464,7 +2464,7 @@
           "price": 289.5,
           "x": -25.4,
           "y": -3.88,
-          "expected_y": -5.24,
+          "expected_y": -5.23,
           "residual": 1.36,
           "studentized_residual": 0.25,
           "is_outlier": false
@@ -2501,7 +2501,7 @@
           "x": -30.49,
           "y": -5.1,
           "expected_y": -6.17,
-          "residual": 1.07,
+          "residual": 1.06,
           "studentized_residual": 0.2,
           "is_outlier": false
         },
@@ -2597,7 +2597,7 @@
           "x": -5.73,
           "y": -1.15,
           "expected_y": -1.62,
-          "residual": 0.48,
+          "residual": 0.47,
           "studentized_residual": 0.09,
           "is_outlier": false
         },
@@ -2621,7 +2621,7 @@
           "x": -8.16,
           "y": -1.73,
           "expected_y": -2.07,
-          "residual": 0.34,
+          "residual": 0.33,
           "studentized_residual": 0.06,
           "is_outlier": false
         },
@@ -2692,8 +2692,8 @@
           "price": 20968.0,
           "x": -9.29,
           "y": -2.25,
-          "expected_y": -2.28,
-          "residual": 0.03,
+          "expected_y": -2.27,
+          "residual": 0.02,
           "studentized_residual": 0.0,
           "is_outlier": false
         },
@@ -2773,12 +2773,12 @@
           "ticker": "KPGEL",
           "name": "KP Green Engineering",
           "sector": "Capital Goods & Engineering",
-          "price": 225.0,
-          "x": -20.78,
-          "y": -5.32,
-          "expected_y": -4.39,
-          "residual": -0.94,
-          "studentized_residual": -0.17,
+          "price": 225.2,
+          "x": -20.69,
+          "y": -5.23,
+          "expected_y": -4.37,
+          "residual": -0.86,
+          "studentized_residual": -0.16,
           "is_outlier": false
         },
         {
@@ -2788,7 +2788,7 @@
           "price": 1111.85,
           "x": -13.05,
           "y": -3.87,
-          "expected_y": -2.97,
+          "expected_y": -2.96,
           "residual": -0.91,
           "studentized_residual": -0.17,
           "is_outlier": false
@@ -2969,7 +2969,7 @@
           "x": -19.58,
           "y": -6.18,
           "expected_y": -4.17,
-          "residual": -2.01,
+          "residual": -2.02,
           "studentized_residual": -0.37,
           "is_outlier": false
         },
@@ -3016,7 +3016,7 @@
           "price": 3993.0,
           "x": 23.45,
           "y": 1.26,
-          "expected_y": 3.75,
+          "expected_y": 3.74,
           "residual": -2.48,
           "studentized_residual": -0.46,
           "is_outlier": false
@@ -3052,7 +3052,7 @@
           "price": 1260.5,
           "x": 36.45,
           "y": 3.47,
-          "expected_y": 6.14,
+          "expected_y": 6.13,
           "residual": -2.66,
           "studentized_residual": -0.51,
           "is_outlier": false
@@ -3293,7 +3293,7 @@
           "x": -16.19,
           "y": -8.36,
           "expected_y": -3.54,
-          "residual": -4.81,
+          "residual": -4.82,
           "studentized_residual": -0.89,
           "is_outlier": false
         },
@@ -3306,7 +3306,7 @@
           "y": -3.01,
           "expected_y": 2.56,
           "residual": -5.56,
-          "studentized_residual": -1.04,
+          "studentized_residual": -1.03,
           "is_outlier": false
         },
         {
@@ -3340,7 +3340,7 @@
           "price": 226.48,
           "x": 21.77,
           "y": -2.64,
-          "expected_y": 3.44,
+          "expected_y": 3.43,
           "residual": -6.08,
           "studentized_residual": -1.14,
           "is_outlier": false
@@ -3448,7 +3448,7 @@
           "price": 149.17,
           "x": -1.08,
           "y": -16.41,
-          "expected_y": -0.77,
+          "expected_y": -0.76,
           "residual": -15.64,
           "studentized_residual": -2.88,
           "is_outlier": true
@@ -3460,11 +3460,11 @@
       "x_label": "Standardized Velocity (Z-Score)",
       "y_label": "Standardized Acceleration (Z-Score)",
       "stats": {
-        "mean_v": -1.7,
+        "mean_v": -1.69,
         "std_v": 4.69,
         "mean_a": 0.05,
         "std_a": 3.17,
-        "rho": 0.4691,
+        "rho": 0.469,
         "q2_inflection_count": 2
       },
       "points": [
@@ -3473,7 +3473,7 @@
           "name": "Felix Industries",
           "sector": "Infrastructure & Construction",
           "price": 280.8,
-          "x": 6.25,
+          "x": 6.26,
           "y": 9.48,
           "raw_v": 27.62,
           "raw_a": 30.13,
@@ -3529,7 +3529,7 @@
           "y": 2.67,
           "raw_v": 0.89,
           "raw_a": 8.52,
-          "mahalanobis_dist": 2.79,
+          "mahalanobis_dist": 2.78,
           "quadrant": 1,
           "is_inflection": false
         },
@@ -3542,7 +3542,7 @@
           "y": -0.55,
           "raw_v": -13.44,
           "raw_a": -1.69,
-          "mahalanobis_dist": 2.6,
+          "mahalanobis_dist": 2.61,
           "quadrant": 3,
           "is_inflection": false
         },
@@ -3680,11 +3680,11 @@
           "ticker": "KPGEL",
           "name": "KP Green Engineering",
           "sector": "Capital Goods & Engineering",
-          "price": 225.0,
-          "x": -1.17,
-          "y": 0.61,
-          "raw_v": -7.16,
-          "raw_a": 1.97,
+          "price": 225.2,
+          "x": -1.16,
+          "y": 0.62,
+          "raw_v": -7.11,
+          "raw_a": 2.02,
           "mahalanobis_dist": 1.75,
           "quadrant": 2,
           "is_inflection": false
@@ -4552,7 +4552,7 @@
           "name": "TD Power Systems",
           "sector": "Capital Goods & Engineering",
           "price": 587.05,
-          "x": -0.43,
+          "x": -0.44,
           "y": -0.53,
           "raw_v": -3.73,
           "raw_a": -1.62,
@@ -5367,11 +5367,11 @@
           "ticker": "KPGEL",
           "name": "KP Green Engineering",
           "sector": "Capital Goods & Engineering",
-          "price": 225.0,
-          "x": 30.0,
-          "y": -1.76,
-          "half_life_days": 30.0,
-          "spread_zscore": -1.76,
+          "price": 225.2,
+          "x": 29.9,
+          "y": -1.75,
+          "half_life_days": 29.9,
+          "spread_zscore": -1.75,
           "ar1_b": 0.9771,
           "is_high_elasticity": false
         },
@@ -5957,9 +5957,9 @@
           "sector": "Defense & Aerospace",
           "price": 1600.7,
           "x": 5.9,
-          "y": -0.35,
+          "y": -0.36,
           "half_life_days": 5.9,
-          "spread_zscore": -0.35,
+          "spread_zscore": -0.36,
           "ar1_b": 0.8885,
           "is_high_elasticity": false
         },
@@ -6032,7 +6032,7 @@
           "y": -0.25,
           "half_life_days": 19.5,
           "spread_zscore": -0.25,
-          "ar1_b": 0.9651,
+          "ar1_b": 0.9652,
           "is_high_elasticity": false
         },
         {
@@ -6077,9 +6077,9 @@
           "sector": "Auto & Ancillaries",
           "price": 390.7,
           "x": 7.3,
-          "y": -0.05,
+          "y": -0.06,
           "half_life_days": 7.3,
-          "spread_zscore": -0.05,
+          "spread_zscore": -0.06,
           "ar1_b": 0.9096,
           "is_high_elasticity": false
         },
@@ -6847,11 +6847,11 @@
           "ticker": "KPGEL",
           "name": "KP Green Engineering",
           "sector": "Capital Goods & Engineering",
-          "price": 225.0,
+          "price": 225.2,
           "x": 0.754,
-          "y": -18.45,
+          "y": -18.38,
           "hurst_exponent": 0.754,
-          "dist_50_sma": -18.45,
+          "dist_50_sma": -18.38,
           "regime": "trending",
           "is_anti_fade": false,
           "is_persist_breakout": false

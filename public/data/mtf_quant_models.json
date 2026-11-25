@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T10:16:46.763812Z",
+  "updated_at": "2026-11-25T13:31:20.898116Z",
   "total_stocks": 216,
   "models": {
     "ema": {
@@ -9776,7 +9776,7 @@
           "y": 0.03,
           "half_life_days": 3.1,
           "spread_zscore": 0.03,
-          "ar1_b": 0.7993,
+          "ar1_b": 0.7994,
           "is_high_elasticity": false
         },
         {
@@ -10432,9 +10432,9 @@
           "name": "LG Electronics India Ltd",
           "sector": "Capital Goods & Engineering",
           "price": 1818.4,
-          "x": 26.4,
+          "x": 26.3,
           "y": 1.31,
-          "half_life_days": 26.4,
+          "half_life_days": 26.3,
           "spread_zscore": 1.31,
           "ar1_b": 0.974,
           "is_high_elasticity": false
@@ -10736,7 +10736,7 @@
           "y": 1.79,
           "half_life_days": 11.3,
           "spread_zscore": 1.79,
-          "ar1_b": 0.9405,
+          "ar1_b": 0.9406,
           "is_high_elasticity": false
         },
         {
@@ -10744,9 +10744,9 @@
           "name": "Indian Oil Corporation Ltd",
           "sector": "Oil, Gas & Energy",
           "price": 147.79,
-          "x": 12.3,
+          "x": 12.2,
           "y": 1.82,
-          "half_life_days": 12.3,
+          "half_life_days": 12.2,
           "spread_zscore": 1.82,
           "ar1_b": 0.945,
           "is_high_elasticity": false
@@ -10904,7 +10904,7 @@
           "y": 2.21,
           "half_life_days": 17.5,
           "spread_zscore": 2.21,
-          "ar1_b": 0.9612,
+          "ar1_b": 0.9611,
           "is_high_elasticity": false
         },
         {
@@ -10976,7 +10976,7 @@
           "y": 2.42,
           "half_life_days": 9.4,
           "spread_zscore": 2.42,
-          "ar1_b": 0.9291,
+          "ar1_b": 0.929,
           "is_high_elasticity": false
         },
         {

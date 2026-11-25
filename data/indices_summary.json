@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T10:16:01.872564Z",
+  "updated_at": "2026-11-25T13:30:37.579018Z",
   "total_stocks": 132,
   "total_indices": 14,
   "indices": [
@@ -8,9 +8,9 @@
       "name": "Master Composite Index",
       "type": "master",
       "file": "data/master_index.json",
-      "current_value": 1933.31,
+      "current_value": 1933.32,
       "prev_close": 1930.67,
-      "change_pts": 2.64,
+      "change_pts": 2.65,
       "change_pct": 0.14,
       "day_open": 1949.71,
       "day_high": 1982.03,
@@ -1632,6 +1632,24 @@
           }
         },
         {
+          "ticker": "KPGEL",
+          "name": "KP Green Engineering",
+          "exchange": "BSE",
+          "sector": "Capital Goods & Engineering",
+          "latest_close": 225.2,
+          "change_pct": -1.42,
+          "weight_pct": 0.76,
+          "returns": {
+            "1d": -1.42,
+            "1w": -3.49,
+            "1m": -17.69,
+            "3m": -12.08,
+            "6m": -43.96,
+            "1y": -53.13,
+            "3y": 7.48
+          }
+        },
+        {
           "ticker": "LOTUSDEV",
           "name": "Sri Lotus Developers And Realty",
           "exchange": "NSE",
@@ -1647,24 +1665,6 @@
             "6m": 66.85,
             "1y": 33.57,
             "3y": 16.18
-          }
-        },
-        {
-          "ticker": "KPGEL",
-          "name": "KP Green Engineering",
-          "exchange": "BSE",
-          "sector": "Capital Goods & Engineering",
-          "latest_close": 225.0,
-          "change_pct": -1.51,
-          "weight_pct": 0.76,
-          "returns": {
-            "1d": -1.51,
-            "1w": -3.58,
-            "1m": -17.76,
-            "3m": -12.16,
-            "6m": -44.01,
-            "1y": -53.17,
-            "3y": 7.38
           }
         },
         {
@@ -2710,24 +2710,24 @@
       "name": "Capital Goods & Engineering",
       "type": "sector",
       "file": "data/sector_capital_goods_engineering.json",
-      "current_value": 2450.5,
+      "current_value": 2450.63,
       "prev_close": 2453.61,
-      "change_pts": -3.11,
-      "change_pct": -0.13,
+      "change_pts": -2.98,
+      "change_pct": -0.12,
       "day_open": 2471.3,
       "day_high": 2522.84,
       "day_low": 2398.31,
-      "high_52w": 2796.68,
+      "high_52w": 2796.69,
       "low_52w": 1720.72,
-      "all_time_return_pct": 145.05,
+      "all_time_return_pct": 145.06,
       "returns": {
-        "1d": -0.13,
-        "1w": -2.48,
+        "1d": -0.12,
+        "1w": -2.47,
         "1m": 3.39,
-        "3m": -3.05,
-        "6m": 0.09,
-        "1y": 19.48,
-        "3y": 145.05
+        "3m": -3.04,
+        "6m": 0.1,
+        "1y": 19.49,
+        "3y": 145.06
       },
       "constituents_count": 16,
       "constituents": [
@@ -2862,17 +2862,17 @@
           "name": "KP Green Engineering",
           "exchange": "BSE",
           "sector": "Capital Goods & Engineering",
-          "latest_close": 225.0,
-          "change_pct": -1.51,
+          "latest_close": 225.2,
+          "change_pct": -1.42,
           "weight_pct": 6.25,
           "returns": {
-            "1d": -1.51,
-            "1w": -3.58,
-            "1m": -17.76,
-            "3m": -12.16,
-            "6m": -44.01,
-            "1y": -53.17,
-            "3y": 7.38
+            "1d": -1.42,
+            "1w": -3.49,
+            "1m": -17.69,
+            "3m": -12.08,
+            "6m": -43.96,
+            "1y": -53.13,
+            "3y": 7.48
           }
         },
         {
