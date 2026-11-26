@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T19:31:49.792952Z",
+  "updated_at": "2026-11-26T19:50:11.968055Z",
   "total_stocks": 132,
   "total_indices": 14,
   "indices": [
@@ -4619,8 +4619,8 @@
       "type": "sector",
       "file": "data/sector_pharmaceuticals_healthcare.json",
       "current_value": 2329.68,
-      "prev_close": 2334.84,
-      "change_pts": -5.16,
+      "prev_close": 2334.83,
+      "change_pts": -5.15,
       "change_pct": -0.22,
       "day_open": 2329.68,
       "day_high": 2329.68,
