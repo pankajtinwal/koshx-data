@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T13:11:00.677882Z",
+  "updated_at": "2026-11-26T13:50:41.375849Z",
   "total_stocks": 216,
   "models": {
     "ema": {
@@ -8836,9 +8836,9 @@
           "name": "Bharat Dynamics Ltd",
           "sector": "Defense & Aerospace",
           "price": 1034.8,
-          "x": 190.2,
+          "x": 190.3,
           "y": -1.87,
-          "half_life_days": 190.2,
+          "half_life_days": 190.3,
           "spread_zscore": -1.87,
           "ar1_b": 0.9964,
           "is_high_elasticity": false
