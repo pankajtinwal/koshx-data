@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T10:17:07.223799Z",
+  "updated_at": "2026-11-26T13:11:00.677882Z",
   "total_stocks": 216,
   "models": {
     "ema": {
@@ -8660,7 +8660,7 @@
           "y": -2.33,
           "half_life_days": 13.9,
           "spread_zscore": -2.33,
-          "ar1_b": 0.9513,
+          "ar1_b": 0.9512,
           "is_high_elasticity": false
         },
         {

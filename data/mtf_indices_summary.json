@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T10:17:06.704513Z",
+  "updated_at": "2026-11-26T13:11:00.121544Z",
   "total_stocks": 216,
   "total_indices": 14,
   "indices": [
@@ -6802,9 +6802,9 @@
       "name": "Logistics & Services",
       "type": "sector",
       "file": "data/mtf_sector_logistics_services.json",
-      "current_value": 1056.43,
+      "current_value": 1056.42,
       "prev_close": 1053.94,
-      "change_pts": 2.49,
+      "change_pts": 2.48,
       "change_pct": 0.24,
       "day_open": 1054.19,
       "day_high": 1071.3,
