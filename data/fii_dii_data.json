@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T13:48:04.424764Z",
+  "updated_at": "2026-11-27T19:28:01.994808Z",
   "market_date": "27-Nov-2026",
   "today": {
     "date": "27-Nov-2026",
@@ -30,7 +30,7 @@
     "total_fii_net_cr": -217361.57,
     "total_dii_net_cr": 822695.81,
     "cumulative_absorption_ratio": 378.5,
-    "nifty_3y_return_pct": 29.0,
+    "nifty_3y_return_pct": 30.4,
     "avg_daily_fii_flow": -293.7,
     "avg_daily_dii_flow": 1111.8
   },
@@ -11861,12 +11861,12 @@
     },
     {
       "date": "2026-11-27",
-      "nifty_open": 25839.25,
-      "nifty_high": 25909.15,
-      "nifty_low": 25565.9,
-      "nifty_close": 25607.2,
-      "nifty_change": -277.3,
-      "nifty_change_pct": -1.07,
+      "nifty_open": 25873.2,
+      "nifty_high": 25974.95,
+      "nifty_low": 25733.5,
+      "nifty_close": 25884.5,
+      "nifty_change": 65.25,
+      "nifty_change_pct": 0.25,
       "fii_net": 1634.33,
       "dii_net": -556.42,
       "combined_net": 1077.91,
@@ -12291,7 +12291,7 @@
       "Nov": {
         "fii": 129579,
         "dii": -54754,
-        "nifty_ret": 10.27
+        "nifty_ret": 11.46
       }
     }
   }
