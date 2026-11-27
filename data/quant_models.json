@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T19:26:40.835053Z",
+  "updated_at": "2026-11-27T19:39:46.679883Z",
   "total_stocks": 132,
   "models": {
     "ema": {
@@ -5368,9 +5368,9 @@
           "name": "Enviro Infra Engineers",
           "sector": "Infrastructure & Construction",
           "price": 163.2,
-          "x": 82.5,
+          "x": 82.4,
           "y": -1.73,
-          "half_life_days": 82.5,
+          "half_life_days": 82.4,
           "spread_zscore": -1.73,
           "ar1_b": 0.9916,
           "is_high_elasticity": false
@@ -6212,7 +6212,7 @@
           "y": 0.47,
           "half_life_days": 3.1,
           "spread_zscore": 0.47,
-          "ar1_b": 0.7998,
+          "ar1_b": 0.7997,
           "is_high_elasticity": false
         },
         {
