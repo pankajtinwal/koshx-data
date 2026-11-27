@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T13:08:46.316032Z",
+  "updated_at": "2026-11-27T13:48:04.424764Z",
   "market_date": "27-Nov-2026",
   "today": {
     "date": "27-Nov-2026",
@@ -17,12 +17,12 @@
     "absorption_ratio_pct": 100.0,
     "active_regime": "Foreign Momentum / DII Profit Booking",
     "regime_description": "Foreign capital driving large-caps while domestic institutions book profits to rebalance cash.",
-    "fii_index_futures_long_pct": 23.0,
-    "fii_index_futures_short_pct": 77.0,
+    "fii_index_futures_long_pct": 22.1,
+    "fii_index_futures_short_pct": 77.9,
     "fii_fno_sentiment": "Bearish Leaning / Moderate Short Bias",
-    "client_retail_long_pct": 66.1,
-    "pro_desk_long_pct": 55.2,
-    "dii_fno_long_pct": 54.3,
+    "client_retail_long_pct": 69.2,
+    "pro_desk_long_pct": 43.6,
+    "dii_fno_long_pct": 55.6,
     "z_score_fii": 1.18,
     "flow_classification": "ELEVATED FLOW"
   },
@@ -11872,7 +11872,7 @@
       "combined_net": 1077.91,
       "cum_fii": -401561.57,
       "cum_dii": 1208095.81,
-      "fii_long_ratio": 23.0,
+      "fii_long_ratio": 22.1,
       "absorption_ratio": 100.0
     }
   ],
